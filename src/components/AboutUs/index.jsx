@@ -1,9 +1,7 @@
 import React from 'react';
 import useToggle from '../../Hooks/useToggle.js';
 import BackToTop from '../BackToTop.jsx';
-import SignupHomeEight from '../HomeEight/SignupHomeEight.jsx';
 import FooterHomeOne from '../HomeOne/FooterHomeOne.jsx';
-import SponserHomeTwo from '../HomeTwo/SponserHomeTwo.jsx';
 import Drawer from '../Mobile/Drawer.jsx';
 import HeaderAbout from './HeaderAbout.jsx';
 import HeroAbout from './HeroAbout.jsx';
@@ -20,8 +18,8 @@ function AboutUs() {
             <HeroAbout />
             <ServicesAbout />
             <TeamAbout />
-            <SponserHomeTwo />
-            <SignupHomeEight />
+            {/* <SponserHomeTwo /> */}
+            {/* <SignupHomeEight /> */}
             <FooterHomeOne className="appie-footer-about-area" />
             <BackToTop />
         </>

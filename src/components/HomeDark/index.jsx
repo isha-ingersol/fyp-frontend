@@ -17,7 +17,7 @@ import Drawer from '../Mobile/Drawer.jsx';
 
 function HomeDark() {
     const [drawer, drawerAction] = useToggle(false);
-    const [darkMode, setDarkMode] = useToggle(true);
+    const [darkMode, setDarkMode] = useToggle(false);
 
     useEffect(() => {
         document.body.classList.add('appie-init');
