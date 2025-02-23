@@ -1,0 +1,735 @@
+.appie-home-area {
+    padding-top: 150px;
+    padding-bottom: 80px;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.appie-home-area.appie-home-content .appie-title {
+    color: var(--light-text);
+    font-size: 70px;
+    line-height: 80px;
+    padding: 0 80px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .appie-home-area.appie-home-content .appie-title {
+        font-size: 54px;
+        line-height: 64px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .appie-home-area.appie-home-content .appie-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .appie-home-area.appie-home-content .appie-title {
+        font-size: 36px;
+        line-height: 46px;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .appie-home-area.appie-home-content .appie-title {
+        font-size: 46px;
+        line-height: 56px;
+        padding: 0;
+    }
+}
+
+.appie-home-area.appie-home-content p {
+    color: var(--light-bg);
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.appie-home-area.appie-home-content .home-btns {
+    margin-top: 35px;
+}
+
+.appie-home-area.appie-home-content .home-btns .main-btn {
+    border-color: #ff6b58;
+    color: #ff6b58;
+    background: transparent;
+    margin-right: 14px;
+}
+
+.appie-home-area.appie-home-content .home-btns .appie-video-popup {
+    color: var(--light-bg);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media (max-width: 767px) {
+    .appie-home-area.appie-home-content .home-btns .appie-video-popup {
+        margin-top: 20px;
+    }
+}
+
+.appie-home-area.appie-home-content .home-btns .appie-video-popup i {
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 50%;
+    border: 2px solid var(--light-bg);
+    color: var(--light-bg);
+    margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+    .appie-home-area.appie-home-content {
+        display: none;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .appie-home-area.appie-home-content {
+        display: block;
+        margin-bottom: -210px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .appie-home-area {
+        padding-top: 120px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .appie-home-area {
+        padding-top: 160px;
+    }
+}
+
+@media (max-width: 767px) {
+    .appie-home-area {
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .appie-home-area {
+        padding-top: 120px;
+        padding-bottom: 0px;
+    }
+}
+
+.appie-home-area .appie-home-content {
+    margin-bottom: -110px;
+}
+
+.appie-home-content {
+    margin-top: -125px;
+}
+
+.appie-home-area .appie-home-content .appie-title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .appie-home-area .appie-home-content .appie-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .appie-home-area .appie-home-content .appie-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .appie-home-area .appie-home-content .appie-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .appie-home-area .appie-home-content .appie-title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+}
+
+.appie-home-area .appie-home-content .home-btns .appie-video-popup i {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.appie-home-area .appie-home-content .home-btns .main-btn {
+    border-color: rgba(255, 255, 255, 0.2);
+    color: var(--light-bg);
+}
+
+.appie-home-area .appie-home-content .home-btns .main-btn:hover {
+    background: #f84a6e;
+    color: var(--light-bg);
+}
+
+/* .appie-home-area .home-shape-1 {
+    position: absolute;
+    left: 0;
+    top: 250px;
+    z-index: -1;
+    animation: linear 20s animationFramesOne infinite;
+  }
+  .appie-home-area .home-shape-2 {
+    position: absolute;
+    left: 80px;
+    z-index: -1;
+    top: 480px;
+    animation: linear 25s animationFramesThree infinite;
+  }
+  .appie-home-area .home-shape-3 {
+    position: absolute;
+    bottom: 120px;
+    right: 320px;
+    z-index: -1;
+    animation: linear 25s animationFramesFive infinite;
+  } 
+  .appie-home-area.appie-home-4-area {
+    background: #f9f9f9;
+    background-image: url(./../images/home-shape-1.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 6% 100%;
+    padding-top: 140px;
+    padding-bottom: 60px;
+  } */
+.appie-home-area.appie-home-6-area {
+    background-image: url(./../images/home-bg-3.jpg);
+}
+
+.appie-home-area.appie-home-7-area {
+    background-image: url(./../images/home-bg-4.png);
+}
+
+.appie-home-area.appie-home-8-area {
+    position: relative;
+    z-index: 10;
+}
+
+.appie-home-area.appie-home-8-area .home-8-shape-1 {
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    z-index: -1;
+}
+
+.appie-home-area.appie-home-8-area .home-8-shape-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.appie-home-area.appie-home-8-area .home-8-shape-3 {
+    position: absolute;
+    top: 400px;
+    right: 290px;
+    z-index: -1;
+}
+
+.appie-home-area.appie-home-8-area .home-8-shape-4 {
+    position: absolute;
+    bottom: 195px;
+    left: 195px;
+    z-index: -1;
+}
+
+.appie-home-area.appie-home-8-area .appie-home-content-8 .appie-title {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #fb2d4e 25%, #4e88ff 75%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .appie-home-area.appie-home-8-area .appie-home-content-8 .appie-title {
+        font-size: 56px;
+        line-height: 66px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .appie-home-area.appie-home-8-area .appie-home-content-8 .appie-title {
+        font-size: 42px;
+        line-height: 66px;
+    }
+}
+
+@media (max-width: 767px) {
+    .appie-home-area.appie-home-8-area .appie-home-content-8 .appie-title {
+        font-size: 32px;
+        line-height: 44px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .appie-home-content {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .appie-home-content {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+.appie-home-content>span {
+    color: var(--light-green);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.appie-home-content .appie-title {
+    font-size: 60px;
+    line-height: 70px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .appie-home-content .appie-title {
+        font-size: 48px;
+        line-height: 58px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .appie-home-content .appie-title {
+        font-size: 48px;
+        line-height: 58px;
+    }
+}
+
+@media (max-width: 767px) {
+    .appie-home-content .appie-title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .appie-home-content .appie-title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+}
+
+.appie-home-content p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+@media (max-width: 767px) {
+    .appie-home-content p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
+
+.appie-home-content ul {
+    margin: 41px 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.appie-home-content ul li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+@media (max-width: 767px) {
+    .appie-home-content ul li {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .appie-home-content ul li {
+        margin-bottom: 0px;
+    }
+}
+
+.appie-home-content ul li a {
+    background: var(--light-green);
+    color: var(--light-text);
+    line-height: 40px;
+    padding: 0 23px;
+    border-radius: 6px;
+    border: 2px solid var(--light-green);
+}
+
+.appie-home-content ul li a i {
+    padding-right: 6px;
+}
+
+.appie-home-content ul li a:hover {
+    background: transparent;
+    color: var(--light-text);
+}
+
+.appie-home-content ul li a.item-2 {
+    background: transparent;
+    color: var(--light-text);
+}
+
+.appie-home-content ul li a.item-2:hover {
+    background: var(--light-text);
+    color: var(--light-bg);
+}
+
+.appie-home-content {
+    padding-right: 40px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .appie-home-content {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .appie-home-content {
+        padding-right: 0;
+    }
+}
+
+.appie-home-content>span {
+    color: #801f82;
+}
+
+.appie-home-content.appie-title {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .appie-home-content.appie-title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .appie-home-content.appie-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .appie-home-content.appie-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .appie-home-content.appie-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+.appie-home-content.a.main-btn {
+    border: 2px solid #801f82;
+    color: #801f82;
+    background: var(--light-bg);
+    line-height: 55px;
+    padding: 0 40px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.appie-home-content.a.main-btn:hover {
+    background: #801f82;
+    color: var(--light-bg);
+}
+
+.appie-home-content.appie-home-content-6>span {
+    color: #9b2cfa;
+}
+
+.appie-home-content.appie-home-content-6 .appie-title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .appie-home-content.appie-home-content-6 .appie-title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .appie-home-content.appie-home-content-6 .appie-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .appie-home-content.appie-home-content-6 .appie-title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+}
+
+.appie-home-area-2 {
+    padding-top: 290px;
+    padding-bottom: 170px;
+    background: #eef1f6;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .appie-home-area-2 {
+        padding-top: 190px;
+        padding-bottom: 120px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .appie-home-area-2 {
+        padding-top: 190px;
+        padding-bottom: 120px;
+    }
+}
+
+@media (max-width: 767px) {
+    .appie-home-area-2 {
+        padding-top: 190px;
+        padding-bottom: 150px;
+    }
+}
+
+.appie-home-area-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 48%;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .appie-home-area-2 {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .appie-home-area-2 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    .appie-home-area-2 {
+        width: 36%;
+    }
+}
+
+.appie-title {
+    font-size: 64px;
+    line-height: 70px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .appie-title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .appie-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .appie-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .appie-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+.appie-title span {
+    font-weight: 900;
+}
+
+@media (max-width: 767px) {
+    .input-box {
+        width: 100%;
+    }
+}
+
+.appie-page-title-area {
+    height: 450px;
+    background-image: url(./../images/page-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.appie-page-title-area.appie-page-service-title-area {
+    height: 650px;
+    background-image: url(./../images/page-title-bg.jpg);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .appie-page-title-area.appie-page-service-title-area {
+        height: 500px;
+    }
+}
+
+@media (max-width: 767px) {
+    .appie-page-title-area.appie-page-service-title-area {
+        height: 400px;
+    }
+}
+
+.appie-page-title-area.appie-page-service-title-area .appie-page-title-item {
+    right: 110px;
+    width: auto;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .appie-page-title-area.appie-page-service-title-area .appie-page-title-item {
+        right: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .appie-page-title-area.appie-page-service-title-area .appie-page-title-item {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .appie-page-title-area.appie-page-service-title-area .appie-page-title-item {
+        display: none;
+    }
+}
+
+.appie-page-title-item {
+    margin-top: 80px;
+    position: relative;
+}
+
+.appie-page-title-item {
+    position: absolute;
+    right: 0;
+    bottom: -100px;
+    width: 160px;
+}
+
+@media (max-width: 767px) {
+    .appie-page-title-item {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .appie-page-title-item {
+        display: block;
+    }
+}
+
+.appie-page-title-item span {
+    color: var(--light-bg);
+    font-weight: 500;
+    opacity: 0.7;
+    padding-bottom: 14px;
+}
+
+.appie-page-title-item .title {
+    color: var(--light-bg);
+    font-size: 44px;
+    font-weight: 700;
+}
+
+@media (max-width: 767px) {
+    .appie-page-title-item .title {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .appie-page-title-item .title {
+        font-size: 32px;
+    }
+}
+
+.appie-page-title-item nav {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.appie-page-title-item nav ol {
+    background: transparent;
+    padding: 0;
+}
+
+.appie-page-title-item nav ol li a {
+    color: var(--light-bg);
+    opacity: 0.8;
+}
+
+.appie-page-title-item nav ol li.active {
+    color: var(--light-bg);
+    opacity: 0.8;
+}
+
+.appie-home-area img {
+    max-width: 90%;
+    height: auto;
+}
+
+.appie-home-content .appie-title span {
+    background-color: var(--light-green);
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: var(--light-text);
+}

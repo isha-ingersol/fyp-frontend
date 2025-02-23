@@ -5,10 +5,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 body {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: var(--light-subtext);
+  color: #565050;
   overflow-x: hidden;
 }
 /* ==========================================vue */
@@ -51,18 +51,35 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
-  color: var(--light-text);
+  color: #0e1133;
   margin: 0px;
 }
 
-h1 { font-size: 48px; }
-h2 { font-size: 36px; }
-h3 { font-size: 28px; }
-h4 { font-size: 22px; }
-h5 { font-size: 18px; }
-h6 { font-size: 16px; }
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
 
 ul,
 ol {
@@ -75,7 +92,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: var(--light-subtext);
+  color: #505056;
   margin: 0px;
 }
 
@@ -102,12 +119,12 @@ p {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border: 1px solid var(--light-green);
+  border: 1px solid #2b70fa;
   padding: 0 30px;
   font-size: 15px;
   line-height: 45px;
   border-radius: 6px;
-  color: var(--light-text);
+  color: #fff;
   cursor: pointer;
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -115,22 +132,22 @@ p {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background-color: var(--light-green);
+  background-color: #2b70fa;
 }
 .main-btn:hover {
-  background-color: var(--light-bg);
-  color: var(--light-text);
-  border-color: var(--light-green);
+  background-color: #fff;
+  color: #2b70fa;
+  border-color: #2b70fa;
 }
 .main-btn.main-btn-2 {
-  background-color: var(--light-bg);
-  color: var(--light-green);
-  border-color: var(--light-green);
+  background-color: #fff;
+  color: #2b70fa;
+  border-color: #2b70fa;
 }
 .main-btn.main-btn-2:hover {
-  background-color: var(--light-green);
-  border-color: var(--light-green);
-  color: var(--light-bg);
+  background-color: #2b70fa;
+  border-color: #2b70fa;
+  color: #fff;
 }
 
 .appie-section-title {
@@ -187,19 +204,19 @@ p {
 .appie-section-title .main-btn {
   border-radius: 30px;
   border: 2px solid #e7eaef;
-  background: var(--light-bg);
+  background: #fff;
   color: #0e1133;
 }
 .appie-section-title .main-btn:hover {
   background: #ff3e66;
-  color: var(--light-bg);
+  color: #fff;
   border-color: #ff3e66;
 }
 .appie-section-title.appie-section-title-2 .appie-title {
-  color: var(--light-bg);
+  color: #fff;
 }
 .appie-section-title.appie-section-title-2 p {
-  color: var(--light-bg);
+  color: #fff;
 }
 
 .back-to-top {
@@ -214,9 +231,9 @@ p {
   width: 40px;
   text-align: center;
   line-height: 40px;
-  background: var(--light-green);
+  background: #2b70fa;
   border-radius: 6px;
-  color: var(--light-bg);
+  color: #fff;
 }
 .back-to-top.back-to-top-2 a {
   background: #ff3e66;
@@ -268,7 +285,7 @@ p {
 .offcanvas_menu_wrapper {
   width: 290px;
   position: fixed;
-  background: var(--light-bg);
+  background: #fff;
   z-index: 9999;
   top: 0;
   height: 100%;
@@ -322,7 +339,7 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .offcanvas_main_menu li a:hover {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 .offcanvas_main_menu li ul.sub-menu {
   padding-left: 20px;
@@ -342,7 +359,7 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .offcanvas_footer span a:hover {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 
 .offcanvas_menu_wrapper.active .canvas_close {
@@ -367,10 +384,10 @@ p {
   display: block;
   text-align: center;
   line-height: 40px;
-  border: 1px solid var(--light-green);
+  border: 1px solid #2b70fa;
   border-radius: 10px;
-  background: var(--light-green);
-  color: var(--light-bg);
+  background: #2b70fa;
+  color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -378,9 +395,9 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .canvas_close a:hover {
-  background: var(--light-green);
-  border-color: var(--light-green);
-  color: var(--light-bg);
+  background: #2b70fa;
+  border-color: #2b70fa;
+  color: #fff;
 }
 
 .canvas_open a {
@@ -399,8 +416,8 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .canvas_open a:hover {
-  color: var(--light-green);
-  border-color: var(--light-green);
+  color: #2b70fa;
+  border-color: #2b70fa;
 }
 
 .offcanvas-social {
@@ -415,7 +432,7 @@ p {
   width: 40px;
   text-align: center;
   line-height: 38px;
-  color: var(--light-green);
+  color: #2b70fa;
   border: 1px solid #eaeaea;
   border-radius: 50%;
   margin: 0 5px;
@@ -426,9 +443,9 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .offcanvas-social ul li a:hover {
-  background: var(--light-green);
-  border-color: var(--light-green);
-  color: var(--light-bg);
+  background: #2b70fa;
+  border-color: #2b70fa;
+  color: #fff;
 }
 
 .toggle-btn {
@@ -456,14 +473,14 @@ p {
 .preloader-close {
   position: fixed;
   z-index: 999999;
-  color: var(--light-bg);
+  color: #fff;
   padding: 10px 20px;
   cursor: pointer;
   right: 40px;
   bottom: 40px;
   font-weight: 600;
   line-height: 60px;
-  background: var(--light-green);
+  background: #2b70fa;
   padding: 0 15px;
   border-radius: 5px;
 }
@@ -539,21 +556,21 @@ p {
 .search-box .search-header .search-title {
   font-size: 24px;
   font-weight: 500;
-  color: var(--light-bg);
+  color: #fff;
 }
 .search-box .search-header .search-close button {
   background: none;
   border: 0;
   font-size: 24px;
   font-weight: 500;
-  color: var(--light-bg);
+  color: #fff;
   padding-right: 35px;
   position: relative;
 }
 .search-box .search-header .search-close button span {
   width: 21px;
   height: 2px;
-  background-color: var(--light-bg);
+  background-color: #fff;
   display: block;
   position: absolute;
   right: 0;
@@ -593,7 +610,7 @@ p {
   border: 0;
   height: 80px;
   padding-left: 30px;
-  border: 2px solid var(--light-bg);
+  border: 2px solid #fff;
   border-radius: 50px;
   font-size: 20px;
   color: #707070;
@@ -667,7 +684,7 @@ p {
   position: fixed;
   width: 400px;
   height: 100%;
-  background-color: var(--light-bg);
+  background-color: #fff;
   z-index: 99999999;
   top: 0;
   right: -400px;
@@ -731,20 +748,20 @@ p {
 }
 .amm-single-shopping-cart .cart-content .quality {
   font-size: 14px;
-  color: var(--light-subtext);
+  color: #505056;
   display: block;
 }
 .amm-single-shopping-cart .cart-content .price {
   font-size: 14px;
-  color: var(--light-green);
+  color: #2b70fa;
 }
 .amm-single-shopping-cart .cart-content .price-discount {
   font-size: 14px;
-  color: var(--light-green);
+  color: #2b70fa;
 }
 .amm-single-shopping-cart .cart-content .price-close {
   font-size: 12px;
-  color: var(--light-subtext);
+  color: #505056;
   position: relative;
 }
 .amm-single-shopping-cart .cart-content .price-close::before {
@@ -759,7 +776,7 @@ p {
   left: 0;
   width: 100%;
   height: 1px;
-  background-color: var(--light-subtext);
+  background-color: #505056;
 }
 .amm-single-shopping-cart .cart-content .remove {
   font-size: 14px;
@@ -789,7 +806,7 @@ p {
   width: 100%;
   bottom: 0;
   left: 0;
-  background-color: var(--light-bg);
+  background-color: #fff;
   z-index: 99;
 }
 .amm-shopping_cart-btn .tota h5 {
@@ -799,7 +816,7 @@ p {
 }
 .amm-shopping_cart-btn .tota p {
   font-size: 18px;
-  color: var(--light-green);
+  color: #2b70fa;
 }
 .amm-shopping_cart-btn .cart-btn a {
   margin: 5px 0;
@@ -807,7 +824,7 @@ p {
 }
 
 /*===========================
-    2. HEADER css 
+    2.HEADER css 
 ===========================*/
 .appie-sticky.sticky {
   position: fixed;
@@ -815,7 +832,7 @@ p {
   top: 0;
   right: 0;
   z-index: 1010;
-  background: var(--light-bg);
+  background: #fff;
   box-shadow: 0 15px 30px 0 #0000000f;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -890,7 +907,7 @@ p {
   }
 }
 .header-nav-box.header-nav-box-3 .appie-header-main-menu ul > li > a {
-  color: var(--light-bg);
+  color: #fff;
 }
 .header-nav-box.header-nav-box-3
   .appie-header-main-menu
@@ -902,7 +919,7 @@ p {
   color: #0e1133;
 }
 .header-nav-box.header-nav-box-3 .appie-btn-box .login-btn {
-  color: var(--light-bg);
+  color: #fff;
 }
 .header-nav-box.header-nav-box-3 .appie-btn-box .main-btn {
   background: #ff6b58;
@@ -913,23 +930,23 @@ p {
   color: #ff6b58;
 }
 .header-nav-box.header-nav-box-3 .toggle-btn {
-  color: var(--light-bg);
+  color: #fff;
   font-size: 20px;
 }
 .header-nav-box.header-nav-box-3.header-nav-box-inner-page
   .appie-btn-box
   .main-btn {
-  border-color: var(--light-bg);
+  border-color: #fff;
   background: transparent;
 }
 .header-nav-box.header-nav-box-3.header-nav-box-inner-page
   .appie-btn-box
   .main-btn:hover {
-  background: var(--light-bg);
-  color: var(--light-green);
+  background: #fff;
+  color: #2b70fa;
 }
 .header-nav-box.header-nav-box-5 .appie-header-main-menu ul > li > a {
-  color: var(--light-bg);
+  color: #fff;
 }
 .header-nav-box.header-nav-box-5
   .appie-header-main-menu
@@ -941,7 +958,7 @@ p {
   color: #0e1133;
 }
 .header-nav-box.header-nav-box-5 .appie-btn-box .login-btn {
-  color: var(--light-bg);
+  color: #fff;
 }
 .header-nav-box.header-nav-box-5 .appie-btn-box .main-btn {
   background: #f84a6e;
@@ -952,7 +969,7 @@ p {
   color: #f84a6e;
 }
 .header-nav-box.header-nav-box-5 .toggle-btn {
-  color: var(--light-bg);
+  color: #fff;
   font-size: 20px;
 }
 .header-nav-box.header-nav-4-box .appie-header-main-menu ul > li > a:hover {
@@ -991,7 +1008,7 @@ p {
   width: 20px;
   text-align: center;
   line-height: 20px;
-  color: var(--light-bg);
+  color: #fff;
   font-size: 11px;
   background: #801f82;
   border-radius: 50%;
@@ -1038,10 +1055,10 @@ p {
   background: transparent;
 }
 .header-nav-box.header-nav-box-7 .appie-header-main-menu ul > li > a {
-  color: var(--light-bg);
+  color: #fff;
 }
 .header-nav-box.header-nav-box-7 .appie-header-main-menu ul > li > a:hover {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 .header-nav-box.header-nav-box-7
   .appie-header-main-menu
@@ -1050,7 +1067,7 @@ p {
   .sub-menu
   li
   a {
-  color: var(--light-subtext);
+  color: #505056;
 }
 .header-nav-box.header-nav-box-7
   .appie-header-main-menu
@@ -1059,13 +1076,13 @@ p {
   .sub-menu
   li
   a:hover {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 .header-nav-box.header-nav-box-7 .appie-btn-box .login-btn {
-  color: var(--light-bg);
+  color: #fff;
 }
 .header-nav-box.header-nav-box-7 .appie-btn-box .toggle-btn {
-  color: var(--light-bg);
+  color: #fff;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1109,7 +1126,7 @@ p {
   width: auto;
   min-width: 220px;
   max-width: 220px;
-  background-color: var(--light-bg);
+  background-color: #fff;
   opacity: 0;
   visibility: hidden;
   transition: all linear 0.3s;
@@ -1223,7 +1240,7 @@ p {
   display: block;
   padding: 0px 30px;
   position: relative;
-  color: var(--light-subtext);
+  color: #505056;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -1322,10 +1339,10 @@ p {
   visibility: visible;
 }
 .appie-header-main-menu ul > li .sub-menu > li:hover .sub-nav-toggler {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 .appie-header-main-menu ul > li .sub-menu > li:hover > a {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 .appie-header-main-menu ul > li:hover .sub-menu {
   opacity: 1;
@@ -1354,7 +1371,7 @@ p {
   border-color: #db0f30;
 }
 .appie-header-8-area .header-nav-box .appie-btn-box .main-btn:hover {
-  background: var(--light-bg);
+  background: #fff;
   color: #db0f30;
 }
 .appie-header-8-area .header-nav-box .appie-header-main-menu ul > li a:hover {
@@ -1364,9 +1381,910 @@ p {
 /*===========================
     3. APPIE HERO css 
 ===========================*/
+.appie-hero-area {
+  padding-top: 200px;
+  padding-bottom: 110px;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.appie-hero-area.appie-hero-3-area {
+  background-image: url(./../images/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 180px;
+  padding-bottom: 0px;
+  overflow: visible;
+  z-index: 15;
+}
+.appie-hero-area.appie-hero-3-area .appie-hero-content .appie-title {
+  color: #fff;
+  font-size: 70px;
+  line-height: 80px;
+  padding: 0 80px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .appie-hero-area.appie-hero-3-area .appie-hero-content .appie-title {
+    font-size: 54px;
+    line-height: 64px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .appie-hero-area.appie-hero-3-area .appie-hero-content .appie-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .appie-hero-area.appie-hero-3-area .appie-hero-content .appie-title {
+    font-size: 36px;
+    line-height: 46px;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .appie-hero-area.appie-hero-3-area .appie-hero-content .appie-title {
+    font-size: 46px;
+    line-height: 56px;
+    padding: 0;
+  }
+}
+.appie-hero-area.appie-hero-3-area .appie-hero-content p {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 18px;
+  line-height: 28px;
+}
+.appie-hero-area.appie-hero-3-area .appie-hero-content .hero-btns {
+  margin-top: 35px;
+}
+.appie-hero-area.appie-hero-3-area .appie-hero-content .hero-btns .main-btn {
+  border-color: #ff6b58;
+  color: #ff6b58;
+  background: transparent;
+  margin-right: 14px;
+}
+.appie-hero-area.appie-hero-3-area
+  .appie-hero-content
+  .hero-btns
+  .appie-video-popup {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .appie-hero-area.appie-hero-3-area
+    .appie-hero-content
+    .hero-btns
+    .appie-video-popup {
+    margin-top: 20px;
+  }
+}
+.appie-hero-area.appie-hero-3-area
+  .appie-hero-content
+  .hero-btns
+  .appie-video-popup
+  i {
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  line-height: 42px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-right: 10px;
+}
+.appie-hero-area.appie-hero-3-area .appie-hero-content .thumb {
+  margin-bottom: -210px;
+}
+@media (max-width: 767px) {
+  .appie-hero-area.appie-hero-3-area .appie-hero-content .thumb {
+    display: none;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .appie-hero-area.appie-hero-3-area .appie-hero-content .thumb {
+    display: block;
+    margin-bottom: -210px;
+  }
+}
+.appie-hero-area.appie-hero-3-area.appie-hero-5-area {
+  background-color: #eef1f6;
+  background-image: url(./../images/hero-bg-2.png);
+  padding-top: 280px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .appie-hero-area.appie-hero-3-area.appie-hero-5-area {
+    padding-top: 120px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .appie-hero-area.appie-hero-3-area.appie-hero-5-area {
+    padding-top: 160px;
+  }
+}
+@media (max-width: 767px) {
+  .appie-hero-area.appie-hero-3-area.appie-hero-5-area {
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .appie-hero-area.appie-hero-3-area.appie-hero-5-area {
+    padding-top: 120px;
+    padding-bottom: 0px;
+  }
+}
+.appie-hero-area.appie-hero-3-area.appie-hero-5-area
+  .appie-hero-content
+  .thumb {
+  margin-bottom: -110px;
+}
+.appie-hero-area.appie-hero-3-area.appie-hero-5-area
+  .appie-hero-content
+  .appie-title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .appie-hero-area.appie-hero-3-area.appie-hero-5-area
+    .appie-hero-content
+    .appie-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .appie-hero-area.appie-hero-3-area.appie-hero-5-area
+    .appie-hero-content
+    .appie-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .appie-hero-area.appie-hero-3-area.appie-hero-5-area
+    .appie-hero-content
+    .appie-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .appie-hero-area.appie-hero-3-area.appie-hero-5-area
+    .appie-hero-content
+    .appie-title {
+    font-size: 36px;
+    line-height: 46px;
+  }
+}
+.appie-hero-area.appie-hero-3-area.appie-hero-5-area
+  .appie-hero-content
+  .hero-btns
+  .appie-video-popup
+  i {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.appie-hero-area.appie-hero-3-area.appie-hero-5-area
+  .appie-hero-content
+  .hero-btns
+  .main-btn {
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.appie-hero-area.appie-hero-3-area.appie-hero-5-area
+  .appie-hero-content
+  .hero-btns
+  .main-btn:hover {
+  background: #f84a6e;
+  color: #fff;
+}
+.appie-hero-area .hero-shape-1 {
+  position: absolute;
+  left: 0;
+  top: 250px;
+  z-index: -1;
+  animation: linear 20s animationFramesOne infinite;
+}
+.appie-hero-area .hero-shape-2 {
+  position: absolute;
+  left: 80px;
+  z-index: -1;
+  top: 480px;
+  animation: linear 25s animationFramesThree infinite;
+}
+.appie-hero-area .hero-shape-3 {
+  position: absolute;
+  bottom: 120px;
+  right: 320px;
+  z-index: -1;
+  animation: linear 25s animationFramesFive infinite;
+}
+.appie-hero-area.appie-hero-4-area {
+  background: #f9f9f9;
+  background-image: url(./../images/hero-shape-1.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 6% 100%;
+  padding-top: 140px;
+  padding-bottom: 60px;
+}
+.appie-hero-area.appie-hero-6-area {
+  background-image: url(./../images/hero-bg-3.jpg);
+}
+.appie-hero-area.appie-hero-7-area {
+  background-image: url(./../images/hero-bg-4.png);
+}
+.appie-hero-area.appie-hero-8-area {
+  position: relative;
+  z-index: 10;
+}
+.appie-hero-area.appie-hero-8-area .home-8-shape-1 {
+  position: absolute;
+  left: 0;
+  bottom: 100px;
+  z-index: -1;
+}
+.appie-hero-area.appie-hero-8-area .home-8-shape-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.appie-hero-area.appie-hero-8-area .home-8-shape-3 {
+  position: absolute;
+  top: 400px;
+  right: 290px;
+  z-index: -1;
+}
+.appie-hero-area.appie-hero-8-area .home-8-shape-4 {
+  position: absolute;
+  bottom: 195px;
+  left: 195px;
+  z-index: -1;
+}
+.appie-hero-area.appie-hero-8-area .appie-hero-content-8 .appie-title {
+  font-size: 70px;
+  line-height: 80px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #fb2d4e 25%, #4e88ff 75%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .appie-hero-area.appie-hero-8-area .appie-hero-content-8 .appie-title {
+    font-size: 56px;
+    line-height: 66px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .appie-hero-area.appie-hero-8-area .appie-hero-content-8 .appie-title {
+    font-size: 42px;
+    line-height: 66px;
+  }
+}
+@media (max-width: 767px) {
+  .appie-hero-area.appie-hero-8-area .appie-hero-content-8 .appie-title {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+
+.appie-hero-thumb-6 .thumb {
+  position: relative;
+  z-index: 10;
+}
+.appie-hero-thumb-6 .thumb .back-image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: -1;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .appie-hero-content {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .appie-hero-content {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+.appie-hero-content > span {
+  color: #2b70fa;
+  font-size: 14px;
+  font-weight: 500;
+}
+.appie-hero-content .appie-title {
+  font-size: 60px;
+  line-height: 70px;
+  margin-top: 10px;
+  margin-bottom: 22px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .appie-hero-content .appie-title {
+    font-size: 48px;
+    line-height: 58px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .appie-hero-content .appie-title {
+    font-size: 48px;
+    line-height: 58px;
+  }
+}
+@media (max-width: 767px) {
+  .appie-hero-content .appie-title {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .appie-hero-content .appie-title {
+    font-size: 36px;
+    line-height: 46px;
+  }
+}
+.appie-hero-content p {
+  font-size: 18px;
+  line-height: 28px;
+}
+@media (max-width: 767px) {
+  .appie-hero-content p {
+    font-size: 15px;
+    line-height: 26px;
+  }
+}
+.appie-hero-content ul {
+  margin: 41px 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+.appie-hero-content ul li {
+  display: inline-block;
+  margin-right: 8px;
+}
+@media (max-width: 767px) {
+  .appie-hero-content ul li {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .appie-hero-content ul li {
+    margin-bottom: 0px;
+  }
+}
+.appie-hero-content ul li a {
+  background: #0e1133;
+  color: #fff;
+  line-height: 40px;
+  padding: 0 23px;
+  border-radius: 6px;
+  border: 2px solid #0e1133;
+}
+.appie-hero-content ul li a i {
+  padding-right: 6px;
+}
+.appie-hero-content ul li a:hover {
+  background: transparent;
+  color: #0e1133;
+}
+.appie-hero-content ul li a.item-2 {
+  background: transparent;
+  color: #0e1133;
+}
+.appie-hero-content ul li a.item-2:hover {
+  background: #0e1133;
+  color: #fff;
+}
+.appie-hero-content.appie-hero-content-4 {
+  padding-right: 40px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .appie-hero-content.appie-hero-content-4 {
+    padding-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .appie-hero-content.appie-hero-content-4 {
+    padding-right: 0;
+  }
+}
+.appie-hero-content.appie-hero-content-4 > span {
+  color: #801f82;
+}
+.appie-hero-content.appie-hero-content-4 .appie-title {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .appie-hero-content.appie-hero-content-4 .appie-title {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .appie-hero-content.appie-hero-content-4 .appie-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .appie-hero-content.appie-hero-content-4 .appie-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .appie-hero-content.appie-hero-content-4 .appie-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+.appie-hero-content.appie-hero-content-4 a.main-btn {
+  border: 2px solid #801f82;
+  color: #801f82;
+  background: #fff;
+  line-height: 55px;
+  padding: 0 40px;
+  font-size: 16px;
+  margin-top: 40px;
+}
+.appie-hero-content.appie-hero-content-4 a.main-btn:hover {
+  background: #801f82;
+  color: #fff;
+}
+.appie-hero-content.appie-hero-content-6 > span {
+  color: #9b2cfa;
+}
+.appie-hero-content.appie-hero-content-6 .appie-title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .appie-hero-content.appie-hero-content-6 .appie-title {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .appie-hero-content.appie-hero-content-6 .appie-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .appie-hero-content.appie-hero-content-6 .appie-title {
+    font-size: 36px;
+    line-height: 46px;
+  }
+}
+.appie-hero-content.appie-hero-content-6 ul li a {
+  background: #9b2cfa;
+  border-color: #9b2cfa;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.appie-hero-content.appie-hero-content-6 ul li a span {
+  line-height: 20px;
+}
+.appie-hero-content.appie-hero-content-6 ul li a span span {
+  font-size: 16px;
+  font-weight: 700;
+  display: block;
+  line-height: 20px;
+}
+.appie-hero-content.appie-hero-content-6 ul li a i {
+  font-size: 30px;
+}
+.appie-hero-content.appie-hero-content-6 ul li a:hover {
+  background: #fff;
+  color: #0e1133;
+  border-color: #fff;
+}
+.appie-hero-content.appie-hero-content-6 ul li a.item-2 {
+  background: #fff;
+  border-color: #fff;
+}
+.appie-hero-content.appie-hero-content-6 ul li a.item-2:hover {
+  background: #9b2cfa;
+  border-color: #9b2cfa;
+  color: #fff;
+}
+.appie-hero-content.appie-hero-content-6.appie-hero-content-7 .appie-title {
+  color: #fff;
+}
+.appie-hero-content.appie-hero-content-6.appie-hero-content-7 p {
+  color: #fff;
+  opacity: 0.5;
+}
+.appie-hero-content.appie-hero-content-6.appie-hero-content-7 ul li a {
+  background: #fff;
+  color: #0e1133;
+  border-color: #fff;
+}
+.appie-hero-content.appie-hero-content-6.appie-hero-content-7 ul li a:hover {
+  background: transparent;
+  border-color: #54386a;
+  color: #fff;
+}
+.appie-hero-content.appie-hero-content-6.appie-hero-content-7 ul li a.item-2 {
+  background: transparent;
+  color: #fff;
+  border-color: #54386a;
+}
+.appie-hero-content.appie-hero-content-6.appie-hero-content-7
+  ul
+  li
+  a.item-2:hover {
+  border-color: #fff;
+  background: #fff;
+  color: #0e1133;
+}
+
+.appie-hero-thumb {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+}
+.appie-hero-thumb .thumb-2 {
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0px 30px 70px 0px rgba(68, 1, 15, 0.2);
+}
+.appie-hero-thumb::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  height: 500px;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  background: #ff3e66;
+  border-radius: 50%;
+  z-index: -1;
+}
+.appie-hero-thumb.appie-hero-thumb-4::before {
+  height: 160px;
+  width: 160px;
+  top: 200px;
+  left: 70px;
+  background: #801f82;
+  transform: translate(0%, 0%);
+}
+.appie-hero-thumb.appie-hero-thumb-4 .hero-dot {
+  position: absolute;
+  right: 70px;
+  bottom: 115px;
+  z-index: -1;
+}
+
+.appie-hero-area-2 {
+  padding-top: 290px;
+  padding-bottom: 170px;
+  background: #eef1f6;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .appie-hero-area-2 {
+    padding-top: 190px;
+    padding-bottom: 120px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .appie-hero-area-2 {
+    padding-top: 190px;
+    padding-bottom: 120px;
+  }
+}
+@media (max-width: 767px) {
+  .appie-hero-area-2 {
+    padding-top: 190px;
+    padding-bottom: 150px;
+  }
+}
+.appie-hero-area-2 .appie-hero-thumb-3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 48%;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .appie-hero-area-2 .appie-hero-thumb-3 {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .appie-hero-area-2 .appie-hero-thumb-3 {
+    width: 40%;
+  }
+}
+@media (max-width: 767px) {
+  .appie-hero-area-2 .appie-hero-thumb-3 {
+    width: 36%;
+  }
+}
+.appie-hero-area-2 .hero-shape-1 {
+  position: absolute;
+  top: 250px;
+  left: 130px;
+  animation: linear 20s animationFramesOne infinite;
+  z-index: -1;
+}
+.appie-hero-area-2 .hero-shape-2 {
+  position: absolute;
+  bottom: 290px;
+  left: 40px;
+  animation: linear 20s animationFramesFour infinite;
+  z-index: -1;
+}
+.appie-hero-area-2 .hero-shape-3 {
+  position: absolute;
+  top: 480px;
+  right: 240px;
+  animation: linear 20s animationFramesFive infinite;
+  z-index: -1;
+}
+.appie-hero-area-2 .hero-shape-4 {
+  position: absolute;
+  top: 210px;
+  right: 0px;
+  animation: linear 20s animationFramesThree infinite;
+  z-index: -1;
+}
+
+.appie-hero-content-2 > span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ff3e66;
+  position: relative;
+}
+.appie-hero-content-2 > span::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 130px;
+  height: 70px;
+  background-image: url(./../images/hero-line.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.appie-hero-content-2 .appie-title {
+  font-size: 64px;
+  line-height: 70px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .appie-hero-content-2 .appie-title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .appie-hero-content-2 .appie-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .appie-hero-content-2 .appie-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .appie-hero-content-2 .appie-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+.appie-hero-content-2 .appie-title span {
+  font-weight: 900;
+}
+.appie-hero-content-2 p {
+  font-size: 18px;
+  color: #0e1133;
+  margin-top: 22px;
+}
+.appie-hero-content-2 .input-box {
+  position: relative;
+  margin-top: 40px;
+  width: 400px;
+}
+@media (max-width: 767px) {
+  .appie-hero-content-2 .input-box {
+    width: 100%;
+  }
+}
+.appie-hero-content-2 .input-box > i {
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #c3c3cc;
+}
+.appie-hero-content-2 .input-box input {
+  width: 100%;
+  height: 60px;
+  border-radius: 40px;
+  border: 0;
+  border-left: 3px solid #ff3e66;
+  padding-left: 55px;
+  box-shadow: -3px 0px 0px 0px rgba(255, 62, 102, 0.004),
+    0px 30px 30px 0px rgba(14, 17, 51, 0.1);
+}
+.appie-hero-content-2 .input-box button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  border: 0;
+  color: #ff3e66;
+}
+.appie-hero-content-2 .hero-users {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.appie-hero-content-2 .hero-users > span {
+  margin-left: 20px;
+  font-size: 26px;
+  font-weight: 900;
+  color: #0e1133;
+  width: 60px;
+  display: inline-block;
+  line-height: 16px;
+}
+.appie-hero-content-2 .hero-users > span span {
+  font-size: 13px;
+  font-weight: 500;
+  color: #505056;
+  display: inline-block;
+  line-height: 13px;
+}
+
+.appie-page-title-area {
+  height: 450px;
+  background-image: url(./../images/page-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.appie-page-title-area.appie-page-service-title-area {
+  height: 650px;
+  background-image: url(./../images/page-title-bg.jpg);
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .appie-page-title-area.appie-page-service-title-area {
+    height: 500px;
+  }
+}
+@media (max-width: 767px) {
+  .appie-page-title-area.appie-page-service-title-area {
+    height: 400px;
+  }
+}
+.appie-page-title-area.appie-page-service-title-area
+  .appie-page-title-item
+  .thumb {
+  right: 110px;
+  width: auto;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .appie-page-title-area.appie-page-service-title-area
+    .appie-page-title-item
+    .thumb {
+    right: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .appie-page-title-area.appie-page-service-title-area
+    .appie-page-title-item
+    .thumb {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .appie-page-title-area.appie-page-service-title-area
+    .appie-page-title-item
+    .thumb {
+    display: none;
+  }
+}
+
+.appie-page-title-item {
+  margin-top: 80px;
+  position: relative;
+}
+.appie-page-title-item .thumb {
+  position: absolute;
+  right: 0;
+  bottom: -100px;
+  width: 160px;
+}
+@media (max-width: 767px) {
+  .appie-page-title-item .thumb {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .appie-page-title-item .thumb {
+    display: block;
+  }
+}
+.appie-page-title-item span {
+  color: #fff;
+  font-weight: 500;
+  opacity: 0.7;
+  padding-bottom: 14px;
+}
+.appie-page-title-item .title {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  .appie-page-title-item .title {
+    font-size: 26px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .appie-page-title-item .title {
+    font-size: 32px;
+  }
+}
+.appie-page-title-item nav {
+  display: inline-block;
+  margin-top: 20px;
+}
+.appie-page-title-item nav ol {
+  background: transparent;
+  padding: 0;
+}
+.appie-page-title-item nav ol li a {
+  color: #fff;
+  opacity: 0.8;
+}
+.appie-page-title-item nav ol li.active {
+  color: #fff;
+  opacity: 0.8;
+}
 
 /*===========================
-    4. APPIE SERVICE css 
+    4. APPIE SERVOCE css 
 ===========================*/
 .appie-service-area {
   background: #eef1f6;
@@ -1392,7 +2310,7 @@ p {
 
 .appie-single-service {
   padding: 50px 30px 43px;
-  background: var(--light-bg);
+  background: #fff;
   border-radius: 6px;
   transition: all linear 0.3s;
 }
@@ -1408,7 +2326,7 @@ p {
   width: 70px;
   text-align: center;
   line-height: 70px;
-  background: linear-gradient(135deg, #84bcfa 0%, var(--light-green) 100%);
+  background: linear-gradient(135deg, #84bcfa 0%, #2b70fa 100%);
   box-shadow: 0px 6px 10px 0px rgba(16, 73, 189, 0.3);
   position: relative;
 }
@@ -1418,12 +2336,12 @@ p {
   top: -10px;
   height: 30px;
   width: 30px;
-  background: var(--light-green);
+  background: #2b70fa;
   border-radius: 50%;
-  border: 2px solid var(--light-bg);
+  border: 2px solid #fff;
   box-shadow: 0px 3px 6px 0px rgba(14, 17, 51, 0.1);
   line-height: 28px;
-  color: var(--light-bg);
+  color: #fff;
 }
 .appie-single-service .appie-title {
   font-size: 20px;
@@ -1464,7 +2382,7 @@ p {
   background-image: linear-gradient(110deg, #ff5f4a 0%, #ff9e91 100%);
 }
 .appie-single-service.appie-single-services-3 a {
-  color: var(--light-subtext);
+  color: #505056;
   font-size: 14px;
   font-weight: 500;
   margin-top: 25px;
@@ -1536,7 +2454,7 @@ p {
   text-align: center;
   line-height: 50px;
   background: #2eacfc;
-  color: var(--light-bg);
+  color: #fff;
   border-radius: 50%;
 }
 .appie-single-service-2 .title {
@@ -1548,7 +2466,7 @@ p {
 .appie-single-service-2 a {
   font-size: 14px;
   font-weight: 500;
-  color: var(--light-subtext);
+  color: #505056;
   margin-top: 23px;
 }
 .appie-single-service-2 a:hover {
@@ -1609,7 +2527,7 @@ p {
 }
 .appie-single-service-2.appie-single-service-about .icon i {
   background-color: #f1f7fe;
-  color: var(--light-green);
+  color: #2b70fa;
   border-radius: 35% 65% 50% 50% / 59% 50% 50% 41%;
   font-size: 20px;
 }
@@ -1683,7 +2601,7 @@ p {
   margin-bottom: 20px;
 }
 .service-details-sidebar .service-category-widget ul li i {
-  color: var(--light-green);
+  color: #2b70fa;
   width: 15px;
   margin-right: 15px;
 }
@@ -1697,13 +2615,13 @@ p {
 }
 .service-details-sidebar .service-download-widget a {
   padding: 13px 30px;
-  color: var(--light-subtext);
+  color: #505056;
 }
 .service-details-sidebar .service-download-widget a:hover {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 .service-details-sidebar .service-download-widget i {
-  color: var(--light-green);
+  color: #2b70fa;
   padding-right: 15px;
 }
 
@@ -1790,7 +2708,7 @@ p {
   border-radius: 0;
   font-size: 15px;
   font-weight: 500;
-  color: var(--light-subtext);
+  color: #505056;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .appie-features-tabs-btn .nav a {
@@ -1817,13 +2735,13 @@ p {
   margin-right: 10px;
 }
 .appie-features-tabs-btn .nav a.active {
-  border-right-color: var(--light-green);
+  border-right-color: #2b70fa;
   background: transparent;
-  color: var(--light-green);
+  color: #2b70fa;
 }
 .appie-features-tabs-btn .nav a.active i {
-  color: var(--light-bg);
-  background: var(--light-green);
+  color: #fff;
+  background: #2b70fa;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1839,7 +2757,7 @@ p {
 .appie-features-content span {
   font-size: 14px;
   font-weight: 500;
-  color: var(--light-green);
+  color: #2b70fa;
   margin-bottom: 8px;
 }
 .appie-features-content .title {
@@ -1893,7 +2811,7 @@ p {
   animation: linear 20s animationFramesOne infinite;
 }
 .appie-features-area-2.appie-features-area-5 {
-  background: var(--light-bg);
+  background: #fff;
 }
 
 .appie-features-box-item {
@@ -1929,7 +2847,7 @@ p {
   }
 }
 .appie-features-box-item .title {
-  color: var(--light-bg);
+  color: #fff;
   font-size: 24px;
   font-weight: 700;
   position: relative;
@@ -1958,7 +2876,7 @@ p {
 .appie-features-box-item p {
   font-size: 14px;
   opacity: 0.6;
-  color: var(--light-bg);
+  color: #fff;
   margin-top: 3px;
 }
 .appie-features-box-item:hover {
@@ -1985,7 +2903,7 @@ p {
   border-color: rgba(9, 8, 8, 0.21);
 }
 .appie-features-box-item.appie-features-box-5-item p {
-  color: var(--light-subtext);
+  color: #505056;
   opacity: 1;
 }
 
@@ -2017,7 +2935,7 @@ p {
   border-color: #9b2cfa;
 }
 .appie-features-6-area .appie-features-content a:hover {
-  background: var(--light-bg);
+  background: #fff;
   color: #9b2cfa;
 }
 
@@ -2059,7 +2977,7 @@ p {
 .appie-traffic-title span {
   font-size: 14px;
   font-weight: 500;
-  color: var(--light-green);
+  color: #2b70fa;
 }
 .appie-traffic-title .title {
   font-size: 44px;
@@ -2117,8 +3035,8 @@ p {
   text-align: center;
   line-height: 26px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #84bcfa 0%, var(--light-green) 100%);
-  color: var(--light-bg);
+  background: linear-gradient(135deg, #84bcfa 0%, #2b70fa 100%);
+  color: #fff;
   font-size: 14px;
   box-shadow: 0px 6px 10px 0px rgba(16, 73, 189, 0.3);
 }
@@ -2164,8 +3082,8 @@ p {
   padding-left: 6px;
 }
 .traffic-btn a.main-btn:hover {
-  background: var(--light-green);
-  color: var(--light-bg);
+  background: #2b70fa;
+  color: #fff;
 }
 
 /*===========================
@@ -2190,20 +3108,20 @@ p {
 .appie-testimonial-slider .appie-testimonial-item .author-info .title {
   font-weight: 500;
   font-size: 16px;
-  color: var(--light-bg);
+  color: #fff;
   padding-top: 10px;
 }
 .appie-testimonial-slider-rtl .appie-testimonial-item .author-info span,
 .appie-testimonial-slider .appie-testimonial-item .author-info span {
   font-size: 14px;
-  color: var(--light-bg);
+  color: #fff;
   opacity: 0.5;
 }
 .appie-testimonial-slider-rtl .appie-testimonial-item .text p,
 .appie-testimonial-slider .appie-testimonial-item .text p {
   font-size: 20px;
   line-height: 30px;
-  color: var(--light-bg);
+  color: #fff;
 }
 .appie-testimonial-slider-rtl .appie-testimonial-item .text ul,
 .appie-testimonial-slider .appie-testimonial-item .text ul {
@@ -2226,7 +3144,7 @@ p {
   top: 62%;
   transform: translateY(-50%);
   font-size: 30px;
-  color: var(--light-bg);
+  color: #fff;
   z-index: 11;
   cursor: pointer;
   opacity: 0.5;
@@ -2253,7 +3171,7 @@ p {
 .appie-testimonial-slider-rtl .slick-dots li button,
 .appie-testimonial-slider .slick-dots li button {
   border: 0;
-  background: var(--light-bg);
+  background: #fff;
   height: 8px;
   width: 8px;
   border-radius: 50%;
@@ -2298,14 +3216,14 @@ p {
   text-align: center;
   line-height: 50px;
   border: 2px solid rgba(255, 255, 255, 0.2);
-  color: var(--light-bg);
+  color: #fff;
   border-radius: 50%;
   z-index: 9;
   cursor: pointer;
 }
 .appie-testimonial-slider-2 .slick-arrow:hover {
   background: #ff3e66;
-  color: var(--light-bg);
+  color: #fff;
   border-color: #ff3e66;
 }
 .appie-testimonial-slider-2 .slick-arrow.prev {
@@ -2370,7 +3288,7 @@ p {
 .appie-testimonial-slider-2-item .thumb span {
   font-size: 13px;
   font-weight: 500;
-  color: var(--light-bg);
+  color: #fff;
   opacity: 0.7;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2384,7 +3302,7 @@ p {
   }
 }
 .appie-testimonial-slider-2-item .content p {
-  color: var(--light-bg);
+  color: #fff;
   font-size: 20px;
   line-height: 30px;
 }
@@ -2397,13 +3315,13 @@ p {
   margin-top: 27px;
 }
 .appie-testimonial-slider-2-item .content .author-info .title {
-  color: var(--light-bg);
+  color: #fff;
   font-size: 20px;
   font-weight: 700;
 }
 .appie-testimonial-slider-2-item .content .author-info span {
   font-size: 14px;
-  color: var(--light-bg);
+  color: #fff;
   opacity: 0.7;
 }
 
@@ -2424,7 +3342,7 @@ p {
   padding: 60px 100px 80px;
   box-shadow: 0px 40px 60px 0px rgba(14, 17, 51, 0.1);
   text-align: center;
-  background: var(--light-bg);
+  background: #fff;
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 80px;
@@ -2459,7 +3377,7 @@ p {
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid var(--light-bg);
+  border-top: 20px solid #fff;
 }
 .testimonial-about-slider-active .testimonial-box .icon i {
   font-size: 32px;
@@ -2501,11 +3419,11 @@ p {
   color: #db0f30;
   border-radius: 50%;
   transition: all linear 0.3s;
-  background: var(--light-bg);
+  background: #fff;
 }
 .testimonial-about-slider-active .slick-arrow:hover {
   background: #db0f30;
-  color: var(--light-bg);
+  color: #fff;
 }
 .testimonial-about-slider-active .slick-arrow.prev {
   left: 80px;
@@ -2657,12 +3575,12 @@ p {
   text-align: center;
   line-height: 36px;
   border-radius: 50px;
-  color: var(--light-bg);
+  color: #fff;
 }
 .appie-team-item .thumb ul li a:hover {
-  background: var(--light-bg);
-  color: var(--light-green);
-  border-color: var(--light-bg);
+  background: #fff;
+  color: #2b70fa;
+  border-color: #fff;
 }
 .appie-team-item .content {
   padding-top: 27px;
@@ -2691,7 +3609,7 @@ p {
   overflow: hidden;
 }
 .appie-team-item.appie-team-item-about .thumb::before {
-  background-color: var(--light-green);
+  background-color: #2b70fa;
 }
 .appie-team-item.appie-team-item-about .thumb ul {
   left: 30px;
@@ -2719,16 +3637,16 @@ p {
   padding-left: 6px;
 }
 .team-btn a:hover {
-  background: var(--light-green);
-  color: var(--light-bg);
+  background: #2b70fa;
+  color: #fff;
 }
 
 .appie-team-about-area .team-btn a {
-  border-color: var(--light-green);
-  color: var(--light-green);
+  border-color: #2b70fa;
+  color: #2b70fa;
 }
 .appie-team-about-area .team-btn a:hover {
-  color: var(--light-bg);
+  color: #fff;
 }
 .appie-team-about-area.appie-team-8-area .team-btn a {
   border-color: #db0f30;
@@ -2736,7 +3654,7 @@ p {
 }
 .appie-team-about-area.appie-team-8-area .team-btn a:hover {
   background: #db0f30;
-  color: var(--light-bg);
+  color: #fff;
 }
 
 /*===========================
@@ -2776,7 +3694,7 @@ p {
   bottom: 0;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  background: var(--light-bg);
+  background: #fff;
 }
 
 .appie-pricing-area .slider:before {
@@ -2788,7 +3706,7 @@ p {
   bottom: 4px;
   -webkit-transform: translateX(0px);
   transform: translateX(0px);
-  background-color: var(--light-green);
+  background-color: #2b70fa;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -2819,7 +3737,7 @@ p {
 .appie-pricing-area ul.switch-toggler-list li a {
   font-size: 14px;
   font-weight: 500;
-  color: var(--light-subtext);
+  color: #505056;
   padding-left: 20px;
   padding-right: 20px;
   display: block;
@@ -2830,7 +3748,7 @@ p {
 }
 
 .pricing-one__single {
-  background: var(--light-bg);
+  background: #fff;
   padding: 40px;
   border-radius: 6px;
   position: relative;
@@ -2909,7 +3827,7 @@ p {
 }
 .pricing-one__single .pricig-body .pricing-btn a:hover {
   background: #f8452d;
-  color: var(--light-bg);
+  color: #fff;
   border-color: #f8452d;
 }
 .pricing-one__single .pricing-rebon {
@@ -2920,7 +3838,7 @@ p {
 .pricing-one__single .pricing-rebon span {
   font-size: 14px;
   font-weight: 500;
-  color: var(--light-bg);
+  color: #fff;
   background: #f8452d;
   line-height: 28px;
   padding: 0 18px;
@@ -2936,7 +3854,7 @@ p {
 .pricing-one__single.center .pricig-body .pricing-btn a {
   background: #f8452d;
   border-color: #f8452d;
-  color: var(--light-bg);
+  color: #fff;
 }
 .pricing-one__single:hover {
   box-shadow: 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
@@ -2972,14 +3890,14 @@ p {
 .pricing-one__single.pricing-one__single_2.active .pricig-body .pricing-btn a {
   background: #ff3e66;
   border-color: #ff3e66;
-  color: var(--light-bg);
+  color: #fff;
 }
 .pricing-one__single.pricing-one__single_2.item-2 .pricig-body ul li i {
   background: #effaf3;
   color: #31c369;
 }
 .pricing-one__single.pricing-one__single_2:hover {
-  border-color: var(--light-bg);
+  border-color: #fff;
   border-top: 3px solid #ff3e66;
   transform: translateY(-10px);
 }
@@ -2998,11 +3916,11 @@ p {
   border-radius: 30px;
   font-weight: 500;
   font-size: 14px;
-  color: var(--light-subtext);
+  color: #505056;
   padding: 5px 20px;
 }
 .appie-pricing-2-area .appie-section-title .nav li a.active {
-  color: var(--light-bg);
+  color: #fff;
   background: #ff3e66;
 }
 
@@ -3044,7 +3962,7 @@ p {
   position: relative;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  background-color: var(--light-bg);
+  background-color: #fff;
   border-radius: 6px;
   overflow: hidden;
 }
@@ -3085,7 +4003,7 @@ p {
 .faq-accrodion .accrodion.active .accrodion-inner {
   margin: 0 1px;
   background-color: transparent;
-  border-color: var(--light-bg);
+  border-color: #fff;
 }
 .faq-accrodion .accrodion.active::before {
   -webkit-transform: scaleX(1);
@@ -3099,10 +4017,10 @@ p {
 }
 .faq-accrodion .accrodion.active .accrodion-title::after {
   opacity: 1;
-  color: var(--light-bg);
+  color: #fff;
 }
 .faq-accrodion .accrodion .accrodion-inner {
-  background-color: var(--light-bg);
+  background-color: #fff;
   padding: 18px 0;
   border-style: solid;
   border-width: 1px;
@@ -3130,7 +4048,7 @@ p {
   font-family: "Font Awesome 5 Pro";
   font-weight: 400;
   font-size: 14px;
-  color: var(--light-green);
+  color: #2b70fa;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -3166,7 +4084,7 @@ p {
   font-weight: 400;
   font-family: "Font Awesome 5 Pro";
   font-size: 14px;
-  color: var(--light-bg);
+  color: #fff;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -3180,7 +4098,7 @@ p {
   opacity: 0;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  background: var(--light-green);
+  background: #2b70fa;
   height: 40px;
   width: 40px;
   text-align: center;
@@ -3216,7 +4134,7 @@ p {
 }
 .faq-accrodion .accrodion .accrodion-content p {
   margin: 0;
-  color: var(--light-subtext);
+  color: #505056;
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
@@ -3240,7 +4158,7 @@ p {
   .accrodion-inner
   .accrodion-title::after {
   background: #db0f30;
-  color: var(--light-bg);
+  color: #fff;
 }
 .appie-faq-8-area .faq-play-box {
   position: absolute;
@@ -3274,9 +4192,9 @@ p {
   width: 80px;
   text-align: center;
   line-height: 80px;
-  background: var(--light-bg);
+  background: #fff;
   border-radius: 50%;
-  color: var(--light-green);
+  color: #2b70fa;
   position: relative;
 }
 .appie-faq-8-area .faq-play-box .play-btn a::before {
@@ -3286,7 +4204,7 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  border: 1px solid var(--light-bg);
+  border: 1px solid #fff;
   border-radius: 50%;
   animation: linear infinite popup 1.5s;
 }
@@ -3302,7 +4220,7 @@ p {
 }
 .appie-faq-8-area .faq-play-box .faq-play-counter .box-1 .title {
   font-size: 30px;
-  color: var(--light-bg);
+  color: #fff;
 }
 .appie-faq-8-area .faq-play-box .faq-play-counter .box-1 span {
   font-size: 14px;
@@ -3343,7 +4261,7 @@ p {
 }
 .appie-blog-item .content .blog-meta ul li a {
   font-weight: 400;
-  color: var(--light-subtext);
+  color: #505056;
 }
 .appie-blog-item .content .blog-meta ul li:nth-child(1)::before {
   position: absolute;
@@ -3353,7 +4271,7 @@ p {
   transform: translateY(-50%);
   height: 5px;
   width: 5px;
-  background: var(--light-green);
+  background: #2b70fa;
   border-radius: 50%;
 }
 .appie-blog-item .content .title {
@@ -3366,7 +4284,7 @@ p {
   color: #0e1133;
 }
 .appie-blog-item .content .title a:hover {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 .appie-blog-item .content > a {
   font-size: 15px;
@@ -3378,7 +4296,7 @@ p {
   padding-left: 6px;
 }
 .appie-blog-item .content > a:hover {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 .appie-blog-item:hover .thumb img {
   transform: scale(1.1);
@@ -3392,7 +4310,7 @@ p {
 .appie-blog-3-area .blog-btn a:hover {
   background: #ff6b58;
   border-color: #ff6b58;
-  color: var(--light-bg);
+  color: #fff;
 }
 .appie-blog-3-area.appie-blog-6-area .blog-btn a:hover {
   background: #9b2cfa;
@@ -3421,7 +4339,7 @@ p {
 }
 .appie-blog-3-area.appie-blog-8-area .blog-btn a:hover {
   background: #db0f30;
-  color: var(--light-bg);
+  color: #fff;
 }
 
 .appie-blog-item-3 {
@@ -3516,14 +4434,14 @@ p {
   display: inline-block;
   font-size: 14px;
   font-weight: 400;
-  color: var(--light-subtext);
+  color: #505056;
   margin-right: 22px;
 }
 .appie-blog-item-3 .content ul li i {
   padding-right: 6px;
 }
 .appie-blog-item-3 .content ul li a {
-  color: var(--light-subtext);
+  color: #505056;
   font-size: 14px;
   font-weight: 400;
 }
@@ -3534,7 +4452,7 @@ p {
   color: #9b2cfa;
 }
 .appie-blog-item-3.appie-blog-item-8 {
-  background: var(--light-bg);
+  background: #fff;
 }
 .appie-blog-item-3.appie-blog-item-8 .content .title a:hover {
   color: #db0f30;
@@ -3557,7 +4475,7 @@ p {
 .bisylms-pagination a,
 .bisylms-pagination span {
   font-size: 14px;
-  color: var(--light-green);
+  color: #2b70fa;
   font-weight: 600;
   line-height: 40px;
   background: rgba(88, 56, 252, 0.1);
@@ -3575,8 +4493,8 @@ p {
 
 .bisylms-pagination a:hover,
 .bisylms-pagination .current {
-  color: var(--light-bg);
-  background: var(--light-green);
+  color: #fff;
+  background: #2b70fa;
   -webkit-box-shadow: 0px 20px 30px 0px rgba(26, 8, 119, 0.24);
   -moz-box-shadow: 0px 20px 30px 0px rgba(26, 8, 119, 0.24);
   box-shadow: 0px 20px 30px 0px rgba(26, 8, 119, 0.24);
@@ -3692,7 +4610,7 @@ p {
 }
 
 .search-form button:hover {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 
 .blog-sidebar .widget ul {
@@ -3729,7 +4647,7 @@ p {
 }
 
 .blog-sidebar .widget ul li a:hover {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 
 .blog-sidebar .widget ul li span {
@@ -3770,7 +4688,7 @@ p {
 }
 
 .popular-post h5 a:hover {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 
 .popular-post span {
@@ -3800,8 +4718,8 @@ p {
 }
 
 .tags a:hover {
-  background: var(--light-green);
-  color: var(--light-bg);
+  background: #2b70fa;
+  color: #fff;
 }
 
 /*--------------------------------------------------------
@@ -3816,7 +4734,7 @@ p {
   position: relative;
   z-index: 2;
   display: inline-block;
-  color: var(--light-bg);
+  color: #fff;
   line-height: 0.8;
   text-transform: uppercase;
   font-size: 12px;
@@ -3825,7 +4743,7 @@ p {
 }
 
 .post-cate:hover {
-  color: var(--light-bg);
+  color: #fff;
 }
 
 .single-p-banner .banner-title {
@@ -3842,7 +4760,7 @@ p {
 
 .single-p-banner .bp-meta a i,
 .single-p-banner .bp-meta a {
-  color: var(--light-bg);
+  color: #fff;
 }
 
 .single-post-area {
@@ -3892,7 +4810,7 @@ blockquote:before {
   font-family: "Open Sans", sans-serif;
   font-size: 100px;
   line-height: 25px;
-  color: var(--light-green);
+  color: #2b70fa;
   letter-spacing: -5px;
   -moz-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
@@ -3960,8 +4878,8 @@ blockquote cite {
 }
 
 .post-tags a:hover {
-  background: var(--light-green);
-  color: var(--light-bg);
+  background: #2b70fa;
+  color: #fff;
 }
 
 .post-share {
@@ -3985,7 +4903,7 @@ blockquote cite {
   width: 40px;
   height: 40px;
   background: #446bb9;
-  color: var(--light-bg);
+  color: #fff;
   border-radius: 50%;
   text-align: center;
   line-height: 42px;
@@ -4125,7 +5043,7 @@ blockquote cite {
 }
 
 .single-comment h5 a:hover {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 
 .single-comment span {
@@ -4153,7 +5071,7 @@ blockquote cite {
   display: inline-block;
   font-size: 12px;
   line-height: 0.8;
-  color: var(--light-green);
+  color: #2b70fa;
   font-weight: 600;
 }
 
@@ -4264,8 +5182,8 @@ blockquote cite {
 .comment-form input[type="submit"] {
   height: 50px;
   border-radius: 3px;
-  background: var(--light-green);
-  color: var(--light-bg);
+  background: #2b70fa;
+  color: #fff;
   text-align: center;
   border: none;
   outline: none;
@@ -4326,7 +5244,7 @@ blockquote cite {
   bottom: 0;
   font-family: "ElegantIcons";
   content: "\4e";
-  color: var(--light-green);
+  color: #2b70fa;
   font-size: 10px;
   left: 2px;
   position: absolute;
@@ -4338,7 +5256,7 @@ blockquote cite {
 
 .post-item-1 {
   position: relative;
-  background: var(--light-bg);
+  background: #fff;
   border-radius: 10px;
   margin-bottom: 30px;
   -webkit-transition: all 0.4s ease;
@@ -4371,13 +5289,13 @@ blockquote cite {
   display: inline-block;
   font-size: 14px;
   line-height: 0.8;
-  color: var(--light-subtext);
+  color: #505056;
   font-weight: 600;
   margin-right: 30px;
 }
 
 .bp-meta a i {
-  color: var(--light-green);
+  color: #2b70fa;
   margin-right: 9px;
   position: relative;
   top: 1px;
@@ -4388,7 +5306,7 @@ blockquote cite {
 }
 
 .bp-meta a:hover {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 
 .b-post-details h3 {
@@ -4404,7 +5322,7 @@ blockquote cite {
 }
 
 .b-post-details h3 a:hover {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 
 .post-item-1:hover {
@@ -4416,13 +5334,13 @@ blockquote cite {
 .b-post-details a.read-more {
   font-size: 14px;
   font-weight: 700;
-  color: var(--light-subtext);
+  color: #505056;
 }
 .b-post-details a.read-more i {
   padding-left: 8px;
 }
 .b-post-details a.read-more:hover {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 
 /*===========================
@@ -4475,7 +5393,7 @@ blockquote cite {
   padding-right: 50px;
 }
 .appie-project-content .title {
-  color: var(--light-bg);
+  color: #fff;
   font-size: 50px;
   line-height: 60px;
   padding-bottom: 10px;
@@ -4499,7 +5417,7 @@ blockquote cite {
   }
 }
 .appie-project-content p {
-  color: var(--light-bg);
+  color: #fff;
   opacity: 0.8;
 }
 .appie-project-content .input-box {
@@ -4529,7 +5447,7 @@ blockquote cite {
   padding: 0 25px;
   background: #0e1133;
   border: 0;
-  color: var(--light-bg);
+  color: #fff;
   line-height: 50px;
 }
 @media (max-width: 767px) {
@@ -4568,7 +5486,7 @@ blockquote cite {
   }
 }
 .appie-project-3-box .title {
-  color: var(--light-bg);
+  color: #fff;
   font-size: 46px;
   line-height: 56px;
 }
@@ -4586,9 +5504,9 @@ blockquote cite {
   }
 }
 .appie-project-3-box a {
-  background: var(--light-bg);
+  background: #fff;
   color: #0e1133;
-  border-color: var(--light-bg);
+  border-color: #fff;
   line-height: 55px;
   padding: 0 40px;
 }
@@ -4605,13 +5523,13 @@ blockquote cite {
   padding-top: 180px;
 }
 .appie-footer-area.appie-footer-3-area.appie-footer-5-area {
-  background: var(--light-bg);
+  background: #fff;
 }
 .appie-footer-area.appie-footer-about-area {
   padding-top: 230px;
 }
 .appie-footer-area.appie-footer-about-area.appie-footer-8-area {
-  background: var(--light-bg);
+  background: #fff;
 }
 .appie-footer-area.appie-footer-about-area.appie-footer-8-area
   .footer-about-widget
@@ -4629,7 +5547,7 @@ blockquote cite {
   a:hover {
   background: #db0f30;
   border-color: #db0f30;
-  color: var(--light-bg);
+  color: #fff;
 }
 .appie-footer-area.appie-footer-about-area.appie-footer-8-area
   .footer-navigation
@@ -4653,7 +5571,7 @@ blockquote cite {
   li
   a {
   background: #0e1133;
-  color: var(--light-bg);
+  color: #fff;
   border-color: #0e1133;
 }
 .appie-footer-area.appie-footer-about-area.appie-footer-8-area
@@ -4662,7 +5580,7 @@ blockquote cite {
   ul
   li
   a:hover {
-  background: var(--light-bg);
+  background: #fff;
   color: #0e1133;
 }
 .appie-footer-area.appie-footer-about-area.appie-footer-8-area
@@ -4671,7 +5589,7 @@ blockquote cite {
   ul
   li
   a.item-2 {
-  background: var(--light-bg);
+  background: #fff;
   color: #0e1133;
 }
 .appie-footer-area.appie-footer-about-area.appie-footer-8-area
@@ -4681,7 +5599,7 @@ blockquote cite {
   li
   a.item-2:hover {
   background: #0e1133;
-  color: var(--light-bg);
+  color: #fff;
   border-color: #0e1133;
 }
 
@@ -4719,15 +5637,15 @@ blockquote cite {
   height: 36px;
   width: 36px;
   text-align: center;
-  background: var(--light-bg);
+  background: #fff;
   color: #0e1133;
   border-radius: 6px;
   line-height: 36px;
   margin-right: 5px;
 }
 .footer-about-widget .social ul li a:hover {
-  background: var(--light-green);
-  color: var(--light-bg);
+  background: #2b70fa;
+  color: #fff;
 }
 .footer-about-widget.footer-about-widget-2 ul li a:hover {
   background: #ff3e66;
@@ -4761,13 +5679,13 @@ blockquote cite {
   list-style-type: none;
 }
 .footer-navigation ul li a {
-  color: var(--light-subtext);
+  color: #505056;
   font-size: 15px;
   font-weight: 500;
   margin-bottom: 6px;
 }
 .footer-navigation ul li a:hover {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 .footer-navigation.footer-navigation-2 ul li a:hover {
   color: #ff3e66;
@@ -4801,7 +5719,7 @@ blockquote cite {
   list-style-type: none;
 }
 .footer-widget-info ul li a {
-  color: var(--light-subtext);
+  color: #505056;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 10px;
@@ -4812,7 +5730,7 @@ blockquote cite {
   position: absolute;
   left: 0;
   top: 0;
-  color: var(--light-green);
+  color: #2b70fa;
 }
 
 .footer-copyright {
@@ -4861,12 +5779,12 @@ blockquote cite {
   }
 }
 .footer-copyright .apps-download-btn ul li a {
-  background: var(--light-bg);
+  background: #fff;
   color: #0e1133;
   line-height: 40px;
   padding: 0 23px;
   border-radius: 6px;
-  border: 2px solid var(--light-bg);
+  border: 2px solid #fff;
 }
 .footer-copyright .apps-download-btn ul li a i {
   padding-right: 6px;
@@ -4882,7 +5800,7 @@ blockquote cite {
   border-color: #e7eaef;
 }
 .footer-copyright .apps-download-btn ul li a.item-2:hover {
-  background: var(--light-bg);
+  background: #fff;
   color: #0e1133;
 }
 
@@ -4905,12 +5823,12 @@ blockquote cite {
 }
 .appie-error-content p {
   line-height: 26px;
-  color: var(--light-subtext);
+  color: #505056;
   font-size: 16px;
   padding: 0 50px;
 }
 .appie-error-content a {
-  border: 2px solid var(--light-green);
+  border: 2px solid #2b70fa;
   line-height: 45px;
   padding: 0 35px;
   border-radius: 6px;
@@ -4964,12 +5882,12 @@ blockquote cite {
   }
 }
 .appie-signup-box span {
-  color: var(--light-bg);
+  color: #fff;
   font-weight: 500;
 }
 .appie-signup-box .title {
   font-size: 46px;
-  color: var(--light-bg);
+  color: #fff;
   padding-bottom: 20px;
 }
 @media (max-width: 767px) {
@@ -4997,7 +5915,7 @@ blockquote cite {
 }
 .appie-signup-box form .input-box input {
   width: 300px;
-  background: var(--light-bg);
+  background: #fff;
   line-height: 55px;
   border-radius: 6px;
   padding-left: 30px;
@@ -5014,10 +5932,10 @@ blockquote cite {
   }
 }
 .appie-signup-box form .input-box button {
-  background: var(--light-green);
+  background: #2b70fa;
   line-height: 55px;
   border: 0;
-  color: var(--light-bg);
+  color: #fff;
   border-radius: 6px;
   padding: 0 45px;
   font-weight: 500;
@@ -5028,7 +5946,7 @@ blockquote cite {
 }
 
 .appie_checkbox_common label {
-  color: var(--light-bg);
+  color: #fff;
   font-size: 14px;
   margin-bottom: 12px;
   cursor: pointer;
@@ -5053,12 +5971,12 @@ blockquote cite {
   cursor: pointer;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  border: 2px solid var(--light-bg);
+  border: 2px solid #fff;
   position: relative;
 }
 
 .appie_checkbox_common input[type="checkbox"] + label span:before {
-  color: var(--light-bg);
+  color: #fff;
   content: "\f00c";
   font-family: "Font Awesome 5 Pro";
   font-size: 11px;
@@ -5186,7 +6104,7 @@ blockquote cite {
   text-align: center;
   line-height: 26px;
   border-radius: 50%;
-  color: var(--light-bg);
+  color: #fff;
   background: #31c369;
 }
 .appie-about-service .title {
@@ -5251,10 +6169,10 @@ blockquote cite {
 }
 .appie-about-3-area .appie-traffic-service .icon {
   position: static;
-  background-image: -moz-linear-gradient(120deg, var(--light-green) 0%, #84bcfa 100%);
-  background-image: -webkit-linear-gradient(120deg, var(--light-green) 0%, #84bcfa 100%);
-  background-image: -ms-linear-gradient(120deg, var(--light-green) 0%, #84bcfa 100%);
-  background-image: linear-gradient(120deg, var(--light-green) 0%, #84bcfa 100%);
+  background-image: -moz-linear-gradient(120deg, #2b70fa 0%, #84bcfa 100%);
+  background-image: -webkit-linear-gradient(120deg, #2b70fa 0%, #84bcfa 100%);
+  background-image: -ms-linear-gradient(120deg, #2b70fa 0%, #84bcfa 100%);
+  background-image: linear-gradient(120deg, #2b70fa 0%, #84bcfa 100%);
   display: inline-block;
   height: 50px;
   width: 50px;
@@ -5392,16 +6310,16 @@ blockquote cite {
 .appie-about-page-content .title {
   font-size: 36px;
   font-weight: 700;
-  color: var(--light-bg);
+  color: #fff;
 }
 .appie-about-page-content p {
-  color: var(--light-bg);
+  color: #fff;
   padding-top: 15px;
   opacity: 0.7;
 }
 .appie-about-page-content a {
-  color: var(--light-bg);
-  border: 2px solid var(--light-bg);
+  color: #fff;
+  border: 2px solid #fff;
   border-radius: 10px;
   line-height: 40px;
   padding: 0 30px;
@@ -5410,8 +6328,8 @@ blockquote cite {
   margin-top: 43px;
 }
 .appie-about-page-content a:hover {
-  background: var(--light-bg);
-  color: var(--light-green);
+  background: #fff;
+  color: #2b70fa;
 }
 .appie-about-page-content::before {
   position: absolute;
@@ -5471,7 +6389,7 @@ blockquote cite {
   line-height: 50px;
   border-radius: 50%;
   background: #eef4ff;
-  color: var(--light-green);
+  color: #2b70fa;
   font-size: 22px;
   font-weight: 500;
 }
@@ -5480,9 +6398,9 @@ blockquote cite {
   font-weight: 500;
 }
 .appie-how-it-work-content .how-it-work-box:hover span {
-  background: var(--light-green);
+  background: #2b70fa;
   box-shadow: 0px 14px 20px 0px rgba(0, 43, 130, 0.3);
-  color: var(--light-bg);
+  color: #fff;
 }
 
 .appie-about-8-area {
@@ -5494,7 +6412,7 @@ blockquote cite {
 
 .appie-about-8-box {
   padding: 50px 50px 145px;
-  background: var(--light-bg);
+  background: #fff;
   border-radius: 6px;
   box-shadow: 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
   position: relative;
@@ -5544,11 +6462,11 @@ blockquote cite {
 .appie-about-8-box a {
   border: 2px solid #db0f30;
   color: #db0f30;
-  background: var(--light-bg);
+  background: #fff;
   margin-top: 30px;
 }
 .appie-about-8-box a:hover {
-  color: var(--light-bg);
+  color: #fff;
   background: #db0f30;
   border-color: #db0f30;
 }
@@ -5573,7 +6491,7 @@ blockquote cite {
 .appie-single-counter {
   padding: 30px;
   position: relative;
-  background: var(--light-bg);
+  background: #fff;
   height: 160px;
   background-image: -moz-linear-gradient(140deg, #ddf4fd 0%, #eaf9ff 100%);
   background-image: -webkit-linear-gradient(140deg, #ddf4fd 0%, #eaf9ff 100%);
@@ -5597,7 +6515,7 @@ blockquote cite {
   }
 }
 .appie-single-counter .counter-content {
-  background: var(--light-bg);
+  background: #fff;
   text-align: center;
   border-radius: 6px;
   box-shadow: 0px 30px 40px 0px rgba(0, 41, 57, 0.1);
@@ -5617,10 +6535,10 @@ blockquote cite {
   font-weight: 500;
 }
 .appie-single-counter.item-2 {
-  background-image: -moz-linear-gradient(140deg, #fdead3 0%, var(--light-bg)7ee 100%);
-  background-image: -webkit-linear-gradient(140deg, #fdead3 0%, var(--light-bg)7ee 100%);
-  background-image: -ms-linear-gradient(140deg, #fdead3 0%, var(--light-bg)7ee 100%);
-  background-image: linear-gradient(140deg, #fdead3 0%, var(--light-bg)7ee 100%);
+  background-image: -moz-linear-gradient(140deg, #fdead3 0%, #fff7ee 100%);
+  background-image: -webkit-linear-gradient(140deg, #fdead3 0%, #fff7ee 100%);
+  background-image: -ms-linear-gradient(140deg, #fdead3 0%, #fff7ee 100%);
+  background-image: linear-gradient(140deg, #fdead3 0%, #fff7ee 100%);
 }
 .appie-single-counter.item-2 .counter-content {
   box-shadow: 0px 30px 40px 0px rgba(56, 31, 0, 0.1);
@@ -5645,7 +6563,7 @@ blockquote cite {
 }
 
 /*===========================
-    13. APPIE VIDEO PLAYER css 
+    13.APPIE VIDEO PLAYER css 
 ===========================*/
 .appie-video-player-slider .slick-arrow {
   position: absolute;
@@ -5663,7 +6581,7 @@ blockquote cite {
 }
 .appie-video-player-slider .slick-arrow:hover {
   background: #ff3e66;
-  color: var(--light-bg);
+  color: #fff;
   border-color: #ff3e66;
 }
 .appie-video-player-slider .slick-arrow.prev {
@@ -5702,7 +6620,7 @@ blockquote cite {
 .appie-video-player-item .thumb .video-popup a {
   height: 90px;
   width: 90px;
-  background: var(--light-bg);
+  background: #fff;
   text-align: center;
   line-height: 90px;
   color: #ff3e66;
@@ -5717,7 +6635,7 @@ blockquote cite {
   top: 0;
   height: 100%;
   width: 100%;
-  border: 1px solid var(--light-bg);
+  border: 1px solid #fff;
   border-radius: 50%;
   animation: linear infinite popup 1.5s;
 }
@@ -5752,14 +6670,14 @@ blockquote cite {
 .appie-video-player-item .content a {
   border-radius: 30px;
   border: 2px solid #e7eaef;
-  background: var(--light-bg);
+  background: #fff;
   color: #0e1133;
   margin-top: 33px;
 }
 .appie-video-player-item .content a:hover {
   background: #ff3e66;
-  border-color: var(--light-bg);
-  color: var(--light-bg);
+  border-color: #fff;
+  color: #fff;
 }
 
 @keyframes popup {
@@ -5896,7 +6814,7 @@ blockquote cite {
 }
 .appie-download-content ul li a {
   background: #0e1133;
-  color: var(--light-bg);
+  color: #fff;
   padding-left: 22px;
   padding-right: 40px;
   padding-top: 14px;
@@ -5936,16 +6854,16 @@ blockquote cite {
   line-height: 18px;
 }
 .appie-download-content ul li a:hover {
-  background: var(--light-bg);
+  background: #fff;
   color: #0e1133;
 }
 .appie-download-content ul li a.item-2 {
-  background: var(--light-bg);
+  background: #fff;
   color: #0e1133;
 }
 .appie-download-content ul li a.item-2:hover {
   background: #0e1133;
-  color: var(--light-bg);
+  color: #fff;
 }
 
 .appie-sponser-area {
@@ -5966,7 +6884,7 @@ blockquote cite {
   }
 }
 .appie-sponser-box .sponser-item {
-  background: var(--light-bg);
+  background: #fff;
   height: 100px;
   width: 100px;
   text-align: center;
@@ -6018,15 +6936,15 @@ blockquote cite {
   margin-bottom: 8px;
 }
 .appie-download-3-box .content a.main-btn {
-  background: var(--light-bg);
+  background: #fff;
   color: #0e1133;
-  border-color: var(--light-bg);
+  border-color: #fff;
   margin-top: 33px;
 }
 .appie-download-3-box .content a.main-btn:hover {
   background: #ff6b58;
   border-color: #ff6b58;
-  color: var(--light-bg);
+  color: #fff;
 }
 .appie-download-3-box .content a.main-btn i {
   padding-right: 6px;
@@ -6034,12 +6952,12 @@ blockquote cite {
 .appie-download-3-box .content a.main-btn.main-btn-2 {
   background: #ff6b58;
   border-color: #ff6b58;
-  color: var(--light-bg);
+  color: #fff;
 }
 .appie-download-3-box .content a.main-btn.main-btn-2:hover {
-  background: var(--light-bg);
+  background: #fff;
   color: #0e1133;
-  border-color: var(--light-bg);
+  border-color: #fff;
 }
 .appie-download-3-box.appie-download-6-box a.main-btn:hover {
   background: #9b2cfa;
@@ -6077,7 +6995,7 @@ blockquote cite {
 .appie-fun-fact-box .appie-fun-fact-content > .title {
   font-size: 44px;
   line-height: 54px;
-  color: var(--light-bg);
+  color: #fff;
   padding-right: 80px;
   padding-bottom: 15px;
 }
@@ -6102,7 +7020,7 @@ blockquote cite {
   }
 }
 .appie-fun-fact-box .appie-fun-fact-content p {
-  color: var(--light-bg);
+  color: #fff;
   opacity: 0.8;
 }
 .appie-fun-fact-box .appie-fun-fact-content .appie-fun-fact-item {
@@ -6120,7 +7038,7 @@ blockquote cite {
 }
 .appie-fun-fact-box .appie-fun-fact-content .appie-fun-fact-item .title {
   font-size: 30px;
-  color: var(--light-bg);
+  color: #fff;
 }
 .appie-fun-fact-box .appie-fun-fact-content .appie-fun-fact-item span {
   font-size: 14px;
@@ -6168,7 +7086,7 @@ blockquote cite {
   width: 70px;
   text-align: center;
   line-height: 70px;
-  background: var(--light-bg);
+  background: #fff;
   border-radius: 50%;
   color: #ff6b58;
   position: relative;
@@ -6181,7 +7099,7 @@ blockquote cite {
   top: 0;
   height: 100%;
   width: 100%;
-  border: 1px solid var(--light-bg);
+  border: 1px solid #fff;
   border-radius: 50%;
   animation: popup 1.5s linear infinite;
 }
@@ -6326,7 +7244,7 @@ blockquote cite {
 .single-info p i {
   font-size: 16px;
   line-height: 22px;
-  color: var(--light-green);
+  color: #2b70fa;
   position: absolute;
   left: 0;
   top: 0;
@@ -6354,7 +7272,7 @@ blockquote cite {
 
 .contact-form {
   position: relative;
-  background: var(--light-bg);
+  background: #fff;
   border-radius: 10px;
   padding: 43px 50px 65px;
   -webkit-box-shadow: 0px 1px 3px 0px rgba(11, 2, 55, 0.06);
@@ -6445,8 +7363,8 @@ blockquote cite {
 .contact-form input[type="submit"] {
   height: 50px;
   border-radius: 3px;
-  background: var(--light-green);
-  color: var(--light-bg);
+  background: #2b70fa;
+  color: #fff;
   text-align: center;
   border: none;
   outline: none;
@@ -6487,7 +7405,7 @@ blockquote cite {
 }
 
 .condition-check label a {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 
 .condition-check label a:hover {
@@ -6514,7 +7432,7 @@ blockquote cite {
   bottom: 0;
   font-family: "Font Awesome 5 Pro";
   content: "\f00c";
-  color: var(--light-green);
+  color: #2b70fa;
   font-size: 10px;
   left: 3px;
   position: absolute;
@@ -6533,7 +7451,7 @@ blockquote cite {
   width: 40px;
   height: 40px;
   background: #446bb9;
-  color: var(--light-bg);
+  color: #fff;
   border-radius: 50%;
   text-align: center;
   line-height: 42px;
@@ -6577,7 +7495,7 @@ blockquote cite {
 }
 .appie-shop-grid-area .bisylms-pagination a {
   border: 2px solid #e7eaef;
-  background: var(--light-bg);
+  background: #fff;
   color: #0e1133;
   font-size: 14px;
   font-weight: 500;
@@ -6589,9 +7507,9 @@ blockquote cite {
 }
 .appie-shop-grid-area .bisylms-pagination a:hover {
   box-shadow: none;
-  background: var(--light-green);
-  border-color: var(--light-green);
-  color: var(--light-bg);
+  background: #2b70fa;
+  border-color: #2b70fa;
+  color: #fff;
 }
 .appie-shop-grid-area .bisylms-pagination span {
   border: 2px solid #e7eaef;
@@ -6620,7 +7538,7 @@ blockquote cite {
   top: 0;
   height: 100%;
   width: 60%;
-  background: var(--light-green);
+  background: #2b70fa;
   transform: translateX(-50%);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -6632,12 +7550,12 @@ blockquote cite {
   height: 16px;
   width: 16px;
   border-radius: 50%;
-  border: 2px solid var(--light-bg);
+  border: 2px solid #fff;
   position: absolute;
   left: 50px;
   top: 50%;
   transform: translateY(-50%);
-  background: var(--light-green);
+  background: #2b70fa;
   box-shadow: 0px 4px 10px 0px rgba(0, 14, 58, 0.2);
   cursor: pointer;
 }
@@ -6650,12 +7568,12 @@ blockquote cite {
   height: 16px;
   width: 16px;
   border-radius: 50%;
-  border: 2px solid var(--light-bg);
+  border: 2px solid #fff;
   position: absolute;
   right: 50px;
   top: 50%;
   transform: translateY(-50%);
-  background: var(--light-green);
+  background: #2b70fa;
   box-shadow: 0px 4px 10px 0px rgba(0, 14, 58, 0.2);
   cursor: pointer;
 }
@@ -6690,7 +7608,7 @@ blockquote cite {
   color: #63636a;
 }
 .appie-shop-sidebar .shop-category-widget ul li a:hover {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 .appie-shop-sidebar .shop-best-product-widget {
   margin-top: 37px;
@@ -6715,7 +7633,7 @@ blockquote cite {
   display: block;
   font-size: 14px;
   font-weight: 500;
-  color: var(--light-green);
+  color: #2b70fa;
   color: #0e1133;
 }
 .appie-shop-sidebar .shop-best-product-widget .shop-product .content span {
@@ -6799,10 +7717,10 @@ blockquote cite {
   top: 0;
 }
 .single-shop-box .thumb .reborn span {
-  background: var(--light-green);
+  background: #2b70fa;
   font-size: 13px;
   font-weight: 500;
-  color: var(--light-bg);
+  color: #fff;
   line-height: 18px;
   padding: 0 12px;
   border-radius: 4px;
@@ -6831,8 +7749,8 @@ blockquote cite {
   border-radius: 5px;
 }
 .single-shop-box .thumb .cart-list-icon ul li a:hover {
-  background: var(--light-green);
-  color: var(--light-bg);
+  background: #2b70fa;
+  color: #fff;
 }
 .single-shop-box .content {
   padding-bottom: 10px;
@@ -6896,7 +7814,7 @@ blockquote cite {
   width: 40px;
   height: 45px;
   padding: 0;
-  background-color: var(--light-bg);
+  background-color: #fff;
   font-size: 24px;
   color: #838b97;
   border: 0;
@@ -6904,7 +7822,7 @@ blockquote cite {
 }
 .shop-buttons .product-quantity button:hover,
 .shop-buttons .product-quantity button:focus {
-  color: var(--light-green);
+  color: #2b70fa;
 }
 @media (max-width: 767px) {
   .shop-buttons .product-quantity button {
@@ -7061,8 +7979,8 @@ blockquote cite {
 }
 .shop-details-box .nav .nav-item .nav-link.active {
   background: #eef1f6;
-  color: var(--light-green);
-  border-bottom: 2px solid var(--light-green);
+  color: #2b70fa;
+  border-bottom: 2px solid #2b70fa;
 }
 
 .shop-description p {
@@ -7084,7 +8002,7 @@ blockquote cite {
   margin-bottom: 25px;
 }
 .review-rating-box .top-rating-result .rating-result-box {
-  background: var(--light-bg);
+  background: #fff;
   padding: 30px;
   margin-top: 16px;
   display: flex;
@@ -7207,25 +8125,25 @@ blockquote cite {
   width: 100%;
   height: 60px;
   padding-left: 25px;
-  border: 2px solid var(--light-bg);
-  background: var(--light-bg);
+  border: 2px solid #fff;
+  background: #fff;
   border-radius: 6px;
 }
 .rating-form-box .input-box > input:focus {
-  border-color: var(--light-green);
+  border-color: #2b70fa;
 }
 .rating-form-box .input-box textarea {
   width: 100%;
   height: 120px;
   padding-left: 25px;
-  border: 2px solid var(--light-bg);
-  background: var(--light-bg);
+  border: 2px solid #fff;
+  background: #fff;
   border-radius: 6px;
   resize: none;
   padding-top: 10px;
 }
 .rating-form-box .input-box textarea:focus {
-  border-color: var(--light-green);
+  border-color: #2b70fa;
 }
 .rating-form-box .input-box .condition-check label {
   font-size: 14px;
@@ -7251,7 +8169,7 @@ blockquote cite {
   border: 0;
 }
 .shop-related-product-slider-active .slick-dots li.slick-active button {
-  background: var(--light-green);
+  background: #2b70fa;
 }
 
 /*# sourceMappingURL=style.css.map */
