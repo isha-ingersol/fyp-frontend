@@ -10,7 +10,8 @@ import Home from './Home.jsx';
 import HomeOneHeader from './HomeOneHeader.jsx';
 import PricingHomeOne from './PricingHomeOne.jsx';
 import ProjectHomeOne from './ProjectHomeOne.jsx';
-import ServicesHomeOne from './ServicesHomeOne.jsx';
+// import ServicesHomeOne from './ServicesHomeOne.jsx';
+import HowItWorks from './HowItWorks.jsx';
 import TeamHomeOne from './TeamHomeOne.jsx';
 import TestimonialHomeOne from './TestimonialHomeOne.jsx';
 import TrafficHomeOne from './TrafficHomeOne.jsx';
@@ -23,7 +24,7 @@ function HomeOne() {
             <Drawer drawer={drawer} action={drawerAction.toggle} />
             <HomeOneHeader action={drawerAction.toggle} />
             <Home />
-            <ServicesHomeOne />
+            <HowItWorks />
             <FeaturesHomeOne />
             <TrafficHomeOne />
             <TestimonialHomeOne />

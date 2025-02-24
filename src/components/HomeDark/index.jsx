@@ -9,7 +9,7 @@ import Home from '../HomeOne/Home.jsx';
 import HomeOneHeader from '../HomeOne/HomeOneHeader.jsx';
 import PricingHomeOne from '../HomeOne/PricingHomeOne.jsx';
 import ProjectHomeOne from '../HomeOne/ProjectHomeOne.jsx';
-import ServicesHomeOne from '../HomeOne/ServicesHomeOne.jsx';
+import HowItWorks from '../HomeOne/HowItWorks.jsx';
 import TeamHomeOne from '../HomeOne/TeamHomeOne.jsx';
 import TestimonialHomeOne from '../HomeOne/TestimonialHomeOne.jsx';
 import TrafficHomeOne from '../HomeOne/TrafficHomeOne.jsx';
@@ -42,7 +42,7 @@ function HomeDark() {
                 action={drawerAction.toggle}
             />
             <Home className={darkMode ? 'appie-hero-area-dark' : ''} />
-            <ServicesHomeOne className={darkMode ? 'appie-service-area-dark' : ''} />
+            <HowItWorks className={darkMode ? 'appie-service-area-dark' : ''} />
             <FeaturesHomeOne className={darkMode ? 'appie-features-area-dark' : ''} />
             <TrafficHomeOne className={darkMode ? 'appie-traffic-area-dark' : ''} />
             <TestimonialHomeOne />
