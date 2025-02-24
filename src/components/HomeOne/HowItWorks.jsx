@@ -1,77 +1,51 @@
 import React from 'react';
-import '../../assets/css/howitworks.css'; // Import the specific CSS for this page
+import '../../assets/css/howitworks.css';
 import IconOne from '../../assets/images/icon/1.png';
 import IconTwo from '../../assets/images/icon/2.png';
 import IconThree from '../../assets/images/icon/3.png';
-import IconFour from '../../assets/images/icon/4.png';
 
 function HowItWorks({ className }) {
     return (
-        <section className={`appie-howitworks-area pt-90 pb-100 ${className}`} id="howitworks">
+        <section className={`howitworks-area pt-90 pb-100 ${className}`} id="howitworks">
             <div className="container">
-                <div className="row justify-content-left">
+                <div className="row">
                     <div className="col-lg-6">
-                        <div className="appie-section-title">
-                            <h3 className="appie-title">
-                                How It Works
-                            </h3>
+                        <div className="section-title">
+                            <h3 className="title">How It Works</h3>
                         </div>
                     </div>
                 </div>
-                <div className="steps">
+
+                <div className="steps-container">
                     {/* Step 1 */}
-                    <div className="col-lg-3 col-md-6">
-                        <div
-                            className="appie-single-howitworks text-center mt-30 wow animated fadeInUp"
-                            data-wow-duration="2000ms"
-                            data-wow-delay="200ms"
-                        >
-                            <div className="icon">
-                                <img src={IconOne} alt="" />
-                                <span>1</span>
-                            </div>
-                            <h4 className="appie-title">Searching</h4>
-                            <p>Mucker plastered bugger all mate morish are.</p>
+                    <div className="howitworks-step">
+                        <div className="icon">
+                            <img src={IconOne} alt="Step 1" />
                         </div>
+                        <h4><span>Copy the text</span> on the screen exactly how you see it</h4>
                     </div>
+
                     {/* Step 2 */}
-                    <div className="col-lg-3 col-md-6">
-                        <div
-                            className="appie-single-howitworks text-center mt-30 item-2 wow animated fadeInUp"
-                            data-wow-duration="2000ms"
-                            data-wow-delay="400ms"
-                        >
-                            <div className="icon">
-                                <img src={IconTwo} alt="" />
-                                <span>2</span>
-                            </div>
-                            <h4 className="appie-title">Designing</h4>
-                            <p>Mucker plastered bugger all mate morish are.</p>
+                    <div className="howitworks-step">
+                        <div className="icon">
+                            <img src={IconTwo} alt="Step 2" />
                         </div>
+                        <h4><span>Take a picture</span> of your writing. Make sure it is well-lit and legible.</h4>
                     </div>
+
                     {/* Step 3 */}
-                    <div className="col-lg-3 col-md-6">
-                        <div
-                            className="appie-single-howitworks text-center mt-30 item-3 wow animated fadeInUp"
-                            data-wow-duration="2000ms"
-                            data-wow-delay="600ms"
-                        >
-                            <div className="icon">
-                                <img src={IconThree} alt="" />
-                                <span>3</span>
-                            </div>
-                            <h4 className="appie-title">Building</h4>
-                            <p>Mucker plastered bugger all mate morish are.</p>
+                    <div className="howitworks-step">
+                        <div className="icon">
+                            <img src={IconThree} alt="Step 3" />
                         </div>
+                        <h4><span>Upload your image</span> and get your results in less than 2 minutes.</h4>
                     </div>
                 </div>
-                <ul>
-                    <li>
-                        <a href="#">
-                            Start Free Assessment
-                        </a>
-                    </li>
-                </ul>
+
+                {/* Start Assessment Button */}
+                <div className="button-container">
+                    <a href="#" className="button-green">Start Free Assessment</a>
+                </div>
             </div>
         </section>
     );
