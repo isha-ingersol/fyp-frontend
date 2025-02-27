@@ -8,21 +8,19 @@ import homeImage from '../../assets/images/home-image.png';
 function Home({ className }) {
     return (
         <>
-            <section className={`appie-home-area ${className || ''}`}>
+            <section className={`home-area ${className || ''}`}>
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6">
-                                <div>
-                                    <img src={homeImage} alt="" />
-                                </div>
+                        <div className="col-lg-6 home-image-container">
+                            <img src={homeImage} alt="Illustration" />
                         </div>
                         <div className="col-lg-6">
-                            <div className="appie-home-content">
-                                <h1 className="appie-title">
-                                        <span>90%</span> of learning disabilities go <span>undiagnosed</span>.
+                            <div className="home-content">
+                                <h1 className="title">
+                                        <span>40%</span> of learning disabilities go <span>undiagnosed</span> in childhood.
                                 </h1>
                                 <p>
-                                    With our unique AI-powered tool, appie 
+                                    With our unique AI-powered tool, "appie"
                                     helps identify early signs of learning disabilities 
                                     through handwriting analysis. 
                                 </p>
