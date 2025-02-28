@@ -16,7 +16,8 @@ function FooterHome({ className }) {
                                     </a>
                                 </div>
                                 <p>
-                                    DyscoverAI WordPress is theme is the last theme you will ever have.
+                                    DyscoverAI helps identify early signs of learning disabilities based on handwriting analysis.
+
                                 </p>
                                 <a href="#">
                                     Read More <i className="fal fa-arrow-right" />

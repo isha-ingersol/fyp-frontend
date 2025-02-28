@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     children:[
       {
         index:true,
-        element: <Main />
+        element: <HomeDark />
       },
       {
         path: "/home-dark",

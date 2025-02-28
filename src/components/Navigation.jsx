@@ -9,7 +9,7 @@ function Navigation({ lang = false }) {
                     <Link to="/home-dark">Home</Link>
                 </li>
                 <li>
-                    <Link to="/how-it-works">How it Works</Link>
+                    <Link to="/service">How it Works</Link>
                 </li>
                 <li>
                     <Link to="/service">Assessment</Link>
