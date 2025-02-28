@@ -4,7 +4,7 @@ import BackToTop from '../BackToTop.jsx';
 import Drawer from '../Mobile/Drawer.jsx';
 import BlogHome from './BlogHome.jsx';
 import FaqHome from './FaqHome.jsx';
-import LearnMore from './LearnMore.jsx';
+import FeaturesHome from './FeaturesHome.jsx';
 import FooterHome from './FooterHome.jsx';
 import Home from './Home.jsx';
 import NavBar from './NavBar.jsx';
@@ -25,7 +25,7 @@ function Main() {
             <NavBar action={drawerAction.toggle} />
             <Home />
             <HowItWorks />
-            <LearnMore />
+            <FeaturesHome />
             <TrafficHome />
             <TestimonialHome />
             <TeamHome />

@@ -1,6 +1,6 @@
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 // import Home from "./components/Main/Home.jsx";
-import Main from "./components/Main/index.jsx";
+// import Main from "./components/Main/index.jsx";
 import HomeDark from "./components/HomeDark/index.jsx";
 import News from "./components/News/index.jsx";
 import SingleNews from "./components/News/SingleNews.jsx";
