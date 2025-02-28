@@ -1,7 +1,7 @@
 import React from 'react';
 import useToggle from '../../Hooks/useToggle.js';
 import BackToTop from '../BackToTop.jsx';
-import FooterHomeOne from '../HomeOne/FooterHomeOne.jsx';
+import FooterHome from '../Main/FooterHome.jsx';
 import Drawer from '../Mobile/Drawer.jsx';
 import Blog from './Blog.jsx';
 import BlogSideBar from './BlogSideBar.jsx';
@@ -34,7 +34,7 @@ function SingleNews() {
                     </div>
                 </div>
             </section>
-            <FooterHomeOne />
+            <FooterHome />
             <BackToTop />
         </>
     );

@@ -1,10 +1,11 @@
-import React, { useEffect } from 'react';
-import logo7 from '../../assets/images/logo-7.png';
-import logo from '../../assets/images/logo.png';
-import StickyMenu from '../../lib/StickyMenu.js';
-import Navigation from '../Navigation.jsx';
+import React, { useEffect } from "react";
+import logo7 from "../../assets/images/logo-7.png";
+import logo from "../../assets/images/logo.png";
+import StickyMenu from "../../lib/StickyMenu.js";
+import Navigation from "../Navigation.jsx";
+import "../../assets/css/nav-bar.css";
 
-function HomeOneHeader({
+function NavBar({
     lang,
     darkEnable = false,
     action,
@@ -18,12 +19,12 @@ function HomeOneHeader({
         StickyMenu();
     });
     return (
-        <header className={`appie-header-area appie-sticky ${className || ''}`}>
+        <header className={`header-container sticky-header ${className || ""}`}>
             <div className="container">
                 <div className="header-nav-box">
                     <div className="row align-items-center">
                         <div className="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
-                            <div className="appie-logo-box">
+                            <div className="logo-container">
                                 {darkEnable && dark ? (
                                     <a href="/">
                                         <img src={logo7} alt="" />
@@ -36,18 +37,15 @@ function HomeOneHeader({
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-1 col-sm-1 order-3 order-sm-2">
-                            <div className="appie-header-main-menu">
+                            <div className="main-navigation">
                                 <Navigation />
                             </div>
                         </div>
                         <div className="col-lg-4  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
-                            <div className="appie-btn-box text-right">
+                            <div className="right-nav-controls text-right">
                                 {darkEnable &&
                                     (dark ? (
-                                        <span
-                                            className="dark__btn__sun"
-                                            onClick={(e) => changeMode(e)}
-                                        >
+                                        <span className="sun-icon" onClick={(e) => changeMode(e)}>
                                             <svg
                                                 fill="none"
                                                 stroke="currentColor"
@@ -63,10 +61,7 @@ function HomeOneHeader({
                                             </svg>
                                         </span>
                                     ) : (
-                                        <span
-                                            className="dark__btn__mon"
-                                            onClick={(e) => changeMode(e)}
-                                        >
+                                        <span className="moon-icon" onClick={(e) => changeMode(e)}>
                                             <svg
                                                 fill="none"
                                                 stroke="currentColor"
@@ -85,30 +80,30 @@ function HomeOneHeader({
                                 {langEnabled &&
                                     (lang ? (
                                         <span
-                                            className="align-content-center ml-3"
+                                            className="language-toggle ml-3"
                                             onClick={(e) => changeModeLan(e)}
                                         >
                                             RTL
                                         </span>
                                     ) : (
                                         <span
-                                            className="align-content-center mr-3"
+                                            className="language-toggle mr-3"
                                             onClick={(e) => changeModeLan(e)}
                                         >
                                             LTR
                                         </span>
                                     ))}
-                                <a className="login-btn" href="#">
-                                    <i className="fal fa-user" /> Login
+                                <a className="login-button" href="#">
+                                    <i className="user-icon" /> Login
                                 </a>
-                                <a className="main-btn ml-30" href="#">
-                                    Get Started
+                                <a className="start-assessment-button ml-30" href="#">
+                                    Start Assessment
                                 </a>
                                 <div
                                     onClick={(e) => action(e)}
-                                    className="toggle-btn ml-30 canvas_open d-lg-none d-block"
+                                    className="mobile-menu-toggle ml-30 canvas_open d-lg-none d-block"
                                 >
-                                    <i className="fa fa-bars" />
+                                    <i className="menu-icon fa fa-bars"></i>
                                 </div>
                             </div>
                         </div>
@@ -119,4 +114,4 @@ function HomeOneHeader({
     );
 }
 
-export default HomeOneHeader;
+export default NavBar;

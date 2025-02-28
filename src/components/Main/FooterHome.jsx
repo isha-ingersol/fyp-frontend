@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo.png';
 
-function FooterHomeOne({ className }) {
+function FooterHome({ className }) {
     return (
         <>
-            <section className={`appie-footer-area ${className || ''}`}>
+            <section className={`discoverAI-footer-area ${className || ''}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
@@ -16,7 +16,7 @@ function FooterHomeOne({ className }) {
                                     </a>
                                 </div>
                                 <p>
-                                    Appie WordPress is theme is the last theme you will ever have.
+                                    DiscoverAI WordPress is theme is the last theme you will ever have.
                                 </p>
                                 <a href="#">
                                     Read More <i className="fal fa-arrow-right" />
@@ -97,7 +97,7 @@ function FooterHomeOne({ className }) {
                                 <ul>
                                     <li>
                                         <a href="#">
-                                            <i className="fal fa-envelope" /> support@appie.com
+                                            <i className="fal fa-envelope" /> support@discoverAI.com
                                         </a>
                                     </li>
                                     <li>
@@ -134,7 +134,7 @@ function FooterHomeOne({ className }) {
                                     </ul>
                                 </div>
                                 <div className="copyright-text">
-                                    <p>Copyright © 2021 Appie. All rights reserved.</p>
+                                    <p>Copyright © 2021 DiscoverAI. All rights reserved.</p>
                                 </div>
                             </div>
                         </div>
@@ -145,4 +145,4 @@ function FooterHomeOne({ className }) {
     );
 }
 
-export default FooterHomeOne;
+export default FooterHome;

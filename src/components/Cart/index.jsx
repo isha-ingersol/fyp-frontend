@@ -59,10 +59,10 @@ function Cart({ value, action }) {
                             <p>$240.00</p>
                         </div>
                         <div className="cart-btn pt-25">
-                            <a className="main-btn" href="#">
+                            <a className="start-assessment-button" href="#">
                                 View Cart
                             </a>
-                            <a className="main-btn main-btn-2" href="#">
+                            <a className="start-assessment-button start-assessment-button-2" href="#">
                                 Checkout
                             </a>
                         </div>

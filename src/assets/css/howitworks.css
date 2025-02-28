@@ -60,7 +60,7 @@
   margin-top: 10px;
 }
 
-/* Start Assessment Button */
+/* Start Free Assessment Button */
 .button-container {
   text-align: center;
   margin-top: 40px;
@@ -83,8 +83,11 @@
 }
 
 .button-green:hover {
-  background: transparent;
-  color: var(--light-green);
+  /* background: transparent; */
+  color: var(--light-text);
+
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* Responsive Adjustments */
@@ -130,4 +133,8 @@
   .howitworks-area .section-title {
     text-align: left; /* Keep it left-aligned on larger screens */
   }
+}
+
+.gif-container {
+  padding: 0 0 20px;
 }

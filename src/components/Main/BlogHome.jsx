@@ -3,15 +3,15 @@ import blogOne from '../../assets/images/blog-1.jpg';
 import blogTwo from '../../assets/images/blog-2.jpg';
 import blogThree from '../../assets/images/blog-3.jpg';
 
-function BlogHomeOne({ className }) {
+function BlogHome({ className }) {
     return (
         <>
-            <section className={`appie-blog-area pt-90 pb-95 ${className || ''}`}>
+            <section className={`discoverAI-blog-area pt-90 pb-95 ${className || ''}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="appie-section-title text-center">
-                                <h3 className="appie-title">Latest blog posts</h3>
+                            <div className="discoverAI-section-title text-center">
+                                <h3 className="discoverAI-title">Latest blog posts</h3>
                                 <p>Different layouts and styles for team sections.</p>
                             </div>
                         </div>
@@ -19,7 +19,7 @@ function BlogHomeOne({ className }) {
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
                             <div
-                                className="appie-blog-item mt-30 wow animated fadeInUp"
+                                className="discoverAI-blog-item mt-30 wow animated fadeInUp"
                                 data-wow-duration="3000ms"
                                 data-wow-delay="200ms"
                             >
@@ -48,7 +48,7 @@ function BlogHomeOne({ className }) {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div
-                                className="appie-blog-item mt-30 wow animated fadeInUp"
+                                className="discoverAI-blog-item mt-30 wow animated fadeInUp"
                                 data-wow-duration="3000ms"
                                 data-wow-delay="400ms"
                             >
@@ -77,7 +77,7 @@ function BlogHomeOne({ className }) {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div
-                                className="appie-blog-item mt-30 wow animated fadeInUp"
+                                className="discoverAI-blog-item mt-30 wow animated fadeInUp"
                                 data-wow-duration="3000ms"
                                 data-wow-delay="600ms"
                             >
@@ -111,4 +111,4 @@ function BlogHomeOne({ className }) {
     );
 }
 
-export default BlogHomeOne;
+export default BlogHome;

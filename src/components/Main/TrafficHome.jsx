@@ -1,13 +1,13 @@
 import React from 'react';
 import thumb from '../../assets/images/traffic-thumb.png';
 
-function TrafficHomeOne({ className }) {
+function TrafficHome({ className }) {
     return (
-        <section className={`appie-traffic-area pt-140 pb-180 ${className || ''}`}>
+        <section className={`discoverAI-traffic-area pt-140 pb-180 ${className || ''}`}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-7">
-                        <div className="appie-traffic-title">
+                        <div className="discoverAI-traffic-title">
                             <span>Traffic</span>
                             <h3 className="title">Stage reporting with 50k queries.</h3>
                             <p>
@@ -17,7 +17,7 @@ function TrafficHomeOne({ className }) {
                         </div>
                         <div className="row">
                             <div className="col-lg-6 col-md-6">
-                                <div className="appie-traffic-service mb-30">
+                                <div className="discoverAI-traffic-service mb-30">
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
@@ -26,7 +26,7 @@ function TrafficHomeOne({ className }) {
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
-                                <div className="appie-traffic-service item-2 mb-30">
+                                <div className="discoverAI-traffic-service item-2 mb-30">
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
@@ -35,7 +35,7 @@ function TrafficHomeOne({ className }) {
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
-                                <div className="appie-traffic-service item-3">
+                                <div className="discoverAI-traffic-service item-3">
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
@@ -44,7 +44,7 @@ function TrafficHomeOne({ className }) {
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
-                                <div className="appie-traffic-service item-4">
+                                <div className="discoverAI-traffic-service item-4">
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
@@ -54,7 +54,7 @@ function TrafficHomeOne({ className }) {
                             </div>
                             <div className="col-lg-12">
                                 <div className="traffic-btn mt-50">
-                                    <a className="main-btn" href="#">
+                                    <a className="start-assessment-button" href="#">
                                         Learn More <i className="fal fa-arrow-right" />
                                     </a>
                                 </div>
@@ -76,4 +76,4 @@ function TrafficHomeOne({ className }) {
     );
 }
 
-export default TrafficHomeOne;
+export default TrafficHome;

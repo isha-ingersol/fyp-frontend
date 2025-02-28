@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 
-function FaqHomeOne({ className }) {
+function FaqHome({ className }) {
     const [showQues, setQues] = useState(1);
     const openQuestion = (value) => {
         setQues(value);
     };
     return (
         <>
-            <section className={`appie-faq-area pb-95 ${className || ''}`}>
+            <section className={`discoverAI-faq-area pb-95 ${className || ''}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="appie-section-title text-center">
-                                <h3 className="appie-title">Frequently asked questions</h3>
+                            <div className="discoverAI-section-title text-center">
+                                <h3 className="discoverAI-title">Frequently asked questions</h3>
                                 <p>Different layouts and styles for team sections.</p>
                             </div>
                         </div>
@@ -155,4 +155,4 @@ function FaqHomeOne({ className }) {
     );
 }
 
-export default FaqHomeOne;
+export default FaqHome;

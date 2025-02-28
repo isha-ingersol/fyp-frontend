@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import useToggle from '../../Hooks/useToggle.js';
 import StickyMenu from '../../lib/StickyMenu.js';
 import BackToTop from '../BackToTop.jsx';
-import FooterHomeOne from '../HomeOne/FooterHomeOne.jsx';
-import ProjectHomeOne from '../HomeOne/ProjectHomeOne.jsx';
+import FooterHome from '../Main/FooterHome.jsx';
+import ProjectHome from '../Main/ProjectHome.jsx';
 import Drawer from '../Mobile/Drawer.jsx';
 import DetailsService from './DetailsService.jsx';
 import HeaderService from './HeaderService.jsx';
@@ -20,8 +20,8 @@ function Service() {
             <HeaderService action={drawerAction.toggle} />
             <HeroService />
             <DetailsService />
-            <ProjectHomeOne />
-            <FooterHomeOne />
+            <ProjectHome />
+            <FooterHome />
             <BackToTop />
         </>
     );

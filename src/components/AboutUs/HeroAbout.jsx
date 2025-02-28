@@ -3,11 +3,11 @@ import React from 'react';
 function HeroAbout() {
     return (
         <>
-            <div className="appie-about-top-title-area">
+            <div className="discoverAI-about-top-title-area">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7">
-                            <div className="appie-about-top-title">
+                            <div className="discoverAI-about-top-title">
                                 <h2 className="title">The leading people Management platform</h2>
                                 <p>We offer you a panoply of cutting-edge options.</p>
                             </div>
@@ -15,11 +15,11 @@ function HeroAbout() {
                     </div>
                 </div>
             </div>
-            <section className="appie-about-page-area">
+            <section className="discoverAI-about-page-area">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
-                            <div className="appie-about-page-content">
+                            <div className="discoverAI-about-page-content">
                                 <h3 className="title">
                                     Join our team to create the best digital solutions.
                                 </h3>

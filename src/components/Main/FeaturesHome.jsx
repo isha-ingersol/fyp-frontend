@@ -5,18 +5,18 @@ import shapeSix from '../../assets/images/shape/shape-6.png';
 import shapeSeven from '../../assets/images/shape/shape-7.png';
 import shapeEight from '../../assets/images/shape/shape-8.png';
 
-function FeaturesHomeOne({ className }) {
+function FeaturesHome({ className }) {
     const [tab, setTab] = useState('setting');
     const handleClick = (e, value) => {
         e.preventDefault();
         setTab(value);
     };
     return (
-        <section className={`appie-features-area pt-100 ${className}`} id="features">
+        <section className={`discoverAI-features-area pt-100 ${className}`} id="features">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-3">
-                        <div className="appie-features-tabs-btn">
+                        <div className="discoverAI-features-tabs-btn">
                             <div
                                 className="nav flex-column nav-pills"
                                 id="v-pills-tab"
@@ -87,7 +87,7 @@ function FeaturesHomeOne({ className }) {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div
-                                            className="appie-features-thumb text-center wow animated fadeInUp"
+                                            className="discoverAI-features-thumb text-center wow animated fadeInUp"
                                             data-wow-duration="2000ms"
                                             data-wow-delay="200ms"
                                         >
@@ -96,7 +96,7 @@ function FeaturesHomeOne({ className }) {
                                     </div>
                                     <div className="col-lg-6">
                                         <div
-                                            className="appie-features-content wow animated fadeInRight"
+                                            className="discoverAI-features-content wow animated fadeInRight"
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
@@ -108,7 +108,7 @@ function FeaturesHomeOne({ className }) {
                                                 Car boot absolutely bladdered posh burke the
                                                 wireless mush some dodg.
                                             </p>
-                                            <Link className="main-btn" to="/about-us">
+                                            <Link className="start-assessment-button" to="/about-us">
                                                 Learn More
                                             </Link>
                                         </div>
@@ -124,7 +124,7 @@ function FeaturesHomeOne({ className }) {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div
-                                            className="appie-features-thumb text-center animated fadeInUp"
+                                            className="discoverAI-features-thumb text-center animated fadeInUp"
                                             data-wow-duration="2000ms"
                                             data-wow-delay="200ms"
                                         >
@@ -133,7 +133,7 @@ function FeaturesHomeOne({ className }) {
                                     </div>
                                     <div className="col-lg-6">
                                         <div
-                                            className="appie-features-content animated fadeInRight"
+                                            className="discoverAI-features-content animated fadeInRight"
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
@@ -145,7 +145,7 @@ function FeaturesHomeOne({ className }) {
                                                 Car boot absolutely bladdered posh burke the
                                                 wireless mush some dodg.
                                             </p>
-                                            <a className="main-btn" href="#">
+                                            <a className="start-assessment-button" href="#">
                                                 Learn More
                                             </a>
                                         </div>
@@ -161,7 +161,7 @@ function FeaturesHomeOne({ className }) {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div
-                                            className="appie-features-thumb text-center animated fadeInUp"
+                                            className="discoverAI-features-thumb text-center animated fadeInUp"
                                             data-wow-duration="2000ms"
                                             data-wow-delay="200ms"
                                         >
@@ -170,7 +170,7 @@ function FeaturesHomeOne({ className }) {
                                     </div>
                                     <div className="col-lg-6">
                                         <div
-                                            className="appie-features-content animated fadeInRight"
+                                            className="discoverAI-features-content animated fadeInRight"
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
@@ -182,7 +182,7 @@ function FeaturesHomeOne({ className }) {
                                                 Car boot absolutely bladdered posh burke the
                                                 wireless mush some dodg.
                                             </p>
-                                            <a className="main-btn" href="#">
+                                            <a className="start-assessment-button" href="#">
                                                 Learn More
                                             </a>
                                         </div>
@@ -198,7 +198,7 @@ function FeaturesHomeOne({ className }) {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div
-                                            className="appie-features-thumb text-center animated fadeInUp"
+                                            className="discoverAI-features-thumb text-center animated fadeInUp"
                                             data-wow-duration="2000ms"
                                             data-wow-delay="200ms"
                                         >
@@ -207,7 +207,7 @@ function FeaturesHomeOne({ className }) {
                                     </div>
                                     <div className="col-lg-6">
                                         <div
-                                            className="appie-features-content animated fadeInRight"
+                                            className="discoverAI-features-content animated fadeInRight"
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
@@ -219,7 +219,7 @@ function FeaturesHomeOne({ className }) {
                                                 Car boot absolutely bladdered posh burke the
                                                 wireless mush some dodg.
                                             </p>
-                                            <a className="main-btn" href="#">
+                                            <a className="start-assessment-button" href="#">
                                                 Learn More
                                             </a>
                                         </div>
@@ -243,4 +243,4 @@ function FeaturesHomeOne({ className }) {
     );
 }
 
-export default FeaturesHomeOne;
+export default FeaturesHome;

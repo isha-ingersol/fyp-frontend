@@ -95,7 +95,7 @@ function Drawer({ drawer, action }) {
                                 <div className="footer-widget-info">
                                     <ul>
                                         <li>
-                                            <a href="#"><i className="fal fa-envelope"></i> support@appie.com</a>
+                                            <a href="#"><i className="fal fa-envelope"></i> support@discoverAI.com</a>
                                         </li>
                                         <li>
                                             <a href="#"><i className="fal fa-phone"></i> +(642) 342 762 44</a>

@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 
-function PricingHomeOne({ className }) {
+function PricingHome({ className }) {
     const [toggleSwitch, setSwitchValue] = useState(true);
     return (
         <>
-            <section className={`appie-pricing-area pt-90 pb-90 ${className || ''}`}>
+            <section className={`discoverAI-pricing-area pt-90 pb-90 ${className || ''}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="appie-section-title text-center">
-                                <h3 className="appie-title">Choose your plan</h3>
+                            <div className="discoverAI-section-title text-center">
+                                <h3 className="discoverAI-title">Choose your plan</h3>
                                 <p>Different layouts and styles for team sections.</p>
                             </div>
                             <ul
@@ -60,7 +60,7 @@ function PricingHomeOne({ className }) {
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
-                                                    <a className="main-btn" href="#">
+                                                    <a className="start-assessment-button" href="#">
                                                         Choose plan
                                                     </a>
                                                 </div>
@@ -92,7 +92,7 @@ function PricingHomeOne({ className }) {
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
-                                                    <a className="main-btn" href="#">
+                                                    <a className="start-assessment-button" href="#">
                                                         Choose plan
                                                     </a>
                                                 </div>
@@ -130,7 +130,7 @@ function PricingHomeOne({ className }) {
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
-                                                    <a className="main-btn" href="#">
+                                                    <a className="start-assessment-button" href="#">
                                                         Choose plan
                                                     </a>
                                                 </div>
@@ -164,7 +164,7 @@ function PricingHomeOne({ className }) {
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
-                                                    <a className="main-btn" href="#">
+                                                    <a className="start-assessment-button" href="#">
                                                         Choose plan
                                                     </a>
                                                 </div>
@@ -196,7 +196,7 @@ function PricingHomeOne({ className }) {
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
-                                                    <a className="main-btn" href="#">
+                                                    <a className="start-assessment-button" href="#">
                                                         Choose plan
                                                     </a>
                                                 </div>
@@ -234,7 +234,7 @@ function PricingHomeOne({ className }) {
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
-                                                    <a className="main-btn" href="#">
+                                                    <a className="start-assessment-button" href="#">
                                                         Choose plan
                                                     </a>
                                                 </div>
@@ -251,4 +251,4 @@ function PricingHomeOne({ className }) {
     );
 }
 
-export default PricingHomeOne;
+export default PricingHome;

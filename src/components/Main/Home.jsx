@@ -20,13 +20,13 @@ function Home({ className }) {
                                         <span>40%</span> of learning disabilities go <span>undiagnosed</span> in childhood.
                                 </h1>
                                 <p>
-                                    With our unique AI-powered tool, "appie"
+                                    With our unique AI-powered tool, DiscoverAI
                                     helps identify early signs of learning disabilities 
                                     through handwriting analysis. 
                                 </p>
                                 <ul>
                                     <li>
-                                        <a href="#">
+                                        <a href="#button">
                                             Start Free Assessment
                                         </a>
                                     </li>

@@ -1,18 +1,18 @@
 import React, { useEffect } from 'react';
 import useToggle from '../../Hooks/useToggle.js';
 import BackToTop from '../BackToTop.jsx';
-import BlogHomeOne from '../HomeOne/BlogHomeOne.jsx';
-import FaqHomeOne from '../HomeOne/FaqHomeOne.jsx';
-import FeaturesHomeOne from '../HomeOne/FeaturesHomeOne.jsx';
-import FooterHomeOne from '../HomeOne/FooterHomeOne.jsx';
-import Home from '../HomeOne/Home.jsx';
-import HomeOneHeader from '../HomeOne/HomeOneHeader.jsx';
-import PricingHomeOne from '../HomeOne/PricingHomeOne.jsx';
-import ProjectHomeOne from '../HomeOne/ProjectHomeOne.jsx';
-import HowItWorks from '../HomeOne/HowItWorks.jsx';
-import TeamHomeOne from '../HomeOne/TeamHomeOne.jsx';
-import TestimonialHomeOne from '../HomeOne/TestimonialHomeOne.jsx';
-import TrafficHomeOne from '../HomeOne/TrafficHomeOne.jsx';
+import BlogHome from '../Main/BlogHome.jsx';
+import FaqHome from '../Main/FaqHome.jsx';
+import FeaturesHome from '../Main/FeaturesHome.jsx';
+import FooterHome from '../Main/FooterHome.jsx';
+import Home from '../Main/Home.jsx';
+import NavBar from '../Main/NavBar.jsx';
+import PricingHome from '../Main/PricingHome.jsx';
+import ProjectHome from '../Main/ProjectHome.jsx';
+import HowItWorks from '../Main/HowItWorks.jsx';
+import TeamHome from '../Main/TeamHome.jsx';
+import TestimonialHome from '../Main/TestimonialHome.jsx';
+import TrafficHome from '../Main/TrafficHome.jsx';
 import Drawer from '../Mobile/Drawer.jsx';
 
 function HomeDark() {
@@ -20,38 +20,38 @@ function HomeDark() {
     const [darkMode, setDarkMode] = useToggle(false);
 
     useEffect(() => {
-        document.body.classList.add('appie-init');
+        document.body.classList.add('discoverAI-init');
         if (darkMode) {
-            document.body.classList.add('appie-dark');
+            document.body.classList.add('discoverAI-dark');
         } else {
-            document.body.classList.remove('appie-dark');
+            document.body.classList.remove('discoverAI-dark');
         }
         return () => {
-            document.body.classList.remove('appie-dark');
+            document.body.classList.remove('discoverAI-dark');
         };
     });
 
     return (
         <>
             <Drawer drawer={drawer} action={drawerAction.toggle} />
-            <HomeOneHeader
-                className={darkMode ? 'appie-header-area-dark' : ''}
+            <NavBar
+                className={darkMode ? 'header-container-dark' : ''}
                 dark={darkMode}
                 darkEnable
                 changeMode={setDarkMode.toggle}
                 action={drawerAction.toggle}
             />
-            <Home className={darkMode ? 'appie-hero-area-dark' : ''} />
-            <HowItWorks className={darkMode ? 'appie-service-area-dark' : ''} />
-            <FeaturesHomeOne className={darkMode ? 'appie-features-area-dark' : ''} />
-            <TrafficHomeOne className={darkMode ? 'appie-traffic-area-dark' : ''} />
-            <TestimonialHomeOne />
-            <TeamHomeOne className={darkMode ? 'appie-team-area-dark' : ''} />
-            <PricingHomeOne className={darkMode ? 'appie-pricing-area-dark' : ''} />
-            <FaqHomeOne className={darkMode ? 'appie-faq-area-dark' : ''} />
-            <BlogHomeOne className={darkMode ? 'appie-blog-area-dark' : ''} />
-            <ProjectHomeOne />
-            <FooterHomeOne className={darkMode ? 'appie-footer-area-dark' : ''} />
+            <Home className={darkMode ? 'discoverAI-hero-area-dark' : ''} />
+            <HowItWorks className={darkMode ? 'discoverAI-service-area-dark' : ''} />
+            <FeaturesHome className={darkMode ? 'discoverAI-features-area-dark' : ''} />
+            <TrafficHome className={darkMode ? 'discoverAI-traffic-area-dark' : ''} />
+            <TestimonialHome />
+            <TeamHome className={darkMode ? 'discoverAI-team-area-dark' : ''} />
+            <PricingHome className={darkMode ? 'discoverAI-pricing-area-dark' : ''} />
+            <FaqHome className={darkMode ? 'discoverAI-faq-area-dark' : ''} />
+            <BlogHome className={darkMode ? 'discoverAI-blog-area-dark' : ''} />
+            <ProjectHome />
+            <FooterHome className={darkMode ? 'discoverAI-footer-area-dark' : ''} />
             <BackToTop />
         </>
     );

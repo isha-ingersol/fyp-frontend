@@ -1,230 +1,230 @@
 /*dark css*/
 
 
-.appie-dark{
+.discoverAI-dark{
 	background: #292E3C;
 }
 
-.appie-header-area-dark .appie-header-main-menu ul > li > a{
+.header-container-dark .main-navigation ul > li > a{
 	color: #fff;
 }
-.appie-header-area-dark .header-nav-box .appie-btn-box .login-btn{
-	color: #fff;
-}
-
-
-
-.appie-hero-area-dark .appie-hero-content .appie-title{
+.header-container-dark .header-nav-box .right-nav-controls .login-button{
 	color: #fff;
 }
 
-.appie-hero-area-dark .appie-hero-content p{
+
+
+.discoverAI-hero-area-dark .discoverAI-hero-content .discoverAI-title{
 	color: #fff;
 }
 
-.appie-hero-area-dark .appie-hero-content ul li a{
+.discoverAI-hero-area-dark .discoverAI-hero-content p{
+	color: #fff;
+}
+
+.discoverAI-hero-area-dark .discoverAI-hero-content ul li a{
 	background: #fff;
 	border-color: #fff;
 	color: #0e1133;
 }
 
-.appie-hero-area-dark .appie-hero-content ul li a:hover{
+.discoverAI-hero-area-dark .discoverAI-hero-content ul li a:hover{
 	background: transparent;
 	color: #fff;
 }
 
-.appie-hero-area-dark .appie-hero-content ul li a.item-2{
+.discoverAI-hero-area-dark .discoverAI-hero-content ul li a.item-2{
 	color: #fff;
 }
-.appie-hero-area-dark .appie-hero-content ul li a.item-2:hover{
+.discoverAI-hero-area-dark .discoverAI-hero-content ul li a.item-2:hover{
 	background: #fff;
 	color: #0e1133;
 }
 
-.appie-service-area.appie-service-area-dark{
+.discoverAI-service-area.discoverAI-service-area-dark{
 	background: #1f2128;
 }
 
-.appie-service-area-dark .appie-section-title .appie-title{
+.discoverAI-service-area-dark .discoverAI-section-title .discoverAI-title{
 	color: #fff;
 }
-.appie-service-area-dark .appie-section-title p{
+.discoverAI-service-area-dark .discoverAI-section-title p{
 	color: #fff;
 }
 
-.appie-service-area-dark  .appie-single-service{
+.discoverAI-service-area-dark  .discoverAI-single-service{
 	background: #292E3C;
 }
 
-.appie-service-area-dark .appie-single-service p,
-.appie-service-area-dark .appie-single-service .appie-title{
+.discoverAI-service-area-dark .discoverAI-single-service p,
+.discoverAI-service-area-dark .discoverAI-single-service .discoverAI-title{
 	color: #fff;
 }
 
-.appie-features-area-dark  .appie-features-tabs-btn .nav a{
+.discoverAI-features-area-dark  .discoverAI-features-tabs-btn .nav a{
 	color: #fff;
 }
 
-.appie-features-area-dark .appie-features-content p,
-.appie-features-area-dark .appie-features-content .title{
+.discoverAI-features-area-dark .discoverAI-features-content p,
+.discoverAI-features-area-dark .discoverAI-features-content .title{
 	color: #fff;
 }
 
-.appie-traffic-area-dark .appie-traffic-title p,
-.appie-traffic-area-dark .appie-traffic-title .title{
+.discoverAI-traffic-area-dark .discoverAI-traffic-title p,
+.discoverAI-traffic-area-dark .discoverAI-traffic-title .title{
 	color: #fff;
 }
 
-.appie-traffic-area-dark .appie-traffic-service p,
-.appie-traffic-area-dark .appie-traffic-service .title{
+.discoverAI-traffic-area-dark .discoverAI-traffic-service p,
+.discoverAI-traffic-area-dark .discoverAI-traffic-service .title{
 	color: #fff;
 }
 
-.appie-traffic-area-dark .traffic-btn a.main-btn{
+.discoverAI-traffic-area-dark .traffic-btn a.start-assessment-button{
 	color: #fff;
 }
-.appie-traffic-area-dark .traffic-btn a.main-btn:hover{
+.discoverAI-traffic-area-dark .traffic-btn a.start-assessment-button:hover{
 	background: #fff;
 	color: #2b70fa;
 }
 
-.appie-team-area-dark .appie-section-title p,
-.appie-team-area-dark .appie-section-title .appie-title{
+.discoverAI-team-area-dark .discoverAI-section-title p,
+.discoverAI-team-area-dark .discoverAI-section-title .discoverAI-title{
 	color: #fff;
 }
 
-.appie-team-area-dark .appie-team-item .content span,
-.appie-team-area-dark .appie-team-item .content .title{
+.discoverAI-team-area-dark .discoverAI-team-item .content span,
+.discoverAI-team-area-dark .discoverAI-team-item .content .title{
 	color: #fff;
 }
 
-.appie-team-area-dark .team-btn a{
+.discoverAI-team-area-dark .team-btn a{
 	color: #fff;
 }
 
 
 
-.appie-faq-area-dark.appie-faq-area,
-.appie-pricing-area-dark.appie-pricing-area{
+.discoverAI-faq-area-dark.discoverAI-faq-area,
+.discoverAI-pricing-area-dark.discoverAI-pricing-area{
 	background: #1f2128;
 }
 
-.appie-pricing-area-dark .appie-section-title p,
-.appie-pricing-area-dark .appie-section-title .appie-title{
+.discoverAI-pricing-area-dark .discoverAI-section-title p,
+.discoverAI-pricing-area-dark .discoverAI-section-title .discoverAI-title{
 	color: #fff;
 }
 
 
 
-.appie-pricing-area-dark.appie-pricing-area ul.switch-toggler-list li a{
+.discoverAI-pricing-area-dark.discoverAI-pricing-area ul.switch-toggler-list li a{
 	color: #fff;
 	opacity: 0.1;
 }
-.appie-pricing-area-dark.appie-pricing-area ul.switch-toggler-list li.active a{
+.discoverAI-pricing-area-dark.discoverAI-pricing-area ul.switch-toggler-list li.active a{
 	color: #fff;
 	opacity: 1;
 }
 
 
-.appie-pricing-area-dark.appie-pricing-area .pricing-one__single{
+.discoverAI-pricing-area-dark.discoverAI-pricing-area .pricing-one__single{
 	background: #292E3C;
 	color: #fff;
 }
 
-.appie-pricing-area-dark .pricing-one__single .pricig-heading h6{
+.discoverAI-pricing-area-dark .pricing-one__single .pricig-heading h6{
 	color: #fff;
 }
 
-.appie-pricing-area-dark .pricing-one__single .pricig-heading .price-range{
+.discoverAI-pricing-area-dark .pricing-one__single .pricig-heading .price-range{
 	color: #fff;
 }
 
-.appie-pricing-area-dark .pricing-one__single .pricig-heading .price-range p{
+.discoverAI-pricing-area-dark .pricing-one__single .pricig-heading .price-range p{
 	color: #fff;
 }
 
-.appie-pricing-area-dark .pricing-one__single .pricig-heading > p{
+.discoverAI-pricing-area-dark .pricing-one__single .pricig-heading > p{
 	color: #fff;
 }
 
-.appie-pricing-area-dark .pricing-one__single .pricig-body ul li{
+.discoverAI-pricing-area-dark .pricing-one__single .pricig-body ul li{
 	color: #fff;
 }
 
-.appie-pricing-area-dark  .pricing-one__single .pricig-body .pricing-btn a{
-	color: #fff;
-}
-
-
-
-
-.appie-faq-area.appie-faq-area-dark .appie-section-title p,
-.appie-faq-area.appie-faq-area-dark .appie-section-title .appie-title{
+.discoverAI-pricing-area-dark  .pricing-one__single .pricig-body .pricing-btn a{
 	color: #fff;
 }
 
 
-.appie-faq-area.appie-faq-area-dark .faq-accrodion .accrodion{
+
+
+.discoverAI-faq-area.discoverAI-faq-area-dark .discoverAI-section-title p,
+.discoverAI-faq-area.discoverAI-faq-area-dark .discoverAI-section-title .discoverAI-title{
+	color: #fff;
+}
+
+
+.discoverAI-faq-area.discoverAI-faq-area-dark .faq-accrodion .accrodion{
 	background: #292E3C;
 	
 }
-.appie-faq-area.appie-faq-area-dark .faq-accrodion .accrodion .accrodion-inner,
-.appie-faq-area.appie-faq-area-dark .faq-accrodion .accrodion.active .accrodion-inner{
+.discoverAI-faq-area.discoverAI-faq-area-dark .faq-accrodion .accrodion .accrodion-inner,
+.discoverAI-faq-area.discoverAI-faq-area-dark .faq-accrodion .accrodion.active .accrodion-inner{
 	border-color: #292E3C;
 	background: #292E3C;
 }
 
-.appie-faq-area.appie-faq-area-dark .faq-accrodion .accrodion .accrodion-content p,
-.appie-faq-area.appie-faq-area-dark .faq-accrodion .accrodion .accrodion-title h4{
+.discoverAI-faq-area.discoverAI-faq-area-dark .faq-accrodion .accrodion .accrodion-content p,
+.discoverAI-faq-area.discoverAI-faq-area-dark .faq-accrodion .accrodion .accrodion-title h4{
 	color: #fff;
 }
 
-.appie-blog-area-dark .appie-section-title p,
-.appie-blog-area-dark .appie-section-title .appie-title{
+.discoverAI-blog-area-dark .discoverAI-section-title p,
+.discoverAI-blog-area-dark .discoverAI-section-title .discoverAI-title{
 	color: #fff;
 }
-.appie-blog-area-dark .appie-blog-item .content > a,
-.appie-blog-area-dark .appie-blog-item .content .title a,
-.appie-blog-area-dark .appie-blog-item .content .blog-meta ul li a,
-.appie-blog-area-dark .appie-blog-item .content .blog-meta ul li{
+.discoverAI-blog-area-dark .discoverAI-blog-item .content > a,
+.discoverAI-blog-area-dark .discoverAI-blog-item .content .title a,
+.discoverAI-blog-area-dark .discoverAI-blog-item .content .blog-meta ul li a,
+.discoverAI-blog-area-dark .discoverAI-blog-item .content .blog-meta ul li{
 	color: #fff;
 }
 
-.appie-blog-area-dark .appie-blog-item .content > a:hover,
-.appie-blog-area-dark .appie-blog-item .content .title a:hover{
+.discoverAI-blog-area-dark .discoverAI-blog-item .content > a:hover,
+.discoverAI-blog-area-dark .discoverAI-blog-item .content .title a:hover{
 	color: #2b70fa;
 }
 
 
-.appie-footer-area-dark.appie-footer-area{
+.discoverAI-footer-area-dark.discoverAI-footer-area{
 	background: #1f2128;
 }
 
-.appie-footer-area-dark .footer-about-widget a,
-.appie-footer-area-dark .footer-about-widget p{
+.discoverAI-footer-area-dark .footer-about-widget a,
+.discoverAI-footer-area-dark .footer-about-widget p{
 	color: #fff;
 }
-.appie-footer-area-dark .footer-about-widget a:hover{
+.discoverAI-footer-area-dark .footer-about-widget a:hover{
 	color: #2b70fa;
 }
 
-.appie-footer-area-dark .footer-widget-info ul li a,
-.appie-footer-area-dark .footer-widget-info .title,
-.appie-footer-area-dark .footer-navigation ul li a,
-.appie-footer-area-dark .footer-navigation .title{
+.discoverAI-footer-area-dark .footer-widget-info ul li a,
+.discoverAI-footer-area-dark .footer-widget-info .title,
+.discoverAI-footer-area-dark .footer-navigation ul li a,
+.discoverAI-footer-area-dark .footer-navigation .title{
 	color: #fff;
 }
-.appie-footer-area-dark .footer-navigation ul li a:hover{
+.discoverAI-footer-area-dark .footer-navigation ul li a:hover{
 	color: #2b70fa;
 }
 
-.appie-footer-area-dark .footer-copyright .copyright-text p{
+.discoverAI-footer-area-dark .footer-copyright .copyright-text p{
 	color: #fff;
 }
 
-.appie-footer-area-dark  .footer-copyright .apps-download-btn ul li a:hover{
+.discoverAI-footer-area-dark  .footer-copyright .apps-download-btn ul li a:hover{
 	color: #fff;
 }
-.appie-footer-area-dark  .footer-copyright .apps-download-btn ul li a.item-2{
+.discoverAI-footer-area-dark  .footer-copyright .apps-download-btn ul li a.item-2{
 	color: #fff;
 }

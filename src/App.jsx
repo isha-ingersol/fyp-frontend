@@ -17,11 +17,11 @@ function App() {
   return (
     <>
         {loading && (
-            <div className={`appie-loader ${loading ? 'active' : ''}`}>
+            <div className={`discoverAI-loader ${loading ? 'active' : ''}`}>
                 <Loader />
             </div>
         )}
-        <div className={`appie-visible ${loading === false ? 'active' : ''}`}>
+        <div className={`discoverAI-visible ${loading === false ? 'active' : ''}`}>
 
                 <Router />
 

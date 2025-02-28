@@ -4,7 +4,7 @@ import thumb from '../../assets/images/service-details-thumb.jpg';
 function DetailsService() {
     return (
         <>
-            <section className="appie-service-details-area pt-100 pb-100">
+            <section className="discoverAI-service-details-area pt-100 pb-100">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4">
@@ -18,13 +18,13 @@ function DetailsService() {
                                             <i className="fal fa-tag"></i>App, UX
                                         </li>
                                         <li>
-                                            <i className="fal fa-user-friends"></i>20-30 Employees
+                                            <i className="user-icon-friends"></i>20-30 Employees
                                         </li>
                                         <li>
-                                            <i className="fal fa-bookmark"></i>Appie Template
+                                            <i className="fal fa-bookmark"></i>DiscoverAI Template
                                         </li>
                                         <li>
-                                            <i className="fal fa-globe"></i>quomodosoft.com/appie
+                                            <i className="fal fa-globe"></i>quomodosoft.com/discoverAI
                                         </li>
                                     </ul>
                                 </div>

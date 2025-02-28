@@ -1,7 +1,7 @@
 import React from 'react';
 import useToggle from '../../Hooks/useToggle.js';
 import BackToTop from '../BackToTop.jsx';
-import FooterHomeOne from '../HomeOne/FooterHomeOne.jsx';
+import FooterHome from '../Main/FooterHome.jsx';
 import Drawer from '../Mobile/Drawer.jsx';
 import HeaderNews from '../News/HeaderNews.jsx';
 import HeroNews from '../News/HeroNews.jsx';
@@ -24,7 +24,7 @@ function AboutUsTwo() {
             {/* <WorkPartHomeEight className="pt-100" /> */}
             {/* <TestimonialHomeEight /> */}
             {/* <SignupHomeEight /> */}
-            <FooterHomeOne className="appie-footer-about-area" />
+            <FooterHome className="discoverAI-footer-about-area" />
             <BackToTop />
         </>
     );

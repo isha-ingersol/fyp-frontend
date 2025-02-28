@@ -1,4 +1,4 @@
-export default function StickyMenu(selector = '.appie-sticky') {
+export default function StickyMenu(selector = '.sticky-header') {
     document.addEventListener('scroll', () => {
         const element = document.querySelector(selector);
         if (element) {

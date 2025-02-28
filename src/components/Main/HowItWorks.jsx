@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../assets/css/howitworks.css';
-import IconOne from '../../assets/images/icon/1.png';
-import IconTwo from '../../assets/images/icon/2.png';
-import IconThree from '../../assets/images/icon/3.png';
+import step1 from '../../assets/videos/child-writing.gif'; 
+import step2 from '../../assets/videos/take-picture.gif';
+import step3 from '../../assets/videos/upload-image.gif';
 
 function HowItWorks({ className }) {
     return (
@@ -19,30 +19,30 @@ function HowItWorks({ className }) {
                 <div className="steps-container">
                     {/* Step 1 */}
                     <div className="howitworks-step">
-                        <div className="icon">
-                            <img src={IconOne} alt="Step 1" />
+                        <div className="gif-container">
+                            <img src={step1} alt="Step 1 Animation" />
                         </div>
                         <h4><span>Copy the text</span> on the screen exactly how you see it</h4>
                     </div>
 
                     {/* Step 2 */}
                     <div className="howitworks-step">
-                        <div className="icon">
-                            <img src={IconTwo} alt="Step 2" />
+                        <div className="gif-container">
+                            <img src={step2} alt="Step 2 Animation" />
                         </div>
                         <h4><span>Take a picture</span> of your writing. Make sure it is well-lit and legible.</h4>
                     </div>
 
                     {/* Step 3 */}
                     <div className="howitworks-step">
-                        <div className="icon">
-                            <img src={IconThree} alt="Step 3" />
+                        <div className="gif-container">
+                            <img src={step3} alt="Step 3 Animation" />
                         </div>
                         <h4><span>Upload your image</span> and get your results in less than 2 minutes.</h4>
                     </div>
                 </div>
 
-                {/* Start Assessment Button */}
+                {/* Start Free Assessment Button */}
                 <div className="button-container">
                     <a href="#" className="button-green">Start Free Assessment</a>
                 </div>

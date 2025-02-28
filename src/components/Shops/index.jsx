@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import productImg from '../../assets/images/shop-grid-1.jpg';
 import useToggle from '../../Hooks/useToggle.js';
 import BackToTop from '../BackToTop.jsx';
-import FooterHomeOne from '../HomeOne/FooterHomeOne.jsx';
+import FooterHome from '../Main/FooterHome.jsx';
 import Drawer from '../Mobile/Drawer.jsx';
 import HeaderNews from '../News/HeaderNews.jsx';
 import HeroNews from '../News/HeroNews.jsx';
@@ -32,7 +32,7 @@ function Shops() {
                     { link: '/shops', title: 'Shop Products' },
                 ]}
             />
-            <div className="appie-shop-grid-area pt-100 pb-50">
+            <div className="discoverAI-shop-grid-area pt-100 pb-50">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 order-2 order-lg-1">
@@ -573,7 +573,7 @@ function Shops() {
                     </div>
                 </div>
             </div>
-            <FooterHomeOne />
+            <FooterHome />
             <BackToTop />
         </>
     );

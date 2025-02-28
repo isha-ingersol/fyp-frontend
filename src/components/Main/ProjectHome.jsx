@@ -1,23 +1,23 @@
 import React from 'react';
 import projectThumb from '../../assets/images/project-thumb.png';
 
-function ProjectHomeOne({ className }) {
+function ProjectHome({ className }) {
     return (
         <>
-            <section className={`appie-project-area pb-100 ${className || ''}`}>
+            <section className={`discoverAI-project-area pb-100 ${className || ''}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
                             <div
-                                className="appie-project-box wow animated slideInUp"
+                                className="discoverAI-project-box wow animated slideInUp"
                                 data-wow-duration="1000ms"
                                 data-wow-delay="0ms"
                             >
                                 <div className="row">
                                     <div className="col-lg-6">
-                                        <div className="appie-project-content">
+                                        <div className="discoverAI-project-content">
                                             <h3 className="title">
-                                                Start your project with appie.
+                                                Start your project with discoverAI.
                                             </h3>
                                             <p>We will email you only about this product.</p>
                                             <form action="#">
@@ -29,7 +29,7 @@ function ProjectHomeOne({ className }) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="appie-project-thumb">
+                                <div className="discoverAI-project-thumb">
                                     <img src={projectThumb} alt="" />
                                 </div>
                             </div>
@@ -41,4 +41,4 @@ function ProjectHomeOne({ className }) {
     );
 }
 
-export default ProjectHomeOne;
+export default ProjectHome;

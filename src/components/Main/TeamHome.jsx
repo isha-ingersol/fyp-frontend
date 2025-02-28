@@ -4,15 +4,15 @@ import teamTwo from '../../assets/images/team-2.jpg';
 import teamThree from '../../assets/images/team-3.jpg';
 import teamFour from '../../assets/images/team-4.jpg';
 
-function TeamHomeOne({ className }) {
+function TeamHome({ className }) {
     return (
         <>
-            <section className={`appie-team-area pt-90 pb-100 ${className || ''}`}>
+            <section className={`discoverAI-team-area pt-90 pb-100 ${className || ''}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="appie-section-title text-center">
-                                <h3 className="appie-title">Meet our Team Members</h3>
+                            <div className="discoverAI-section-title text-center">
+                                <h3 className="discoverAI-title">Meet our Team Members</h3>
                                 <p>Different layouts and styles for team sections.</p>
                             </div>
                         </div>
@@ -20,7 +20,7 @@ function TeamHomeOne({ className }) {
                     <div className="row">
                         <div className="col-lg-3 col-md-6">
                             <div
-                                className="appie-team-item mt-30 wow animated fadeInUp"
+                                className="discoverAI-team-item mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="200ms"
                             >
@@ -52,7 +52,7 @@ function TeamHomeOne({ className }) {
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div
-                                className="appie-team-item mt-30 wow animated fadeInUp"
+                                className="discoverAI-team-item mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="400ms"
                             >
@@ -84,7 +84,7 @@ function TeamHomeOne({ className }) {
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div
-                                className="appie-team-item mt-30 wow animated fadeInUp"
+                                className="discoverAI-team-item mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="600ms"
                             >
@@ -116,7 +116,7 @@ function TeamHomeOne({ className }) {
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div
-                                className="appie-team-item mt-30 wow animated fadeInUp"
+                                className="discoverAI-team-item mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="800ms"
                             >
@@ -148,7 +148,7 @@ function TeamHomeOne({ className }) {
                         </div>
                         <div className="col-lg-12">
                             <div className="team-btn text-center mt-50">
-                                <a className="main-btn" href="#">
+                                <a className="start-assessment-button" href="#">
                                     {' '}
                                     View all Members <i className="fal fa-arrow-right" />
                                 </a>
@@ -161,4 +161,4 @@ function TeamHomeOne({ className }) {
     );
 }
 
-export default TeamHomeOne;
+export default TeamHome;

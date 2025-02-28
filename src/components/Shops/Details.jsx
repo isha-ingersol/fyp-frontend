@@ -11,7 +11,7 @@ import testmonialUser from '../../assets/images/testimonial-user-1.png';
 import testmonialUser2 from '../../assets/images/testimonial-user-2.png';
 import useToggle from '../../Hooks/useToggle.js';
 import BackToTop from '../BackToTop.jsx';
-import FooterHomeOne from '../HomeOne/FooterHomeOne.jsx';
+import FooterHome from '../Main/FooterHome.jsx';
 import Drawer from '../Mobile/Drawer.jsx';
 import HeaderNews from '../News/HeaderNews.jsx';
 import HeroNews from '../News/HeroNews.jsx';
@@ -192,7 +192,7 @@ function Details() {
                                             +
                                         </button>
                                     </div>
-                                    <a className="main-btn ml-10" href="#">
+                                    <a className="start-assessment-button ml-10" href="#">
                                         Add To Cart
                                     </a>
                                 </div>
@@ -202,7 +202,7 @@ function Details() {
                                             <span>SKU:</span> 42725-AB-6
                                         </li>
                                         <li>
-                                            <span>Categories: </span> Watch, Appie, UX
+                                            <span>Categories: </span> Watch, DiscoverAI, UX
                                         </li>
                                         <li>
                                             <span>Tags:</span> Creative, Shop, WordPress
@@ -465,7 +465,7 @@ function Details() {
                                                                 comment
                                                             </label>
                                                         </div>
-                                                        <button className="main-btn" type="submit">
+                                                        <button className="start-assessment-button" type="submit">
                                                             Submit Review
                                                         </button>
                                                     </div>
@@ -484,8 +484,8 @@ function Details() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="appie-section-title text-center">
-                                <h3 className="appie-title">Related products</h3>
+                            <div className="discoverAI-section-title text-center">
+                                <h3 className="discoverAI-title">Related products</h3>
                                 <p>
                                     So I said knees up cuppa such a fibber jeffrey a bit of how's
                                     your.
@@ -761,7 +761,7 @@ function Details() {
                 </div>
             </div>
 
-            <FooterHomeOne />
+            <FooterHome />
             <BackToTop />
         </>
     );

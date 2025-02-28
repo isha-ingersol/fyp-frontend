@@ -7,12 +7,12 @@ import team4 from '../../assets/images/team-4.jpg';
 function TeamAbout() {
     return (
         <>
-            <section className="appie-team-area appie-team-about-area pb-90">
+            <section className="discoverAI-team-area discoverAI-team-about-area pb-90">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="appie-section-title text-center">
-                                <h3 className="appie-title">Meet our Team Members</h3>
+                            <div className="discoverAI-section-title text-center">
+                                <h3 className="discoverAI-title">Meet our Team Members</h3>
                                 <p>Different layouts and styles for team sections.</p>
                             </div>
                         </div>
@@ -20,7 +20,7 @@ function TeamAbout() {
                     <div className="row">
                         <div className="col-lg-3 col-md-6">
                             <div
-                                className="appie-team-item appie-team-item-about mt-30 wow animated fadeInUp"
+                                className="discoverAI-team-item discoverAI-team-item-about mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="200ms"
                             >
@@ -52,7 +52,7 @@ function TeamAbout() {
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div
-                                className="appie-team-item appie-team-item-about mt-30 wow animated fadeInUp"
+                                className="discoverAI-team-item discoverAI-team-item-about mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="400ms"
                             >
@@ -84,7 +84,7 @@ function TeamAbout() {
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div
-                                className="appie-team-item appie-team-item-about mt-30 wow animated fadeInUp"
+                                className="discoverAI-team-item discoverAI-team-item-about mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="600ms"
                             >
@@ -116,7 +116,7 @@ function TeamAbout() {
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div
-                                className="appie-team-item appie-team-item-about mt-30 wow animated fadeInUp"
+                                className="discoverAI-team-item discoverAI-team-item-about mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="800ms"
                             >
@@ -148,7 +148,7 @@ function TeamAbout() {
                         </div>
                         <div className="col-lg-12">
                             <div className="team-btn text-center mt-50">
-                                <a className="main-btn" href="#">
+                                <a className="start-assessment-button" href="#">
                                     View all Members <i className="fal fa-arrow-right"></i>
                                 </a>
                             </div>

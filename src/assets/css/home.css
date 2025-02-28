@@ -84,8 +84,11 @@
 }
 
 .home-content ul li a:hover {
-    background: transparent;
+    /* background: transparent; */
     color: var(--light-text);
+
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .home-content {

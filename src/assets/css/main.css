@@ -92,7 +92,7 @@ p {
 }
 
 /*===== All Button Style =====*/
-.main-btn {
+.start-assessment-button {
   display: inline-block;
   font-weight: 500;
   text-align: center;
@@ -117,88 +117,88 @@ p {
   transition: all 0.4s ease-out 0s;
   background-color: var(--light-green);
 }
-.main-btn:hover {
+.start-assessment-button:hover {
   background-color: var(--light-bg);
   color: var(--light-text);
   border-color: var(--light-green);
 }
-.main-btn.main-btn-2 {
+.start-assessment-button.start-assessment-button-2 {
   background-color: var(--light-bg);
   color: var(--light-green);
   border-color: var(--light-green);
 }
-.main-btn.main-btn-2:hover {
+.start-assessment-button.start-assessment-button-2:hover {
   background-color: var(--light-green);
   border-color: var(--light-green);
   color: var(--light-bg);
 }
 
-.appie-section-title {
+.discoverAI-section-title {
   padding-bottom: 25px;
 }
-.appie-section-title .appie-title {
+.discoverAI-section-title .discoverAI-title {
   font-size: 44px;
   line-height: 54px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-section-title .appie-title {
+  .discoverAI-section-title .discoverAI-title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-section-title .appie-title {
+  .discoverAI-section-title .discoverAI-title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 @media (max-width: 767px) {
-  .appie-section-title .appie-title {
+  .discoverAI-section-title .discoverAI-title {
     font-size: 26px;
     line-height: 36px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-section-title .appie-title {
+  .discoverAI-section-title .discoverAI-title {
     font-size: 36px;
     line-height: 46px;
   }
 }
-.appie-section-title p {
+.discoverAI-section-title p {
   font-size: 18px;
   line-height: 28px;
   margin-top: 11px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-section-title p {
+  .discoverAI-section-title p {
     font-size: 15px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-section-title p {
+  .discoverAI-section-title p {
     font-size: 15px;
   }
 }
 @media (max-width: 767px) {
-  .appie-section-title p {
+  .discoverAI-section-title p {
     font-size: 15px;
   }
 }
-.appie-section-title .main-btn {
+.discoverAI-section-title .start-assessment-button {
   border-radius: 30px;
   border: 2px solid #e7eaef;
   background: var(--light-bg);
   color: #0e1133;
 }
-.appie-section-title .main-btn:hover {
+.discoverAI-section-title .start-assessment-button:hover {
   background: #ff3e66;
   color: var(--light-bg);
   border-color: #ff3e66;
 }
-.appie-section-title.appie-section-title-2 .appie-title {
+.discoverAI-section-title.discoverAI-section-title-2 .discoverAI-title {
   color: var(--light-bg);
 }
-.appie-section-title.appie-section-title-2 p {
+.discoverAI-section-title.discoverAI-section-title-2 p {
   color: var(--light-bg);
 }
 
@@ -431,7 +431,7 @@ p {
   color: var(--light-bg);
 }
 
-.toggle-btn {
+.mobile-menu-toggle {
   position: absolute;
   right: 0;
   top: 50%;
@@ -809,557 +809,6 @@ p {
 /*===========================
     2. HEADER css 
 ===========================*/
-.appie-sticky.sticky {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  z-index: 1010;
-  background: var(--light-bg);
-  box-shadow: 0 15px 30px 0 #0000000f;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  animation: sticky 1.2s;
-}
-
-.appie-header-area {
-  padding-top: 30px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  z-index: 999;
-}
-.appie-header-area.appie-header-2-area .appie-btn-box .main-btn {
-  background: #ff3e66;
-  border-radius: 30px;
-  border-color: #ff3e66;
-}
-.appie-header-area.appie-header-2-area .appie-btn-box .main-btn:hover {
-  background: transparent;
-  color: #ff3e66;
-}
-.appie-header-area.appie-header-3-area.appie-sticky.sticky {
-  background: #0e1133;
-}
-.appie-header-area.appie-header-4-area.appie-sticky.sticky {
-  background: linear-gradient(90deg, #6b1fcd 0%, #374ede 100%);
-}
-.appie-header-area.appie-header-page-area.appie-sticky.sticky {
-  background: #0a44b9;
-}
-.appie-header-area.appie-header-7-area.appie-sticky.sticky {
-  background: #290645;
-}
-.appie-header-area.appie-header-error-page {
-  box-shadow: 0px 10px 20px 0px rgba(14, 17, 51, 0.1);
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.header-nav-box .appie-btn-box {
-  position: relative;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .header-nav-box .appie-btn-box {
-    padding-right: 50px;
-  }
-}
-@media (max-width: 767px) {
-  .header-nav-box .appie-btn-box {
-    padding-right: 30px;
-  }
-}
-.header-nav-box .appie-btn-box .login-btn {
-  color: #0e1133;
-  font-size: 15px;
-  font-weight: 500;
-}
-.header-nav-box .appie-btn-box .login-btn i {
-  padding-right: 6px;
-}
-@media (max-width: 767px) {
-  .header-nav-box .appie-btn-box .main-btn {
-    display: none;
-  }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .header-nav-box .appie-btn-box .main-btn {
-    padding: 0 10px;
-    display: inline-block;
-  }
-}
-.header-nav-box.header-nav-box-3 .appie-header-main-menu ul > li > a {
-  color: var(--light-bg);
-}
-.header-nav-box.header-nav-box-3
-  .appie-header-main-menu
-  ul
-  > li
-  .sub-menu
-  li
-  a {
-  color: #0e1133;
-}
-.header-nav-box.header-nav-box-3 .appie-btn-box .login-btn {
-  color: var(--light-bg);
-}
-.header-nav-box.header-nav-box-3 .appie-btn-box .main-btn {
-  background: #ff6b58;
-  border-color: #ff6b58;
-}
-.header-nav-box.header-nav-box-3 .appie-btn-box .main-btn:hover {
-  background: transparent;
-  color: #ff6b58;
-}
-.header-nav-box.header-nav-box-3 .toggle-btn {
-  color: var(--light-bg);
-  font-size: 20px;
-}
-.header-nav-box.header-nav-box-3.header-nav-box-inner-page
-  .appie-btn-box
-  .main-btn {
-  border-color: var(--light-bg);
-  background: transparent;
-}
-.header-nav-box.header-nav-box-3.header-nav-box-inner-page
-  .appie-btn-box
-  .main-btn:hover {
-  background: var(--light-bg);
-  color: var(--light-green);
-}
-.header-nav-box.header-nav-box-5 .appie-header-main-menu ul > li > a {
-  color: var(--light-bg);
-}
-.header-nav-box.header-nav-box-5
-  .appie-header-main-menu
-  ul
-  > li
-  .sub-menu
-  li
-  a {
-  color: #0e1133;
-}
-.header-nav-box.header-nav-box-5 .appie-btn-box .login-btn {
-  color: var(--light-bg);
-}
-.header-nav-box.header-nav-box-5 .appie-btn-box .main-btn {
-  background: #f84a6e;
-  border-color: #f84a6e;
-}
-.header-nav-box.header-nav-box-5 .appie-btn-box .main-btn:hover {
-  background: transparent;
-  color: #f84a6e;
-}
-.header-nav-box.header-nav-box-5 .toggle-btn {
-  color: var(--light-bg);
-  font-size: 20px;
-}
-.header-nav-box.header-nav-4-box .appie-header-main-menu ul > li > a:hover {
-  color: #801f82;
-}
-.header-nav-box.header-nav-4-box .appie-btn-box .main-btn {
-  background: #801f82;
-  border-color: #801f82;
-}
-.header-nav-box.header-nav-4-box .appie-btn-box .main-btn:hover {
-  background: transparent;
-  color: #801f82;
-}
-@media (max-width: 767px) {
-  .header-nav-box.header-nav-4-box .appie-btn-box ul {
-    margin-right: 10px;
-  }
-}
-.header-nav-box.header-nav-4-box .appie-btn-box ul li {
-  display: inline-block;
-}
-.header-nav-box.header-nav-4-box .appie-btn-box ul li a {
-  font-size: 18px;
-  color: #0e1133;
-  margin-left: 15px;
-}
-.header-nav-box.header-nav-4-box .appie-btn-box ul li a.cart-btn {
-  position: relative;
-}
-.header-nav-box.header-nav-4-box .appie-btn-box ul li a.cart-btn span {
-  position: absolute;
-  top: -7px;
-  display: inline-block;
-  right: -12px;
-  height: 20px;
-  width: 20px;
-  text-align: center;
-  line-height: 20px;
-  color: var(--light-bg);
-  font-size: 11px;
-  background: #801f82;
-  border-radius: 50%;
-}
-.header-nav-box.header-nav-box-6 .main-btn {
-  background: #9b2cfa;
-  border-color: #9b2cfa;
-}
-.header-nav-box.header-nav-box-6 .main-btn:hover {
-  background: transparent;
-  color: #9b2cfa;
-}
-.header-nav-box.header-nav-box-6 .appie-header-main-menu ul > li > a:hover {
-  color: #9b2cfa;
-}
-.header-nav-box.header-nav-box-6 .appie-btn-box form {
-  display: inline-block;
-  margin-left: 18px;
-}
-@media (max-width: 767px) {
-  .header-nav-box.header-nav-box-6 .appie-btn-box form {
-    display: none;
-  }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .header-nav-box.header-nav-box-6 .appie-btn-box form {
-    display: inline-block;
-  }
-}
-.header-nav-box.header-nav-box-6 .appie-btn-box form .input-box {
-  position: relative;
-}
-.header-nav-box.header-nav-box-6 .appie-btn-box form .input-box i {
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.header-nav-box.header-nav-box-6 .appie-btn-box form .input-box input {
-  width: 105px;
-  padding-left: 50px;
-  border: 0;
-  border-left: 1px solid #ddddea;
-  background: transparent;
-}
-.header-nav-box.header-nav-box-7 .appie-header-main-menu ul > li > a {
-  color: var(--light-bg);
-}
-.header-nav-box.header-nav-box-7 .appie-header-main-menu ul > li > a:hover {
-  color: var(--light-green);
-}
-.header-nav-box.header-nav-box-7
-  .appie-header-main-menu
-  ul
-  > li
-  .sub-menu
-  li
-  a {
-  color: var(--light-subtext);
-}
-.header-nav-box.header-nav-box-7
-  .appie-header-main-menu
-  ul
-  > li
-  .sub-menu
-  li
-  a:hover {
-  color: var(--light-green);
-}
-.header-nav-box.header-nav-box-7 .appie-btn-box .login-btn {
-  color: var(--light-bg);
-}
-.header-nav-box.header-nav-box-7 .appie-btn-box .toggle-btn {
-  color: var(--light-bg);
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-header-main-menu {
-    display: none;
-  }
-}
-@media (max-width: 767px) {
-  .appie-header-main-menu {
-    display: none;
-  }
-}
-.appie-header-main-menu ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-.appie-header-main-menu ul > li {
-  display: inline-block;
-  margin-right: 30px;
-  position: relative;
-}
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-header-main-menu ul > li {
-    margin-right: 14px;
-  }
-}
-.appie-header-main-menu ul > li > a {
-  font-size: 15px;
-  font-weight: 500;
-  color: #0e1133;
-  line-height: 45px;
-}
-.appie-header-main-menu ul > li > a i {
-  padding-left: 6px;
-}
-.appie-header-main-menu ul > li .sub-menu {
-  position: absolute;
-  left: 0;
-  top: 110%;
-  width: auto;
-  min-width: 220px;
-  max-width: 220px;
-  background-color: var(--light-bg);
-  opacity: 0;
-  visibility: hidden;
-  transition: all linear 0.3s;
-  z-index: 99;
-  -webkit-box-shadow: 11px 10px 38px 0 rgba(46, 63, 99, 0.15);
-  -moz-box-shadow: 11px 10px 38px 0 rgba(46, 63, 99, 0.15);
-  box-shadow: 11px 10px 38px 0 rgba(46, 63, 99, 0.15);
-  list-style-type: none;
-  margin: 0;
-  padding: 15px 0;
-  border-radius: 5px;
-  text-align: left;
-}
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
-  .appie-header-main-menu ul > li .sub-menu {
-    min-width: 200px;
-    max-width: 200px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-header-main-menu ul > li .sub-menu {
-    min-width: 200px;
-    max-width: 200px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-header-main-menu ul > li .sub-menu {
-    position: relative;
-    width: 100%;
-    left: 0;
-    top: auto;
-    opacity: 1;
-    visibility: visible;
-    display: none;
-    right: auto;
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    -o-transform: translateX(0%);
-    transform: translateX(0%);
-    -webkit-transition: all none ease-out 0s;
-    -moz-transition: all none ease-out 0s;
-    -ms-transition: all none ease-out 0s;
-    -o-transition: all none ease-out 0s;
-    transition: all none ease-out 0s;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    text-align: left;
-    border-top: 0;
-    transition: 0s;
-    padding: 0;
-  }
-}
-@media (max-width: 767px) {
-  .appie-header-main-menu ul > li .sub-menu {
-    position: relative;
-    width: 100%;
-    left: 0;
-    top: auto;
-    opacity: 1;
-    visibility: visible;
-    display: none;
-    right: auto;
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    -o-transform: translateX(0%);
-    transform: translateX(0%);
-    -webkit-transition: all none ease-out 0s;
-    -moz-transition: all none ease-out 0s;
-    -ms-transition: all none ease-out 0s;
-    -o-transition: all none ease-out 0s;
-    transition: all none ease-out 0s;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    text-align: left;
-    border-top: 0;
-    transition: 0s;
-    padding: 0;
-  }
-}
-.appie-header-main-menu ul > li .sub-menu > li {
-  position: relative;
-  margin-left: 0;
-  display: block;
-}
-.appie-header-main-menu ul > li .sub-menu > li .sub-menu {
-  margin-left: 0px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-header-main-menu ul > li .sub-menu > li .sub-menu {
-    margin-left: 0;
-  }
-}
-@media (max-width: 767px) {
-  .appie-header-main-menu ul > li .sub-menu > li .sub-menu {
-    margin-left: 0;
-  }
-}
-.appie-header-main-menu ul > li .sub-menu > li .sub-nav-toggler {
-  color: #0e1133;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-.appie-header-main-menu ul > li .sub-menu > li a {
-  display: block;
-  padding: 0px 30px;
-  position: relative;
-  color: var(--light-subtext);
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-  border-radius: 4px;
-  margin: 0 0;
-  line-height: 2.5;
-}
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
-  .appie-header-main-menu ul > li .sub-menu > li a {
-    padding: 0 20px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-header-main-menu ul > li .sub-menu > li a {
-    padding: 0 20px;
-  }
-}
-.appie-header-main-menu ul > li .sub-menu > li a i {
-  float: right;
-  font-size: 16px;
-  margin-top: 10px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-header-main-menu ul > li .sub-menu > li a i {
-    display: none;
-  }
-}
-@media (max-width: 767px) {
-  .appie-header-main-menu ul > li .sub-menu > li a i {
-    display: none;
-  }
-}
-.appie-header-main-menu ul > li .sub-menu > li a .sub-nav-toggler i {
-  display: inline-block;
-}
-.appie-header-main-menu ul > li .sub-menu > li a:hover {
-  padding-left: 35px;
-}
-.appie-header-main-menu ul > li .sub-menu > li .sub-menu {
-  right: auto;
-  left: 100%;
-  top: 50%;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-header-main-menu ul > li .sub-menu > li .sub-menu {
-    padding-left: 30px;
-    -webkit-transition: all 0s ease-out 0s;
-    -moz-transition: all 0s ease-out 0s;
-    -ms-transition: all 0s ease-out 0s;
-    -o-transition: all 0s ease-out 0s;
-    transition: all 0s ease-out 0s;
-  }
-}
-@media (max-width: 767px) {
-  .appie-header-main-menu ul > li .sub-menu > li .sub-menu {
-    padding-left: 30px;
-    -webkit-transition: all 0s ease-out 0s;
-    -moz-transition: all 0s ease-out 0s;
-    -ms-transition: all 0s ease-out 0s;
-    -o-transition: all 0s ease-out 0s;
-    transition: all 0s ease-out 0s;
-  }
-}
-.appie-header-main-menu ul > li .sub-menu > li .sub-menu li {
-  position: relative;
-}
-.appie-header-main-menu ul > li .sub-menu > li .sub-menu li .sub-menu {
-  right: auto;
-  left: 100%;
-  top: 50%;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-.appie-header-main-menu ul > li .sub-menu > li .sub-menu li:hover .sub-menu {
-  top: 0%;
-  opacity: 1;
-  visibility: visible;
-}
-.appie-header-main-menu ul > li .sub-menu > li:hover .sub-menu {
-  top: 0%;
-  opacity: 1;
-  visibility: visible;
-}
-.appie-header-main-menu ul > li .sub-menu > li:hover .sub-nav-toggler {
-  color: var(--light-green);
-}
-.appie-header-main-menu ul > li .sub-menu > li:hover > a {
-  color: var(--light-green);
-}
-.appie-header-main-menu ul > li:hover .sub-menu {
-  opacity: 1;
-  visibility: visible;
-  top: 100%;
-}
-
-@-webkit-keyframes sticky {
-  0% {
-    top: -200px;
-  }
-  100% {
-    top: 0;
-  }
-}
-@keyframes sticky {
-  0% {
-    top: -200px;
-  }
-  100% {
-    top: 0;
-  }
-}
-.appie-header-8-area .header-nav-box .appie-btn-box .main-btn {
-  background: #db0f30;
-  border-color: #db0f30;
-}
-.appie-header-8-area .header-nav-box .appie-btn-box .main-btn:hover {
-  background: var(--light-bg);
-  color: #db0f30;
-}
-.appie-header-8-area .header-nav-box .appie-header-main-menu ul > li a:hover {
-  color: #db0f30;
-}
 
 /*===========================
     3. APPIE HERO css 
@@ -1372,26 +821,26 @@ p {
 /*===========================
     5.APPIE FEATURES css 
 ===========================*/
-.appie-features-area {
+.discoverAI-features-area {
   position: relative;
   z-index: 10;
   overflow: hidden;
 }
-.appie-features-area .features-shape-1 {
+.discoverAI-features-area .features-shape-1 {
   position: absolute;
   left: 560px;
   top: 130px;
   animation: animationFramesOne 20s linear infinite;
   z-index: -1;
 }
-.appie-features-area .features-shape-2 {
+.discoverAI-features-area .features-shape-2 {
   position: absolute;
   left: 500px;
   bottom: 0px;
   animation: animationFramesThree 20s linear infinite;
   z-index: -1;
 }
-.appie-features-area .features-shape-3 {
+.discoverAI-features-area .features-shape-3 {
   position: absolute;
   right: 270px;
   bottom: 0;
@@ -1400,20 +849,20 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-features-tabs-btn .nav {
+  .discoverAI-features-tabs-btn .nav {
     flex-direction: row !important;
     justify-content: center;
     margin-bottom: 40px;
   }
 }
 @media (max-width: 767px) {
-  .appie-features-tabs-btn .nav {
+  .discoverAI-features-tabs-btn .nav {
     flex-direction: row !important;
     justify-content: center;
     margin-bottom: 40px;
   }
 }
-.appie-features-tabs-btn .nav a {
+.discoverAI-features-tabs-btn .nav a {
   border-right: 3px solid #e8eaef;
   border-radius: 0;
   font-size: 15px;
@@ -1421,19 +870,19 @@ p {
   color: var(--light-subtext);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-features-tabs-btn .nav a {
+  .discoverAI-features-tabs-btn .nav a {
     padding-right: 20px;
     padding-left: 20px;
   }
 }
 @media (max-width: 767px) {
-  .appie-features-tabs-btn .nav a {
+  .discoverAI-features-tabs-btn .nav a {
     padding-right: 15px;
     padding-left: 15px;
     margin-bottom: 20px;
   }
 }
-.appie-features-tabs-btn .nav a i {
+.discoverAI-features-tabs-btn .nav a i {
   height: 35px;
   width: 35px;
   text-align: center;
@@ -1444,87 +893,87 @@ p {
   border-radius: 50%;
   margin-right: 10px;
 }
-.appie-features-tabs-btn .nav a.active {
+.discoverAI-features-tabs-btn .nav a.active {
   border-right-color: var(--light-green);
   background: transparent;
   color: var(--light-green);
 }
-.appie-features-tabs-btn .nav a.active i {
+.discoverAI-features-tabs-btn .nav a.active i {
   color: var(--light-bg);
   background: var(--light-green);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-features-content {
+  .discoverAI-features-content {
     padding-top: 40px;
   }
 }
 @media (max-width: 767px) {
-  .appie-features-content {
+  .discoverAI-features-content {
     padding-top: 30px;
   }
 }
-.appie-features-content span {
+.discoverAI-features-content span {
   font-size: 14px;
   font-weight: 500;
   color: var(--light-green);
   margin-bottom: 8px;
 }
-.appie-features-content .title {
+.discoverAI-features-content .title {
   font-size: 44px;
   line-height: 54px;
   margin-bottom: 10px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-features-content .title {
+  .discoverAI-features-content .title {
     font-size: 36px;
     line-height: 44px;
   }
 }
 @media (max-width: 767px) {
-  .appie-features-content .title {
+  .discoverAI-features-content .title {
     font-size: 30px;
     line-height: 40px;
   }
 }
-.appie-features-content p {
+.discoverAI-features-content p {
   font-size: 18px;
   line-height: 28px;
   padding-bottom: 30px;
 }
 
-.appie-features-area-2 {
+.discoverAI-features-area-2 {
   background: #0e1133;
   position: relative;
   overflow: hidden;
   z-index: 10;
 }
-.appie-features-area-2 .features-shape-1 {
+.discoverAI-features-area-2 .features-shape-1 {
   position: absolute;
   left: 240px;
   top: 240px;
   z-index: -1;
   animation: linear 20s animationFramesThree infinite;
 }
-.appie-features-area-2 .features-shape-2 {
+.discoverAI-features-area-2 .features-shape-2 {
   position: absolute;
   right: 190px;
   top: 160px;
   z-index: -1;
   animation: linear 20s animationFramesFive infinite;
 }
-.appie-features-area-2 .features-shape-3 {
+.discoverAI-features-area-2 .features-shape-3 {
   position: absolute;
   right: 160px;
   bottom: 260px;
   z-index: -1;
   animation: linear 20s animationFramesOne infinite;
 }
-.appie-features-area-2.appie-features-area-5 {
+.discoverAI-features-area-2.discoverAI-features-area-5 {
   background: var(--light-bg);
 }
 
-.appie-features-box-item {
+.discoverAI-features-box-item {
   border: 1px solid #202234;
   padding: 25px 30px 30px 70px;
   border-radius: 6px;
@@ -1538,41 +987,41 @@ p {
   margin-right: 70px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-features-box-item {
+  .discoverAI-features-box-item {
     margin-left: 0;
     margin-right: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-features-box-item {
+  .discoverAI-features-box-item {
     margin-left: 50px;
     margin-right: 50px;
   }
 }
 @media (max-width: 767px) {
-  .appie-features-box-item {
+  .discoverAI-features-box-item {
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 60px;
   }
 }
-.appie-features-box-item .title {
+.discoverAI-features-box-item .title {
   color: var(--light-bg);
   font-size: 24px;
   font-weight: 700;
   position: relative;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-features-box-item .title {
+  .discoverAI-features-box-item .title {
     font-size: 20px;
   }
 }
 @media (max-width: 767px) {
-  .appie-features-box-item .title {
+  .discoverAI-features-box-item .title {
     font-size: 20px;
   }
 }
-.appie-features-box-item .title::before {
+.discoverAI-features-box-item .title::before {
   position: absolute;
   content: "";
   left: -40px;
@@ -1583,68 +1032,68 @@ p {
   border: 6px solid #2a182d;
   border-radius: 50%;
 }
-.appie-features-box-item p {
+.discoverAI-features-box-item p {
   font-size: 14px;
   opacity: 0.6;
   color: var(--light-bg);
   margin-top: 3px;
 }
-.appie-features-box-item:hover {
+.discoverAI-features-box-item:hover {
   border-color: #ff3e66;
 }
-.appie-features-box-item.item-2 .title::before {
+.discoverAI-features-box-item.item-2 .title::before {
   background: #2eacfc;
   border-color: #15233d;
 }
-.appie-features-box-item.item-2:hover {
+.discoverAI-features-box-item.item-2:hover {
   border-color: #2eacfc;
 }
-.appie-features-box-item.item-3 .title::before {
+.discoverAI-features-box-item.item-3 .title::before {
   background: #33c956;
   border-color: #15262c;
 }
-.appie-features-box-item.item-3:hover {
+.discoverAI-features-box-item.item-3:hover {
   border-color: #33c956;
 }
-.appie-features-box-item.appie-features-box-5-item .title {
+.discoverAI-features-box-item.discoverAI-features-box-5-item .title {
   color: #0e1133;
 }
-.appie-features-box-item.appie-features-box-5-item .title::before {
+.discoverAI-features-box-item.discoverAI-features-box-5-item .title::before {
   border-color: rgba(9, 8, 8, 0.21);
 }
-.appie-features-box-item.appie-features-box-5-item p {
+.discoverAI-features-box-item.discoverAI-features-box-5-item p {
   color: var(--light-subtext);
   opacity: 1;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-features-thumb {
+  .discoverAI-features-thumb {
     text-align: center;
     margin-top: 50px;
   }
 }
 @media (max-width: 767px) {
-  .appie-features-thumb {
+  .discoverAI-features-thumb {
     text-align: center;
     margin-top: 50px;
   }
 }
 
-.appie-features-6-area .appie-features-tabs-btn .nav a.active {
+.discoverAI-features-6-area .discoverAI-features-tabs-btn .nav a.active {
   color: #9b2cfa;
   border-right-color: #9b2cfa;
 }
-.appie-features-6-area .appie-features-tabs-btn .nav a.active i {
+.discoverAI-features-6-area .discoverAI-features-tabs-btn .nav a.active i {
   background: #9b2cfa;
 }
-.appie-features-6-area .appie-features-content > span {
+.discoverAI-features-6-area .discoverAI-features-content > span {
   color: #9b2cfa;
 }
-.appie-features-6-area .appie-features-content a {
+.discoverAI-features-6-area .discoverAI-features-content a {
   background: #9b2cfa;
   border-color: #9b2cfa;
 }
-.appie-features-6-area .appie-features-content a:hover {
+.discoverAI-features-6-area .discoverAI-features-content a:hover {
   background: var(--light-bg);
   color: #9b2cfa;
 }
@@ -1652,12 +1101,12 @@ p {
 /*===========================
     6. APPIE TRAFFIC css 
 ===========================*/
-.appie-traffic-area {
+.discoverAI-traffic-area {
   position: relative;
   overflow: hidden;
   z-index: 15;
 }
-.appie-traffic-area .traffic-thumb {
+.discoverAI-traffic-area .traffic-thumb {
   position: absolute;
   right: 0;
   top: 50%;
@@ -1665,81 +1114,81 @@ p {
   width: 42%;
 }
 @media (max-width: 767px) {
-  .appie-traffic-area .traffic-thumb {
+  .discoverAI-traffic-area .traffic-thumb {
     display: none;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-traffic-area .traffic-thumb {
+  .discoverAI-traffic-area .traffic-thumb {
     display: none;
   }
 }
 
-.appie-traffic-title {
+.discoverAI-traffic-title {
   padding-right: 220px;
   margin-bottom: 43px;
 }
 @media (max-width: 767px) {
-  .appie-traffic-title {
+  .discoverAI-traffic-title {
     padding-right: 0;
   }
 }
-.appie-traffic-title span {
+.discoverAI-traffic-title span {
   font-size: 14px;
   font-weight: 500;
   color: var(--light-green);
 }
-.appie-traffic-title .title {
+.discoverAI-traffic-title .title {
   font-size: 44px;
   line-height: 54px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-traffic-title .title {
+  .discoverAI-traffic-title .title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-traffic-title .title {
+  .discoverAI-traffic-title .title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 @media (max-width: 767px) {
-  .appie-traffic-title .title {
+  .discoverAI-traffic-title .title {
     font-size: 30px;
     line-height: 40px;
   }
 }
 
-.appie-traffic-service {
+.discoverAI-traffic-service {
   position: relative;
   padding-left: 40px;
   padding-right: 70px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-traffic-service {
+  .discoverAI-traffic-service {
     padding-right: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-traffic-service {
+  .discoverAI-traffic-service {
     margin-bottom: 30px;
     padding-right: 50px;
   }
 }
 @media (max-width: 767px) {
-  .appie-traffic-service {
+  .discoverAI-traffic-service {
     margin-bottom: 30px;
     padding-right: 0px;
   }
 }
-.appie-traffic-service .icon {
+.discoverAI-traffic-service .icon {
   position: absolute;
   left: 0;
   top: 5px;
 }
-.appie-traffic-service .icon i {
+.discoverAI-traffic-service .icon i {
   height: 26px;
   width: 26px;
   text-align: center;
@@ -1750,21 +1199,21 @@ p {
   font-size: 14px;
   box-shadow: 0px 6px 10px 0px rgba(16, 73, 189, 0.3);
 }
-.appie-traffic-service .title {
+.discoverAI-traffic-service .title {
   font-size: 20px;
   font-weight: 700;
   padding-bottom: 7px;
 }
-.appie-traffic-service p {
+.discoverAI-traffic-service p {
   font-size: 15px;
 }
-.appie-traffic-service.item-2 .icon i {
+.discoverAI-traffic-service.item-2 .icon i {
   background: linear-gradient(135deg, #f7b8af 0%, #f8452d 100%);
 }
-.appie-traffic-service.item-3 .icon i {
+.discoverAI-traffic-service.item-3 .icon i {
   background: linear-gradient(135deg, #a0eac2 0%, #31c369 100%);
 }
-.appie-traffic-service.item-4 .icon i {
+.discoverAI-traffic-service.item-4 .icon i {
   background: linear-gradient(135deg, #d8aaff 0%, #9b2cfa 100%);
 }
 
@@ -1783,15 +1232,15 @@ p {
     text-align: left;
   }
 }
-.traffic-btn a.main-btn {
+.traffic-btn a.start-assessment-button {
   background: transparent;
   color: #0e1133;
   border: 2px solid #e7eaef;
 }
-.traffic-btn a.main-btn i {
+.traffic-btn a.start-assessment-button i {
   padding-left: 6px;
 }
-.traffic-btn a.main-btn:hover {
+.traffic-btn a.start-assessment-button:hover {
   background: var(--light-green);
   color: var(--light-bg);
 }
@@ -1799,57 +1248,57 @@ p {
 /*===========================
     6.APPIE TRAFFICE css 
 ===========================*/
-.appie-testimonial-area {
+.discoverAI-testimonial-area {
   background-image: url(./../images/testimonial-bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.appie-testimonial-slider-rtl .appie-testimonial-item .author-info,
-.appie-testimonial-slider .appie-testimonial-item .author-info {
+.discoverAI-testimonial-slider-rtl .discoverAI-testimonial-item .author-info,
+.discoverAI-testimonial-slider .discoverAI-testimonial-item .author-info {
   margin-bottom: 15px;
 }
-.appie-testimonial-slider-rtl .appie-testimonial-item .author-info img,
-.appie-testimonial-slider .appie-testimonial-item .author-info img {
+.discoverAI-testimonial-slider-rtl .discoverAI-testimonial-item .author-info img,
+.discoverAI-testimonial-slider .discoverAI-testimonial-item .author-info img {
   display: inline-block;
 }
-.appie-testimonial-slider-rtl .appie-testimonial-item .author-info .title,
-.appie-testimonial-slider .appie-testimonial-item .author-info .title {
+.discoverAI-testimonial-slider-rtl .discoverAI-testimonial-item .author-info .title,
+.discoverAI-testimonial-slider .discoverAI-testimonial-item .author-info .title {
   font-weight: 500;
   font-size: 16px;
   color: var(--light-bg);
   padding-top: 10px;
 }
-.appie-testimonial-slider-rtl .appie-testimonial-item .author-info span,
-.appie-testimonial-slider .appie-testimonial-item .author-info span {
+.discoverAI-testimonial-slider-rtl .discoverAI-testimonial-item .author-info span,
+.discoverAI-testimonial-slider .discoverAI-testimonial-item .author-info span {
   font-size: 14px;
   color: var(--light-bg);
   opacity: 0.5;
 }
-.appie-testimonial-slider-rtl .appie-testimonial-item .text p,
-.appie-testimonial-slider .appie-testimonial-item .text p {
+.discoverAI-testimonial-slider-rtl .discoverAI-testimonial-item .text p,
+.discoverAI-testimonial-slider .discoverAI-testimonial-item .text p {
   font-size: 20px;
   line-height: 30px;
   color: var(--light-bg);
 }
-.appie-testimonial-slider-rtl .appie-testimonial-item .text ul,
-.appie-testimonial-slider .appie-testimonial-item .text ul {
+.discoverAI-testimonial-slider-rtl .discoverAI-testimonial-item .text ul,
+.discoverAI-testimonial-slider .discoverAI-testimonial-item .text ul {
   margin: 10px 0 0;
   padding: 0;
   list-style-type: none;
 }
-.appie-testimonial-slider-rtl .appie-testimonial-item .text ul li,
-.appie-testimonial-slider .appie-testimonial-item .text ul li {
+.discoverAI-testimonial-slider-rtl .discoverAI-testimonial-item .text ul li,
+.discoverAI-testimonial-slider .discoverAI-testimonial-item .text ul li {
   display: inline-block;
   margin: 0 2px;
 }
-.appie-testimonial-slider-rtl .appie-testimonial-item .text ul li i,
-.appie-testimonial-slider .appie-testimonial-item .text ul li i {
+.discoverAI-testimonial-slider-rtl .discoverAI-testimonial-item .text ul li i,
+.discoverAI-testimonial-slider .discoverAI-testimonial-item .text ul li i {
   color: #ffb848;
 }
-.appie-testimonial-slider-rtl .slick-arrow,
-.appie-testimonial-slider .slick-arrow {
+.discoverAI-testimonial-slider-rtl .slick-arrow,
+.discoverAI-testimonial-slider .slick-arrow {
   position: absolute;
   top: 62%;
   transform: translateY(-50%);
@@ -1859,27 +1308,27 @@ p {
   cursor: pointer;
   opacity: 0.5;
 }
-.appie-testimonial-slider-rtl .slick-arrow.prev,
-.appie-testimonial-slider .slick-arrow.prev {
+.discoverAI-testimonial-slider-rtl .slick-arrow.prev,
+.discoverAI-testimonial-slider .slick-arrow.prev {
   left: -80px;
 }
-.appie-testimonial-slider-rtl .slick-arrow.next,
-.appie-testimonial-slider .slick-arrow.next {
+.discoverAI-testimonial-slider-rtl .slick-arrow.next,
+.discoverAI-testimonial-slider .slick-arrow.next {
   right: -80px;
 }
-.appie-testimonial-slider-rtl .slick-dots,
-.appie-testimonial-slider .slick-dots {
+.discoverAI-testimonial-slider-rtl .slick-dots,
+.discoverAI-testimonial-slider .slick-dots {
   position: absolute;
   left: 50%;
   bottom: -65px;
   transform: translateX(-50%);
 }
-.appie-testimonial-slider-rtl .slick-dots li,
-.appie-testimonial-slider .slick-dots li {
+.discoverAI-testimonial-slider-rtl .slick-dots li,
+.discoverAI-testimonial-slider .slick-dots li {
   display: inline-block;
 }
-.appie-testimonial-slider-rtl .slick-dots li button,
-.appie-testimonial-slider .slick-dots li button {
+.discoverAI-testimonial-slider-rtl .slick-dots li button,
+.discoverAI-testimonial-slider .slick-dots li button {
   border: 0;
   background: var(--light-bg);
   height: 8px;
@@ -1889,12 +1338,12 @@ p {
   opacity: 0.5;
   margin: 0 4px;
 }
-.appie-testimonial-slider-rtl .slick-dots li.slick-active button,
-.appie-testimonial-slider .slick-dots li.slick-active button {
+.discoverAI-testimonial-slider-rtl .slick-dots li.slick-active button,
+.discoverAI-testimonial-slider .slick-dots li.slick-active button {
   opacity: 1;
 }
 
-.appie-testimonial-2-box {
+.discoverAI-testimonial-2-box {
   background-image: url(./../images/testimonial-bg-2.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -1902,22 +1351,22 @@ p {
   padding: 120px 140px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-testimonial-2-box {
+  .discoverAI-testimonial-2-box {
     padding: 50px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-testimonial-2-box {
+  .discoverAI-testimonial-2-box {
     padding: 50px 30px;
   }
 }
 @media (max-width: 767px) {
-  .appie-testimonial-2-box {
+  .discoverAI-testimonial-2-box {
     padding: 50px 30px;
   }
 }
 
-.appie-testimonial-slider-2 .slick-arrow {
+.discoverAI-testimonial-slider-2 .slick-arrow {
   position: absolute;
   right: 0;
   bottom: 0px;
@@ -1931,120 +1380,120 @@ p {
   z-index: 9;
   cursor: pointer;
 }
-.appie-testimonial-slider-2 .slick-arrow:hover {
+.discoverAI-testimonial-slider-2 .slick-arrow:hover {
   background: #ff3e66;
   color: var(--light-bg);
   border-color: #ff3e66;
 }
-.appie-testimonial-slider-2 .slick-arrow.prev {
+.discoverAI-testimonial-slider-2 .slick-arrow.prev {
   right: 60px;
 }
-.appie-testimonial-slider-2 .slick-arrow.next {
+.discoverAI-testimonial-slider-2 .slick-arrow.next {
   right: 0;
 }
 
-.appie-testimonial-slider-2-item .item {
+.discoverAI-testimonial-slider-2-item .item {
   display: flex;
   padding-right: 30px;
   padding-left: 30px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-testimonial-slider-2-item .item {
+  .discoverAI-testimonial-slider-2-item .item {
     display: block;
   }
 }
 @media (max-width: 767px) {
-  .appie-testimonial-slider-2-item .item {
+  .discoverAI-testimonial-slider-2-item .item {
     display: block;
     padding-left: 0;
     padding-right: 0;
   }
 }
-.appie-testimonial-slider-2-item .thumb {
+.discoverAI-testimonial-slider-2-item .thumb {
   text-align: center;
   min-width: 140px;
   margin-right: 60px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-testimonial-slider-2-item .thumb {
+  .discoverAI-testimonial-slider-2-item .thumb {
     margin-bottom: 30px;
     margin-right: 0;
   }
 }
 @media (max-width: 767px) {
-  .appie-testimonial-slider-2-item .thumb {
+  .discoverAI-testimonial-slider-2-item .thumb {
     margin-bottom: 30px;
     margin-right: 0;
   }
 }
-.appie-testimonial-slider-2-item .thumb img {
+.discoverAI-testimonial-slider-2-item .thumb img {
   display: inline-block;
   border-radius: 50%;
   box-shadow: 0px 20px 30px 0px rgba(0, 16, 49, 0.1);
   margin-bottom: 13px;
 }
-.appie-testimonial-slider-2-item .thumb ul {
+.discoverAI-testimonial-slider-2-item .thumb ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-.appie-testimonial-slider-2-item .thumb ul li {
+.discoverAI-testimonial-slider-2-item .thumb ul li {
   display: inline-block;
 }
-.appie-testimonial-slider-2-item .thumb ul li i {
+.discoverAI-testimonial-slider-2-item .thumb ul li i {
   font-size: 14px;
   color: #ffb848;
 }
-.appie-testimonial-slider-2-item .thumb span {
+.discoverAI-testimonial-slider-2-item .thumb span {
   font-size: 13px;
   font-weight: 500;
   color: var(--light-bg);
   opacity: 0.7;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-testimonial-slider-2-item .content {
+  .discoverAI-testimonial-slider-2-item .content {
     text-align: center;
   }
 }
 @media (max-width: 767px) {
-  .appie-testimonial-slider-2-item .content {
+  .discoverAI-testimonial-slider-2-item .content {
     text-align: center;
   }
 }
-.appie-testimonial-slider-2-item .content p {
+.discoverAI-testimonial-slider-2-item .content p {
   color: var(--light-bg);
   font-size: 20px;
   line-height: 30px;
 }
 @media (max-width: 767px) {
-  .appie-testimonial-slider-2-item .content p {
+  .discoverAI-testimonial-slider-2-item .content p {
     font-size: 16px;
   }
 }
-.appie-testimonial-slider-2-item .content .author-info {
+.discoverAI-testimonial-slider-2-item .content .author-info {
   margin-top: 27px;
 }
-.appie-testimonial-slider-2-item .content .author-info .title {
+.discoverAI-testimonial-slider-2-item .content .author-info .title {
   color: var(--light-bg);
   font-size: 20px;
   font-weight: 700;
 }
-.appie-testimonial-slider-2-item .content .author-info span {
+.discoverAI-testimonial-slider-2-item .content .author-info span {
   font-size: 14px;
   color: var(--light-bg);
   opacity: 0.7;
 }
 
-.appie-testimonial-about-area {
+.discoverAI-testimonial-about-area {
   background-image: url(./../images/map-bg.png);
   background-size: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-.appie-testimonial-about-area .appie-section-title {
+.discoverAI-testimonial-about-area .discoverAI-section-title {
   margin-bottom: 30px;
 }
-.appie-testimonial-about-area .appie-section-title .appie-title {
+.discoverAI-testimonial-about-area .discoverAI-section-title .discoverAI-title {
   padding: 0 30px;
 }
 
@@ -2226,12 +1675,12 @@ p {
 /*===========================
     7.APPIE TEAM css 
 ===========================*/
-.appie-team-item .thumb {
+.discoverAI-team-item .thumb {
   position: relative;
   z-index: 10;
   overflow: hidden;
 }
-.appie-team-item .thumb img {
+.discoverAI-team-item .thumb img {
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -2239,7 +1688,7 @@ p {
   transition: all 0.3s ease-out 0s;
   width: 100%;
 }
-.appie-team-item .thumb::before {
+.discoverAI-team-item .thumb::before {
   position: absolute;
   content: "";
   left: 0;
@@ -2256,7 +1705,7 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
-.appie-team-item .thumb ul {
+.discoverAI-team-item .thumb ul {
   position: absolute;
   left: 50%;
   bottom: 30px;
@@ -2273,11 +1722,11 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
-.appie-team-item .thumb ul li {
+.discoverAI-team-item .thumb ul li {
   display: inline-block;
   margin: 0 3px;
 }
-.appie-team-item .thumb ul li a {
+.discoverAI-team-item .thumb ul li a {
   display: inline-block;
   height: 36px;
   width: 36px;
@@ -2287,54 +1736,54 @@ p {
   border-radius: 50px;
   color: var(--light-bg);
 }
-.appie-team-item .thumb ul li a:hover {
+.discoverAI-team-item .thumb ul li a:hover {
   background: var(--light-bg);
   color: var(--light-green);
   border-color: var(--light-bg);
 }
-.appie-team-item .content {
+.discoverAI-team-item .content {
   padding-top: 27px;
 }
-.appie-team-item .content .title {
+.discoverAI-team-item .content .title {
   font-size: 18px;
   font-weight: 700;
   padding-bottom: 8px;
 }
-.appie-team-item .content span {
+.discoverAI-team-item .content span {
   font-size: 14px;
   color: #81818d;
 }
-.appie-team-item:hover .thumb::before {
+.discoverAI-team-item:hover .thumb::before {
   opacity: 0.5;
 }
-.appie-team-item:hover .thumb ul {
+.discoverAI-team-item:hover .thumb ul {
   opacity: 1;
   visibility: visible;
 }
-.appie-team-item:hover .thumb img {
+.discoverAI-team-item:hover .thumb img {
   transform: scale(1.1);
 }
-.appie-team-item.appie-team-item-about .thumb {
+.discoverAI-team-item.discoverAI-team-item-about .thumb {
   border-radius: 6px;
   overflow: hidden;
 }
-.appie-team-item.appie-team-item-about .thumb::before {
+.discoverAI-team-item.discoverAI-team-item-about .thumb::before {
   background-color: var(--light-green);
 }
-.appie-team-item.appie-team-item-about .thumb ul {
+.discoverAI-team-item.discoverAI-team-item-about .thumb ul {
   left: 30px;
   transform: translateX(0);
 }
-.appie-team-item.appie-team-item-about .thumb ul li a {
+.discoverAI-team-item.discoverAI-team-item-about .thumb ul li a {
   border-radius: 6px;
 }
-.appie-team-item.appie-team-item-about:hover .thumb::before {
+.discoverAI-team-item.discoverAI-team-item-about:hover .thumb::before {
   opacity: 0.9;
 }
-.appie-team-item.appie-team-item-about.appie-team-item-8 .thumb::before {
+.discoverAI-team-item.discoverAI-team-item-about.discoverAI-team-item-8 .thumb::before {
   background: #db0f30;
 }
-.appie-team-item.appie-team-item-about.appie-team-item-8 .thumb ul li a:hover {
+.discoverAI-team-item.discoverAI-team-item-about.discoverAI-team-item-8 .thumb ul li a:hover {
   color: #db0f30;
 }
 
@@ -2351,18 +1800,18 @@ p {
   color: var(--light-bg);
 }
 
-.appie-team-about-area .team-btn a {
+.discoverAI-team-about-area .team-btn a {
   border-color: var(--light-green);
   color: var(--light-green);
 }
-.appie-team-about-area .team-btn a:hover {
+.discoverAI-team-about-area .team-btn a:hover {
   color: var(--light-bg);
 }
-.appie-team-about-area.appie-team-8-area .team-btn a {
+.discoverAI-team-about-area.discoverAI-team-8-area .team-btn a {
   border-color: #db0f30;
   color: #db0f30;
 }
-.appie-team-about-area.appie-team-8-area .team-btn a:hover {
+.discoverAI-team-about-area.discoverAI-team-8-area .team-btn a:hover {
   background: #db0f30;
   color: var(--light-bg);
 }
@@ -2370,19 +1819,19 @@ p {
 /*===========================
     8.APPIE PRICING css 
 ===========================*/
-.appie-pricing-area {
+.discoverAI-pricing-area {
   background: #eef1f6;
 }
 
-.appie-pricing-area {
+.discoverAI-pricing-area {
   position: relative;
   z-index: 10;
 }
-.appie-pricing-area .section-title {
+.discoverAI-pricing-area .section-title {
   padding-bottom: 48px;
 }
 
-.appie-pricing-area .switch {
+.discoverAI-pricing-area .switch {
   position: relative;
   display: inline-block;
   width: 60px;
@@ -2391,11 +1840,11 @@ p {
   margin: 0;
 }
 
-.appie-pricing-area .switch input {
+.discoverAI-pricing-area .switch input {
   display: none;
 }
 
-.appie-pricing-area .slider {
+.discoverAI-pricing-area .slider {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -2407,7 +1856,7 @@ p {
   background: var(--light-bg);
 }
 
-.appie-pricing-area .slider:before {
+.discoverAI-pricing-area .slider:before {
   position: absolute;
   content: "";
   height: 26px;
@@ -2421,20 +1870,20 @@ p {
   transition: 0.4s;
 }
 
-.appie-pricing-area .switch.off .slider:before {
+.discoverAI-pricing-area .switch.off .slider:before {
   -webkit-transform: translateX(26px);
   transform: translateX(26px);
 }
 
-.appie-pricing-area .slider.round {
+.discoverAI-pricing-area .slider.round {
   border-radius: 34px;
 }
 
-.appie-pricing-area .slider.round:before {
+.discoverAI-pricing-area .slider.round:before {
   border-radius: 50%;
 }
 
-.appie-pricing-area ul.switch-toggler-list {
+.discoverAI-pricing-area ul.switch-toggler-list {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
@@ -2444,7 +1893,7 @@ p {
   margin-bottom: 40px;
 }
 
-.appie-pricing-area ul.switch-toggler-list li a {
+.discoverAI-pricing-area ul.switch-toggler-list li a {
   font-size: 14px;
   font-weight: 500;
   color: var(--light-subtext);
@@ -2453,7 +1902,7 @@ p {
   display: block;
 }
 
-.appie-pricing-area ul.switch-toggler-list li.active a {
+.discoverAI-pricing-area ul.switch-toggler-list li.active a {
   color: #0e1133;
 }
 
@@ -2612,33 +2061,33 @@ p {
   transform: translateY(-10px);
 }
 
-.appie-pricing-2-area .appie-section-title .nav {
+.discoverAI-pricing-2-area .discoverAI-section-title .nav {
   display: inline-block !important;
   border: 2px solid #e7eaef;
   padding: 3px;
   border-radius: 40px;
   margin-top: 55px;
 }
-.appie-pricing-2-area .appie-section-title .nav li {
+.discoverAI-pricing-2-area .discoverAI-section-title .nav li {
   display: inline-block;
 }
-.appie-pricing-2-area .appie-section-title .nav li a {
+.discoverAI-pricing-2-area .discoverAI-section-title .nav li a {
   border-radius: 30px;
   font-weight: 500;
   font-size: 14px;
   color: var(--light-subtext);
   padding: 5px 20px;
 }
-.appie-pricing-2-area .appie-section-title .nav li a.active {
+.discoverAI-pricing-2-area .discoverAI-section-title .nav li a.active {
   color: var(--light-bg);
   background: #ff3e66;
 }
 
-.appie-pricing-6-area .pricing-one__single .pricing-rebon span {
+.discoverAI-pricing-6-area .pricing-one__single .pricing-rebon span {
   background: #9b2cfa;
   box-shadow: none;
 }
-.appie-pricing-6-area .pricing-one__single.center .pricig-body .pricing-btn a {
+.discoverAI-pricing-6-area .pricing-one__single.center .pricig-body .pricing-btn a {
   background: #9b2cfa;
   border-color: #9b2cfa;
 }
@@ -2646,7 +2095,7 @@ p {
 /*===========================
     9.APPIE FAQ css 
 ===========================*/
-.appie-faq-area {
+.discoverAI-faq-area {
   background: #eef1f6;
   position: relative;
   background-image: url(./../images/faq-shape.png);
@@ -2850,11 +2299,11 @@ p {
   font-weight: 400;
 }
 
-.appie-faq-8-area {
+.discoverAI-faq-8-area {
   background: #eef1f6;
   position: relative;
 }
-.appie-faq-8-area
+.discoverAI-faq-8-area
   .faq-accordion
   .accrodion
   .accrodion-inner
@@ -2862,7 +2311,7 @@ p {
   background: #fcecef;
   color: #db0f30;
 }
-.appie-faq-8-area
+.discoverAI-faq-8-area
   .faq-accordion
   .accrodion
   .accrodion-inner
@@ -2870,7 +2319,7 @@ p {
   background: #db0f30;
   color: var(--light-bg);
 }
-.appie-faq-8-area .faq-play-box {
+.discoverAI-faq-8-area .faq-play-box {
   position: absolute;
   top: 0;
   right: 0;
@@ -2882,22 +2331,22 @@ p {
   background-size: cover;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-faq-8-area .faq-play-box {
+  .discoverAI-faq-8-area .faq-play-box {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  .appie-faq-8-area .faq-play-box {
+  .discoverAI-faq-8-area .faq-play-box {
     display: none;
   }
 }
-.appie-faq-8-area .faq-play-box .play-btn {
+.discoverAI-faq-8-area .faq-play-box .play-btn {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
-.appie-faq-8-area .faq-play-box .play-btn a {
+.discoverAI-faq-8-area .faq-play-box .play-btn a {
   height: 80px;
   width: 80px;
   text-align: center;
@@ -2907,7 +2356,7 @@ p {
   color: var(--light-green);
   position: relative;
 }
-.appie-faq-8-area .faq-play-box .play-btn a::before {
+.discoverAI-faq-8-area .faq-play-box .play-btn a::before {
   position: absolute;
   content: "";
   left: 0;
@@ -2918,36 +2367,36 @@ p {
   border-radius: 50%;
   animation: linear infinite popup 1.5s;
 }
-.appie-faq-8-area .faq-play-box .faq-play-counter {
+.discoverAI-faq-8-area .faq-play-box .faq-play-counter {
   position: absolute;
   left: 0;
   bottom: 0;
   display: flex;
 }
-.appie-faq-8-area .faq-play-box .faq-play-counter .box-1 {
+.discoverAI-faq-8-area .faq-play-box .faq-play-counter .box-1 {
   background: rgba(42, 109, 245, 0.9);
   padding: 50px 60px;
 }
-.appie-faq-8-area .faq-play-box .faq-play-counter .box-1 .title {
+.discoverAI-faq-8-area .faq-play-box .faq-play-counter .box-1 .title {
   font-size: 30px;
   color: var(--light-bg);
 }
-.appie-faq-8-area .faq-play-box .faq-play-counter .box-1 span {
+.discoverAI-faq-8-area .faq-play-box .faq-play-counter .box-1 span {
   font-size: 14px;
   color: #d1dbfb;
 }
-.appie-faq-8-area .faq-play-box .faq-play-counter .box-1.box-2 {
+.discoverAI-faq-8-area .faq-play-box .faq-play-counter .box-1.box-2 {
   background: rgba(14, 17, 51, 0.9);
 }
 
 /*===========================
     10.APPIE BLOG css 
 ===========================*/
-.appie-blog-item .thumb {
+.discoverAI-blog-item .thumb {
   overflow: hidden;
   border-radius: 6px;
 }
-.appie-blog-item .thumb img {
+.discoverAI-blog-item .thumb img {
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -2955,25 +2404,25 @@ p {
   transition: all 0.3s ease-out 0s;
   width: 100%;
 }
-.appie-blog-item .content {
+.discoverAI-blog-item .content {
   padding-top: 20px;
 }
-.appie-blog-item .content .blog-meta ul {
+.discoverAI-blog-item .content .blog-meta ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-.appie-blog-item .content .blog-meta ul li {
+.discoverAI-blog-item .content .blog-meta ul li {
   display: inline-block;
   font-size: 14px;
   padding-right: 22px;
   position: relative;
 }
-.appie-blog-item .content .blog-meta ul li a {
+.discoverAI-blog-item .content .blog-meta ul li a {
   font-weight: 400;
   color: var(--light-subtext);
 }
-.appie-blog-item .content .blog-meta ul li:nth-child(1)::before {
+.discoverAI-blog-item .content .blog-meta ul li:nth-child(1)::before {
   position: absolute;
   content: "";
   right: 8px;
@@ -2984,75 +2433,75 @@ p {
   background: var(--light-green);
   border-radius: 50%;
 }
-.appie-blog-item .content .title {
+.discoverAI-blog-item .content .title {
   font-size: 24px;
   font-weight: 500;
   line-height: 34px;
   margin-top: 2px;
 }
-.appie-blog-item .content .title a {
+.discoverAI-blog-item .content .title a {
   color: #0e1133;
 }
-.appie-blog-item .content .title a:hover {
+.discoverAI-blog-item .content .title a:hover {
   color: var(--light-green);
 }
-.appie-blog-item .content > a {
+.discoverAI-blog-item .content > a {
   font-size: 15px;
   font-weight: 500;
   color: #0e1133;
   margin-top: 14px;
 }
-.appie-blog-item .content > a i {
+.discoverAI-blog-item .content > a i {
   padding-left: 6px;
 }
-.appie-blog-item .content > a:hover {
+.discoverAI-blog-item .content > a:hover {
   color: var(--light-green);
 }
-.appie-blog-item:hover .thumb img {
+.discoverAI-blog-item:hover .thumb img {
   transform: scale(1.1);
 }
 
-.appie-blog-3-area .blog-btn a {
+.discoverAI-blog-3-area .blog-btn a {
   background: transparent;
   color: #0e1133;
   border: 2px solid #e7eaef;
 }
-.appie-blog-3-area .blog-btn a:hover {
+.discoverAI-blog-3-area .blog-btn a:hover {
   background: #ff6b58;
   border-color: #ff6b58;
   color: var(--light-bg);
 }
-.appie-blog-3-area.appie-blog-6-area .blog-btn a:hover {
+.discoverAI-blog-3-area.discoverAI-blog-6-area .blog-btn a:hover {
   background: #9b2cfa;
   border-color: #9b2cfa;
 }
-.appie-blog-3-area.appie-blog-8-area {
+.discoverAI-blog-3-area.discoverAI-blog-8-area {
   background: #eef1f6;
   position: relative;
   z-index: 10;
 }
-.appie-blog-3-area.appie-blog-8-area .appie-blog-8-shape-1 {
+.discoverAI-blog-3-area.discoverAI-blog-8-area .discoverAI-blog-8-shape-1 {
   position: absolute;
   left: 0;
   top: 0;
   z-index: -1;
 }
-.appie-blog-3-area.appie-blog-8-area .appie-blog-8-shape-2 {
+.discoverAI-blog-3-area.discoverAI-blog-8-area .discoverAI-blog-8-shape-2 {
   position: absolute;
   right: 0;
   bottom: 340px;
   z-index: -1;
 }
-.appie-blog-3-area.appie-blog-8-area .blog-btn a {
+.discoverAI-blog-3-area.discoverAI-blog-8-area .blog-btn a {
   border-color: #db0f30;
   color: #db0f30;
 }
-.appie-blog-3-area.appie-blog-8-area .blog-btn a:hover {
+.discoverAI-blog-3-area.discoverAI-blog-8-area .blog-btn a:hover {
   background: #db0f30;
   color: var(--light-bg);
 }
 
-.appie-blog-item-3 {
+.discoverAI-blog-item-3 {
   box-shadow: 0px 15px 50px 0px rgba(14, 17, 51, 0.1);
   border-radius: 10px;
   padding: 35px;
@@ -3060,22 +2509,22 @@ p {
   align-items: center;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-blog-item-3 {
+  .discoverAI-blog-item-3 {
     padding: 15px;
   }
 }
 @media (max-width: 767px) {
-  .appie-blog-item-3 {
+  .discoverAI-blog-item-3 {
     padding: 15px;
     display: block;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-blog-item-3 {
+  .discoverAI-blog-item-3 {
     display: flex;
   }
 }
-.appie-blog-item-3 .thumb {
+.discoverAI-blog-item-3 .thumb {
   max-width: 120px;
   min-width: 120px;
   border-radius: 6px;
@@ -3083,88 +2532,88 @@ p {
   margin-right: 30px;
 }
 @media (max-width: 767px) {
-  .appie-blog-item-3 .thumb {
+  .discoverAI-blog-item-3 .thumb {
     max-width: 100%;
     min-width: 100%;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-blog-item-3 .thumb {
+  .discoverAI-blog-item-3 .thumb {
     max-width: 120px;
     min-width: 120px;
   }
 }
-.appie-blog-item-3 .thumb img {
+.discoverAI-blog-item-3 .thumb img {
   width: 100%;
   transition: all linear 0.3s;
 }
-.appie-blog-item-3 .content {
+.discoverAI-blog-item-3 .content {
   padding-right: 50px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-blog-item-3 .content {
+  .discoverAI-blog-item-3 .content {
     padding-right: 0;
   }
 }
 @media (max-width: 767px) {
-  .appie-blog-item-3 .content {
+  .discoverAI-blog-item-3 .content {
     padding-right: 0;
     margin-top: 20px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-blog-item-3 .content {
+  .discoverAI-blog-item-3 .content {
     padding-right: 50px;
     margin-top: 0;
   }
 }
-.appie-blog-item-3 .content .title {
+.discoverAI-blog-item-3 .content .title {
   font-size: 22px;
   line-height: 32px;
   margin-bottom: 8px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-blog-item-3 .content .title {
+  .discoverAI-blog-item-3 .content .title {
     font-size: 18px;
     line-height: 28px;
   }
 }
-.appie-blog-item-3 .content .title a {
+.discoverAI-blog-item-3 .content .title a {
   color: #0e1133;
 }
-.appie-blog-item-3 .content .title a:hover {
+.discoverAI-blog-item-3 .content .title a:hover {
   color: #ff6b58;
 }
-.appie-blog-item-3 .content ul {
+.discoverAI-blog-item-3 .content ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-.appie-blog-item-3 .content ul li {
+.discoverAI-blog-item-3 .content ul li {
   display: inline-block;
   font-size: 14px;
   font-weight: 400;
   color: var(--light-subtext);
   margin-right: 22px;
 }
-.appie-blog-item-3 .content ul li i {
+.discoverAI-blog-item-3 .content ul li i {
   padding-right: 6px;
 }
-.appie-blog-item-3 .content ul li a {
+.discoverAI-blog-item-3 .content ul li a {
   color: var(--light-subtext);
   font-size: 14px;
   font-weight: 400;
 }
-.appie-blog-item-3:hover .thumb img {
+.discoverAI-blog-item-3:hover .thumb img {
   transform: scale(1.1);
 }
-.appie-blog-item-3.appie-blog-item-6 .content .title a:hover {
+.discoverAI-blog-item-3.discoverAI-blog-item-6 .content .title a:hover {
   color: #9b2cfa;
 }
-.appie-blog-item-3.appie-blog-item-8 {
+.discoverAI-blog-item-3.discoverAI-blog-item-8 {
   background: var(--light-bg);
 }
-.appie-blog-item-3.appie-blog-item-8 .content .title a:hover {
+.discoverAI-blog-item-3.discoverAI-blog-item-8 .content .title a:hover {
   color: #db0f30;
 }
 
@@ -4056,7 +3505,7 @@ blockquote cite {
 /*===========================
     10.APPIE PROJECT css 
 ===========================*/
-.appie-project-area .appie-project-box {
+.discoverAI-project-area .discoverAI-project-box {
   background-image: url(./../images/project-bg.jpg);
   background-size: cover;
   background-position: center;
@@ -4069,88 +3518,88 @@ blockquote cite {
   border-radius: 10px;
 }
 @media (max-width: 767px) {
-  .appie-project-area .appie-project-box {
+  .discoverAI-project-area .discoverAI-project-box {
     padding-left: 30px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-project-area .appie-project-box {
+  .discoverAI-project-area .discoverAI-project-box {
     padding-left: 70px;
   }
 }
-.appie-project-area .appie-project-box .appie-project-thumb {
+.discoverAI-project-area .discoverAI-project-box .discoverAI-project-thumb {
   position: absolute;
   right: 70px;
   bottom: 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-project-area .appie-project-box .appie-project-thumb {
+  .discoverAI-project-area .discoverAI-project-box .discoverAI-project-thumb {
     right: 30px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-project-area .appie-project-box .appie-project-thumb {
+  .discoverAI-project-area .discoverAI-project-box .discoverAI-project-thumb {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  .appie-project-area .appie-project-box .appie-project-thumb {
+  .discoverAI-project-area .discoverAI-project-box .discoverAI-project-thumb {
     display: none;
   }
 }
 
-.appie-project-content {
+.discoverAI-project-content {
   padding-right: 50px;
 }
-.appie-project-content .title {
+.discoverAI-project-content .title {
   color: var(--light-bg);
   font-size: 50px;
   line-height: 60px;
   padding-bottom: 10px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-project-content .title {
+  .discoverAI-project-content .title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 @media (max-width: 767px) {
-  .appie-project-content .title {
+  .discoverAI-project-content .title {
     font-size: 30px;
     line-height: 40px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-project-content .title {
+  .discoverAI-project-content .title {
     font-size: 36px;
     line-height: 46px;
   }
 }
-.appie-project-content p {
+.discoverAI-project-content p {
   color: var(--light-bg);
   opacity: 0.8;
 }
-.appie-project-content .input-box {
+.discoverAI-project-content .input-box {
   display: flex;
 }
 @media (max-width: 767px) {
-  .appie-project-content .input-box {
+  .discoverAI-project-content .input-box {
     display: block;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-project-content .input-box {
+  .discoverAI-project-content .input-box {
     display: flex;
   }
 }
-.appie-project-content .input-box input {
+.discoverAI-project-content .input-box input {
   width: 100%;
   height: 50px;
   padding-left: 30px;
   border-radius: 6px;
   border: 0;
 }
-.appie-project-content .input-box button {
+.discoverAI-project-content .input-box button {
   margin-left: 10px;
   padding: 0 30px;
   border-radius: 6px;
@@ -4161,23 +3610,23 @@ blockquote cite {
   line-height: 50px;
 }
 @media (max-width: 767px) {
-  .appie-project-content .input-box button {
+  .discoverAI-project-content .input-box button {
     margin-top: 20px;
     margin-left: 0;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-project-content .input-box button {
+  .discoverAI-project-content .input-box button {
     margin-top: 0px;
     margin-left: 10px;
   }
 }
 
-.appie-project-3-area.appie-project-5-area {
+.discoverAI-project-3-area.discoverAI-project-5-area {
   background: #eef1f6;
 }
 
-.appie-project-3-box {
+.discoverAI-project-3-box {
   background-image: url(./../images/project-bg-2.jpg);
   background-size: cover;
   background-position: center;
@@ -4191,29 +3640,29 @@ blockquote cite {
   z-index: 10;
 }
 @media (max-width: 767px) {
-  .appie-project-3-box {
+  .discoverAI-project-3-box {
     text-align: center;
   }
 }
-.appie-project-3-box .title {
+.discoverAI-project-3-box .title {
   color: var(--light-bg);
   font-size: 46px;
   line-height: 56px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-project-3-box .title {
+  .discoverAI-project-3-box .title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 @media (max-width: 767px) {
-  .appie-project-3-box .title {
+  .discoverAI-project-3-box .title {
     font-size: 35px;
     line-height: 46px;
     margin-bottom: 30px;
   }
 }
-.appie-project-3-box a {
+.discoverAI-project-3-box a {
   background: var(--light-bg);
   color: #0e1133;
   border-color: var(--light-bg);
@@ -4224,24 +3673,24 @@ blockquote cite {
 /*===========================
     10.APPIE FOOTER css 
 ===========================*/
-.appie-footer-area {
+.discoverAI-footer-area {
   background: #eef1f6;
   padding-top: 50px;
   padding-bottom: 60px;
 }
-.appie-footer-area.appie-footer-3-area {
+.discoverAI-footer-area.discoverAI-footer-3-area {
   padding-top: 180px;
 }
-.appie-footer-area.appie-footer-3-area.appie-footer-5-area {
+.discoverAI-footer-area.discoverAI-footer-3-area.discoverAI-footer-5-area {
   background: var(--light-bg);
 }
-.appie-footer-area.appie-footer-about-area {
+.discoverAI-footer-area.discoverAI-footer-about-area {
   padding-top: 230px;
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area {
+.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area {
   background: var(--light-bg);
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
+.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area
   .footer-about-widget
   .social
   ul
@@ -4249,7 +3698,7 @@ blockquote cite {
   a {
   border: 2px solid #e6e7ea;
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
+.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area
   .footer-about-widget
   .social
   ul
@@ -4259,14 +3708,14 @@ blockquote cite {
   border-color: #db0f30;
   color: var(--light-bg);
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
+.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area
   .footer-navigation
   ul
   li
   a:hover {
   color: #db0f30;
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
+.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area
   .footer-widget-info
   ul
   li
@@ -4274,7 +3723,7 @@ blockquote cite {
   i {
   color: #db0f30;
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
+.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area
   .footer-copyright
   .apps-download-btn
   ul
@@ -4284,7 +3733,7 @@ blockquote cite {
   color: var(--light-bg);
   border-color: #0e1133;
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
+.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area
   .footer-copyright
   .apps-download-btn
   ul
@@ -4293,7 +3742,7 @@ blockquote cite {
   background: var(--light-bg);
   color: #0e1133;
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
+.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area
   .footer-copyright
   .apps-download-btn
   ul
@@ -4302,7 +3751,7 @@ blockquote cite {
   background: var(--light-bg);
   color: #0e1133;
 }
-.appie-footer-area.appie-footer-about-area.appie-footer-8-area
+.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area
   .footer-copyright
   .apps-download-btn
   ul
@@ -4514,30 +3963,30 @@ blockquote cite {
   color: #0e1133;
 }
 
-.appie-error-area {
+.discoverAI-error-area {
   padding-top: 250px;
 }
 
-.appie-error-content span {
+.discoverAI-error-content span {
   display: block;
   font-size: 50px;
   color: #db0f30;
   font-weight: 800;
   padding-top: 40px;
 }
-.appie-error-content .title {
+.discoverAI-error-content .title {
   font-size: 50px;
   font-weight: 800;
   color: #0e1133;
   padding-bottom: 11px;
 }
-.appie-error-content p {
+.discoverAI-error-content p {
   line-height: 26px;
   color: var(--light-subtext);
   font-size: 16px;
   padding: 0 50px;
 }
-.appie-error-content a {
+.discoverAI-error-content a {
   border: 2px solid var(--light-green);
   line-height: 45px;
   padding: 0 35px;
@@ -4545,18 +3994,18 @@ blockquote cite {
   margin-top: 30px;
 }
 
-.appie-signup-area.appie-signup-8-area {
+.discoverAI-signup-area.discoverAI-signup-8-area {
   background: #eef1f6;
 }
-.appie-signup-area.appie-signup-8-area
-  .appie-signup-box
+.discoverAI-signup-area.discoverAI-signup-8-area
+  .discoverAI-signup-box
   form
   .input-box
   button {
   background: #db0f30;
 }
 
-.appie-signup-box {
+.discoverAI-signup-box {
   background-image: url(./../images/signup-bg.jpg);
   padding: 63px 100px 60px;
   border-radius: 10px;
@@ -4566,64 +4015,64 @@ blockquote cite {
   margin-bottom: -160px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-signup-box {
+  .discoverAI-signup-box {
     padding: 30px 50px;
   }
 }
 @media (max-width: 767px) {
-  .appie-signup-box {
+  .discoverAI-signup-box {
     padding: 30px;
   }
 }
-.appie-signup-box .thumb {
+.discoverAI-signup-box .thumb {
   position: absolute;
   right: 70px;
   bottom: 30px;
   width: 160px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-signup-box .thumb {
+  .discoverAI-signup-box .thumb {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  .appie-signup-box .thumb {
+  .discoverAI-signup-box .thumb {
     display: none;
   }
 }
-.appie-signup-box span {
+.discoverAI-signup-box span {
   color: var(--light-bg);
   font-weight: 500;
 }
-.appie-signup-box .title {
+.discoverAI-signup-box .title {
   font-size: 46px;
   color: var(--light-bg);
   padding-bottom: 20px;
 }
 @media (max-width: 767px) {
-  .appie-signup-box .title {
+  .discoverAI-signup-box .title {
     font-size: 30px;
   }
 }
-.appie-signup-box form {
+.discoverAI-signup-box form {
   display: flex;
   flex-wrap: wrap;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-signup-box form {
+  .discoverAI-signup-box form {
     flex-direction: column;
   }
 }
 @media (max-width: 767px) {
-  .appie-signup-box form {
+  .discoverAI-signup-box form {
     flex-direction: column;
   }
 }
-.appie-signup-box form .input-box {
+.discoverAI-signup-box form .input-box {
   margin-right: 10px;
   margin-top: 10px;
 }
-.appie-signup-box form .input-box input {
+.discoverAI-signup-box form .input-box input {
   width: 300px;
   background: var(--light-bg);
   line-height: 55px;
@@ -4632,16 +4081,16 @@ blockquote cite {
   border: 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-signup-box form .input-box input {
+  .discoverAI-signup-box form .input-box input {
     width: 100%;
   }
 }
 @media (max-width: 767px) {
-  .appie-signup-box form .input-box input {
+  .discoverAI-signup-box form .input-box input {
     width: 100%;
   }
 }
-.appie-signup-box form .input-box button {
+.discoverAI-signup-box form .input-box button {
   background: var(--light-green);
   line-height: 55px;
   border: 0;
@@ -4651,11 +4100,11 @@ blockquote cite {
   font-weight: 500;
 }
 
-.appie_checkbox_common {
+.discoverAI_checkbox_common {
   margin-top: 15px;
 }
 
-.appie_checkbox_common label {
+.discoverAI_checkbox_common label {
   color: var(--light-bg);
   font-size: 14px;
   margin-bottom: 12px;
@@ -4663,16 +4112,16 @@ blockquote cite {
   font-weight: 400;
 }
 
-.appie_checkbox_common label a {
+.discoverAI_checkbox_common label a {
   text-decoration: underline;
   color: #b3b6bc;
 }
 
-.appie_checkbox_common input[type="checkbox"] {
+.discoverAI_checkbox_common input[type="checkbox"] {
   display: none;
 }
 
-.appie_checkbox_common input[type="checkbox"] + label span {
+.discoverAI_checkbox_common input[type="checkbox"] + label span {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -4685,7 +4134,7 @@ blockquote cite {
   position: relative;
 }
 
-.appie_checkbox_common input[type="checkbox"] + label span:before {
+.discoverAI_checkbox_common input[type="checkbox"] + label span:before {
   color: var(--light-bg);
   content: "\f00c";
   font-family: "Font Awesome 5 Pro";
@@ -4706,12 +4155,12 @@ blockquote cite {
   transition: 0.2s;
 }
 
-.appie_checkbox_common input[type="checkbox"]:checked + label span {
+.discoverAI_checkbox_common input[type="checkbox"]:checked + label span {
   background: #2079ff;
   border-color: #2079ff;
 }
 
-.appie_checkbox_common input[type="checkbox"]:checked + label span:before {
+.discoverAI_checkbox_common input[type="checkbox"]:checked + label span:before {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -4719,96 +4168,96 @@ blockquote cite {
   transform: scale(1);
 }
 
-.appie_checkbox_common input[type="checkbox"] + label span,
-.appie_checkbox_common input[type="checkbox"]:checked + label span {
+.discoverAI_checkbox_common input[type="checkbox"] + label span,
+.discoverAI_checkbox_common input[type="checkbox"]:checked + label span {
   -webkit-transition: background-color 0.2s linear;
   -o-transition: background-color 0.2s linear;
   -moz-transition: background-color 0.2s linear;
   transition: background-color 0.2s linear;
 }
 
-.appie_checkbox_common.checkbox_style2 input[type="checkbox"] + label span {
+.discoverAI_checkbox_common.checkbox_style2 input[type="checkbox"] + label span {
   border-radius: 3px;
 }
 
 /*===========================
     11.APPIE ABOUT css 
 ===========================*/
-.appie-about-box {
+.discoverAI-about-box {
   background: #f0f1f7;
   padding: 70px;
   overflow: hidden;
   position: relative;
 }
 @media (max-width: 767px) {
-  .appie-about-box {
+  .discoverAI-about-box {
     padding: 30px;
     text-align: center;
   }
 }
-.appie-about-box .about-thumb {
+.discoverAI-about-box .about-thumb {
   position: absolute;
   left: 0;
   top: -65px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-about-box .about-thumb {
+  .discoverAI-about-box .about-thumb {
     position: static;
   }
 }
 @media (max-width: 767px) {
-  .appie-about-box .about-thumb {
+  .discoverAI-about-box .about-thumb {
     display: none;
   }
 }
 
-.appie-about-content {
+.discoverAI-about-content {
   padding-right: 50px;
 }
 @media (max-width: 767px) {
-  .appie-about-content {
+  .discoverAI-about-content {
     padding-right: 0;
   }
 }
-.appie-about-content span {
+.discoverAI-about-content span {
   font-size: 14px;
   font-weight: 500;
   color: #ff3e66;
 }
-.appie-about-content .title {
+.discoverAI-about-content .title {
   font-size: 44px;
   line-height: 54px;
   margin-top: 8px;
   margin-bottom: 12px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-content .title {
+  .discoverAI-about-content .title {
     font-size: 32px;
     line-height: 42px;
   }
 }
 @media (max-width: 767px) {
-  .appie-about-content .title {
+  .discoverAI-about-content .title {
     font-size: 30px;
     line-height: 40px;
   }
 }
 
-.appie-about-service {
+.discoverAI-about-service {
   position: relative;
   padding-left: 40px;
 }
 @media (max-width: 767px) {
-  .appie-about-service {
+  .discoverAI-about-service {
     text-align: left;
   }
 }
-.appie-about-service .icon {
+.discoverAI-about-service .icon {
   position: absolute;
   left: 0;
   top: 5px;
 }
-.appie-about-service .icon i {
+.discoverAI-about-service .icon i {
   height: 26px;
   width: 26px;
   text-align: center;
@@ -4817,67 +4266,67 @@ blockquote cite {
   color: var(--light-bg);
   background: #31c369;
 }
-.appie-about-service .title {
+.discoverAI-about-service .title {
   font-size: 20px;
   font-weight: 700;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-service .title {
+  .discoverAI-about-service .title {
     font-size: 16px;
   }
 }
-.appie-about-service p {
+.discoverAI-about-service p {
   font-size: 15px;
   margin-top: 8px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-service p {
+  .discoverAI-about-service p {
     font-size: 14px;
   }
 }
 
-.appie-about-3-area .appie-traffic-title {
+.discoverAI-about-3-area .discoverAI-traffic-title {
   padding-right: 100px;
 }
 @media (max-width: 767px) {
-  .appie-about-3-area .appie-traffic-title {
+  .discoverAI-about-3-area .discoverAI-traffic-title {
     text-align: center;
     padding-right: 0;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-about-3-area .appie-traffic-title {
+  .discoverAI-about-3-area .discoverAI-traffic-title {
     text-align: left;
     padding-right: 50px;
   }
 }
-.appie-about-3-area .appie-traffic-title .title {
+.discoverAI-about-3-area .discoverAI-traffic-title .title {
   margin-bottom: 15px;
 }
-.appie-about-3-area .appie-traffic-service {
+.discoverAI-about-3-area .discoverAI-traffic-service {
   padding-left: 0;
   padding-right: 50px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-3-area .appie-traffic-service {
+  .discoverAI-about-3-area .discoverAI-traffic-service {
     padding-right: 0;
   }
 }
 @media (max-width: 767px) {
-  .appie-about-3-area .appie-traffic-service {
+  .discoverAI-about-3-area .discoverAI-traffic-service {
     text-align: center;
     padding-right: 30px;
     padding-left: 30px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-about-3-area .appie-traffic-service {
+  .discoverAI-about-3-area .discoverAI-traffic-service {
     text-align: left;
     padding-right: 50px;
     padding-left: 0;
   }
 }
-.appie-about-3-area .appie-traffic-service .icon {
+.discoverAI-about-3-area .discoverAI-traffic-service .icon {
   position: static;
   background-image: -moz-linear-gradient(120deg, var(--light-green) 0%, #84bcfa 100%);
   background-image: -webkit-linear-gradient(120deg, var(--light-green) 0%, #84bcfa 100%);
@@ -4892,19 +4341,19 @@ blockquote cite {
   box-shadow: 0px 6px 10px 0px rgba(16, 73, 189, 0.3);
   margin-bottom: 23px;
 }
-.appie-about-3-area .appie-traffic-service.item-2 .icon {
+.discoverAI-about-3-area .discoverAI-traffic-service.item-2 .icon {
   background-image: -moz-linear-gradient(120deg, #31c369 0%, #a0eac2 100%);
   background-image: -webkit-linear-gradient(120deg, #31c369 0%, #a0eac2 100%);
   background-image: -ms-linear-gradient(120deg, #31c369 0%, #a0eac2 100%);
   background-image: linear-gradient(120deg, #31c369 0%, #a0eac2 100%);
 }
-.appie-about-3-area .appie-traffic-service.item-3 .icon {
+.discoverAI-about-3-area .discoverAI-traffic-service.item-3 .icon {
   background-image: -moz-linear-gradient(120deg, #9b2cfa 0%, #d8aaff 100%);
   background-image: -webkit-linear-gradient(120deg, #9b2cfa 0%, #d8aaff 100%);
   background-image: -ms-linear-gradient(120deg, #9b2cfa 0%, #d8aaff 100%);
   background-image: linear-gradient(120deg, #9b2cfa 0%, #d8aaff 100%);
 }
-.appie-about-3-area .appie-traffic-service.item-4 .icon {
+.discoverAI-about-3-area .discoverAI-traffic-service.item-4 .icon {
   background-image: -moz-linear-gradient(120deg, #f8452d 0%, #f7b8af 100%);
   background-image: -webkit-linear-gradient(120deg, #f8452d 0%, #f7b8af 100%);
   background-image: -ms-linear-gradient(120deg, #f8452d 0%, #f7b8af 100%);
@@ -4912,62 +4361,62 @@ blockquote cite {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-about-thumb-3 {
+  .discoverAI-about-thumb-3 {
     margin-bottom: 40px;
   }
 }
 @media (max-width: 767px) {
-  .appie-about-thumb-3 {
+  .discoverAI-about-thumb-3 {
     margin-bottom: 40px;
   }
 }
-.appie-about-thumb-3 img {
+.discoverAI-about-thumb-3 img {
   width: 100%;
 }
 
-.appie-about-top-title-area {
+.discoverAI-about-top-title-area {
   padding-top: 227px;
 }
 
-.appie-about-top-title {
+.discoverAI-about-top-title {
   padding-right: 65px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-top-title {
+  .discoverAI-about-top-title {
     padding-right: 0;
   }
 }
 @media (max-width: 767px) {
-  .appie-about-top-title {
+  .discoverAI-about-top-title {
     padding-right: 0;
   }
 }
-.appie-about-top-title .title {
+.discoverAI-about-top-title .title {
   font-size: 60px;
   position: relative;
   z-index: 10;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-top-title .title {
+  .discoverAI-about-top-title .title {
     font-size: 52px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-about-top-title .title {
+  .discoverAI-about-top-title .title {
     font-size: 44px;
   }
 }
 @media (max-width: 767px) {
-  .appie-about-top-title .title {
+  .discoverAI-about-top-title .title {
     font-size: 32px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-about-top-title .title {
+  .discoverAI-about-top-title .title {
     font-size: 40px;
   }
 }
-.appie-about-top-title .title::before {
+.discoverAI-about-top-title .title::before {
   position: absolute;
   content: "";
   left: 0;
@@ -4977,28 +4426,28 @@ blockquote cite {
   background: #ff6e85;
   z-index: -1;
 }
-.appie-about-top-title p {
+.discoverAI-about-top-title p {
   font-size: 20px;
   color: #0e1133;
   padding-top: 18px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-top-title p {
+  .discoverAI-about-top-title p {
     font-size: 16px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-about-top-title p {
+  .discoverAI-about-top-title p {
     font-size: 16px;
   }
 }
 @media (max-width: 767px) {
-  .appie-about-top-title p {
+  .discoverAI-about-top-title p {
     font-size: 16px;
   }
 }
 
-.appie-about-page-area {
+.discoverAI-about-page-area {
   padding-top: 462px;
   padding-bottom: 100px;
   background-image: url(./../images/about-page-bg.jpg);
@@ -5008,26 +4457,26 @@ blockquote cite {
   margin-top: 345px;
 }
 @media (max-width: 767px) {
-  .appie-about-page-area {
+  .discoverAI-about-page-area {
     margin-top: 80px;
     padding-top: 80px;
   }
 }
 
-.appie-about-page-content {
+.discoverAI-about-page-content {
   position: relative;
 }
-.appie-about-page-content .title {
+.discoverAI-about-page-content .title {
   font-size: 36px;
   font-weight: 700;
   color: var(--light-bg);
 }
-.appie-about-page-content p {
+.discoverAI-about-page-content p {
   color: var(--light-bg);
   padding-top: 15px;
   opacity: 0.7;
 }
-.appie-about-page-content a {
+.discoverAI-about-page-content a {
   color: var(--light-bg);
   border: 2px solid var(--light-bg);
   border-radius: 10px;
@@ -5037,11 +4486,11 @@ blockquote cite {
   font-weight: 500;
   margin-top: 43px;
 }
-.appie-about-page-content a:hover {
+.discoverAI-about-page-content a:hover {
   background: var(--light-bg);
   color: var(--light-green);
 }
-.appie-about-page-content::before {
+.discoverAI-about-page-content::before {
   position: absolute;
   content: "";
   left: 0;
@@ -5054,41 +4503,41 @@ blockquote cite {
   background-repeat: no-repeat;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-page-content::before {
+  .discoverAI-about-page-content::before {
     width: 94vw;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-about-page-content::before {
+  .discoverAI-about-page-content::before {
     width: 100%;
   }
 }
 @media (max-width: 767px) {
-  .appie-about-page-content::before {
+  .discoverAI-about-page-content::before {
     display: none;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-about-page-content::before {
+  .discoverAI-about-page-content::before {
     width: 100%;
     height: 400px;
     display: block;
   }
 }
 
-.appie-how-it-work-content > .title {
+.discoverAI-how-it-work-content > .title {
   font-size: 44px;
 }
-.appie-how-it-work-content p {
+.discoverAI-how-it-work-content p {
   font-size: 18px;
   padding-top: 9px;
 }
-.appie-how-it-work-content .how-it-work-box {
+.discoverAI-how-it-work-content .how-it-work-box {
   position: relative;
   padding-left: 70px;
   margin-top: 45px;
 }
-.appie-how-it-work-content .how-it-work-box span {
+.discoverAI-how-it-work-content .how-it-work-box span {
   position: absolute;
   left: 0;
   top: 50%;
@@ -5103,24 +4552,24 @@ blockquote cite {
   font-size: 22px;
   font-weight: 500;
 }
-.appie-how-it-work-content .how-it-work-box .title {
+.discoverAI-how-it-work-content .how-it-work-box .title {
   font-size: 18px;
   font-weight: 500;
 }
-.appie-how-it-work-content .how-it-work-box:hover span {
+.discoverAI-how-it-work-content .how-it-work-box:hover span {
   background: var(--light-green);
   box-shadow: 0px 14px 20px 0px rgba(0, 43, 130, 0.3);
   color: var(--light-bg);
 }
 
-.appie-about-8-area {
+.discoverAI-about-8-area {
   background-image: url(./../images/background-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.appie-about-8-box {
+.discoverAI-about-8-box {
   padding: 50px 50px 145px;
   background: var(--light-bg);
   border-radius: 6px;
@@ -5130,52 +4579,52 @@ blockquote cite {
   z-index: 10;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-about-8-box {
+  .discoverAI-about-8-box {
     padding: 50px 25px 145px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-about-8-box {
+  .discoverAI-about-8-box {
     margin-bottom: 30px;
   }
 }
 @media (max-width: 767px) {
-  .appie-about-8-box {
+  .discoverAI-about-8-box {
     margin-bottom: 30px;
     padding: 50px 20px 145px;
   }
 }
-.appie-about-8-box .thumb {
+.discoverAI-about-8-box .thumb {
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: -1;
 }
-.appie-about-8-box .title {
+.discoverAI-about-8-box .title {
   font-size: 30px;
   line-height: 40px;
   font-weight: 500;
   margin-bottom: 14px;
 }
 @media (max-width: 767px) {
-  .appie-about-8-box .title {
+  .discoverAI-about-8-box .title {
     font-size: 24px;
     line-height: 34px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-about-8-box .title {
+  .discoverAI-about-8-box .title {
     font-size: 30px;
     line-height: 40px;
   }
 }
-.appie-about-8-box a {
+.discoverAI-about-8-box a {
   border: 2px solid #db0f30;
   color: #db0f30;
   background: var(--light-bg);
   margin-top: 30px;
 }
-.appie-about-8-box a:hover {
+.discoverAI-about-8-box a:hover {
   color: var(--light-bg);
   background: #db0f30;
   border-color: #db0f30;
@@ -5185,20 +4634,20 @@ blockquote cite {
     12. APPIE COUNTER css 
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-counter-area {
+  .discoverAI-counter-area {
     padding-bottom: 100px;
   }
 }
 @media (max-width: 767px) {
-  .appie-counter-area {
+  .discoverAI-counter-area {
     padding-bottom: 100px;
   }
 }
-.appie-counter-area.appie-counter-5-area {
+.discoverAI-counter-area.discoverAI-counter-5-area {
   background: #eef1f6;
 }
 
-.appie-single-counter {
+.discoverAI-single-counter {
   padding: 30px;
   position: relative;
   background: var(--light-bg);
@@ -5210,21 +4659,21 @@ blockquote cite {
   border-radius: 10px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-single-counter {
+  .discoverAI-single-counter {
     padding: 20px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-single-counter {
+  .discoverAI-single-counter {
     margin-bottom: 90px;
   }
 }
 @media (max-width: 767px) {
-  .appie-single-counter {
+  .discoverAI-single-counter {
     margin-bottom: 90px;
   }
 }
-.appie-single-counter .counter-content {
+.discoverAI-single-counter .counter-content {
   background: var(--light-bg);
   text-align: center;
   border-radius: 6px;
@@ -5232,50 +4681,50 @@ blockquote cite {
   padding-top: 37px;
   padding-bottom: 40px;
 }
-.appie-single-counter .counter-content .title {
+.discoverAI-single-counter .counter-content .title {
   font-size: 40px;
   font-weight: 400;
   margin-top: 5px;
 }
-.appie-single-counter .counter-content .title span {
+.discoverAI-single-counter .counter-content .title span {
   font-weight: 700;
 }
-.appie-single-counter .counter-content p {
+.discoverAI-single-counter .counter-content p {
   font-size: 14px;
   font-weight: 500;
 }
-.appie-single-counter.item-2 {
+.discoverAI-single-counter.item-2 {
   background-image: -moz-linear-gradient(140deg, #fdead3 0%, var(--light-bg)7ee 100%);
   background-image: -webkit-linear-gradient(140deg, #fdead3 0%, var(--light-bg)7ee 100%);
   background-image: -ms-linear-gradient(140deg, #fdead3 0%, var(--light-bg)7ee 100%);
   background-image: linear-gradient(140deg, #fdead3 0%, var(--light-bg)7ee 100%);
 }
-.appie-single-counter.item-2 .counter-content {
+.discoverAI-single-counter.item-2 .counter-content {
   box-shadow: 0px 30px 40px 0px rgba(56, 31, 0, 0.1);
 }
-.appie-single-counter.item-3 {
+.discoverAI-single-counter.item-3 {
   background-image: -moz-linear-gradient(140deg, #dafedb 0%, #f0fcf0 100%);
   background-image: -webkit-linear-gradient(140deg, #dafedb 0%, #f0fcf0 100%);
   background-image: -ms-linear-gradient(140deg, #dafedb 0%, #f0fcf0 100%);
   background-image: linear-gradient(140deg, #dafedb 0%, #f0fcf0 100%);
 }
-.appie-single-counter.item-3 .counter-content {
+.discoverAI-single-counter.item-3 .counter-content {
   box-shadow: 0px 30px 40px 0px rgba(0, 74, 1, 0.1);
 }
-.appie-single-counter.item-4 {
+.discoverAI-single-counter.item-4 {
   background-image: -moz-linear-gradient(140deg, #fedaf4 0%, #fceff7 100%);
   background-image: -webkit-linear-gradient(140deg, #fedaf4 0%, #fceff7 100%);
   background-image: -ms-linear-gradient(140deg, #fedaf4 0%, #fceff7 100%);
   background-image: linear-gradient(140deg, #fedaf4 0%, #fceff7 100%);
 }
-.appie-single-counter.item-4 .counter-content {
+.discoverAI-single-counter.item-4 .counter-content {
   box-shadow: 0px 30px 40px 0px rgba(74, 0, 54, 0.1);
 }
 
 /*===========================
     13. APPIE VIDEO PLAYER css 
 ===========================*/
-.appie-video-player-slider .slick-arrow {
+.discoverAI-video-player-slider .slick-arrow {
   position: absolute;
   right: 0;
   bottom: -90px;
@@ -5289,45 +4738,45 @@ blockquote cite {
   z-index: 9;
   cursor: pointer;
 }
-.appie-video-player-slider .slick-arrow:hover {
+.discoverAI-video-player-slider .slick-arrow:hover {
   background: #ff3e66;
   color: var(--light-bg);
   border-color: #ff3e66;
 }
-.appie-video-player-slider .slick-arrow.prev {
+.discoverAI-video-player-slider .slick-arrow.prev {
   right: 60px;
 }
-.appie-video-player-slider .slick-arrow.next {
+.discoverAI-video-player-slider .slick-arrow.next {
   right: 0;
 }
-.appie-video-player-slider .item img {
+.discoverAI-video-player-slider .item img {
   width: 100%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-video-player-item {
+  .discoverAI-video-player-item {
     margin-bottom: 50px;
   }
 }
 @media (max-width: 767px) {
-  .appie-video-player-item {
+  .discoverAI-video-player-item {
     margin-bottom: 50px;
   }
 }
-.appie-video-player-item .thumb {
+.discoverAI-video-player-item .thumb {
   position: relative;
   overflow: hidden;
 }
-.appie-video-player-item .thumb img {
+.discoverAI-video-player-item .thumb img {
   width: 100%;
 }
-.appie-video-player-item .thumb .video-popup {
+.discoverAI-video-player-item .thumb .video-popup {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.appie-video-player-item .thumb .video-popup a {
+.discoverAI-video-player-item .thumb .video-popup a {
   height: 90px;
   width: 90px;
   background: var(--light-bg);
@@ -5338,7 +4787,7 @@ blockquote cite {
   font-size: 20px;
   position: relative;
 }
-.appie-video-player-item .thumb .video-popup a::before {
+.discoverAI-video-player-item .thumb .video-popup a::before {
   position: absolute;
   content: "";
   left: 0;
@@ -5349,42 +4798,42 @@ blockquote cite {
   border-radius: 50%;
   animation: linear infinite popup 1.5s;
 }
-.appie-video-player-item .content {
+.discoverAI-video-player-item .content {
   padding-left: 100px;
   padding-top: 35px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-video-player-item .content {
+  .discoverAI-video-player-item .content {
     padding-left: 30px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-video-player-item .content {
+  .discoverAI-video-player-item .content {
     padding-left: 0px;
   }
 }
 @media (max-width: 767px) {
-  .appie-video-player-item .content {
+  .discoverAI-video-player-item .content {
     padding-left: 0px;
   }
 }
-.appie-video-player-item .content .title {
+.discoverAI-video-player-item .content .title {
   font-size: 30px;
   margin-bottom: 12px;
 }
 @media (max-width: 767px) {
-  .appie-video-player-item .content .title {
+  .discoverAI-video-player-item .content .title {
     font-size: 26px;
   }
 }
-.appie-video-player-item .content a {
+.discoverAI-video-player-item .content a {
   border-radius: 30px;
   border: 2px solid #e7eaef;
   background: var(--light-bg);
   color: #0e1133;
   margin-top: 33px;
 }
-.appie-video-player-item .content a:hover {
+.discoverAI-video-player-item .content a:hover {
   background: #ff3e66;
   border-color: var(--light-bg);
   color: var(--light-bg);
@@ -5412,11 +4861,11 @@ blockquote cite {
     opacity: 0;
   }
 }
-.appie-video-player-6-area .appie-video-player-item .content a:hover {
+.discoverAI-video-player-6-area .discoverAI-video-player-item .content a:hover {
   background: #9b2cfa;
   border-color: #9b2cfa;
 }
-.appie-video-player-6-area .appie-video-player-slider .slick-arrow:hover {
+.discoverAI-video-player-6-area .discoverAI-video-player-slider .slick-arrow:hover {
   background: #9b2cfa;
   border-color: #9b2cfa;
 }
@@ -5424,7 +4873,7 @@ blockquote cite {
 /*===========================
     14. APPIE DOWNLOAD css 
 ===========================*/
-.appie-download-area {
+.discoverAI-download-area {
   background-image: url(./../images/download-bg.png);
   background-size: cover;
   background-position: center;
@@ -5434,12 +4883,12 @@ blockquote cite {
   z-index: 10;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-download-area {
+  .discoverAI-download-area {
     padding-top: 80px;
     padding-bottom: 80px;
   }
 }
-.appie-download-area::before {
+.discoverAI-download-area::before {
   position: absolute;
   content: "";
   right: 170px;
@@ -5454,36 +4903,36 @@ blockquote cite {
   z-index: -1;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-download-area::before {
+  .discoverAI-download-area::before {
     right: 0;
     width: 550px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-download-area::before {
+  .discoverAI-download-area::before {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  .appie-download-area::before {
+  .discoverAI-download-area::before {
     display: none;
   }
 }
-.appie-download-area .download-shape-1 {
+.discoverAI-download-area .download-shape-1 {
   position: absolute;
   left: 95px;
   top: 95px;
   z-index: -1;
   animation: linear 20s animationFramesFour infinite;
 }
-.appie-download-area .download-shape-2 {
+.discoverAI-download-area .download-shape-2 {
   position: absolute;
   left: 150px;
   bottom: 100px;
   z-index: -1;
   animation: linear 20s animationFramesTwo infinite;
 }
-.appie-download-area .download-shape-3 {
+.discoverAI-download-area .download-shape-3 {
   position: absolute;
   top: 140px;
   right: 250px;
@@ -5491,38 +4940,38 @@ blockquote cite {
   animation: linear 20s animationFramesFive infinite;
 }
 
-.appie-download-content > span {
+.discoverAI-download-content > span {
   font-size: 14px;
   font-weight: 500;
   color: #ff3e66;
 }
-.appie-download-content .title {
+.discoverAI-download-content .title {
   font-size: 44px;
   line-height: 54px;
   margin-top: 9px;
   margin-bottom: 13px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-download-content .title {
+  .discoverAI-download-content .title {
     font-size: 36px;
     line-height: 46px;
   }
 }
 @media (max-width: 767px) {
-  .appie-download-content .title {
+  .discoverAI-download-content .title {
     font-size: 30px;
     line-height: 40px;
   }
 }
-.appie-download-content ul {
+.discoverAI-download-content ul {
   margin: 30px 0 0;
   padding: 0;
   list-style-type: none;
 }
-.appie-download-content ul li {
+.discoverAI-download-content ul li {
   display: inline-block;
 }
-.appie-download-content ul li a {
+.discoverAI-download-content ul li a {
   background: #0e1133;
   color: var(--light-bg);
   padding-left: 22px;
@@ -5536,51 +4985,51 @@ blockquote cite {
   border: 2px solid #0e1133;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-download-content ul li a {
+  .discoverAI-download-content ul li a {
     padding-right: 20px;
   }
 }
 @media (max-width: 767px) {
-  .appie-download-content ul li a {
+  .discoverAI-download-content ul li a {
     margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-download-content ul li a {
+  .discoverAI-download-content ul li a {
     margin-bottom: 0px;
   }
 }
-.appie-download-content ul li a i {
+.discoverAI-download-content ul li a i {
   font-size: 36px;
   padding-right: 11px;
 }
-.appie-download-content ul li a span {
+.discoverAI-download-content ul li a span {
   font-size: 14px;
   font-weight: 500;
 }
-.appie-download-content ul li a span span {
+.discoverAI-download-content ul li a span span {
   font-size: 24px;
   display: block;
   line-height: 18px;
 }
-.appie-download-content ul li a:hover {
+.discoverAI-download-content ul li a:hover {
   background: var(--light-bg);
   color: #0e1133;
 }
-.appie-download-content ul li a.item-2 {
+.discoverAI-download-content ul li a.item-2 {
   background: var(--light-bg);
   color: #0e1133;
 }
-.appie-download-content ul li a.item-2:hover {
+.discoverAI-download-content ul li a.item-2:hover {
   background: #0e1133;
   color: var(--light-bg);
 }
 
-.appie-sponser-area {
+.discoverAI-sponser-area {
   position: relative;
   z-index: 10;
 }
-.appie-sponser-area .sponser-shape {
+.discoverAI-sponser-area .sponser-shape {
   position: absolute;
   left: 50%;
   top: 60%;
@@ -5589,11 +5038,11 @@ blockquote cite {
 }
 
 @media (max-width: 767px) {
-  .appie-sponser-box {
+  .discoverAI-sponser-box {
     flex-wrap: wrap;
   }
 }
-.appie-sponser-box .sponser-item {
+.discoverAI-sponser-box .sponser-item {
   background: var(--light-bg);
   height: 100px;
   width: 100px;
@@ -5603,85 +5052,85 @@ blockquote cite {
   box-shadow: 0px 40px 60px 0px rgba(14, 17, 51, 0.14);
   margin: 30px 16px 0;
 }
-.appie-sponser-box.item-2 .sponser-item {
+.discoverAI-sponser-box.item-2 .sponser-item {
   margin: 30px 28px 0;
 }
 @media (max-width: 767px) {
-  .appie-sponser-box.item-2 .sponser-item {
+  .discoverAI-sponser-box.item-2 .sponser-item {
     margin: 30px 16px 0;
   }
 }
 
-.appie-download-3-box {
+.discoverAI-download-3-box {
   border-radius: 20px;
   background: #ebf2fc;
   overflow: hidden;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-download-3-box {
+  .discoverAI-download-3-box {
     margin: 30px 0 0;
   }
 }
 @media (max-width: 767px) {
-  .appie-download-3-box {
+  .discoverAI-download-3-box {
     margin: 30px 0 0;
   }
 }
-.appie-download-3-box .content {
+.discoverAI-download-3-box .content {
   padding: 50px;
 }
 @media (max-width: 767px) {
-  .appie-download-3-box .content {
+  .discoverAI-download-3-box .content {
     padding: 20px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-download-3-box .content {
+  .discoverAI-download-3-box .content {
     padding: 50px;
   }
 }
-.appie-download-3-box .content .title {
+.discoverAI-download-3-box .content .title {
   font-size: 34px;
   font-weight: 700;
   margin-bottom: 8px;
 }
-.appie-download-3-box .content a.main-btn {
+.discoverAI-download-3-box .content a.start-assessment-button {
   background: var(--light-bg);
   color: #0e1133;
   border-color: var(--light-bg);
   margin-top: 33px;
 }
-.appie-download-3-box .content a.main-btn:hover {
+.discoverAI-download-3-box .content a.start-assessment-button:hover {
   background: #ff6b58;
   border-color: #ff6b58;
   color: var(--light-bg);
 }
-.appie-download-3-box .content a.main-btn i {
+.discoverAI-download-3-box .content a.start-assessment-button i {
   padding-right: 6px;
 }
-.appie-download-3-box .content a.main-btn.main-btn-2 {
+.discoverAI-download-3-box .content a.start-assessment-button.start-assessment-button-2 {
   background: #ff6b58;
   border-color: #ff6b58;
   color: var(--light-bg);
 }
-.appie-download-3-box .content a.main-btn.main-btn-2:hover {
+.discoverAI-download-3-box .content a.start-assessment-button.start-assessment-button-2:hover {
   background: var(--light-bg);
   color: #0e1133;
   border-color: var(--light-bg);
 }
-.appie-download-3-box.appie-download-6-box a.main-btn:hover {
+.discoverAI-download-3-box.discoverAI-download-6-box a.start-assessment-button:hover {
   background: #9b2cfa;
   border-color: #9b2cfa;
 }
-.appie-download-3-box.appie-download-6-box a.main-btn.main-btn-2 {
+.discoverAI-download-3-box.discoverAI-download-6-box a.start-assessment-button.start-assessment-button-2 {
   background: #9b2cfa;
   border-color: #9b2cfa;
 }
-.appie-download-3-box.appie-download-5-box a.main-btn:hover {
+.discoverAI-download-3-box.discoverAI-download-5-box a.start-assessment-button:hover {
   background: #801f82;
   border-color: #801f82;
 }
-.appie-download-3-box.appie-download-5-box a.main-btn.main-btn-2 {
+.discoverAI-download-3-box.discoverAI-download-5-box a.start-assessment-button.start-assessment-button-2 {
   background: #801f82;
   border-color: #801f82;
 }
@@ -5689,7 +5138,7 @@ blockquote cite {
 /*===========================
     15.APPIE FUN FACT css 
 ===========================*/
-.appie-fun-fact-box {
+.discoverAI-fun-fact-box {
   background-image: url(./../images/fun-fact-bg.jpg);
   padding: 90px 70px;
   background-size: cover;
@@ -5698,11 +5147,11 @@ blockquote cite {
   border-radius: 10px;
 }
 @media (max-width: 767px) {
-  .appie-fun-fact-box {
+  .discoverAI-fun-fact-box {
     padding: 30px;
   }
 }
-.appie-fun-fact-box .appie-fun-fact-content > .title {
+.discoverAI-fun-fact-box .discoverAI-fun-fact-content > .title {
   font-size: 44px;
   line-height: 54px;
   color: var(--light-bg);
@@ -5710,88 +5159,88 @@ blockquote cite {
   padding-bottom: 15px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .appie-fun-fact-box .appie-fun-fact-content > .title {
+  .discoverAI-fun-fact-box .discoverAI-fun-fact-content > .title {
     font-size: 40px;
     line-height: 50px;
   }
 }
 @media (max-width: 767px) {
-  .appie-fun-fact-box .appie-fun-fact-content > .title {
+  .discoverAI-fun-fact-box .discoverAI-fun-fact-content > .title {
     font-size: 28px;
     line-height: 38px;
     padding-right: 0;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-fun-fact-box .appie-fun-fact-content > .title {
+  .discoverAI-fun-fact-box .discoverAI-fun-fact-content > .title {
     font-size: 36px;
     line-height: 46px;
     padding-right: 0;
   }
 }
-.appie-fun-fact-box .appie-fun-fact-content p {
+.discoverAI-fun-fact-box .discoverAI-fun-fact-content p {
   color: var(--light-bg);
   opacity: 0.8;
 }
-.appie-fun-fact-box .appie-fun-fact-content .appie-fun-fact-item {
+.discoverAI-fun-fact-box .discoverAI-fun-fact-content .discoverAI-fun-fact-item {
   margin-top: 36px;
 }
 @media (max-width: 767px) {
-  .appie-fun-fact-box .appie-fun-fact-content .appie-fun-fact-item {
+  .discoverAI-fun-fact-box .discoverAI-fun-fact-content .discoverAI-fun-fact-item {
     text-align: center;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-fun-fact-box .appie-fun-fact-content .appie-fun-fact-item {
+  .discoverAI-fun-fact-box .discoverAI-fun-fact-content .discoverAI-fun-fact-item {
     text-align: left;
   }
 }
-.appie-fun-fact-box .appie-fun-fact-content .appie-fun-fact-item .title {
+.discoverAI-fun-fact-box .discoverAI-fun-fact-content .discoverAI-fun-fact-item .title {
   font-size: 30px;
   color: var(--light-bg);
 }
-.appie-fun-fact-box .appie-fun-fact-content .appie-fun-fact-item span {
+.discoverAI-fun-fact-box .discoverAI-fun-fact-content .discoverAI-fun-fact-item span {
   font-size: 14px;
   color: #a4a4b9;
 }
-.appie-fun-fact-box .appie-fun-fact-play {
+.discoverAI-fun-fact-box .discoverAI-fun-fact-play {
   position: relative;
   z-index: 10;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-fun-fact-box .appie-fun-fact-play {
+  .discoverAI-fun-fact-box .discoverAI-fun-fact-play {
     margin-top: 50px;
   }
 }
 @media (max-width: 767px) {
-  .appie-fun-fact-box .appie-fun-fact-play {
+  .discoverAI-fun-fact-box .discoverAI-fun-fact-play {
     margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .appie-fun-fact-box .appie-fun-fact-play {
+  .discoverAI-fun-fact-box .discoverAI-fun-fact-play {
     text-align: left;
   }
 }
-.appie-fun-fact-box .appie-fun-fact-play img {
+.discoverAI-fun-fact-box .discoverAI-fun-fact-play img {
   position: absolute;
   right: -40px;
   top: 0;
   z-index: 2;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-fun-fact-box .appie-fun-fact-play img {
+  .discoverAI-fun-fact-box .discoverAI-fun-fact-play img {
     position: static;
   }
 }
 @media (max-width: 767px) {
-  .appie-fun-fact-box .appie-fun-fact-play img {
+  .discoverAI-fun-fact-box .discoverAI-fun-fact-play img {
     display: none;
   }
 }
-.appie-fun-fact-box .appie-fun-fact-play a {
+.discoverAI-fun-fact-box .discoverAI-fun-fact-play a {
   height: 70px;
   width: 70px;
   text-align: center;
@@ -5802,7 +5251,7 @@ blockquote cite {
   position: relative;
   z-index: 5;
 }
-.appie-fun-fact-box .appie-fun-fact-play a::before {
+.discoverAI-fun-fact-box .discoverAI-fun-fact-play a::before {
   position: absolute;
   content: "";
   left: 0;
@@ -5817,7 +5266,7 @@ blockquote cite {
 /*===========================
     15.APPIE SHOWCASE css 
 ===========================*/
-.appie-showcase-area {
+.discoverAI-showcase-area {
   background: #eef1f6;
   padding-top: 90px;
   padding-bottom: 120px;
@@ -5825,28 +5274,28 @@ blockquote cite {
   overflow: hidden;
   z-index: 10;
 }
-.appie-showcase-area .showcase-shape-1 {
+.discoverAI-showcase-area .showcase-shape-1 {
   position: absolute;
   left: 90px;
   top: 185px;
   z-index: -1;
   animation: linear 25s animationFramesFive infinite;
 }
-.appie-showcase-area .showcase-shape-2 {
+.discoverAI-showcase-area .showcase-shape-2 {
   position: absolute;
   left: 170px;
   bottom: 95px;
   z-index: -1;
   animation: linear 20s animationFramesOne infinite;
 }
-.appie-showcase-area .showcase-shape-3 {
+.discoverAI-showcase-area .showcase-shape-3 {
   position: absolute;
   top: 200px;
   right: 0;
   z-index: -1;
   animation: linear 25s animationFramesThree infinite;
 }
-.appie-showcase-area .showcase-shape-4 {
+.discoverAI-showcase-area .showcase-shape-4 {
   position: absolute;
   bottom: 250px;
   right: 195px;
@@ -5854,7 +5303,7 @@ blockquote cite {
   animation: linear 25s animationFramesFour infinite;
 }
 
-.appie-showcase-item {
+.discoverAI-showcase-item {
   box-shadow: 0px 2px 3px 0px rgba(14, 17, 51, 0.1);
   border-radius: 10px;
   overflow: hidden;
@@ -5866,27 +5315,27 @@ blockquote cite {
   margin-top: 30px;
   margin-bottom: 50px;
 }
-.appie-showcase-item:hover {
+.discoverAI-showcase-item:hover {
   box-shadow: 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
   transform: translateY(-10px);
 }
-.appie-showcase-item a {
+.discoverAI-showcase-item a {
   display: block;
 }
-.appie-showcase-item img {
+.discoverAI-showcase-item img {
   width: 100%;
 }
 
-.appie-showcase-slider .slick-dots {
+.discoverAI-showcase-slider .slick-dots {
   position: absolute;
   left: 50%;
   bottom: -20px;
   transform: translateX(-50%);
 }
-.appie-showcase-slider .slick-dots li {
+.discoverAI-showcase-slider .slick-dots li {
   display: inline-block;
 }
-.appie-showcase-slider .slick-dots li button {
+.discoverAI-showcase-slider .slick-dots li button {
   font-size: 0;
   border: 0;
   background: #ccced9;
@@ -5895,7 +5344,7 @@ blockquote cite {
   border-radius: 50%;
   margin: 0 3px;
 }
-.appie-showcase-slider .slick-dots li.slick-active button {
+.discoverAI-showcase-slider .slick-dots li.slick-active button {
   background: #ff6b58;
 }
 
@@ -6194,16 +5643,16 @@ blockquote cite {
 /*===========================
     17.APPIE CONTACT css 
 ===========================*/
-.appie-shop-grid-area .bisylms-pagination {
+.discoverAI-shop-grid-area .bisylms-pagination {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.appie-shop-grid-area .bisylms-pagination .current,
-.appie-shop-grid-area .bisylms-pagination:hover {
+.discoverAI-shop-grid-area .bisylms-pagination .current,
+.discoverAI-shop-grid-area .bisylms-pagination:hover {
   box-shadow: none;
   border-radius: 5px;
 }
-.appie-shop-grid-area .bisylms-pagination a {
+.discoverAI-shop-grid-area .bisylms-pagination a {
   border: 2px solid #e7eaef;
   background: var(--light-bg);
   color: #0e1133;
@@ -6211,29 +5660,29 @@ blockquote cite {
   font-weight: 500;
   border-radius: 5px;
 }
-.appie-shop-grid-area .bisylms-pagination a i {
+.discoverAI-shop-grid-area .bisylms-pagination a i {
   font-size: 14px;
   padding-left: 6px;
 }
-.appie-shop-grid-area .bisylms-pagination a:hover {
+.discoverAI-shop-grid-area .bisylms-pagination a:hover {
   box-shadow: none;
   background: var(--light-green);
   border-color: var(--light-green);
   color: var(--light-bg);
 }
-.appie-shop-grid-area .bisylms-pagination span {
+.discoverAI-shop-grid-area .bisylms-pagination span {
   border: 2px solid #e7eaef;
 }
 
-.appie-shop-sidebar .shop-price-filter {
+.discoverAI-shop-sidebar .shop-price-filter {
   border-bottom: 1px solid #e7eaef;
   padding-bottom: 33px;
 }
-.appie-shop-sidebar .shop-price-filter .title {
+.discoverAI-shop-sidebar .shop-price-filter .title {
   font-size: 16px;
   font-weight: 700;
 }
-.appie-shop-sidebar .shop-price-filter .price-range {
+.discoverAI-shop-sidebar .shop-price-filter .price-range {
   width: 100%;
   height: 3px;
   background: #e7eaef;
@@ -6241,7 +5690,7 @@ blockquote cite {
   margin-bottom: 24px;
   position: relative;
 }
-.appie-shop-sidebar .shop-price-filter .price-range::before {
+.discoverAI-shop-sidebar .shop-price-filter .price-range::before {
   position: absolute;
   content: "";
   left: 50%;
@@ -6252,11 +5701,11 @@ blockquote cite {
   transform: translateX(-50%);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-shop-sidebar .shop-price-filter .price-range::before {
+  .discoverAI-shop-sidebar .shop-price-filter .price-range::before {
     width: 100%;
   }
 }
-.appie-shop-sidebar .shop-price-filter .price-range .box-1 {
+.discoverAI-shop-sidebar .shop-price-filter .price-range .box-1 {
   height: 16px;
   width: 16px;
   border-radius: 50%;
@@ -6270,11 +5719,11 @@ blockquote cite {
   cursor: pointer;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-shop-sidebar .shop-price-filter .price-range .box-1 {
+  .discoverAI-shop-sidebar .shop-price-filter .price-range .box-1 {
     left: 0;
   }
 }
-.appie-shop-sidebar .shop-price-filter .price-range .box-2 {
+.discoverAI-shop-sidebar .shop-price-filter .price-range .box-2 {
   height: 16px;
   width: 16px;
   border-radius: 50%;
@@ -6288,86 +5737,86 @@ blockquote cite {
   cursor: pointer;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-shop-sidebar .shop-price-filter .price-range .box-2 {
+  .discoverAI-shop-sidebar .shop-price-filter .price-range .box-2 {
     right: 0;
   }
 }
-.appie-shop-sidebar .shop-price-filter .main-filter-price span {
+.discoverAI-shop-sidebar .shop-price-filter .main-filter-price span {
   font-size: 14px;
   color: #63636a;
 }
-.appie-shop-sidebar .shop-price-filter .main-filter-price a {
+.discoverAI-shop-sidebar .shop-price-filter .main-filter-price a {
   font-size: 14px;
   color: #0e1133;
 }
-.appie-shop-sidebar .shop-category-widget {
+.discoverAI-shop-sidebar .shop-category-widget {
   margin-top: 37px;
   border-bottom: 1px solid #e7eaef;
   padding-bottom: 33px;
 }
-.appie-shop-sidebar .shop-category-widget .title {
+.discoverAI-shop-sidebar .shop-category-widget .title {
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 25px;
 }
-.appie-shop-sidebar .shop-category-widget ul li {
+.discoverAI-shop-sidebar .shop-category-widget ul li {
   margin-top: 10px;
 }
-.appie-shop-sidebar .shop-category-widget ul li a {
+.discoverAI-shop-sidebar .shop-category-widget ul li a {
   font-size: 15px;
   color: #63636a;
 }
-.appie-shop-sidebar .shop-category-widget ul li a:hover {
+.discoverAI-shop-sidebar .shop-category-widget ul li a:hover {
   color: var(--light-green);
 }
-.appie-shop-sidebar .shop-best-product-widget {
+.discoverAI-shop-sidebar .shop-best-product-widget {
   margin-top: 37px;
   border-bottom: 1px solid #e7eaef;
   padding-bottom: 40px;
 }
-.appie-shop-sidebar .shop-best-product-widget .title {
+.discoverAI-shop-sidebar .shop-best-product-widget .title {
   padding-bottom: 10px;
   font-size: 16px;
   font-weight: 700;
 }
-.appie-shop-sidebar .shop-best-product-widget .shop-product {
+.discoverAI-shop-sidebar .shop-best-product-widget .shop-product {
   display: flex;
   align-items: center;
   margin-top: 20px;
 }
-.appie-shop-sidebar .shop-best-product-widget .shop-product .thumb {
+.discoverAI-shop-sidebar .shop-best-product-widget .shop-product .thumb {
   max-width: 60px;
   margin-right: 20px;
 }
-.appie-shop-sidebar .shop-best-product-widget .shop-product .content a {
+.discoverAI-shop-sidebar .shop-best-product-widget .shop-product .content a {
   display: block;
   font-size: 14px;
   font-weight: 500;
   color: var(--light-green);
   color: #0e1133;
 }
-.appie-shop-sidebar .shop-best-product-widget .shop-product .content span {
+.discoverAI-shop-sidebar .shop-best-product-widget .shop-product .content span {
   font-size: 14px;
   font-weight: 400;
   color: #63636a;
 }
-.appie-shop-sidebar .shop-tags-bar {
+.discoverAI-shop-sidebar .shop-tags-bar {
   margin-top: 37px;
 }
-.appie-shop-sidebar .shop-tags-bar .title {
+.discoverAI-shop-sidebar .shop-tags-bar .title {
   padding-bottom: 10px;
   font-size: 16px;
   font-weight: 700;
 }
-.appie-shop-sidebar .shop-tags-bar ul {
+.discoverAI-shop-sidebar .shop-tags-bar ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-.appie-shop-sidebar .shop-tags-bar ul li {
+.discoverAI-shop-sidebar .shop-tags-bar ul li {
   display: inline-block;
 }
-.appie-shop-sidebar .shop-tags-bar ul li a {
+.discoverAI-shop-sidebar .shop-tags-bar ul li a {
   border: 2px solid #e7eaef;
   line-height: 30px;
   padding: 0 13px;
