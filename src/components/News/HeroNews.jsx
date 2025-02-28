@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 function HeroNews({ title, breadcrumb = [] }) {
     return (
         <>
-            <div className="discoverAI-page-title-area">
+            <div className="dyscoverAI-page-title-area">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="discoverAI-page-title-item">
+                            <div className="dyscoverAI-page-title-item">
                                 <h3 className="title">{title}</h3>
                                 <nav aria-label="breadcrumb">
                                     <ol className="breadcrumb">

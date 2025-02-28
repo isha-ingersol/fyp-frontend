@@ -3,12 +3,12 @@ import React from 'react';
 function ServicesAbout() {
     return (
         <>
-            <section className="discoverAI-services-2-area pt-90 pb-55" id="service">
+            <section className="dyscoverAI-services-2-area pt-90 pb-55" id="service">
                 <div className="container">
                     <div className="row align-items-end">
                         <div className="col-lg-6 col-md-8">
-                            <div className="discoverAI-section-title">
-                                <h3 className="discoverAI-title">We’re driven by our values</h3>
+                            <div className="dyscoverAI-section-title">
+                                <h3 className="dyscoverAI-title">We’re driven by our values</h3>
                                 <p>The app provides design and digital marketing. </p>
                             </div>
                         </div>
@@ -16,7 +16,7 @@ function ServicesAbout() {
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
                             <div
-                                className="discoverAI-single-service-2 discoverAI-single-service-about mt-30 wow animated fadeInUp"
+                                className="dyscoverAI-single-service-2 dyscoverAI-single-service-about mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="200ms"
                             >
@@ -29,7 +29,7 @@ function ServicesAbout() {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div
-                                className="discoverAI-single-service-2 discoverAI-single-service-about item-2 mt-30 wow animated fadeInUp"
+                                className="dyscoverAI-single-service-2 dyscoverAI-single-service-about item-2 mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="400ms"
                             >
@@ -42,7 +42,7 @@ function ServicesAbout() {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div
-                                className="discoverAI-single-service-2 discoverAI-single-service-about item-3 mt-30 wow animated fadeInUp"
+                                className="dyscoverAI-single-service-2 dyscoverAI-single-service-about item-3 mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="600ms"
                             >
@@ -55,7 +55,7 @@ function ServicesAbout() {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div
-                                className="discoverAI-single-service-2 discoverAI-single-service-about item-4 mt-30 wow animated fadeInUp"
+                                className="dyscoverAI-single-service-2 dyscoverAI-single-service-about item-4 mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="200ms"
                             >
@@ -68,7 +68,7 @@ function ServicesAbout() {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div
-                                className="discoverAI-single-service-2 discoverAI-single-service-about item-5 mt-30 wow animated fadeInUp"
+                                className="dyscoverAI-single-service-2 dyscoverAI-single-service-about item-5 mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="400ms"
                             >
@@ -81,7 +81,7 @@ function ServicesAbout() {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div
-                                className="discoverAI-single-service-2 discoverAI-single-service-about item-6 mt-30 wow animated fadeInUp"
+                                className="dyscoverAI-single-service-2 dyscoverAI-single-service-about item-6 mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="600ms"
                             >

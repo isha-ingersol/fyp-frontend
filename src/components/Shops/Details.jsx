@@ -202,7 +202,7 @@ function Details() {
                                             <span>SKU:</span> 42725-AB-6
                                         </li>
                                         <li>
-                                            <span>Categories: </span> Watch, DiscoverAI, UX
+                                            <span>Categories: </span> Watch, DyscoverAI, UX
                                         </li>
                                         <li>
                                             <span>Tags:</span> Creative, Shop, WordPress
@@ -484,8 +484,8 @@ function Details() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="discoverAI-section-title text-center">
-                                <h3 className="discoverAI-title">Related products</h3>
+                            <div className="dyscoverAI-section-title text-center">
+                                <h3 className="dyscoverAI-title">Related products</h3>
                                 <p>
                                     So I said knees up cuppa such a fibber jeffrey a bit of how's
                                     your.

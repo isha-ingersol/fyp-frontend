@@ -24,7 +24,7 @@ function AboutUsTwo() {
             {/* <WorkPartHomeEight className="pt-100" /> */}
             {/* <TestimonialHomeEight /> */}
             {/* <SignupHomeEight /> */}
-            <FooterHome className="discoverAI-footer-about-area" />
+            <FooterHome className="dyscoverAI-footer-about-area" />
             <BackToTop />
         </>
     );

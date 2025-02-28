@@ -6,12 +6,12 @@ import blogThree from '../../assets/images/blog-3.jpg';
 function BlogHome({ className }) {
     return (
         <>
-            <section className={`discoverAI-blog-area pt-90 pb-95 ${className || ''}`}>
+            <section className={`dyscoverAI-blog-area pt-90 pb-95 ${className || ''}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="discoverAI-section-title text-center">
-                                <h3 className="discoverAI-title">Latest blog posts</h3>
+                            <div className="dyscoverAI-section-title text-center">
+                                <h3 className="dyscoverAI-title">Latest blog posts</h3>
                                 <p>Different layouts and styles for team sections.</p>
                             </div>
                         </div>
@@ -19,7 +19,7 @@ function BlogHome({ className }) {
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
                             <div
-                                className="discoverAI-blog-item mt-30 wow animated fadeInUp"
+                                className="dyscoverAI-blog-item mt-30 wow animated fadeInUp"
                                 data-wow-duration="3000ms"
                                 data-wow-delay="200ms"
                             >
@@ -48,7 +48,7 @@ function BlogHome({ className }) {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div
-                                className="discoverAI-blog-item mt-30 wow animated fadeInUp"
+                                className="dyscoverAI-blog-item mt-30 wow animated fadeInUp"
                                 data-wow-duration="3000ms"
                                 data-wow-delay="400ms"
                             >
@@ -77,7 +77,7 @@ function BlogHome({ className }) {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div
-                                className="discoverAI-blog-item mt-30 wow animated fadeInUp"
+                                className="dyscoverAI-blog-item mt-30 wow animated fadeInUp"
                                 data-wow-duration="3000ms"
                                 data-wow-delay="600ms"
                             >

@@ -3,7 +3,7 @@ import useToggle from '../../Hooks/useToggle.js';
 import BackToTop from '../BackToTop.jsx';
 import BlogHome from '../Main/BlogHome.jsx';
 import FaqHome from '../Main/FaqHome.jsx';
-import FeaturesHome from '../Main/FeaturesHome.jsx';
+import LearnMore from '../Main/LearnMore.jsx';
 import FooterHome from '../Main/FooterHome.jsx';
 import Home from '../Main/Home.jsx';
 import NavBar from '../Main/NavBar.jsx';
@@ -20,14 +20,14 @@ function HomeDark() {
     const [darkMode, setDarkMode] = useToggle(false);
 
     useEffect(() => {
-        document.body.classList.add('discoverAI-init');
+        document.body.classList.add('dyscoverAI-init');
         if (darkMode) {
-            document.body.classList.add('discoverAI-dark');
+            document.body.classList.add('dyscoverAI-dark');
         } else {
-            document.body.classList.remove('discoverAI-dark');
+            document.body.classList.remove('dyscoverAI-dark');
         }
         return () => {
-            document.body.classList.remove('discoverAI-dark');
+            document.body.classList.remove('dyscoverAI-dark');
         };
     });
 
@@ -41,17 +41,17 @@ function HomeDark() {
                 changeMode={setDarkMode.toggle}
                 action={drawerAction.toggle}
             />
-            <Home className={darkMode ? 'discoverAI-hero-area-dark' : ''} />
-            <HowItWorks className={darkMode ? 'discoverAI-service-area-dark' : ''} />
-            <FeaturesHome className={darkMode ? 'discoverAI-features-area-dark' : ''} />
-            <TrafficHome className={darkMode ? 'discoverAI-traffic-area-dark' : ''} />
+            <Home className={darkMode ? 'dyscoverAI-hero-area-dark' : ''} />
+            <HowItWorks className={darkMode ? 'dyscoverAI-service-area-dark' : ''} />
+            <LearnMore className={darkMode ? 'dyscoverAI-features-area-dark' : ''} />
+            <TrafficHome className={darkMode ? 'dyscoverAI-traffic-area-dark' : ''} />
             <TestimonialHome />
-            <TeamHome className={darkMode ? 'discoverAI-team-area-dark' : ''} />
-            <PricingHome className={darkMode ? 'discoverAI-pricing-area-dark' : ''} />
-            <FaqHome className={darkMode ? 'discoverAI-faq-area-dark' : ''} />
-            <BlogHome className={darkMode ? 'discoverAI-blog-area-dark' : ''} />
+            <TeamHome className={darkMode ? 'dyscoverAI-team-area-dark' : ''} />
+            <PricingHome className={darkMode ? 'dyscoverAI-pricing-area-dark' : ''} />
+            <FaqHome className={darkMode ? 'dyscoverAI-faq-area-dark' : ''} />
+            <BlogHome className={darkMode ? 'dyscoverAI-blog-area-dark' : ''} />
             <ProjectHome />
-            <FooterHome className={darkMode ? 'discoverAI-footer-area-dark' : ''} />
+            <FooterHome className={darkMode ? 'dyscoverAI-footer-area-dark' : ''} />
             <BackToTop />
         </>
     );

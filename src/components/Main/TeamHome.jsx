@@ -7,12 +7,12 @@ import teamFour from '../../assets/images/team-4.jpg';
 function TeamHome({ className }) {
     return (
         <>
-            <section className={`discoverAI-team-area pt-90 pb-100 ${className || ''}`}>
+            <section className={`dyscoverAI-team-area pt-90 pb-100 ${className || ''}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="discoverAI-section-title text-center">
-                                <h3 className="discoverAI-title">Meet our Team Members</h3>
+                            <div className="dyscoverAI-section-title text-center">
+                                <h3 className="dyscoverAI-title">Meet our Team Members</h3>
                                 <p>Different layouts and styles for team sections.</p>
                             </div>
                         </div>
@@ -20,7 +20,7 @@ function TeamHome({ className }) {
                     <div className="row">
                         <div className="col-lg-3 col-md-6">
                             <div
-                                className="discoverAI-team-item mt-30 wow animated fadeInUp"
+                                className="dyscoverAI-team-item mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="200ms"
                             >
@@ -52,7 +52,7 @@ function TeamHome({ className }) {
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div
-                                className="discoverAI-team-item mt-30 wow animated fadeInUp"
+                                className="dyscoverAI-team-item mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="400ms"
                             >
@@ -84,7 +84,7 @@ function TeamHome({ className }) {
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div
-                                className="discoverAI-team-item mt-30 wow animated fadeInUp"
+                                className="dyscoverAI-team-item mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="600ms"
                             >
@@ -116,7 +116,7 @@ function TeamHome({ className }) {
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div
-                                className="discoverAI-team-item mt-30 wow animated fadeInUp"
+                                className="dyscoverAI-team-item mt-30 wow animated fadeInUp"
                                 data-wow-duration="2000ms"
                                 data-wow-delay="800ms"
                             >

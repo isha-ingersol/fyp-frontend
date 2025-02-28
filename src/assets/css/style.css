@@ -1,7 +1,7 @@
-.discoverAI-color-mode {
+.dyscoverAI-color-mode {
   transition: all 0.5s ease-in-out;
 }
-.discoverAI-loader {
+.dyscoverAI-loader {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -11,27 +11,27 @@
 .shop-related-product-slider-active .slick-dots li button {
   background: #e2e2e2;
 }
-.discoverAI-card-img {
+.dyscoverAI-card-img {
   width: 100%;
   height: 200px;
   object-fit: contain;
 }
-.discoverAI-loader {
+.dyscoverAI-loader {
   opacity: 0;
 }
-.discoverAI-loader.active {
+.dyscoverAI-loader.active {
   opacity: 100;
 }
-.discoverAI-visible {
+.dyscoverAI-visible {
   transition: all 0.5s ease-in-out;
 }
-.discoverAI-visible {
+.dyscoverAI-visible {
   opacity: 0;
 }
-.discoverAI-visible.active {
+.dyscoverAI-visible.active {
   opacity: 100;
 }
-.discoverAI-init {
+.dyscoverAI-init {
   transition: all 0.5s ease-in-out;
 }
 .moon-icon,
@@ -52,7 +52,7 @@
 .moon-icon svg {
   color: #0e1133;
 }
-/* .discoverAI-home-loader {
+/* .dyscoverAI-home-loader {
   transition: all 0.5s ease-in-out;
 } */
 .offcanvas_main_menu li ul.sub-menu {
@@ -60,7 +60,7 @@
   overflow: hidden;
   transition: all linear 0.65s;
 }
-.discoverAI-fun-fact-box .discoverAI-fun-fact-content .discoverAI-fun-fact-item .title span {
+.dyscoverAI-fun-fact-box .dyscoverAI-fun-fact-content .dyscoverAI-fun-fact-item .title span {
   font-size: 30px !important;
   color: #fff !important;
 }
@@ -73,7 +73,7 @@
 .slick-dots li button:before {
   content: "";
 }
-.discoverAI-showcase-item {
+.dyscoverAI-showcase-item {
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -87,11 +87,11 @@
     max-width: 1200px;
   }
 }
-.discoverAI-services-2-area.discoverAI-services-8-area {
+.dyscoverAI-services-2-area.dyscoverAI-services-8-area {
   overflow: hidden;
 }
 @media only screen and (min-width: 300px) and (max-width: 1024px) {
-  .discoverAI-services-8-area .service-thumb {
+  .dyscoverAI-services-8-area .service-thumb {
     margin-left: 0;
     margin-right: 0;
   }
@@ -100,7 +100,7 @@
   font-family: "Font Awesome 5 Pro";
   content: "\f00c";
 }
-.discoverAI-testimonial-area {
+.dyscoverAI-testimonial-area {
   overflow: hidden;
 }
 .testimonial-about-slider-active .testimonial-parent-item {

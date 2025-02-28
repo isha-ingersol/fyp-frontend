@@ -7,12 +7,12 @@ function FaqHome({ className }) {
     };
     return (
         <>
-            <section className={`discoverAI-faq-area pb-95 ${className || ''}`}>
+            <section className={`dyscoverAI-faq-area pb-95 ${className || ''}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="discoverAI-section-title text-center">
-                                <h3 className="discoverAI-title">Frequently asked questions</h3>
+                            <div className="dyscoverAI-section-title text-center">
+                                <h3 className="dyscoverAI-title">Frequently asked questions</h3>
                                 <p>Different layouts and styles for team sections.</p>
                             </div>
                         </div>

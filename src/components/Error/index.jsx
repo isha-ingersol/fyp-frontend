@@ -11,11 +11,11 @@ function Error() {
 
     return (
         <>
-            <div className="discoverAI-error-area">
+            <div className="dyscoverAI-error-area">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-6">
-                            <div className="discoverAI-error-content text-center">
+                            <div className="dyscoverAI-error-content text-center">
                                 <Svg />
                                 <span>Sorry!</span>
                                 <h3 className="title">The page can’t be found.</h3>

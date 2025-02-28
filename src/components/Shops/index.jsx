@@ -32,7 +32,7 @@ function Shops() {
                     { link: '/shops', title: 'Shop Products' },
                 ]}
             />
-            <div className="discoverAI-shop-grid-area pt-100 pb-50">
+            <div className="dyscoverAI-shop-grid-area pt-100 pb-50">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 order-2 order-lg-1">

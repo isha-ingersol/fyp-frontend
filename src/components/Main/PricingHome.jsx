@@ -4,12 +4,12 @@ function PricingHome({ className }) {
     const [toggleSwitch, setSwitchValue] = useState(true);
     return (
         <>
-            <section className={`discoverAI-pricing-area pt-90 pb-90 ${className || ''}`}>
+            <section className={`dyscoverAI-pricing-area pt-90 pb-90 ${className || ''}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="discoverAI-section-title text-center">
-                                <h3 className="discoverAI-title">Choose your plan</h3>
+                            <div className="dyscoverAI-section-title text-center">
+                                <h3 className="dyscoverAI-title">Choose your plan</h3>
                                 <p>Different layouts and styles for team sections.</p>
                             </div>
                             <ul

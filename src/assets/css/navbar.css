@@ -19,28 +19,28 @@
     right: 0;
     z-index: 999;
   }
-  .header-container.discoverAI-header-2-area .right-nav-controls .start-assessment-button {
+  .header-container.dyscoverAI-header-2-area .right-nav-controls .start-assessment-button {
     background: #ff3e66;
     border-radius: 30px;
     border-color: #ff3e66;
   }
-  .header-container.discoverAI-header-2-area .right-nav-controls .start-assessment-button:hover {
+  .header-container.dyscoverAI-header-2-area .right-nav-controls .start-assessment-button:hover {
     background: transparent;
     color: #ff3e66;
   }
-  .header-container.discoverAI-header-3-area.sticky-header.sticky {
+  .header-container.dyscoverAI-header-3-area.sticky-header.sticky {
     background: #0e1133;
   }
-  .header-container.discoverAI-header-4-area.sticky-header.sticky {
+  .header-container.dyscoverAI-header-4-area.sticky-header.sticky {
     background: linear-gradient(90deg, #6b1fcd 0%, #374ede 100%);
   }
-  .header-container.discoverAI-header-page-area.sticky-header.sticky {
+  .header-container.dyscoverAI-header-page-area.sticky-header.sticky {
     background: #0a44b9;
   }
-  .header-container.discoverAI-header-7-area.sticky-header.sticky {
+  .header-container.dyscoverAI-header-7-area.sticky-header.sticky {
     background: #290645;
   }
-  .header-container.discoverAI-header-error-page {
+  .header-container.dyscoverAI-header-error-page {
     box-shadow: 0px 10px 20px 0px rgba(14, 17, 51, 0.1);
     padding-top: 20px;
     padding-bottom: 20px;
@@ -541,14 +541,14 @@
 
 
 
-  /* .discoverAI-header-8-area .header-nav-box .right-nav-controls .start-assessment-button {
+  /* .dyscoverAI-header-8-area .header-nav-box .right-nav-controls .start-assessment-button {
     background: #db0f30;
     border-color: #db0f30;
   }
-  .discoverAI-header-8-area .header-nav-box .right-nav-controls .start-assessment-button:hover {
+  .dyscoverAI-header-8-area .header-nav-box .right-nav-controls .start-assessment-button:hover {
     background: var(--light-bg);
     color: #db0f30;
   }
-  .discoverAI-header-8-area .header-nav-box .main-navigation ul > li a:hover {
+  .dyscoverAI-header-8-area .header-nav-box .main-navigation ul > li a:hover {
     color: #db0f30;
   } */

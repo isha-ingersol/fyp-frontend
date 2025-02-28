@@ -4,20 +4,20 @@ import projectThumb from '../../assets/images/project-thumb.png';
 function ProjectHome({ className }) {
     return (
         <>
-            <section className={`discoverAI-project-area pb-100 ${className || ''}`}>
+            <section className={`dyscoverAI-project-area pb-100 ${className || ''}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
                             <div
-                                className="discoverAI-project-box wow animated slideInUp"
+                                className="dyscoverAI-project-box wow animated slideInUp"
                                 data-wow-duration="1000ms"
                                 data-wow-delay="0ms"
                             >
                                 <div className="row">
                                     <div className="col-lg-6">
-                                        <div className="discoverAI-project-content">
+                                        <div className="dyscoverAI-project-content">
                                             <h3 className="title">
-                                                Start your project with discoverAI.
+                                                Start your project with dyscoverAI.
                                             </h3>
                                             <p>We will email you only about this product.</p>
                                             <form action="#">
@@ -29,7 +29,7 @@ function ProjectHome({ className }) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="discoverAI-project-thumb">
+                                <div className="dyscoverAI-project-thumb">
                                     <img src={projectThumb} alt="" />
                                 </div>
                             </div>

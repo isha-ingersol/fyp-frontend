@@ -1,5 +1,5 @@
 /* How It Works Section */
-.discoverAI-howitworks-area {
+.dyscoverAI-howitworks-area {
     padding-top: 150px;
     padding-bottom: 80px;
     background-color: var(--light-bg);
@@ -8,7 +8,7 @@
 
 
 
-.discoverAI-single-howitworks {
+.dyscoverAI-single-howitworks {
     margin-top: 30px;
     text-align: center;
     padding: 30px;
@@ -16,7 +16,7 @@
     border-radius: 10px;
 }
 
-.discoverAI-single-howitworks .icon {
+.dyscoverAI-single-howitworks .icon {
     font-size: 40px;
     background-color: var(--light-green);
     color: var(--light-text);
@@ -26,37 +26,37 @@
     margin-bottom: 20px;
 }
 
-.discoverAI-single-howitworks h4 {
+.dyscoverAI-single-howitworks h4 {
     font-size: 24px;
     font-weight: 600;
     color: var(--light-text);
     margin-bottom: 15px;
 }
 
-.discoverAI-single-howitworks p {
+.dyscoverAI-single-howitworks p {
     color: var(--light-text);
     opacity: 0.7;
     font-size: 16px;
 }
 
-.discoverAI-single-howitworks .item-2 {
+.dyscoverAI-single-howitworks .item-2 {
     background-color: var(--light-purple);
 }
 
-.discoverAI-single-howitworks .item-3 {
+.dyscoverAI-single-howitworks .item-3 {
     background-color: var(--light-purple);
 }
 
-.discoverAI-single-howitworks .item-4 {
+.dyscoverAI-single-howitworks .item-4 {
     background-color: var(--light-purple);
 }
 
 /* Responsive design adjustments */
 @media (max-width: 767px) {
-    .discoverAI-title {
+    .dyscoverAI-title {
         font-size: 30px;
     }
-    .discoverAI-single-howitworks {
+    .dyscoverAI-single-howitworks {
         padding: 20px;
     }
     .icon {

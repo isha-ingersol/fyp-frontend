@@ -14,13 +14,13 @@ function TestimonialHome({ className }) {
     };
     return (
         <section
-            className={`discoverAI-testimonial-area pt-100 pb-160 ${className || ''}`}
+            className={`dyscoverAI-testimonial-area pt-100 pb-160 ${className || ''}`}
             id="testimonial"
         >
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-8">
-                        <div className="discoverAI-testimonial-slider" style={{ position: 'relative' }}>
+                        <div className="dyscoverAI-testimonial-slider" style={{ position: 'relative' }}>
                             <span
                                 className="prev slick-arrow"
                                 style={{ display: 'block' }}
@@ -31,7 +31,7 @@ function TestimonialHome({ className }) {
                                 <i className="fal fa-arrow-left" />
                             </span>
                             <Slider ref={sliderRef} dots arrows={false}>
-                                <div className="discoverAI-testimonial-item text-center">
+                                <div className="dyscoverAI-testimonial-item text-center">
                                     <div className="author-info">
                                         <img src={user} alt="" />
                                         <h5 className="title">Jason Response</h5>
@@ -62,7 +62,7 @@ function TestimonialHome({ className }) {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="discoverAI-testimonial-item text-center">
+                                <div className="dyscoverAI-testimonial-item text-center">
                                     <div className="author-info">
                                         <img src={user} alt="" />
                                         <h5 className="title">Jason Response</h5>
@@ -93,7 +93,7 @@ function TestimonialHome({ className }) {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="discoverAI-testimonial-item text-center">
+                                <div className="dyscoverAI-testimonial-item text-center">
                                     <div className="author-info">
                                         <img src={user} alt="" />
                                         <h5 className="title">Jason Response</h5>

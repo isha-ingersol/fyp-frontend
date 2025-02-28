@@ -3,7 +3,7 @@ import React from 'react';
 function SideBarFilter() {
     return (
         <>
-            <div className="discoverAI-shop-sidebar">
+            <div className="dyscoverAI-shop-sidebar">
                 <div className="shop-price-filter">
                     <h4 className="title">Filter by Price</h4>
                     <div className="price-range">

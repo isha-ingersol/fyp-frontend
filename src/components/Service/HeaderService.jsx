@@ -5,7 +5,7 @@ import Navigation from '../Navigation.jsx';
 function HeaderService({ action }) {
     return (
         <>
-            <header className="header-container discoverAI-header-page-area sticky-header">
+            <header className="header-container dyscoverAI-header-page-area sticky-header">
                 <div className="container">
                     <div className="header-nav-box header-nav-box-3 header-nav-box-inner-page">
                         <div className="row align-items-center">

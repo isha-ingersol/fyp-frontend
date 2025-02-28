@@ -3,11 +3,11 @@ import thumb from '../../assets/images/traffic-thumb.png';
 
 function TrafficHome({ className }) {
     return (
-        <section className={`discoverAI-traffic-area pt-140 pb-180 ${className || ''}`}>
+        <section className={`dyscoverAI-traffic-area pt-140 pb-180 ${className || ''}`}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-7">
-                        <div className="discoverAI-traffic-title">
+                        <div className="dyscoverAI-traffic-title">
                             <span>Traffic</span>
                             <h3 className="title">Stage reporting with 50k queries.</h3>
                             <p>
@@ -17,7 +17,7 @@ function TrafficHome({ className }) {
                         </div>
                         <div className="row">
                             <div className="col-lg-6 col-md-6">
-                                <div className="discoverAI-traffic-service mb-30">
+                                <div className="dyscoverAI-traffic-service mb-30">
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
@@ -26,7 +26,7 @@ function TrafficHome({ className }) {
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
-                                <div className="discoverAI-traffic-service item-2 mb-30">
+                                <div className="dyscoverAI-traffic-service item-2 mb-30">
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
@@ -35,7 +35,7 @@ function TrafficHome({ className }) {
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
-                                <div className="discoverAI-traffic-service item-3">
+                                <div className="dyscoverAI-traffic-service item-3">
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
@@ -44,7 +44,7 @@ function TrafficHome({ className }) {
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
-                                <div className="discoverAI-traffic-service item-4">
+                                <div className="dyscoverAI-traffic-service item-4">
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>

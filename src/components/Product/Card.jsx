@@ -11,7 +11,7 @@ function Card({ cardData }) {
             <div className="single-shop-box">
                 <div className="thumb text-center">
                     <img
-                        className="discoverAI-card-img"
+                        className="dyscoverAI-card-img"
                         onError={handleError}
                         src={cardData.image}
                         alt=""

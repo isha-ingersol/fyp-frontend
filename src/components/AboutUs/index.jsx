@@ -20,7 +20,7 @@ function AboutUs() {
             <TeamAbout />
             {/* <SponserHomeTwo /> */}
             {/* <SignupHomeEight /> */}
-            <FooterHome className="discoverAI-footer-about-area" />
+            <FooterHome className="dyscoverAI-footer-about-area" />
             <BackToTop />
         </>
     );

@@ -5,7 +5,7 @@ import logo from '../../assets/images/logo.png';
 function FooterHome({ className }) {
     return (
         <>
-            <section className={`discoverAI-footer-area ${className || ''}`}>
+            <section className={`dyscoverAI-footer-area ${className || ''}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
@@ -16,7 +16,7 @@ function FooterHome({ className }) {
                                     </a>
                                 </div>
                                 <p>
-                                    DiscoverAI WordPress is theme is the last theme you will ever have.
+                                    DyscoverAI WordPress is theme is the last theme you will ever have.
                                 </p>
                                 <a href="#">
                                     Read More <i className="fal fa-arrow-right" />
@@ -97,7 +97,7 @@ function FooterHome({ className }) {
                                 <ul>
                                     <li>
                                         <a href="#">
-                                            <i className="fal fa-envelope" /> support@discoverAI.com
+                                            <i className="fal fa-envelope" /> support@dyscoverAI.com
                                         </a>
                                     </li>
                                     <li>
@@ -134,7 +134,7 @@ function FooterHome({ className }) {
                                     </ul>
                                 </div>
                                 <div className="copyright-text">
-                                    <p>Copyright © 2021 DiscoverAI. All rights reserved.</p>
+                                    <p>Copyright © 2021 DyscoverAI. All rights reserved.</p>
                                 </div>
                             </div>
                         </div>

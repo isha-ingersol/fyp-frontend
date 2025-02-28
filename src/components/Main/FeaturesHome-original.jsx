@@ -5,18 +5,18 @@ import shapeSix from '../../assets/images/shape/shape-6.png';
 import shapeSeven from '../../assets/images/shape/shape-7.png';
 import shapeEight from '../../assets/images/shape/shape-8.png';
 
-function FeaturesHome({ className }) {
+function LearnMore({ className }) {
     const [tab, setTab] = useState('setting');
     const handleClick = (e, value) => {
         e.preventDefault();
         setTab(value);
     };
     return (
-        <section className={`discoverAI-features-area pt-100 ${className}`} id="features">
+        <section className={`dyscoverAI-features-area pt-100 ${className}`} id="features">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-3">
-                        <div className="discoverAI-features-tabs-btn">
+                        <div className="dyscoverAI-features-tabs-btn">
                             <div
                                 className="nav flex-column nav-pills"
                                 id="v-pills-tab"
@@ -87,7 +87,7 @@ function FeaturesHome({ className }) {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div
-                                            className="discoverAI-features-thumb text-center wow animated fadeInUp"
+                                            className="dyscoverAI-features-thumb text-center wow animated fadeInUp"
                                             data-wow-duration="2000ms"
                                             data-wow-delay="200ms"
                                         >
@@ -96,7 +96,7 @@ function FeaturesHome({ className }) {
                                     </div>
                                     <div className="col-lg-6">
                                         <div
-                                            className="discoverAI-features-content wow animated fadeInRight"
+                                            className="dyscoverAI-features-content wow animated fadeInRight"
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
@@ -124,7 +124,7 @@ function FeaturesHome({ className }) {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div
-                                            className="discoverAI-features-thumb text-center animated fadeInUp"
+                                            className="dyscoverAI-features-thumb text-center animated fadeInUp"
                                             data-wow-duration="2000ms"
                                             data-wow-delay="200ms"
                                         >
@@ -133,7 +133,7 @@ function FeaturesHome({ className }) {
                                     </div>
                                     <div className="col-lg-6">
                                         <div
-                                            className="discoverAI-features-content animated fadeInRight"
+                                            className="dyscoverAI-features-content animated fadeInRight"
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
@@ -161,7 +161,7 @@ function FeaturesHome({ className }) {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div
-                                            className="discoverAI-features-thumb text-center animated fadeInUp"
+                                            className="dyscoverAI-features-thumb text-center animated fadeInUp"
                                             data-wow-duration="2000ms"
                                             data-wow-delay="200ms"
                                         >
@@ -170,7 +170,7 @@ function FeaturesHome({ className }) {
                                     </div>
                                     <div className="col-lg-6">
                                         <div
-                                            className="discoverAI-features-content animated fadeInRight"
+                                            className="dyscoverAI-features-content animated fadeInRight"
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
@@ -198,7 +198,7 @@ function FeaturesHome({ className }) {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div
-                                            className="discoverAI-features-thumb text-center animated fadeInUp"
+                                            className="dyscoverAI-features-thumb text-center animated fadeInUp"
                                             data-wow-duration="2000ms"
                                             data-wow-delay="200ms"
                                         >
@@ -207,7 +207,7 @@ function FeaturesHome({ className }) {
                                     </div>
                                     <div className="col-lg-6">
                                         <div
-                                            className="discoverAI-features-content animated fadeInRight"
+                                            className="dyscoverAI-features-content animated fadeInRight"
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
@@ -243,4 +243,4 @@ function FeaturesHome({ className }) {
     );
 }
 
-export default FeaturesHome;
+export default LearnMore;

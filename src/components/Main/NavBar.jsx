@@ -3,7 +3,7 @@ import logo7 from "../../assets/images/logo-7.png";
 import logo from "../../assets/images/logo.png";
 import StickyMenu from "../../lib/StickyMenu.js";
 import Navigation from "../Navigation.jsx";
-import "../../assets/css/nav-bar.css";
+import "../../assets/css/navbar.css";
 
 function NavBar({
     lang,

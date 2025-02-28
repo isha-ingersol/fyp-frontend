@@ -4,11 +4,11 @@ import thumb from '../../assets/images/fun-fact-thumb.png';
 function HeroService() {
     return (
         <>
-            <div className="discoverAI-page-title-area discoverAI-page-service-title-area">
+            <div className="dyscoverAI-page-title-area dyscoverAI-page-service-title-area">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="discoverAI-page-title-item">
+                            <div className="dyscoverAI-page-title-item">
                                 <span>Fast Development</span>
                                 <h3 className="title">
                                     Simple but effective, <br /> effortless yet powerful.
