@@ -1,23 +1,22 @@
-/* General Learn More section */
+/* Learn More Section */
 .learnmore-area {
     background: var(--light-green);
-    padding: 90px 0 100px;
+    padding: 70px 0 80px;
 }
 
-/* Title Alignment */
+/* Title Styling */
 .section-title {
     text-align: left;
 }
 
-.section-title .title {
-    font-size: 60px;
+.section-title h2 {
+    font-size: 40px;
     font-weight: 700;
     color: var(--light-text);
-    margin-bottom: 25px;
 }
 
-/* Steps Container */
-.steps-container {
+/* Types Container */
+.types-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,8 +24,8 @@
     margin-top: 50px;
 }
 
-/* Step Box */
-.learnmore-step {
+/* Type Box */
+.learnmore-type {
     background: var(--light-bg);
     border-radius: 12px;
     padding: 40px 20px;
@@ -36,68 +35,81 @@
     transition: all 0.3s ease;
 }
 
-.learnmore-step:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-}
-
-/* Step Icon */
-.learnmore-step .icon {
+/* Type Icon */
+.learnmore-type .icon {
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
 }
 
-.learnmore-step .icon img {
+.learnmore-type .icon img {
     max-width: 80px;
 }
 
-/* Step Text */
-.learnmore-step h4 {
+/* Type Text */
+.learnmore-type h4 {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--light-text);
     margin-top: 10px;
 }
 
-/* Start Free Assessment Button */
+/* Right-aligned Button */
 .button-container {
-    text-align: center;
+    text-align: right;
     margin-top: 40px;
 }
 
-.button-green {
+/*===== Learn More Button Style (Replaces start-assessment-button) =====*/
+.learnmore-button {
     display: inline-block;
-    background: var(--light-green);
-    color: var(--light-text);
-    padding: 12px 25px;
-    border-radius: 6px;
-    border: 2px solid var(--light-green);
-    font-size: 16px;
-    font-weight: bold;
-    transition: all 0.3s ease;
-    text-decoration: none;
-
-    font-size: 15px;
     font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid var(--light-green);
+    padding: 0 30px;
+    font-size: 15px;
+    line-height: 45px;
+    border-radius: 6px;
+    color: var(--light-text);
+    cursor: pointer;
+    z-index: 5;
+    transition: all 0.4s ease-out 0s;
+    background-color: var(--light-green);
 }
 
-.button-green:hover {
-    /* background: transparent; */
+/* Hover Effect: Moves button up */
+.learnmore-button:hover {
+    background-color: var(--light-bg);
     color: var(--light-text);
-
+    border-color: var(--light-green);
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
+/* Alternate Button Style */
+.learnmore-button.learnmore-button-2 {
+    background-color: var(--light-bg);
+    color: var(--light-green);
+    border-color: var(--light-green);
+}
+
+.learnmore-button.learnmore-button-2:hover {
+    background-color: var(--light-green);
+    border-color: var(--light-green);
+    color: var(--light-bg);
+}
+
 /* Responsive Adjustments */
 @media (max-width: 991px) {
-    .steps-container {
+    .types-container {
         flex-direction: column;
         align-items: center;
     }
 
-    .learnmore-step {
+    .learnmore-type {
         width: 80%;
     }
 }
@@ -107,36 +119,11 @@
         text-align: center;
     }
 
-    .steps-container {
+    .types-container {
         gap: 30px;
     }
 
-    .learnmore-step {
+    .learnmore-type {
         width: 90%;
     }
-}
-
-.learnmore-area span {
-    background-color: var(--light-green);
-    padding: 2px 6px;
-    border-radius: 4px;
-    color: var(--light-text);
-}
-
-@media (max-width: 991px) {
-    .learnmore-area .section-title {
-        text-align: center;
-        /* Center the title on smaller screens */
-    }
-}
-
-@media (min-width: 992px) {
-    .learnmore-area .section-title {
-        text-align: left;
-        /* Keep it left-aligned on larger screens */
-    }
-}
-
-.gif-container {
-    padding: 0 0 20px;
 }

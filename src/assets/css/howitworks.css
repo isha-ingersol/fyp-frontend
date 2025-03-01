@@ -1,7 +1,7 @@
 /* General How It Works section */
 .howitworks-area {
   background: var(--light-purple);
-  padding: 90px 0 100px;
+  padding: 50px 0 60px;
 }
 
 /* Title Alignment */
@@ -10,10 +10,9 @@
 }
 
 .section-title .title {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 700;
   color: var(--light-text);
-  margin-bottom: 25px;
 }
 
 /* Steps Container */

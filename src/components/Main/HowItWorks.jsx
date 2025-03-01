@@ -6,7 +6,7 @@ import step3 from '../../assets/videos/upload-image.gif';
 
 function HowItWorks({ className }) {
     return (
-        <section className={`howitworks-area pt-90 pb-100 ${className}`} id="howitworks">
+        <section className={`howitworks-area ${className}`} id="howitworks">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">

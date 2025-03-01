@@ -1,12 +1,12 @@
 :root {
-    /* Light Mode Colors (from your PDF) */
+    /* Light Mode Colors */
     --light-bg: #ffffff;
     --light-text: #000001;
     --light-subtext: #505056;
     --light-green: #9afd7f;
     --light-purple: #f6d7ff;
 
-    /* Dark Mode Colors (Keep Existing) */
+    /* Dark Mode Colors */
     --dark-bg: #000001;
     --dark-text: #ffffff;
     --dark-default-text: #505056;
