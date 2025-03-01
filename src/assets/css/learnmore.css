@@ -13,6 +13,7 @@
     font-size: 40px;
     font-weight: 700;
     color: var(--light-text);
+    margin-bottom: 10px;
 }
 
 /* Types Container */
@@ -20,30 +21,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
     margin-top: 50px;
 }
 
-/* Type Box */
-.learnmore-type {
-    background: var(--light-bg);
-    border-radius: 12px;
-    padding: 40px 20px;
-    text-align: center;
-    width: 30%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-}
-
-/* Type Icon */
-.learnmore-type .icon {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
-}
-
-.learnmore-type .icon img {
-    max-width: 80px;
+/* Type Text */
+.learnmore-type h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--light-text);
 }
 
 /* Type Text */
@@ -51,22 +36,36 @@
     font-size: 18px;
     font-weight: 400;
     color: var(--light-text);
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
-/* Right-aligned Button */
-.button-container {
-    text-align: right;
-    margin-top: 40px;
+.learnmore-type span {
+    background-color: var(--light-green);
+    padding: 3px 3px;
+    border-radius: 4px;
+    color: var(--light-text);
+    display: inline;
 }
 
-/*===== Learn More Button Style (Replaces start-assessment-button) =====*/
+/* Type Box */
+.learnmore-type {
+    background: var(--light-bg);
+    border-radius: 12px;
+    padding: 40px 30px 25px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Left-align text */
+    text-align: left; /* Ensure text is left-aligned */
+}
+
+/* Learn More Button */
 .learnmore-button {
     display: inline-block;
     font-weight: 500;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
+    text-align: center; /* Keeps text inside the button centered */
     user-select: none;
     border: 1px solid var(--light-green);
     padding: 0 30px;
@@ -75,31 +74,15 @@
     border-radius: 6px;
     color: var(--light-text);
     cursor: pointer;
-    z-index: 5;
     transition: all 0.4s ease-out 0s;
     background-color: var(--light-green);
 }
 
 /* Hover Effect: Moves button up */
 .learnmore-button:hover {
-    background-color: var(--light-bg);
     color: var(--light-text);
-    border-color: var(--light-green);
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-}
-
-/* Alternate Button Style */
-.learnmore-button.learnmore-button-2 {
-    background-color: var(--light-bg);
-    color: var(--light-green);
-    border-color: var(--light-green);
-}
-
-.learnmore-button.learnmore-button-2:hover {
-    background-color: var(--light-green);
-    border-color: var(--light-green);
-    color: var(--light-bg);
 }
 
 /* Responsive Adjustments */
@@ -111,6 +94,7 @@
 
     .learnmore-type {
         width: 80%;
+        align-items: flex-start; /* Ensure left alignment on smaller screens */
     }
 }
 
@@ -127,3 +111,13 @@
         width: 90%;
     }
 }
+
+
+
+.learnmore-button i {
+    height: 26px;
+    width: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+  }

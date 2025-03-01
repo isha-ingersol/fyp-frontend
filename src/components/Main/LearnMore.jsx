@@ -1,17 +1,14 @@
 import React from "react";
 import "../../assets/css/learnmore.css";
-import type1 from "../../assets/videos/child-writing.gif";
-import type2 from "../../assets/videos/take-picture.gif";
-import type3 from "../../assets/videos/upload-image.gif";
 
 function LearnMore({ className }) {
     return (
         <section className={`learnmore-area ${className}`} id="learnmore">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-12">
                         <div className="section-title">
-                            <h2>Learn More</h2>
+                            <h2>Learn More about Learning Disabilities</h2>
                         </div>
                     </div>
                 </div>
@@ -19,48 +16,54 @@ function LearnMore({ className }) {
                 <div className="types-container">
                     {/* Type 1 */}
                     <div className="learnmore-type">
-                        <div className="gif-container">
-                            <img src={type1} alt="Type 1 Animation" />
-                        </div>
+                        <h3>
+                            Dyslexia
+                        </h3>
                         <h4>
-                            <span>Copy the text</span> on the screen exactly how you see it
+                            Dyslexia is a learning difficulty which primarily affects reading and writing skills, 
+                            specifically with <span>information processing.</span>
+                            Dyslexia can also impact on other areas such as <span>organisational skills.</span>
                         </h4>
                         {/* Learn More Button */}
                         <div className="button-container">
-                            <a href="#" className="learnmore-button">
-                                Read More <i className="fal fa-arrow-right" />
+                            <a href="https://my.clevelandclinic.org/health/diseases/6005-dyslexia" className="learnmore-button" target="_blank" rel="noopener noreferrer">
+                                Learn More <i className="fal fa-arrow-right" />
                             </a>
                         </div>
                     </div>
 
                     {/* Type 2 */}
                     <div className="learnmore-type">
-                        <div className="gif-container">
-                            <img src={type2} alt="Type 2 Animation" />
-                        </div>
+                        <h3>
+                            Dysgraphia
+                        </h3>
                         <h4>
-                            <span>Take a picture</span> of your writing. Make sure it is well-lit and legible.
+                            Dysgraphia is a neurological condition, where a person has difficulty turning 
+                            their <span>thoughts into written language,</span> despite exposure to adequate instruction 
+                            and education.
                         </h4>
                         {/* Learn More Button */}
                         <div className="button-container">
-                            <a href="#" className="learnmore-button">
-                                Read More <i className="fal fa-arrow-right" />
+                            <a href="https://my.clevelandclinic.org/health/diseases/23294-dysgraphia" className="learnmore-button" target="_blank" rel="noopener noreferrer">
+                                Learn More <i className="fal fa-arrow-right" />
                             </a>
                         </div>
                     </div>
 
                     {/* Type 3 */}
                     <div className="learnmore-type">
-                        <div className="gif-container">
-                            <img src={type3} alt="Type 3 Animation" />
-                        </div>
+                        <h3>
+                            Dyscalculia
+                        </h3>
                         <h4>
-                            <span>Upload your image</span> and get your results in less than 2 minutes.
+                            Dyscalculia affects brain areas that handle <span>mathematics and math-related skills and understanding.</span>
+                            <p />
+                            Symptoms usually appear in childhood, but adults may have dyscalculia without knowing it.
                         </h4>
                         {/* Learn More Button */}
                         <div className="button-container">
-                            <a href="#" className="learnmore-button">
-                                Read More <i className="fal fa-arrow-right" />
+                            <a href="https://my.clevelandclinic.org/health/diseases/23949-dyscalculia" className="learnmore-button" target="_blank" rel="noopener noreferrer">
+                                Learn More <i className="fal fa-arrow-right" />
                             </a>
                         </div>
                     </div>
@@ -69,48 +72,56 @@ function LearnMore({ className }) {
                 <div className="types-container">
                     {/* Type 4 */}
                     <div className="learnmore-type">
-                        <div className="gif-container">
-                            <img src={type1} alt="Type 1 Animation" />
-                        </div>
+                        <h3>
+                            Attention Deficit Hyperactivity Disorder (ADHD)
+                        </h3>
                         <h4>
-                            <span>Copy the text</span> on the screen exactly how you see it
+                            The most common childhood neurodevelopmental disorders.
+                            Children with ADHD often have difficulty with <span> hyperactivity and impulsivity,</span> 
+                            and the condition often lasts into adulthood.
                         </h4>
                         {/* Learn More Button */}
                         <div className="button-container">
-                            <a href="#" className="learnmore-button">
-                                Read More <i className="fal fa-arrow-right" />
+                            <a href="https://my.clevelandclinic.org/health/diseases/4784-attention-deficithyperactivity-disorder-adhd" className="learnmore-button" target="_blank" rel="noopener noreferrer">
+                                Learn More <i className="fal fa-arrow-right" />
                             </a>
                         </div>
                     </div>
 
                     {/* Type 5 */}
                     <div className="learnmore-type">
-                        <div className="gif-container">
-                            <img src={type2} alt="Type 2 Animation" />
-                        </div>
+                        <h3>
+                            Pervasive Developmental Disorder (PDD)
+                        </h3>
                         <h4>
-                            <span>Take a picture</span> of your writing. Make sure it is well-lit and legible.
+                            PDD— also known as autism spectrum disorder (ASD)— is a group of developmental 
+                            delays that affect <span>social and communication skills.</span> 
+                            The typical onset of PDD occurs around age 3.
                         </h4>
                         {/* Learn More Button */}
                         <div className="button-container">
-                            <a href="#" className="learnmore-button">
-                                Read More <i className="fal fa-arrow-right" />
+                            <a href="https://my.clevelandclinic.org/health/diseases/pervasive-developmental-disorders" className="learnmore-button" target="_blank" rel="noopener noreferrer">
+                                Learn More <i className="fal fa-arrow-right" />
                             </a>
                         </div>
                     </div>
 
                     {/* Type 6 */}
                     <div className="learnmore-type">
-                        <div className="gif-container">
-                            <img src={type3} alt="Type 3 Animation" />
-                        </div>
+                        <h3>
+                            Other learning disabilities
+                        </h3>
                         <h4>
-                            <span>Upload your image</span> and get your results in less than 2 minutes.
+                            There are other learning disabilities that exist. Some of which are:  
+                            auditory processing disorder (APD), 
+                            language processing disorder, 
+                            nonverbal learning disabilities (NVLD),
+                            visual perceptual/visual motor deficit, and more.
                         </h4>
                         {/* Learn More Button */}
                         <div className="button-container">
-                            <a href="#" className="learnmore-button">
-                                Read More <i className="fal fa-arrow-right" />
+                            <a href="https://my.clevelandclinic.org/health/diseases/4865-learning-disabilities-what-you-need-to-know" className="learnmore-button" target="_blank" rel="noopener noreferrer">
+                                Learn More <i className="fal fa-arrow-right" />
                             </a>
                         </div>
                     </div>

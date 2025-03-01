@@ -1,42 +1,34 @@
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
-// import Home from "./components/Main/Home.jsx";
-// import Main from "./components/Main/index.jsx";
-import HomeDark from "./components/HomeDark/index.jsx";
-import News from "./components/News/index.jsx";
-import SingleNews from "./components/News/SingleNews.jsx";
-import Service from "./components/Service/index.jsx";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Main from "./components/Main/index.jsx";
 import AboutUs from "./components/AboutUs/index.jsx";
 import Contact from "./components/Contact/index.jsx";
 import Error from "./components/Error/index.jsx";
 import AboutUsTwo from "./components/AboutUs/AboutUsTwo.jsx";
-import Shops from "./components/Shops/index.jsx";
-import ShopDetails from './components/Shops/Details';
 import Layout from "./components/Helper/Layout.jsx";
+
+// import HomeDark from "./components/HomeDark/index.jsx";
+// import News from "./components/News/index.jsx";
+// import SingleNews from "./components/News/SingleNews.jsx";
+// import Service from "./components/Service/index.jsx";
+// import Shops from "./components/Shops/index.jsx";
+// import ShopDetails from './components/Shops/Details';
 
 const router = createBrowserRouter([
   {
-    path:'/',
-    Component:Layout,
-    children:[
+    path: '/',
+    Component: Layout,
+    children: [
       {
-        index:true,
-        element: <HomeDark />
+        index: true,
+        element: <Main />  // Loads full home page
       },
       {
-        path: "/home-dark",
-        element: <HomeDark />
+        path: "/home",
+        element: <Main />  // Loads full home page
       },
       {
-        path: "/news",
-        element: <News />
-      },
-      {
-        path: "/news/single-news",
-        element: <SingleNews />
-      },
-      {
-        path: "/service",
-        element: <Service />
+        path: "/how-it-works",
+        element: <Main />  // Loads full home page, then auto-scrolls
       },
       {
         path: "/about-us",
@@ -51,21 +43,35 @@ const router = createBrowserRouter([
         element: <Error />
       },
       {
-        path: "/about-us-another",
-        element: <AboutUsTwo />
-      },
-      {
-        path: "/shops",
-        element: <Shops />
-      },
-      {
-        path: "/shops/shop-details",
-        element: <ShopDetails />
-      },
-      {
         path: "*",
         element: <Error />
       },
+      {
+        path: "/about-us-another",
+        element: <AboutUsTwo />
+      },
+
+      // Uncomment these if you need them later
+      // {
+      //   path: "/news",
+      //   element: <News />
+      // },
+      // {
+      //   path: "/news/single-news",
+      //   element: <SingleNews />
+      // },
+      // {
+      //   path: "/service",
+      //   element: <Service />
+      // },
+      // {
+      //   path: "/shops",
+      //   element: <Shops />
+      // },
+      // {
+      //   path: "/shops/shop-details",
+      //   element: <ShopDetails />
+      // },
     ]
   }
 ]);

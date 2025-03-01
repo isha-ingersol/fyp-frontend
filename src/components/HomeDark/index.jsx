@@ -1,19 +1,20 @@
 import React, { useEffect } from 'react';
 import useToggle from '../../Hooks/useToggle.js';
 import BackToTop from '../BackToTop.jsx';
-import BlogHome from '../Main/BlogHome.jsx';
-import FaqHome from '../Main/FaqHome.jsx';
 import LearnMore from '../Main/LearnMore.jsx';
 import FooterHome from '../Main/FooterHome.jsx';
 import Home from '../Main/Home.jsx';
 import NavBar from '../Main/NavBar.jsx';
+import HowItWorks from '../Main/HowItWorks.jsx';
+import Drawer from '../Mobile/Drawer.jsx';
+
+
+
 import PricingHome from '../Main/PricingHome.jsx';
 import ProjectHome from '../Main/ProjectHome.jsx';
-import HowItWorks from '../Main/HowItWorks.jsx';
 import TeamHome from '../Main/TeamHome.jsx';
 import TestimonialHome from '../Main/TestimonialHome.jsx';
 import TrafficHome from '../Main/TrafficHome.jsx';
-import Drawer from '../Mobile/Drawer.jsx';
 
 function HomeDark() {
     const [drawer, drawerAction] = useToggle(false);
@@ -44,13 +45,13 @@ function HomeDark() {
             <Home className={darkMode ? 'dyscoverAI-hero-area-dark' : ''} />
             <HowItWorks className={darkMode ? 'dyscoverAI-service-area-dark' : ''} />
             <LearnMore className={darkMode ? 'dyscoverAI-features-area-dark' : ''} />
-            <TrafficHome className={darkMode ? 'dyscoverAI-traffic-area-dark' : ''} />
+            {/* <TrafficHome className={darkMode ? 'dyscoverAI-traffic-area-dark' : ''} />
             <TestimonialHome />
             <TeamHome className={darkMode ? 'dyscoverAI-team-area-dark' : ''} />
             <PricingHome className={darkMode ? 'dyscoverAI-pricing-area-dark' : ''} />
             <FaqHome className={darkMode ? 'dyscoverAI-faq-area-dark' : ''} />
             <BlogHome className={darkMode ? 'dyscoverAI-blog-area-dark' : ''} />
-            <ProjectHome />
+            <ProjectHome /> */}
             <FooterHome className={darkMode ? 'dyscoverAI-footer-area-dark' : ''} />
             <BackToTop />
         </>
