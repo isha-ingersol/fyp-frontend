@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import logo7 from "../assets/images/logo-7.png";
 import logo from "../assets/images/logo.png";
 import StickyMenu from "../lib/StickyMenu.js";
-import Navigation from "./Navigation.jsx";
-import "../assets/css/navbar.css";
+import "../assets/css/navbar.css"; 
+import "../assets/css/navigation.css"; 
 
 function NavBar({
-    lang,
     darkEnable = false,
     action,
     langEnabled = false,
@@ -18,6 +18,7 @@ function NavBar({
     useEffect(() => {
         StickyMenu();
     });
+
     return (
         <header className={`header-container sticky-header ${className || ""}`}>
             <div className="container">
@@ -25,84 +26,47 @@ function NavBar({
                     <div className="row align-items-center">
                         <div className="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
                             <div className="logo-container">
-                                {darkEnable && dark ? (
-                                    <a href="/">
-                                        <img src={logo7} alt="" />
-                                    </a>
-                                ) : (
-                                    <a href="/">
-                                        <img src={logo} alt="" />
-                                    </a>
-                                )}
+                                <Link to="/">
+                                    <img src={darkEnable && dark ? logo7 : logo} alt="Logo" />
+                                </Link>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-1 col-sm-1 order-3 order-sm-2">
                             <div className="main-navigation">
-                                <Navigation />
+                                <ul>
+                                    <li><Link to="/">Home</Link></li>
+                                    <li><Link to="/service">How it Works</Link></li>
+                                    <li><Link to="/assessment">Assessment</Link></li>
+                                    <li>
+                                        <a href="#">Learn More <i className="fal fa-angle-down" /></a>
+                                        <ul className="sub-menu">
+                                            <li><a href="https://my.clevelandclinic.org/health/diseases/6005-dyslexia" target="_blank" rel="noopener noreferrer">Dyslexia</a></li>
+                                            <li><a href="https://my.clevelandclinic.org/health/diseases/23294-dysgraphia" target="_blank" rel="noopener noreferrer">Dysgraphia</a></li>
+                                            <li><a href="https://my.clevelandclinic.org/health/diseases/23949-dyscalculia" target="_blank" rel="noopener noreferrer">Dyscalculia</a></li>
+                                            <li><a href="https://my.clevelandclinic.org/health/diseases/4784-attention-deficithyperactivity-disorder-adhd" target="_blank" rel="noopener noreferrer">ADHD</a></li>
+                                            <li><a href="https://my.clevelandclinic.org/health/diseases/pervasive-developmental-disorders" target="_blank" rel="noopener noreferrer">PDD</a></li>
+                                            <li><a href="https://my.clevelandclinic.org/health/diseases/4865-learning-disabilities-what-you-need-to-know" target="_blank" rel="noopener noreferrer">Other</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><Link to="/about">About</Link></li>
+                                </ul>
                             </div>
                         </div>
-                        <div className="col-lg-4  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
+                        <div className="col-lg-4 col-md-7 col-sm-6 col-6 order-2 order-sm-3">
                             <div className="right-nav-controls text-right">
-                                {darkEnable &&
-                                    (dark ? (
-                                        <span className="sun-icon" onClick={(e) => changeMode(e)}>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                viewBox="0 0 24 24"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <path
-                                                    strokeLinecap="round"
-                                                    strokeLinejoin="round"
-                                                    strokeWidth="2"
-                                                    d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
-                                                ></path>
-                                            </svg>
-                                        </span>
-                                    ) : (
-                                        <span className="moon-icon" onClick={(e) => changeMode(e)}>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                viewBox="0 0 24 24"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <path
-                                                    strokeLinecap="round"
-                                                    strokeLinejoin="round"
-                                                    strokeWidth="2"
-                                                    d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-                                                ></path>
-                                            </svg>
-                                        </span>
-                                    ))}
-                                {langEnabled &&
-                                    (lang ? (
-                                        <span
-                                            className="language-toggle ml-3"
-                                            onClick={(e) => changeModeLan(e)}
-                                        >
-                                            RTL
-                                        </span>
-                                    ) : (
-                                        <span
-                                            className="language-toggle mr-3"
-                                            onClick={(e) => changeModeLan(e)}
-                                        >
-                                            LTR
-                                        </span>
-                                    ))}
-                                <a className="login-button" href="#">
-                                    <i className="user-icon" /> Login
-                                </a>
-                                <a className="start-assessment-button ml-30" href="#">
-                                    Start Assessment
-                                </a>
-                                <div
-                                    onClick={(e) => action(e)}
-                                    className="mobile-menu-toggle ml-30 canvas_open d-lg-none d-block"
-                                >
+                                {darkEnable && (
+                                    <span className={dark ? "sun-icon" : "moon-icon"} onClick={changeMode}>
+                                        {dark ? "☀️" : "🌙"}
+                                    </span>
+                                )}
+                                {langEnabled && (
+                                    <span className="language-toggle ml-3" onClick={changeModeLan}>
+                                        {langEnabled ? "RTL" : "LTR"}
+                                    </span>
+                                )}
+                                <Link className="login-button" to="#">Login</Link>
+                                <Link className="start-assessment-button ml-30" to="/assessment">Start Assessment</Link>
+                                <div onClick={action} className="mobile-menu-toggle ml-30 canvas_open d-lg-none d-block">
                                     <i className="menu-icon fa fa-bars"></i>
                                 </div>
                             </div>
