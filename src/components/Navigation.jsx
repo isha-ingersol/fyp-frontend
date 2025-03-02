@@ -1,35 +1,15 @@
 import React from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navigation({ lang = false }) {
-    const navigate = useNavigate();
-    const location = useLocation();
-
-    const handleScroll = (event, sectionId) => {
-        event.preventDefault(); // Prevent default link behavior
-
-        if (location.pathname === "/") {
-            // If already on home, scroll immediately
-            const section = document.getElementById(sectionId);
-            if (section) {
-                section.scrollIntoView({ behavior: "smooth" });
-            }
-        } else {
-            // Navigate to /how-it-works (which auto-scrolls after load)
-            navigate("/how-it-works");
-        }
-    };
-
     return (
         <>
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/home-dark">Home</Link>
                 </li>
                 <li>
-                    <a href="#how-it-works" onClick={(e) => handleScroll(e, "how-it-works")}>
-                        How it Works
-                    </a>
+                    <Link to="/service">How it Works</Link>
                 </li>
                 <li>
                     <Link to="/service">Assessment</Link>
@@ -60,6 +40,19 @@ function Navigation({ lang = false }) {
                         </li>
                     </ul> */}
                 </li>
+                {/* <li>
+                    <a href="#">
+                        News <i className="fal fa-angle-down" />
+                    </a>
+                    <ul className="sub-menu">
+                        <li>
+                            <Link to="/news">News Page</Link>
+                        </li>
+                        <li>
+                            <Link to="/news/single-news">Single News</Link>
+                        </li>
+                    </ul>
+                </li> */}
                 <li>
                     <Link to="/contact">About</Link>
                 </li>
