@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo7 from "../assets/images/logo-7.png";
 import logo from "../assets/images/logo.png";
 import StickyMenu from "../lib/StickyMenu.js";
@@ -15,9 +15,21 @@ function NavBar({
     dark,
     className,
 }) {
+    const location = useLocation();
+
     useEffect(() => {
-        StickyMenu();
-    });
+        // Scroll to the correct section based on the URL
+        const sectionId = location.pathname.replace("/", "");
+        if (sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: "smooth" });
+            }
+        } else {
+            // Scroll to top for the home page
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    }, [location]);
 
     return (
         <header className={`header-container sticky-header ${className || ""}`}>
@@ -35,10 +47,10 @@ function NavBar({
                             <div className="main-navigation">
                                 <ul>
                                     <li><Link to="/">Home</Link></li>
-                                    <li><Link to="/service">How it Works</Link></li>
+                                    <li><Link to="/how-it-works">How it Works</Link></li>
                                     <li><Link to="/assessment">Assessment</Link></li>
                                     <li>
-                                        <a href="#">Learn More <i className="fal fa-angle-down" /></a>
+                                        <Link to="/learn-more">Learn More</Link> <i className="fal fa-angle-down" />
                                         <ul className="sub-menu">
                                             <li><a href="https://my.clevelandclinic.org/health/diseases/6005-dyslexia" target="_blank" rel="noopener noreferrer">Dyslexia</a></li>
                                             <li><a href="https://my.clevelandclinic.org/health/diseases/23294-dysgraphia" target="_blank" rel="noopener noreferrer">Dysgraphia</a></li>
@@ -56,7 +68,7 @@ function NavBar({
                             <div className="right-nav-controls text-right">
                                 {darkEnable && (
                                     <span className={dark ? "sun-icon" : "moon-icon"} onClick={changeMode}>
-                                        {dark ? "☀️" : "🌙"}
+                                        {dark ? "☀️" : "🌑"}
                                     </span>
                                 )}
                                 {langEnabled && (
@@ -65,7 +77,7 @@ function NavBar({
                                     </span>
                                 )}
                                 <Link className="login-button" to="#">Login</Link>
-                                <Link className="start-assessment-button ml-30" to="/assessment">Start Assessment</Link>
+                                <Link to="/assessment" className="start-assessment-button ml-30">Start Assessment</Link>
                                 <div onClick={action} className="mobile-menu-toggle ml-30 canvas_open d-lg-none d-block">
                                     <i className="menu-icon fa fa-bars"></i>
                                 </div>

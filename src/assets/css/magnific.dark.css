@@ -1,230 +1,164 @@
-/*dark css*/
-
-
-.dyscoverAI-dark{
-	background: #292E3C;
+/* Dark Mode CSS */
+.dyscoverAI-dark {
+	background: var(--dark-bg);
 }
 
-.header-container-dark .main-navigation ul > li > a{
-	color: #fff;
-}
-.header-container-dark .header-nav-box .right-nav-controls .login-button{
-	color: #fff;
-}
-
-
-
-.dyscoverAI-hero-area-dark .dyscoverAI-hero-content .dyscoverAI-title{
-	color: #fff;
+/* Fixing highlighted text in dark mode */
+.dyscoverAI-dark .highlight,
+.dyscoverAI-dark .highlight * {
+    background: var(--dark-highlight-bg) !important;
+    color: var(--dark-text) !important;
+    padding: 4px 6px;
+    border-radius: 4px;
 }
 
-.dyscoverAI-hero-area-dark .dyscoverAI-hero-content p{
-	color: #fff;
+/* Dark mode fixes for the navigation bar */
+.dyscoverAI-dark .header-container {
+    background: var(--dark-bg) !important;
+    border-bottom: 1px solid var(--dark-border);
 }
 
-.dyscoverAI-hero-area-dark .dyscoverAI-hero-content ul li a{
-	background: #fff;
-	border-color: #fff;
-	color: #0e1133;
+.dyscoverAI-dark .header-container .main-navigation ul > li > a {
+    color: var(--dark-text) !important;
 }
 
-.dyscoverAI-hero-area-dark .dyscoverAI-hero-content ul li a:hover{
-	background: transparent;
-	color: #fff;
+.dyscoverAI-dark .header-container .main-navigation ul > li > a:hover {
+    color: var(--accent-color) !important;
 }
 
-.dyscoverAI-hero-area-dark .dyscoverAI-hero-content ul li a.item-2{
-	color: #fff;
-}
-.dyscoverAI-hero-area-dark .dyscoverAI-hero-content ul li a.item-2:hover{
-	background: #fff;
-	color: #0e1133;
+/* Ensure the sticky header also adapts */
+.dyscoverAI-dark .header-container.sticky {
+    background: var(--dark-bg) !important;
 }
 
-.dyscoverAI-service-area.dyscoverAI-service-area-dark{
-	background: #1f2128;
+/* Navbar Dark Mode */
+.dyscoverAI-dark .navbar-dark {
+	background: var(--dark-bg) !important;
+    border-bottom: 1px solid var(--dark-border);
 }
 
-.dyscoverAI-service-area-dark .dyscoverAI-section-title .dyscoverAI-title{
-	color: #fff;
-}
-.dyscoverAI-service-area-dark .dyscoverAI-section-title p{
-	color: #fff;
+.dyscoverAI-dark .navbar-dark .navbar-nav .nav-link {
+	color: var(--dark-text) !important;
 }
 
-.dyscoverAI-service-area-dark  .dyscoverAI-single-service{
-	background: #292E3C;
+.dyscoverAI-dark .navbar-dark .navbar-nav .nav-link:hover {
+	color: var(--accent-color) !important;
 }
 
-.dyscoverAI-service-area-dark .dyscoverAI-single-service p,
-.dyscoverAI-service-area-dark .dyscoverAI-single-service .dyscoverAI-title{
-	color: #fff;
+.dyscoverAI-dark .navbar-dark .navbar-brand {
+	color: var(--dark-text) !important;
 }
 
-.dyscoverAI-features-area-dark  .dyscoverAI-features-tabs-btn .nav a{
-	color: #fff;
+.dyscoverAI-dark .navbar-dark .navbar-toggler {
+	border-color: var(--dark-border);
 }
 
-.dyscoverAI-features-area-dark .dyscoverAI-features-content p,
-.dyscoverAI-features-area-dark .dyscoverAI-features-content .title{
-	color: #fff;
+.dyscoverAI-dark .navbar-dark .navbar-toggler-icon {
+	background-color: var(--dark-text);
 }
 
-.dyscoverAI-traffic-area-dark .dyscoverAI-traffic-title p,
-.dyscoverAI-traffic-area-dark .dyscoverAI-traffic-title .title{
-	color: #fff;
+/* Fixing "Learn More" dropdown in dark mode */
+.dyscoverAI-dark .dropdown-toggle::after {
+    color: var(--dark-text) !important;
 }
 
-.dyscoverAI-traffic-area-dark .dyscoverAI-traffic-service p,
-.dyscoverAI-traffic-area-dark .dyscoverAI-traffic-service .title{
-	color: #fff;
+/* Fixing dropdown menu */
+.dyscoverAI-dark .dropdown-menu {
+    background: var(--dark-bg) !important;
+    border: 1px solid var(--dark-border);
 }
 
-.dyscoverAI-traffic-area-dark .traffic-btn a.start-assessment-button{
-	color: #fff;
-}
-.dyscoverAI-traffic-area-dark .traffic-btn a.start-assessment-button:hover{
-	background: #fff;
-	color: #2b70fa;
+.dyscoverAI-dark .dropdown-menu .dropdown-item {
+    color: var(--dark-text) !important;
 }
 
-.dyscoverAI-team-area-dark .dyscoverAI-section-title p,
-.dyscoverAI-team-area-dark .dyscoverAI-section-title .dyscoverAI-title{
-	color: #fff;
+.dyscoverAI-dark .dropdown-menu .dropdown-item:hover {
+    background: var(--dark-hover-bg) !important;
 }
 
-.dyscoverAI-team-area-dark .dyscoverAI-team-item .content span,
-.dyscoverAI-team-area-dark .dyscoverAI-team-item .content .title{
-	color: #fff;
+/* Fixing sub-menu dropdown */
+.dyscoverAI-dark .dropdown-submenu .dropdown-menu {
+    background: var(--dark-bg) !important;
+    border: 1px solid var(--dark-border);
 }
 
-.dyscoverAI-team-area-dark .team-btn a{
-	color: #fff;
+.dyscoverAI-dark .dropdown-submenu .dropdown-item {
+    color: var(--dark-text) !important;
 }
 
+.dyscoverAI-dark .dropdown-submenu .dropdown-item:hover {
+    background: var(--dark-hover-bg) !important;
+}
 
+/* Fix Login button */
+.dyscoverAI-dark .header-nav-box .right-nav-controls .login-button {
+    color: var(--dark-text) !important;
+    background: transparent !important;
+}
 
+/* Home Area */
+.dyscoverAI-dark .home-area .title {
+	color: var(--dark-text);
+}
+
+.dyscoverAI-dark .home-area p {
+	color: var(--dark-text);
+}
+
+.dyscoverAI-dark .home-area .span {
+	color: var(--dark-text);
+}
+
+/* FAQ & Pricing */
 .dyscoverAI-faq-area-dark.dyscoverAI-faq-area,
-.dyscoverAI-pricing-area-dark.dyscoverAI-pricing-area{
-	background: #1f2128;
+.dyscoverAI-pricing-area-dark.dyscoverAI-pricing-area {
+	background: var(--dark-bg);
 }
 
 .dyscoverAI-pricing-area-dark .dyscoverAI-section-title p,
-.dyscoverAI-pricing-area-dark .dyscoverAI-section-title .dyscoverAI-title{
-	color: #fff;
+.dyscoverAI-pricing-area-dark .dyscoverAI-section-title .dyscoverAI-title {
+	color: var(--dark-text);
 }
 
-
-
-.dyscoverAI-pricing-area-dark.dyscoverAI-pricing-area ul.switch-toggler-list li a{
-	color: #fff;
-	opacity: 0.1;
-}
-.dyscoverAI-pricing-area-dark.dyscoverAI-pricing-area ul.switch-toggler-list li.active a{
-	color: #fff;
-	opacity: 1;
+/* FAQ */
+.dyscoverAI-faq-area-dark .dyscoverAI-section-title p,
+.dyscoverAI-faq-area-dark .dyscoverAI-section-title .dyscoverAI-title {
+	color: var(--dark-text);
 }
 
-
-.dyscoverAI-pricing-area-dark.dyscoverAI-pricing-area .pricing-one__single{
-	background: #292E3C;
-	color: #fff;
+.dyscoverAI-faq-area-dark .faq-accrodion .accrodion {
+	background: var(--dark-secondary-bg);
 }
 
-.dyscoverAI-pricing-area-dark .pricing-one__single .pricig-heading h6{
-	color: #fff;
+.dyscoverAI-faq-area-dark .faq-accrodion .accrodion .accrodion-inner {
+	border-color: var(--dark-border);
+	background: var(--dark-secondary-bg);
 }
 
-.dyscoverAI-pricing-area-dark .pricing-one__single .pricig-heading .price-range{
-	color: #fff;
+.dyscoverAI-faq-area-dark .faq-accrodion .accrodion .accrodion-content p,
+.dyscoverAI-faq-area-dark .faq-accrodion .accrodion .accrodion-title h4 {
+	color: var(--dark-text);
 }
 
-.dyscoverAI-pricing-area-dark .pricing-one__single .pricig-heading .price-range p{
-	color: #fff;
-}
-
-.dyscoverAI-pricing-area-dark .pricing-one__single .pricig-heading > p{
-	color: #fff;
-}
-
-.dyscoverAI-pricing-area-dark .pricing-one__single .pricig-body ul li{
-	color: #fff;
-}
-
-.dyscoverAI-pricing-area-dark  .pricing-one__single .pricig-body .pricing-btn a{
-	color: #fff;
-}
-
-
-
-
-.dyscoverAI-faq-area.dyscoverAI-faq-area-dark .dyscoverAI-section-title p,
-.dyscoverAI-faq-area.dyscoverAI-faq-area-dark .dyscoverAI-section-title .dyscoverAI-title{
-	color: #fff;
-}
-
-
-.dyscoverAI-faq-area.dyscoverAI-faq-area-dark .faq-accrodion .accrodion{
-	background: #292E3C;
-	
-}
-.dyscoverAI-faq-area.dyscoverAI-faq-area-dark .faq-accrodion .accrodion .accrodion-inner,
-.dyscoverAI-faq-area.dyscoverAI-faq-area-dark .faq-accrodion .accrodion.active .accrodion-inner{
-	border-color: #292E3C;
-	background: #292E3C;
-}
-
-.dyscoverAI-faq-area.dyscoverAI-faq-area-dark .faq-accrodion .accrodion .accrodion-content p,
-.dyscoverAI-faq-area.dyscoverAI-faq-area-dark .faq-accrodion .accrodion .accrodion-title h4{
-	color: #fff;
-}
-
-.dyscoverAI-blog-area-dark .dyscoverAI-section-title p,
-.dyscoverAI-blog-area-dark .dyscoverAI-section-title .dyscoverAI-title{
-	color: #fff;
-}
-.dyscoverAI-blog-area-dark .dyscoverAI-blog-item .content > a,
-.dyscoverAI-blog-area-dark .dyscoverAI-blog-item .content .title a,
-.dyscoverAI-blog-area-dark .dyscoverAI-blog-item .content .blog-meta ul li a,
-.dyscoverAI-blog-area-dark .dyscoverAI-blog-item .content .blog-meta ul li{
-	color: #fff;
-}
-
-.dyscoverAI-blog-area-dark .dyscoverAI-blog-item .content > a:hover,
-.dyscoverAI-blog-area-dark .dyscoverAI-blog-item .content .title a:hover{
-	color: #2b70fa;
-}
-
-
-.dyscoverAI-footer-area-dark.dyscoverAI-footer-area{
-	background: #1f2128;
+/* Footer */
+.dyscoverAI-footer-area-dark {
+	background: var(--dark-bg);
 }
 
 .dyscoverAI-footer-area-dark .footer-about-widget a,
-.dyscoverAI-footer-area-dark .footer-about-widget p{
-	color: #fff;
-}
-.dyscoverAI-footer-area-dark .footer-about-widget a:hover{
-	color: #2b70fa;
+.dyscoverAI-footer-area-dark .footer-about-widget p {
+	color: var(--dark-text);
 }
 
-.dyscoverAI-footer-area-dark .footer-widget-info ul li a,
-.dyscoverAI-footer-area-dark .footer-widget-info .title,
-.dyscoverAI-footer-area-dark .footer-navigation ul li a,
-.dyscoverAI-footer-area-dark .footer-navigation .title{
-	color: #fff;
-}
-.dyscoverAI-footer-area-dark .footer-navigation ul li a:hover{
-	color: #2b70fa;
+.dyscoverAI-footer-area-dark .footer-navigation ul li a{
+	color: var(--dark-text);
 }
 
-.dyscoverAI-footer-area-dark .footer-copyright .copyright-text p{
-	color: #fff;
+.dyscoverAI-footer-area-dark .footer-navigation ul li a:hover {
+	/* color: var(--accent-color); */
+	color: var(--light-green);
 }
 
-.dyscoverAI-footer-area-dark  .footer-copyright .apps-download-btn ul li a:hover{
-	color: #fff;
-}
-.dyscoverAI-footer-area-dark  .footer-copyright .apps-download-btn ul li a.item-2{
-	color: #fff;
+.dyscoverAI-footer-area-dark .footer-copyright .copyright-text p {
+	color: var(--dark-text);
 }

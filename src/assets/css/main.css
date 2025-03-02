@@ -11,6 +11,13 @@ body {
   color: var(--light-subtext);
   overflow-x: hidden;
 }
+
+    /* Dark Mode */
+    body.dark-mode {
+      background: var(--dark-bg);
+      color: white; /* ✅ Dark mode text */
+    }
+    
 /* ==========================================vue */
 * {
   margin: 0;

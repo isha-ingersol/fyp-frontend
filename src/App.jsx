@@ -7,28 +7,30 @@ function App() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        setTimeout(() => {
+        const timer = setTimeout(() => {
             setLoading(false);
         }, 2000);
-    });
+    
+        return () => clearTimeout(timer); // ✅ Cleanup timeout when component unmounts
+    }, []);
+    
 
 
 
-  return (
-    <>
-        {loading && (
-            <div className={`dyscoverAI-loader ${loading ? 'active' : ''}`}>
-                <Loader />
-            </div>
-        )}
-        <div className={`dyscoverAI-visible ${loading === false ? 'active' : ''}`}>
-
-                <Router />
-
-        </div>
-
-    </>
-  );
+    return (
+        <>
+            {loading && (
+                <div className="dyscoverAI-loader active">
+                    <Loader />
+                </div>
+            )}
+            {!loading && (
+                <div className="dyscoverAI-visible active">
+                    <Router />
+                </div>
+            )}
+        </>
+    );
 }
 
 export default App;

@@ -3,7 +3,7 @@ import "../assets/css/learnmore.css";
 
 function LearnMore({ className }) {
     return (
-        <section className={`learnmore-area ${className}`} id="learnmore">
+        <section id="learn-more" className={`learnmore-area ${className}`}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">

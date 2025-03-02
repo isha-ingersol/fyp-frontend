@@ -24,18 +24,30 @@ function Main() {
         return () => {
             document.body.classList.remove('dyscoverAI-dark');
         };
-    });
+    }, [darkMode]); // ✅ Runs only when darkMode changes
 
     useEffect(() => {
         if (location.pathname === "/how-it-works") {
-            // Wait until page is fully rendered before scrolling
             requestAnimationFrame(() => {
                 setTimeout(() => {
                     const section = document.getElementById("how-it-works");
                     if (section) {
                         section.scrollIntoView({ behavior: "smooth" });
                     }
-                }, 500);
+                }, 100); // ✅ Reduced delay
+            });
+        }
+    }, [location.pathname]);
+
+    useEffect(() => {
+        if (location.pathname === "/learn-more") {
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    const section = document.getElementById("learn-more");
+                    if (section) {
+                        section.scrollIntoView({ behavior: "smooth" });
+                    }
+                }, 100); // ✅ Reduced delay
             });
         }
     }, [location.pathname]);
@@ -52,17 +64,7 @@ function Main() {
             />
             <Home className={darkMode ? 'dyscoverAI-hero-area-dark' : ''} />
             <HowItWorks id="how-it-works" className={darkMode ? 'dyscoverAI-service-area-dark' : ''} />
-            <LearnMore className={darkMode ? 'dyscoverAI-features-area-dark' : ''} />
-
-            {/* Uncomment these sections if needed */}
-            {/* <TrafficHome className={darkMode ? 'dyscoverAI-traffic-area-dark' : ''} />
-            <TestimonialHome />
-            <TeamHome className={darkMode ? 'dyscoverAI-team-area-dark' : ''} />
-            <PricingHome className={darkMode ? 'dyscoverAI-pricing-area-dark' : ''} />
-            <FaqHome className={darkMode ? 'dyscoverAI-faq-area-dark' : ''} />
-            <BlogHome className={darkMode ? 'dyscoverAI-blog-area-dark' : ''} />
-            <ProjectHome /> */}
-
+            <LearnMore id="learn-more" className={darkMode ? 'dyscoverAI-features-area-dark' : ''} />
             <FooterHome className={darkMode ? 'dyscoverAI-footer-area-dark' : ''} />
             <BackToTop />
         </>

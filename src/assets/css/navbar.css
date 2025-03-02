@@ -12,13 +12,23 @@
   }
   
   .header-container {
+    position: fixed;
     padding-top: 30px;
-    position: absolute;
+    padding-bottom: 25px;
+    /* position: absolute; */
     left: 0;
     top: 0;
     right: 0;
     z-index: 999;
+    background: var(--light-bg);
   }
+
+  .dark-mode .header-container{
+    background: var(--dark-bg);
+    color: var(--dark-text);
+  }
+
+
   .header-container.dyscoverAI-header-2-area .right-nav-controls .start-assessment-button {
     background: #ff3e66;
     border-radius: 30px;
@@ -81,13 +91,7 @@
   .header-nav-box.header-nav-box-3 .main-navigation ul > li > a {
     color: var(--light-bg);
   }
-  .header-nav-box.header-nav-box-3
-    .main-navigation
-    ul
-    > li
-    .sub-menu
-    li
-    a {
+  .header-nav-box.header-nav-box-3 .main-navigation ul > li.sub-menu li a {
     color: #0e1133;
   }
   .header-nav-box.header-nav-box-3 .right-nav-controls .login-button {
@@ -541,14 +545,49 @@
 
 
 
-  /* .dyscoverAI-header-8-area .header-nav-box .right-nav-controls .start-assessment-button {
-    background: #db0f30;
-    border-color: #db0f30;
-  }
-  .dyscoverAI-header-8-area .header-nav-box .right-nav-controls .start-assessment-button:hover {
-    background: var(--light-bg);
-    color: #db0f30;
-  }
-  .dyscoverAI-header-8-area .header-nav-box .main-navigation ul > li a:hover {
-    color: #db0f30;
-  } */
+/* ✅ Dropdown for Themes */
+.theme-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.theme-dropdown button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 15px;
+}
+
+.theme-dropdown .sub-menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  list-style: none;
+  padding: 10px 0;
+  min-width: 150px;
+  z-index: 1000;
+}
+
+.theme-dropdown .sub-menu li {
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.theme-dropdown .sub-menu li button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.theme-dropdown .sub-menu li:hover {
+  background: #f0f0f0;
+}

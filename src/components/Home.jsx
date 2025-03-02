@@ -8,7 +8,7 @@ import homeImage from '../assets/images/home-image.png';
 function Home({ className }) {
     return (
         <>
-            <section className={`home-area ${className || ''}`}>
+            <section id="" className={`home-area ${className || ''}`}>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 home-image-container">

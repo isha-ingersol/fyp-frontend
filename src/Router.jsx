@@ -13,12 +13,12 @@ const router = createBrowserRouter([
         element: <Main />
       },
       {
-        path: "/",
+        path: "/how-it-works",
         element: <Main />
       },
       {
-        path: "/how-it-works",
-        element: <Main />  // Loads full home page, then auto-scrolls
+        path: "/learn-more",
+        element: <Main />
       },
       {
         path: "/error",
@@ -33,11 +33,7 @@ const router = createBrowserRouter([
 ]);
 
 function Router() {
-  return (
-      <>
-        <RouterProvider router={router} />
-      </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default Router;
