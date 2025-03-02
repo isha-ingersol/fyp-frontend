@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import '../assets/css/navigation.css';
 
 function Navigation({ lang = false }) {
     return (
@@ -16,29 +17,29 @@ function Navigation({ lang = false }) {
                 </li>
                 <li>
                     <a href="#">
-                        Learn More 
-                        {/* <i className="fal fa-angle-down" /> */}
+                        Learn More
+                        <i className="fal fa-angle-down" />
                     </a>
-                    {/* <ul className="sub-menu">
+                    <ul className="sub-menu">
                         <li>
-                            <Link to="/about-us">Dyslexia</Link>
+                            <a href="https://my.clevelandclinic.org/health/diseases/6005-dyslexia" target="_blank" rel="noopener noreferrer">Dyslexia</a>
                         </li>
                         <li>
-                            <Link to="/about-us-another">Dysgraphia</Link>
+                            <a href="https://my.clevelandclinic.org/health/diseases/23294-dysgraphia" target="_blank" rel="noopener noreferrer">Dysgraphia</a>
                         </li>
                         <li>
-                            <Link to="/error">Dyscalculia</Link>
+                            <a href="https://my.clevelandclinic.org/health/diseases/23949-dyscalculia" target="_blank" rel="noopener noreferrer">Dyscalculia</a>
                         </li>
                         <li>
-                            <Link to="/shops">ADHD</Link>
+                            <a href="https://my.clevelandclinic.org/health/diseases/4784-attention-deficithyperactivity-disorder-adhd" target="_blank" rel="noopener noreferrer">ADHD</a>
                         </li>
                         <li>
-                            <Link to="/shops/shop-details">ASD</Link>
+                            <a href="https://my.clevelandclinic.org/health/diseases/pervasive-developmental-disorders" target="_blank" rel="noopener noreferrer">PDD</a>
                         </li>
                         <li>
-                            <Link to="/shops/shop-details">Other</Link>
+                            <a href="https://my.clevelandclinic.org/health/diseases/4865-learning-disabilities-what-you-need-to-know" target="_blank" rel="noopener noreferrer">Other</a>
                         </li>
-                    </ul> */}
+                    </ul>
                 </li>
                 {/* <li>
                     <a href="#">
