@@ -6,7 +6,7 @@ function Navigation({ lang = false }) {
         <>
             <ul>
                 <li>
-                    <Link to="/home-dark">Home</Link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
                     <Link to="/service">How it Works</Link>
