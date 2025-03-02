@@ -37,25 +37,25 @@ function Drawer({ drawer, action }) {
                                         </li>
                                         {/* How it Works */}
                                         <li>
-                                            <Link to="/service">How it Works</Link>
+                                            <Link to="/how-it-works">How it Works</Link>
                                         </li>
                                         {/* Assessment */}
                                         <li>
-                                            <Link to="/service">Assessment</Link>
+                                            <Link to="/assessment">Assessment</Link>
                                         </li>
                                         {/* Learn More - Dropdown */}
                                         <li className="menu-item-has-children">
-                                            <a href="#" onClick={() => toggleDropdown("learnMore")}>
+                                            <a href="/learn-more" onClick={() => toggleDropdown("learnMore")}>
                                                 Learn More{" "}
-                                                {/* <i
+                                                <i
                                                     className={`fa ${
                                                         openDropdown === "learnMore"
                                                             ? "fa-angle-up"
                                                             : "fa-angle-down"
                                                     }`}
-                                                /> */}
+                                                />
                                             </a>
-                                            {/* <ul
+                                            <ul
                                                 className="sub-menu"
                                                 style={{
                                                     height: openDropdown === "learnMore" ? "auto" : "0px",
@@ -68,7 +68,7 @@ function Drawer({ drawer, action }) {
                                                 <li><Link to="/shops">ADHD</Link></li>
                                                 <li><Link to="/shops/shop-details">ASD</Link></li>
                                                 <li><Link to="/shops/shop-details">Other</Link></li>
-                                            </ul> */}
+                                            </ul>
                                         </li>
                                         {/* About */}
                                         <li>

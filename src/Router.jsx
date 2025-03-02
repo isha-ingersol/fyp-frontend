@@ -1,7 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Main from "./components/index.jsx";
 import Error from "./components/error.jsx";
-import Layout from "./components/Helper/Layout.jsx";
+import Layout from "./components/Layout.jsx";
+import AssessmentComponent from "./components/Assessments/Assessment.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/learn-more",
         element: <Main />
+      },
+      {
+        path: "/assessment",
+        element: <AssessmentComponent />
       },
       {
         path: "/error",

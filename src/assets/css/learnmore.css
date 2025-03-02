@@ -40,7 +40,8 @@
 }
 
 .learnmore-type span {
-    background-color: var(--primary-accent-color);
+    /* background-color: var(--primary-accent-color); */
+    background-color: var(--secondary-accent-color);
     padding: 3px 3px;
     border-radius: 4px;
     color: var(--light-text);

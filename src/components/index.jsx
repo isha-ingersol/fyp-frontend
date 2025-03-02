@@ -7,6 +7,7 @@ import FooterHome from './Footer.jsx';
 import Home from './Home.jsx';
 import NavBar from './NavBar.jsx';
 import HowItWorks from './HowItWorks.jsx';
+import AssessmentComponent from './Assessments/Assessment.jsx';
 import Drawer from './MobileDrawer.jsx';
 
 function Main() {
@@ -24,7 +25,7 @@ function Main() {
         return () => {
             document.body.classList.remove('dyscoverAI-dark');
         };
-    }, [darkMode]); // ✅ Runs only when darkMode changes
+    }, [darkMode]); 
 
     useEffect(() => {
         if (location.pathname === "/how-it-works") {
@@ -63,9 +64,10 @@ function Main() {
                 action={drawerAction.toggle}
             />
             <Home className={darkMode ? 'dyscoverAI-hero-area-dark' : ''} />
-            <HowItWorks id="how-it-works" className={darkMode ? 'dyscoverAI-service-area-dark' : ''} />
-            <LearnMore id="learn-more" className={darkMode ? 'dyscoverAI-features-area-dark' : ''} />
-            <FooterHome className={darkMode ? 'dyscoverAI-footer-area-dark' : ''} />
+            <HowItWorks id="how-it-works" className={darkMode ? 'darkmode-howitworks' : ''} />
+            {/* <AssessmentComponent id="assessment" className={darkMode ? 'darkmode-assessment' : ''} /> */}
+            <LearnMore id="learn-more" className={darkMode ? 'darkmode-learnmore' : ''} />
+            <FooterHome className={darkMode ? 'darkmode-footer' : ''} />
             <BackToTop />
         </>
     );

@@ -1,7 +1,7 @@
 import Router from "./Router.jsx";
 import {useEffect, useState} from "react";
-import Loader from "./components/Helper/Loader.jsx";
-import Layout from "./components/Helper/Layout.jsx";
+import Loader from "./components/Loader.jsx";
+import Layout from "./components/Layout.jsx";
 
 function App() {
     const [loading, setLoading] = useState(true);

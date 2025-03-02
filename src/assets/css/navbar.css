@@ -84,11 +84,13 @@
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-nav-box .right-nav-controls {
       padding-right: 50px;
+      background: var(--light-bg-3);
     }
   }
   @media (max-width: 767px) {
     .header-nav-box .right-nav-controls {
       padding-right: 30px;
+      background: var(--light-bg-3);
     }
   }
   .header-nav-box .right-nav-controls .login-button {
@@ -102,12 +104,14 @@
   @media (max-width: 767px) {
     .header-nav-box .right-nav-controls .start-assessment-button {
       display: none;
+      background: var(--light-bg-3);
     }
   }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     .header-nav-box .right-nav-controls .start-assessment-button {
       padding: 0 10px;
       display: inline-block;
+      background: var(--light-bg-3);
     }
   }
   .header-nav-box.header-nav-box-3 .main-navigation ul > li > a {
@@ -184,6 +188,7 @@
   @media (max-width: 767px) {
     .header-nav-box.header-nav-4-box .right-nav-controls ul {
       margin-right: 10px;
+      background: var(--light-bg-3);
     }
   }
   .header-nav-box.header-nav-4-box .right-nav-controls ul li {
@@ -229,11 +234,13 @@
   @media (max-width: 767px) {
     .header-nav-box.header-nav-box-6 .right-nav-controls form {
       display: none;
+      background: var(--light-bg-3);
     }
   }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     .header-nav-box.header-nav-box-6 .right-nav-controls form {
       display: inline-block;
+      background: var(--light-bg-3);
     }
   }
   .header-nav-box.header-nav-box-6 .right-nav-controls form .input-box {
@@ -286,11 +293,13 @@
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .main-navigation {
       display: none;
+      background: var(--light-bg-3);
     }
   }
   @media (max-width: 767px) {
     .main-navigation {
       display: none;
+      background: var(--light-bg-3);
     }
   }
   .main-navigation ul {
@@ -306,6 +315,7 @@
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .main-navigation ul > li {
       margin-right: 14px;
+      background: var(--light-bg-3);
     }
   }
   .main-navigation ul > li > a {
@@ -322,12 +332,16 @@
     .main-navigation ul > li .sub-menu {
       min-width: 200px;
       max-width: 200px;
+
+      background: var(--light-bg-3);
     }
   }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .main-navigation ul > li .sub-menu {
       min-width: 200px;
       max-width: 200px;
+
+      background: var(--light-bg-3);
     }
   }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -357,6 +371,8 @@
       border-top: 0;
       transition: 0s;
       padding: 0;
+
+      background: var(--light-bg-3);
     }
   }
   @media (max-width: 767px) {
@@ -386,6 +402,8 @@
       border-top: 0;
       transition: 0s;
       padding: 0;
+
+      background: var(--light-bg-3);
     }
   }
   .main-navigation ul > li .sub-menu > li {
@@ -399,11 +417,13 @@
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .main-navigation ul > li .sub-menu > li .sub-menu {
       margin-left: 0;
+      background: var(--light-bg-3);
     }
   }
   @media (max-width: 767px) {
     .main-navigation ul > li .sub-menu > li .sub-menu {
       margin-left: 0;
+      background: var(--light-bg-3);
     }
   }
   .main-navigation ul > li .sub-menu > li .sub-nav-toggler {
@@ -431,11 +451,13 @@
   @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .main-navigation ul > li .sub-menu > li a {
       padding: 0 20px;
+      background: var(--light-bg-3);
     }
   }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .main-navigation ul > li .sub-menu > li a {
       padding: 0 20px;
+      background: var(--light-bg-3);
     }
   }
   .main-navigation ul > li .sub-menu > li a i {
@@ -446,11 +468,13 @@
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .main-navigation ul > li .sub-menu > li a i {
       display: none;
+      background: var(--light-bg-3);
     }
   }
   @media (max-width: 767px) {
     .main-navigation ul > li .sub-menu > li a i {
       display: none;
+      background: var(--light-bg-3);
     }
   }
   .main-navigation ul > li .sub-menu > li a .sub-nav-toggler i {
@@ -479,6 +503,7 @@
       -ms-transition: all 0s ease-out 0s;
       -o-transition: all 0s ease-out 0s;
       transition: all 0s ease-out 0s;
+      background: var(--light-bg-3);
     }
   }
   @media (max-width: 767px) {
@@ -489,6 +514,7 @@
       -ms-transition: all 0s ease-out 0s;
       -o-transition: all 0s ease-out 0s;
       transition: all 0s ease-out 0s;
+      background: var(--light-bg-3);
     }
   }
   .main-navigation ul > li .sub-menu > li .sub-menu li {
