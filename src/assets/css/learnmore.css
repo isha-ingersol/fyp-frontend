@@ -1,6 +1,6 @@
 /* Learn More Section */
 .learnmore-area {
-    background: var(--light-green);
+    background: var(--light-bg-1);
     padding: 120px 0 80px;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .learnmore-type span {
-    background-color: var(--light-green);
+    background-color: var(--primary-accent-color);
     padding: 3px 3px;
     border-radius: 4px;
     color: var(--light-text);
@@ -49,7 +49,7 @@
 
 /* Type Box */
 .learnmore-type {
-    background: var(--light-bg);
+    background: var(--light-bg-3);
     border-radius: 12px;
     padding: 40px 30px 25px;
     width: 30%;
@@ -67,7 +67,7 @@
     font-weight: 500;
     text-align: center; /* Keeps text inside the button centered */
     user-select: none;
-    border: 1px solid var(--light-green);
+    border: 1px solid var(--primary-accent-color);
     padding: 0 30px;
     font-size: 15px;
     line-height: 45px;
@@ -75,7 +75,7 @@
     color: var(--light-text);
     cursor: pointer;
     transition: all 0.4s ease-out 0s;
-    background-color: var(--light-green);
+    background-color: var(--primary-accent-color);
 }
 
 /* Hover Effect: Moves button up */

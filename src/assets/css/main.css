@@ -109,7 +109,7 @@ p {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border: 1px solid var(--light-green);
+  border: 1px solid var(--primary-accent-color);
   padding: 0 30px;
   font-size: 15px;
   line-height: 45px;
@@ -122,21 +122,21 @@ p {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background-color: var(--light-green);
+  background-color: var(--primary-accent-color);
 }
 .start-assessment-button:hover {
   background-color: var(--light-bg);
   color: var(--light-text);
-  border-color: var(--light-green);
+  border-color: var(--primary-accent-color);
 }
 .start-assessment-button.start-assessment-button-2 {
   background-color: var(--light-bg);
-  color: var(--light-green);
-  border-color: var(--light-green);
+  color: var(--primary-accent-color);
+  border-color: var(--primary-accent-color);
 }
 .start-assessment-button.start-assessment-button-2:hover {
-  background-color: var(--light-green);
-  border-color: var(--light-green);
+  background-color: var(--primary-accent-color);
+  border-color: var(--primary-accent-color);
   color: var(--light-bg);
 }
 
@@ -221,7 +221,7 @@ p {
   width: 40px;
   text-align: center;
   line-height: 40px;
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   border-radius: 6px;
   color: var(--light-bg);
 }
@@ -329,7 +329,7 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .offcanvas_main_menu li a:hover {
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 .offcanvas_main_menu li ul.sub-menu {
   padding-left: 20px;
@@ -349,7 +349,7 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .offcanvas_footer span a:hover {
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 
 .offcanvas_menu_wrapper.active .canvas_close {
@@ -374,9 +374,9 @@ p {
   display: block;
   text-align: center;
   line-height: 40px;
-  border: 1px solid var(--light-green);
+  border: 1px solid var(--primary-accent-color);
   border-radius: 10px;
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   color: var(--light-bg);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -385,8 +385,8 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .canvas_close a:hover {
-  background: var(--light-green);
-  border-color: var(--light-green);
+  background: var(--primary-accent-color);
+  border-color: var(--primary-accent-color);
   color: var(--light-bg);
 }
 
@@ -406,8 +406,8 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .canvas_open a:hover {
-  color: var(--light-green);
-  border-color: var(--light-green);
+  color: var(--primary-accent-color);
+  border-color: var(--primary-accent-color);
 }
 
 .offcanvas-social {
@@ -422,7 +422,7 @@ p {
   width: 40px;
   text-align: center;
   line-height: 38px;
-  color: var(--light-green);
+  color: var(--primary-accent-color);
   border: 1px solid #eaeaea;
   border-radius: 50%;
   margin: 0 5px;
@@ -433,8 +433,8 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .offcanvas-social ul li a:hover {
-  background: var(--light-green);
-  border-color: var(--light-green);
+  background: var(--primary-accent-color);
+  border-color: var(--primary-accent-color);
   color: var(--light-bg);
 }
 
@@ -470,7 +470,7 @@ p {
   bottom: 40px;
   font-weight: 600;
   line-height: 60px;
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   padding: 0 15px;
   border-radius: 5px;
 }
@@ -743,11 +743,11 @@ p {
 }
 .amm-single-shopping-cart .cart-content .price {
   font-size: 14px;
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 .amm-single-shopping-cart .cart-content .price-discount {
   font-size: 14px;
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 .amm-single-shopping-cart .cart-content .price-close {
   font-size: 12px;
@@ -806,7 +806,7 @@ p {
 }
 .amm-shopping_cart-btn .tota p {
   font-size: 18px;
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 .amm-shopping_cart-btn .cart-btn a {
   margin: 5px 0;
@@ -901,13 +901,13 @@ p {
   margin-right: 10px;
 }
 .discoverAI-features-tabs-btn .nav a.active {
-  border-right-color: var(--light-green);
+  border-right-color: var(--primary-accent-color);
   background: transparent;
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 .discoverAI-features-tabs-btn .nav a.active i {
   color: var(--light-bg);
-  background: var(--light-green);
+  background: var(--primary-accent-color);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -923,7 +923,7 @@ p {
 .discoverAI-features-content span {
   font-size: 14px;
   font-weight: 500;
-  color: var(--light-green);
+  color: var(--primary-accent-color);
   margin-bottom: 8px;
 }
 .discoverAI-features-content .title {
@@ -1143,7 +1143,7 @@ p {
 .discoverAI-traffic-title span {
   font-size: 14px;
   font-weight: 500;
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 .discoverAI-traffic-title .title {
   font-size: 44px;
@@ -1201,7 +1201,7 @@ p {
   text-align: center;
   line-height: 26px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #84bcfa 0%, var(--light-green) 100%);
+  background: linear-gradient(135deg, #84bcfa 0%, var(--primary-accent-color) 100%);
   color: var(--light-bg);
   font-size: 14px;
   box-shadow: 0px 6px 10px 0px rgba(16, 73, 189, 0.3);
@@ -1248,7 +1248,7 @@ p {
   padding-left: 6px;
 }
 .traffic-btn a.start-assessment-button:hover {
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   color: var(--light-bg);
 }
 
@@ -1745,7 +1745,7 @@ p {
 }
 .discoverAI-team-item .thumb ul li a:hover {
   background: var(--light-bg);
-  color: var(--light-green);
+  color: var(--primary-accent-color);
   border-color: var(--light-bg);
 }
 .discoverAI-team-item .content {
@@ -1775,7 +1775,7 @@ p {
   overflow: hidden;
 }
 .discoverAI-team-item.discoverAI-team-item-about .thumb::before {
-  background-color: var(--light-green);
+  background-color: var(--primary-accent-color);
 }
 .discoverAI-team-item.discoverAI-team-item-about .thumb ul {
   left: 30px;
@@ -1803,13 +1803,13 @@ p {
   padding-left: 6px;
 }
 .team-btn a:hover {
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   color: var(--light-bg);
 }
 
 .discoverAI-team-about-area .team-btn a {
-  border-color: var(--light-green);
-  color: var(--light-green);
+  border-color: var(--primary-accent-color);
+  color: var(--primary-accent-color);
 }
 .discoverAI-team-about-area .team-btn a:hover {
   color: var(--light-bg);
@@ -1872,7 +1872,7 @@ p {
   bottom: 4px;
   -webkit-transform: translateX(0px);
   transform: translateX(0px);
-  background-color: var(--light-green);
+  background-color: var(--primary-accent-color);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -2214,7 +2214,7 @@ p {
   font-family: "Font Awesome 5 Pro";
   font-weight: 400;
   font-size: 14px;
-  color: var(--light-green);
+  color: var(--primary-accent-color);
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -2264,7 +2264,7 @@ p {
   opacity: 0;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   height: 40px;
   width: 40px;
   text-align: center;
@@ -2360,7 +2360,7 @@ p {
   line-height: 80px;
   background: var(--light-bg);
   border-radius: 50%;
-  color: var(--light-green);
+  color: var(--primary-accent-color);
   position: relative;
 }
 .discoverAI-faq-8-area .faq-play-box .play-btn a::before {
@@ -2437,7 +2437,7 @@ p {
   transform: translateY(-50%);
   height: 5px;
   width: 5px;
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   border-radius: 50%;
 }
 .discoverAI-blog-item .content .title {
@@ -2450,7 +2450,7 @@ p {
   color: #0e1133;
 }
 .discoverAI-blog-item .content .title a:hover {
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 .discoverAI-blog-item .content > a {
   font-size: 15px;
@@ -2462,7 +2462,7 @@ p {
   padding-left: 6px;
 }
 .discoverAI-blog-item .content > a:hover {
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 .discoverAI-blog-item:hover .thumb img {
   transform: scale(1.1);
@@ -2641,7 +2641,7 @@ p {
 .bisylms-pagination a,
 .bisylms-pagination span {
   font-size: 14px;
-  color: var(--light-green);
+  color: var(--primary-accent-color);
   font-weight: 600;
   line-height: 40px;
   background: rgba(88, 56, 252, 0.1);
@@ -2660,7 +2660,7 @@ p {
 .bisylms-pagination a:hover,
 .bisylms-pagination .current {
   color: var(--light-bg);
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   -webkit-box-shadow: 0px 20px 30px 0px rgba(26, 8, 119, 0.24);
   -moz-box-shadow: 0px 20px 30px 0px rgba(26, 8, 119, 0.24);
   box-shadow: 0px 20px 30px 0px rgba(26, 8, 119, 0.24);
@@ -2776,7 +2776,7 @@ p {
 }
 
 .search-form button:hover {
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 
 .blog-sidebar .widget ul {
@@ -2813,7 +2813,7 @@ p {
 }
 
 .blog-sidebar .widget ul li a:hover {
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 
 .blog-sidebar .widget ul li span {
@@ -2854,7 +2854,7 @@ p {
 }
 
 .popular-post h5 a:hover {
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 
 .popular-post span {
@@ -2884,7 +2884,7 @@ p {
 }
 
 .tags a:hover {
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   color: var(--light-bg);
 }
 
@@ -2976,7 +2976,7 @@ blockquote:before {
   font-family: "Open Sans", sans-serif;
   font-size: 100px;
   line-height: 25px;
-  color: var(--light-green);
+  color: var(--primary-accent-color);
   letter-spacing: -5px;
   -moz-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
@@ -3044,7 +3044,7 @@ blockquote cite {
 }
 
 .post-tags a:hover {
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   color: var(--light-bg);
 }
 
@@ -3209,7 +3209,7 @@ blockquote cite {
 }
 
 .single-comment h5 a:hover {
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 
 .single-comment span {
@@ -3237,7 +3237,7 @@ blockquote cite {
   display: inline-block;
   font-size: 12px;
   line-height: 0.8;
-  color: var(--light-green);
+  color: var(--primary-accent-color);
   font-weight: 600;
 }
 
@@ -3348,7 +3348,7 @@ blockquote cite {
 .comment-form input[type="submit"] {
   height: 50px;
   border-radius: 3px;
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   color: var(--light-bg);
   text-align: center;
   border: none;
@@ -3410,7 +3410,7 @@ blockquote cite {
   bottom: 0;
   font-family: "ElegantIcons";
   content: "\4e";
-  color: var(--light-green);
+  color: var(--primary-accent-color);
   font-size: 10px;
   left: 2px;
   position: absolute;
@@ -3461,7 +3461,7 @@ blockquote cite {
 }
 
 .bp-meta a i {
-  color: var(--light-green);
+  color: var(--primary-accent-color);
   margin-right: 9px;
   position: relative;
   top: 1px;
@@ -3472,7 +3472,7 @@ blockquote cite {
 }
 
 .bp-meta a:hover {
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 
 .b-post-details h3 {
@@ -3488,7 +3488,7 @@ blockquote cite {
 }
 
 .b-post-details h3 a:hover {
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 
 .post-item-1:hover {
@@ -3506,7 +3506,7 @@ blockquote cite {
   padding-left: 8px;
 }
 .b-post-details a.read-more:hover {
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 
 /*===========================
@@ -3678,517 +3678,11 @@ blockquote cite {
 }
 
 /*===========================
-    10.APPIE FOOTER css 
+    10. APPIE FOOTER css 
 ===========================*/
-.discoverAI-footer-area {
-  background: #eef1f6;
-  padding-top: 50px;
-  padding-bottom: 60px;
-}
-.discoverAI-footer-area.discoverAI-footer-3-area {
-  padding-top: 180px;
-}
-.discoverAI-footer-area.discoverAI-footer-3-area.discoverAI-footer-5-area {
-  background: var(--light-bg);
-}
-.discoverAI-footer-area.discoverAI-footer-about-area {
-  padding-top: 230px;
-}
-.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area {
-  background: var(--light-bg);
-}
-.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area
-  .footer-about-widget
-  .social
-  ul
-  li
-  a {
-  border: 2px solid #e6e7ea;
-}
-.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area
-  .footer-about-widget
-  .social
-  ul
-  li
-  a:hover {
-  background: #db0f30;
-  border-color: #db0f30;
-  color: var(--light-bg);
-}
-.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area
-  .footer-navigation
-  ul
-  li
-  a:hover {
-  color: #db0f30;
-}
-.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area
-  .footer-widget-info
-  ul
-  li
-  a
-  i {
-  color: #db0f30;
-}
-.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area
-  .footer-copyright
-  .apps-download-btn
-  ul
-  li
-  a {
-  background: #0e1133;
-  color: var(--light-bg);
-  border-color: #0e1133;
-}
-.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area
-  .footer-copyright
-  .apps-download-btn
-  ul
-  li
-  a:hover {
-  background: var(--light-bg);
-  color: #0e1133;
-}
-.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area
-  .footer-copyright
-  .apps-download-btn
-  ul
-  li
-  a.item-2 {
-  background: var(--light-bg);
-  color: #0e1133;
-}
-.discoverAI-footer-area.discoverAI-footer-about-area.discoverAI-footer-8-area
-  .footer-copyright
-  .apps-download-btn
-  ul
-  li
-  a.item-2:hover {
-  background: #0e1133;
-  color: var(--light-bg);
-  border-color: #0e1133;
-}
-
-.footer-about-widget {
-  padding-right: 70px;
-  margin-top: 30px;
-}
-@media (max-width: 767px) {
-  .footer-about-widget {
-    text-align: center;
-    padding-right: 0;
-  }
-}
-.footer-about-widget p {
-  padding-top: 25px;
-}
-.footer-about-widget > a {
-  font-size: 15px;
-  font-weight: 500;
-  color: #0e1133;
-  margin-top: 15px;
-}
-.footer-about-widget > a i {
-  padding-left: 6px;
-}
-.footer-about-widget .social ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-.footer-about-widget .social ul li {
-  display: inline-block;
-}
-.footer-about-widget .social ul li a {
-  height: 36px;
-  width: 36px;
-  text-align: center;
-  background: var(--light-bg);
-  color: #0e1133;
-  border-radius: 6px;
-  line-height: 36px;
-  margin-right: 5px;
-}
-.footer-about-widget .social ul li a:hover {
-  background: var(--light-green);
-  color: var(--light-bg);
-}
-.footer-about-widget.footer-about-widget-2 ul li a:hover {
-  background: #ff3e66;
-}
-.footer-about-widget.footer-about-widget-3 ul li a:hover {
-  background: #ff6b58;
-}
-.footer-about-widget.footer-about-widget-6 ul li a:hover {
-  background: #9b2cfa;
-}
-.footer-about-widget.footer-about-widget-5 ul li a:hover {
-  background: #801f82;
-}
-
-.footer-navigation {
-  margin-top: 30px;
-}
-@media (max-width: 767px) {
-  .footer-navigation {
-    text-align: center;
-  }
-}
-.footer-navigation .title {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 18px;
-}
-.footer-navigation ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-.footer-navigation ul li a {
-  color: var(--light-subtext);
-  font-size: 15px;
-  font-weight: 500;
-  margin-bottom: 6px;
-}
-.footer-navigation ul li a:hover {
-  color: var(--light-green);
-}
-.footer-navigation.footer-navigation-2 ul li a:hover {
-  color: #ff3e66;
-}
-.footer-navigation.footer-navigation-3 ul li a:hover {
-  color: #ff6b58;
-}
-.footer-navigation.footer-navigation-6 ul li a:hover {
-  color: #9b2cfa;
-}
-.footer-navigation.footer-navigation-5 ul li a:hover {
-  color: #801f82;
-}
-
-.footer-widget-info {
-  margin-top: 30px;
-}
-@media (max-width: 767px) {
-  .footer-widget-info {
-    text-align: center;
-  }
-}
-.footer-widget-info .title {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 18px;
-}
-.footer-widget-info ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-.footer-widget-info ul li a {
-  color: var(--light-subtext);
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 10px;
-  padding-left: 30px;
-  position: relative;
-}
-.footer-widget-info ul li a i {
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: var(--light-green);
-}
-
-.footer-copyright {
-  padding-top: 35px;
-  border-top: 1px solid #e1e5ec;
-  margin-top: 80px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .footer-copyright {
-    display: block !important;
-    text-align: center;
-  }
-}
-@media (max-width: 767px) {
-  .footer-copyright {
-    display: block !important;
-    text-align: center;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .footer-copyright .apps-download-btn {
-    margin-bottom: 20px;
-  }
-}
-@media (max-width: 767px) {
-  .footer-copyright .apps-download-btn {
-    margin-bottom: 20px;
-  }
-}
-.footer-copyright .apps-download-btn ul {
-  padding: 0;
-  list-style-type: none;
-}
-.footer-copyright .apps-download-btn ul li {
-  display: inline-block;
-  margin-right: 8px;
-}
-@media (max-width: 767px) {
-  .footer-copyright .apps-download-btn ul li {
-    margin-bottom: 20px;
-  }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .footer-copyright .apps-download-btn ul li {
-    margin-bottom: 0px;
-  }
-}
-.footer-copyright .apps-download-btn ul li a {
-  background: var(--light-bg);
-  color: #0e1133;
-  line-height: 40px;
-  padding: 0 23px;
-  border-radius: 6px;
-  border: 2px solid var(--light-bg);
-}
-.footer-copyright .apps-download-btn ul li a i {
-  padding-right: 6px;
-}
-.footer-copyright .apps-download-btn ul li a:hover {
-  background: transparent;
-  color: #0e1133;
-  border-color: #e7eaef;
-}
-.footer-copyright .apps-download-btn ul li a.item-2 {
-  background: transparent;
-  color: #0e1133;
-  border-color: #e7eaef;
-}
-.footer-copyright .apps-download-btn ul li a.item-2:hover {
-  background: var(--light-bg);
-  color: #0e1133;
-}
-
-.discoverAI-error-area {
-  padding-top: 250px;
-}
-
-.discoverAI-error-content span {
-  display: block;
-  font-size: 50px;
-  color: #db0f30;
-  font-weight: 800;
-  padding-top: 40px;
-}
-.discoverAI-error-content .title {
-  font-size: 50px;
-  font-weight: 800;
-  color: #0e1133;
-  padding-bottom: 11px;
-}
-.discoverAI-error-content p {
-  line-height: 26px;
-  color: var(--light-subtext);
-  font-size: 16px;
-  padding: 0 50px;
-}
-.discoverAI-error-content a {
-  border: 2px solid var(--light-green);
-  line-height: 45px;
-  padding: 0 35px;
-  border-radius: 6px;
-  margin-top: 30px;
-}
-
-.discoverAI-signup-area.discoverAI-signup-8-area {
-  background: #eef1f6;
-}
-.discoverAI-signup-area.discoverAI-signup-8-area
-  .discoverAI-signup-box
-  form
-  .input-box
-  button {
-  background: #db0f30;
-}
-
-.discoverAI-signup-box {
-  background-image: url(./../images/signup-bg.jpg);
-  padding: 63px 100px 60px;
-  border-radius: 10px;
-  box-shadow: 0px 40px 50px 0px rgba(0, 24, 72, 0.3);
-  overflow: hidden;
-  position: relative;
-  margin-bottom: -160px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .discoverAI-signup-box {
-    padding: 30px 50px;
-  }
-}
-@media (max-width: 767px) {
-  .discoverAI-signup-box {
-    padding: 30px;
-  }
-}
-.discoverAI-signup-box .thumb {
-  position: absolute;
-  right: 70px;
-  bottom: 30px;
-  width: 160px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .discoverAI-signup-box .thumb {
-    display: none;
-  }
-}
-@media (max-width: 767px) {
-  .discoverAI-signup-box .thumb {
-    display: none;
-  }
-}
-.discoverAI-signup-box span {
-  color: var(--light-bg);
-  font-weight: 500;
-}
-.discoverAI-signup-box .title {
-  font-size: 46px;
-  color: var(--light-bg);
-  padding-bottom: 20px;
-}
-@media (max-width: 767px) {
-  .discoverAI-signup-box .title {
-    font-size: 30px;
-  }
-}
-.discoverAI-signup-box form {
-  display: flex;
-  flex-wrap: wrap;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .discoverAI-signup-box form {
-    flex-direction: column;
-  }
-}
-@media (max-width: 767px) {
-  .discoverAI-signup-box form {
-    flex-direction: column;
-  }
-}
-.discoverAI-signup-box form .input-box {
-  margin-right: 10px;
-  margin-top: 10px;
-}
-.discoverAI-signup-box form .input-box input {
-  width: 300px;
-  background: var(--light-bg);
-  line-height: 55px;
-  border-radius: 6px;
-  padding-left: 30px;
-  border: 0;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .discoverAI-signup-box form .input-box input {
-    width: 100%;
-  }
-}
-@media (max-width: 767px) {
-  .discoverAI-signup-box form .input-box input {
-    width: 100%;
-  }
-}
-.discoverAI-signup-box form .input-box button {
-  background: var(--light-green);
-  line-height: 55px;
-  border: 0;
-  color: var(--light-bg);
-  border-radius: 6px;
-  padding: 0 45px;
-  font-weight: 500;
-}
-
-.discoverAI_checkbox_common {
-  margin-top: 15px;
-}
-
-.discoverAI_checkbox_common label {
-  color: var(--light-bg);
-  font-size: 14px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-weight: 400;
-}
-
-.discoverAI_checkbox_common label a {
-  text-decoration: underline;
-  color: #b3b6bc;
-}
-
-.discoverAI_checkbox_common input[type="checkbox"] {
-  display: none;
-}
-
-.discoverAI_checkbox_common input[type="checkbox"] + label span {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin: -1px 15px 0 0;
-  vertical-align: middle;
-  cursor: pointer;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  border: 2px solid var(--light-bg);
-  position: relative;
-}
-
-.discoverAI_checkbox_common input[type="checkbox"] + label span:before {
-  color: var(--light-bg);
-  content: "\f00c";
-  font-family: "Font Awesome 5 Pro";
-  font-size: 11px;
-  position: absolute;
-  text-align: center;
-  left: 3px;
-  top: -1px;
-  -webkit-transform: scale(0);
-  -moz-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-}
-
-.discoverAI_checkbox_common input[type="checkbox"]:checked + label span {
-  background: #2079ff;
-  border-color: #2079ff;
-}
-
-.discoverAI_checkbox_common input[type="checkbox"]:checked + label span:before {
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-}
-
-.discoverAI_checkbox_common input[type="checkbox"] + label span,
-.discoverAI_checkbox_common input[type="checkbox"]:checked + label span {
-  -webkit-transition: background-color 0.2s linear;
-  -o-transition: background-color 0.2s linear;
-  -moz-transition: background-color 0.2s linear;
-  transition: background-color 0.2s linear;
-}
-
-.discoverAI_checkbox_common.checkbox_style2 input[type="checkbox"] + label span {
-  border-radius: 3px;
-}
 
 /*===========================
-    11.APPIE ABOUT css 
+    11. APPIE ABOUT css 
 ===========================*/
 .discoverAI-about-box {
   background: #f0f1f7;
@@ -4335,10 +3829,10 @@ blockquote cite {
 }
 .discoverAI-about-3-area .discoverAI-traffic-service .icon {
   position: static;
-  background-image: -moz-linear-gradient(120deg, var(--light-green) 0%, #84bcfa 100%);
-  background-image: -webkit-linear-gradient(120deg, var(--light-green) 0%, #84bcfa 100%);
-  background-image: -ms-linear-gradient(120deg, var(--light-green) 0%, #84bcfa 100%);
-  background-image: linear-gradient(120deg, var(--light-green) 0%, #84bcfa 100%);
+  background-image: -moz-linear-gradient(120deg, var(--primary-accent-color) 0%, #84bcfa 100%);
+  background-image: -webkit-linear-gradient(120deg, var(--primary-accent-color) 0%, #84bcfa 100%);
+  background-image: -ms-linear-gradient(120deg, var(--primary-accent-color) 0%, #84bcfa 100%);
+  background-image: linear-gradient(120deg, var(--primary-accent-color) 0%, #84bcfa 100%);
   display: inline-block;
   height: 50px;
   width: 50px;
@@ -4495,7 +3989,7 @@ blockquote cite {
 }
 .discoverAI-about-page-content a:hover {
   background: var(--light-bg);
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 .discoverAI-about-page-content::before {
   position: absolute;
@@ -4555,7 +4049,7 @@ blockquote cite {
   line-height: 50px;
   border-radius: 50%;
   background: #eef4ff;
-  color: var(--light-green);
+  color: var(--primary-accent-color);
   font-size: 22px;
   font-weight: 500;
 }
@@ -4564,7 +4058,7 @@ blockquote cite {
   font-weight: 500;
 }
 .discoverAI-how-it-work-content .how-it-work-box:hover span {
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   box-shadow: 0px 14px 20px 0px rgba(0, 43, 130, 0.3);
   color: var(--light-bg);
 }
@@ -5410,7 +4904,7 @@ blockquote cite {
 .single-info p i {
   font-size: 16px;
   line-height: 22px;
-  color: var(--light-green);
+  color: var(--primary-accent-color);
   position: absolute;
   left: 0;
   top: 0;
@@ -5529,7 +5023,7 @@ blockquote cite {
 .contact-form input[type="submit"] {
   height: 50px;
   border-radius: 3px;
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   color: var(--light-bg);
   text-align: center;
   border: none;
@@ -5571,7 +5065,7 @@ blockquote cite {
 }
 
 .condition-check label a {
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 
 .condition-check label a:hover {
@@ -5598,7 +5092,7 @@ blockquote cite {
   bottom: 0;
   font-family: "Font Awesome 5 Pro";
   content: "\f00c";
-  color: var(--light-green);
+  color: var(--primary-accent-color);
   font-size: 10px;
   left: 3px;
   position: absolute;
@@ -5673,8 +5167,8 @@ blockquote cite {
 }
 .discoverAI-shop-grid-area .bisylms-pagination a:hover {
   box-shadow: none;
-  background: var(--light-green);
-  border-color: var(--light-green);
+  background: var(--primary-accent-color);
+  border-color: var(--primary-accent-color);
   color: var(--light-bg);
 }
 .discoverAI-shop-grid-area .bisylms-pagination span {
@@ -5704,7 +5198,7 @@ blockquote cite {
   top: 0;
   height: 100%;
   width: 60%;
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   transform: translateX(-50%);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5721,7 +5215,7 @@ blockquote cite {
   left: 50px;
   top: 50%;
   transform: translateY(-50%);
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   box-shadow: 0px 4px 10px 0px rgba(0, 14, 58, 0.2);
   cursor: pointer;
 }
@@ -5739,7 +5233,7 @@ blockquote cite {
   right: 50px;
   top: 50%;
   transform: translateY(-50%);
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   box-shadow: 0px 4px 10px 0px rgba(0, 14, 58, 0.2);
   cursor: pointer;
 }
@@ -5774,7 +5268,7 @@ blockquote cite {
   color: #63636a;
 }
 .discoverAI-shop-sidebar .shop-category-widget ul li a:hover {
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 .discoverAI-shop-sidebar .shop-best-product-widget {
   margin-top: 37px;
@@ -5799,7 +5293,7 @@ blockquote cite {
   display: block;
   font-size: 14px;
   font-weight: 500;
-  color: var(--light-green);
+  color: var(--primary-accent-color);
   color: #0e1133;
 }
 .discoverAI-shop-sidebar .shop-best-product-widget .shop-product .content span {
@@ -5883,7 +5377,7 @@ blockquote cite {
   top: 0;
 }
 .single-shop-box .thumb .reborn span {
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   font-size: 13px;
   font-weight: 500;
   color: var(--light-bg);
@@ -5915,7 +5409,7 @@ blockquote cite {
   border-radius: 5px;
 }
 .single-shop-box .thumb .cart-list-icon ul li a:hover {
-  background: var(--light-green);
+  background: var(--primary-accent-color);
   color: var(--light-bg);
 }
 .single-shop-box .content {
@@ -5988,7 +5482,7 @@ blockquote cite {
 }
 .shop-buttons .product-quantity button:hover,
 .shop-buttons .product-quantity button:focus {
-  color: var(--light-green);
+  color: var(--primary-accent-color);
 }
 @media (max-width: 767px) {
   .shop-buttons .product-quantity button {
@@ -6145,8 +5639,8 @@ blockquote cite {
 }
 .shop-details-box .nav .nav-item .nav-link.active {
   background: #eef1f6;
-  color: var(--light-green);
-  border-bottom: 2px solid var(--light-green);
+  color: var(--primary-accent-color);
+  border-bottom: 2px solid var(--primary-accent-color);
 }
 
 .shop-description p {
@@ -6296,7 +5790,7 @@ blockquote cite {
   border-radius: 6px;
 }
 .rating-form-box .input-box > input:focus {
-  border-color: var(--light-green);
+  border-color: var(--primary-accent-color);
 }
 .rating-form-box .input-box textarea {
   width: 100%;
@@ -6309,7 +5803,7 @@ blockquote cite {
   padding-top: 10px;
 }
 .rating-form-box .input-box textarea:focus {
-  border-color: var(--light-green);
+  border-color: var(--primary-accent-color);
 }
 .rating-form-box .input-box .condition-check label {
   font-size: 14px;
@@ -6335,5 +5829,5 @@ blockquote cite {
   border: 0;
 }
 .shop-related-product-slider-active .slick-dots li.slick-active button {
-  background: var(--light-green);
+  background: var(--primary-accent-color);
 }

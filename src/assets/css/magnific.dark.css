@@ -23,7 +23,7 @@
 }
 
 .dyscoverAI-dark .header-container .main-navigation ul > li > a:hover {
-    color: var(--accent-color) !important;
+    color: var(--accent-color-old) !important;
 }
 
 /* Ensure the sticky header also adapts */
@@ -42,7 +42,7 @@
 }
 
 .dyscoverAI-dark .navbar-dark .navbar-nav .nav-link:hover {
-	color: var(--accent-color) !important;
+	color: var(--accent-color-old) !important;
 }
 
 .dyscoverAI-dark .navbar-dark .navbar-brand {
@@ -155,8 +155,8 @@
 }
 
 .dyscoverAI-footer-area-dark .footer-navigation ul li a:hover {
-	/* color: var(--accent-color); */
-	color: var(--light-green);
+	/* color: var(--accent-color-old); */
+	color: var(--accent-color);
 }
 
 .dyscoverAI-footer-area-dark .footer-copyright .copyright-text p {

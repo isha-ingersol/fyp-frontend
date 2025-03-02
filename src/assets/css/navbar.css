@@ -4,7 +4,7 @@
     top: 0;
     right: 0;
     z-index: 1010;
-    background: var(--light-bg);
+    background: var(--light-bg-3);
     box-shadow: 0 15px 30px 0 #0000000f;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -20,7 +20,29 @@
     top: 0;
     right: 0;
     z-index: 999;
-    background: var(--light-bg);
+    background: var(--light-bg-3);
+  }
+  
+  .main-navigation ul > li .sub-menu {
+    position: absolute;
+    left: 0;
+    top: 110%;
+    width: auto;
+    min-width: 220px;
+    max-width: 220px;
+    background-color: var(--light-bg-1);
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.3s;
+    z-index: 99;
+    -webkit-box-shadow: 11px 10px 38px 0 rgba(46, 63, 99, 0.15);
+    -moz-box-shadow: 11px 10px 38px 0 rgba(46, 63, 99, 0.15);
+    box-shadow: 11px 10px 38px 0 rgba(46, 63, 99, 0.15);
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+    border-radius: 5px;
+    text-align: left;
   }
 
   .dark-mode .header-container{
@@ -119,7 +141,7 @@
     .right-nav-controls
     .start-assessment-button:hover {
     background: var(--light-bg);
-    color: var(--light-green);
+    color: var(--primary-accent-color);
   }
   .header-nav-box.header-nav-box-5 .main-navigation ul > li > a {
     color: var(--light-bg);
@@ -234,7 +256,7 @@
     color: var(--light-bg);
   }
   .header-nav-box.header-nav-box-7 .main-navigation ul > li > a:hover {
-    color: var(--light-green);
+    color: var(--primary-accent-color);
   }
   .header-nav-box.header-nav-box-7
     .main-navigation
@@ -252,7 +274,7 @@
     .sub-menu
     li
     a:hover {
-    color: var(--light-green);
+    color: var(--primary-accent-color);
   }
   .header-nav-box.header-nav-box-7 .right-nav-controls .login-button {
     color: var(--light-bg);
@@ -295,27 +317,7 @@
   .main-navigation ul > li > a i {
     padding-left: 6px;
   }
-  .main-navigation ul > li .sub-menu {
-    position: absolute;
-    left: 0;
-    top: 110%;
-    width: auto;
-    min-width: 220px;
-    max-width: 220px;
-    background-color: var(--light-bg);
-    opacity: 0;
-    visibility: hidden;
-    transition: all linear 0.3s;
-    z-index: 99;
-    -webkit-box-shadow: 11px 10px 38px 0 rgba(46, 63, 99, 0.15);
-    -moz-box-shadow: 11px 10px 38px 0 rgba(46, 63, 99, 0.15);
-    box-shadow: 11px 10px 38px 0 rgba(46, 63, 99, 0.15);
-    list-style-type: none;
-    margin: 0;
-    padding: 15px 0;
-    border-radius: 5px;
-    text-align: left;
-  }
+  
   @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .main-navigation ul > li .sub-menu {
       min-width: 200px;
@@ -515,10 +517,10 @@
     visibility: visible;
   }
   .main-navigation ul > li .sub-menu > li:hover .sub-nav-toggler {
-    color: var(--light-green);
+    color: var(--primary-accent-color);
   }
   .main-navigation ul > li .sub-menu > li:hover > a {
-    color: var(--light-green);
+    color: var(--primary-accent-color);
   }
   .main-navigation ul > li:hover .sub-menu {
     opacity: 1;
