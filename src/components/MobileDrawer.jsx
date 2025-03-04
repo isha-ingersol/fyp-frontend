@@ -72,7 +72,7 @@ function Drawer({ drawer, action }) {
                                         </li>
                                         {/* About */}
                                         <li>
-                                            <Link to="/contact">About</Link>
+                                            <Link to="/about">About</Link>
                                         </li>
                                     </ul>
                                 </div>

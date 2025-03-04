@@ -2476,7 +2476,7 @@ p {
   box-shadow: 0px -3px 0px 0px rgba(234, 76, 137, 0.004),
     0px 40px 40px 0px rgba(14, 17, 51, 0.1);
   border-top: 3px solid #2eacfc;
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 .dyscoverAI-single-service-2.item-2 .icon i {
   background: #ea4c89;
@@ -3899,7 +3899,7 @@ p {
 .pricing-one__single.pricing-one__single_2:hover {
   border-color: #fff;
   border-top: 3px solid #ff3e66;
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 
 .dyscoverAI-pricing-2-area .dyscoverAI-section-title .nav {
@@ -7158,7 +7158,7 @@ blockquote cite {
 }
 .dyscoverAI-showcase-item:hover {
   box-shadow: 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 .dyscoverAI-showcase-item a {
   display: block;

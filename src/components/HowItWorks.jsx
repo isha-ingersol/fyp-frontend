@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import '../assets/css/howitworks.css';
 import step1 from '../assets/videos/child-writing.gif'; 
 import step2 from '../assets/videos/take-picture.gif';
@@ -22,7 +23,7 @@ function HowItWorks({ className }) {
                         <div className="gif-container">
                             <img src={step1} alt="Step 1 Animation" />
                         </div>
-                        <h4><span>Copy the text</span> on the screen exactly how you see it</h4>
+                        <h4><span>Copy the text</span> from the screen onto a piece of paper exactly how you see it</h4>
                     </div>
 
                     {/* Step 2 */}
@@ -30,7 +31,7 @@ function HowItWorks({ className }) {
                         <div className="gif-container">
                             <img src={step2} alt="Step 2 Animation" />
                         </div>
-                        <h4><span>Take a picture</span> of your writing. Make sure it is well-lit and legible.</h4>
+                        <h4><span>Take a picture</span> of your writing. Make sure your area is well-lit and legible.</h4>
                     </div>
 
                     {/* Step 3 */}
@@ -38,13 +39,13 @@ function HowItWorks({ className }) {
                         <div className="gif-container">
                             <img src={step3} alt="Step 3 Animation" />
                         </div>
-                        <h4><span>Upload your image</span> and get your results in less than 2 minutes.</h4>
+                        <h4><span>Upload the image</span> and get your results in less than 2 minutes.</h4>
                     </div>
                 </div>
 
                 {/* Start Free Assessment Button */}
                 <div className="button-container">
-                    <a href="#" className="button-green">Start Free Assessment</a>
+                    <Link to="/assessment" className="button">Start Free Assessment</Link>
                 </div>
             </div>
         </section>

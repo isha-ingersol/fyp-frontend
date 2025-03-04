@@ -3,6 +3,7 @@ import Main from "./components/index.jsx";
 import Error from "./components/error.jsx";
 import Layout from "./components/Layout.jsx";
 import AssessmentComponent from "./components/Assessments/Assessment.jsx";
+import AboutPage from "./components/About.jsx"
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/assessment",
         element: <AssessmentComponent />
+      },
+      {
+        path: "/about",
+        element: <Main />
       },
       {
         path: "/error",

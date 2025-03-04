@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import TopToBottom from '../lib/TopToBottom.js';
+import '../assets/css/backtotop.css';
 
 function BackToTop({ className }) {
     useEffect(() => {

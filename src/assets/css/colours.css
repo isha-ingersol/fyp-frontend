@@ -1,26 +1,18 @@
 :root {
     /* Light Mode Colors */
-    --light-bg-1: #fff7e6;
-    --light-bg-2: #fceed5;
-    --light-bg-3: #fffcee;
+    --light-bg: #f6f4e8;
     --light-text: #333333;
     --light-subtext: #505056;
 
     /* Dark Mode Colors */
     --dark-bg: #292E3C;
     --dark-text: #eeeeee;
-    --dark-default-text: #505056;
+    --dark-default-text: #f6f4e8;
 
     /* Accent Colours */
-    --primary-accent-color: #ffd166;
-    --secondary-accent-color: #ffe6bb;
-    --tertiary-accent-color: #fbdfac;
-
-
-
-    /* --light-text: #121212; */
-    /* --primary-accent-color: #c4dfe5; */
-    /* --primary-accent-color: #fififi; */
-    /* --secondary-accent-color: #cde9dc; */
-    /* --secondary-accent-color: #77c3a2; */
+    /* --primary-color: #a1d6e2; */
+    /* --primary-color: #bcd7d6; */
+    --primary-color: #d4eaef;
+    --secondary-color: #1995AD;
+    --accent-color: #0fa3ae;
 }

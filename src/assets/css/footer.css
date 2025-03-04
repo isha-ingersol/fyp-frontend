@@ -1,6 +1,6 @@
 /* Footer Section */
 .dyscoverAI-footer-area {
-    background: var(--light-bg-1);
+    background: var(--light-bg);
     padding: 50px 0;
   }
   
@@ -50,7 +50,7 @@
     height: 36px;
     width: 36px;
     text-align: center;
-    background: var(--light-bg-1);
+    background: var(--primary-color);
     color: var(--text-dark);
     border-radius: 6px;
     line-height: 36px;
@@ -58,8 +58,11 @@
   }
   
   .footer-about-widget .social ul li a:hover {
-    background: var(--primary-accent-color);
-    color: var(--light-bg);
+    background: var(--primary-color);
+    color: var(--light-text);
+
+    transform: translateY(-7px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   }
   
   /* Footer Navigation */
@@ -90,7 +93,7 @@
   }
   
   .footer-navigation ul li a:hover {
-    color: var(--primary-accent-color);
+    color: var(--primary-color);
   }
   
   /* Footer Contact Info */
@@ -124,7 +127,7 @@
   
   .footer-widget-info ul li a i {
     margin-right: 8px;
-    color: var(--primary-accent-color);
+    color: var(--primary-color);
   }
   
   /* Footer Copyright Section */
@@ -144,7 +147,7 @@
   }
   
   .footer-copyright .apps-download-btn ul li a {
-    background: var(--light-bg-1);
+    background: var(--light-bg);
     color: var(--text-dark);
     padding: 8px 15px;
     border-radius: 6px;
@@ -160,7 +163,7 @@
   }
   
   .footer-copyright .apps-download-btn ul li a:hover {
-    background: var(--primary-accent-color);
+    background: var(--primary-color);
     color: var(--light-bg);
   }
   

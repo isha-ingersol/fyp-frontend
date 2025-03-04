@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import '../assets/css/home.css';
 import homeImage from '../assets/images/home-image.png';
 // import shapeTwo from '../assets/images/shape/shape-2.png';
@@ -26,9 +27,9 @@ function Home({ className }) {
                                 </p>
                                 <ul>
                                     <li>
-                                        <a href="#button">
+                                        <Link to="/assessment">
                                             Start Free Assessment
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>

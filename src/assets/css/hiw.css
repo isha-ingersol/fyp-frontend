@@ -10,13 +10,13 @@
     margin-top: 30px;
     text-align: center;
     padding: 30px;
-    background-color: var(--secondary-accent-color);
+    background-color: var(--secondary-color);
     border-radius: 10px;
 }
 
 .dyscoverAI-single-howitworks .icon {
     font-size: 40px;
-    background-color: var(--primary-accent-color);
+    background-color: var(--primary-color);
     color: var(--light-text);
     padding: 20px;
     border-radius: 50%;
@@ -38,15 +38,15 @@
 }
 
 .dyscoverAI-single-howitworks .item-2 {
-    background-color: var(--secondary-accent-color);
+    background-color: var(--secondary-color);
 }
 
 .dyscoverAI-single-howitworks .item-3 {
-    background-color: var(--secondary-accent-color);
+    background-color: var(--secondary-color);
 }
 
 .dyscoverAI-single-howitworks .item-4 {
-    background-color: var(--secondary-accent-color);
+    background-color: var(--secondary-color);
 }
 
 /* Responsive design adjustments */

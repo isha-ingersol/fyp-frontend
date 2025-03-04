@@ -9,6 +9,7 @@ import NavBar from './NavBar.jsx';
 import HowItWorks from './HowItWorks.jsx';
 import AssessmentComponent from './Assessments/Assessment.jsx';
 import Drawer from './MobileDrawer.jsx';
+import AboutPage from './About.jsx';
 
 function Main() {
     const [drawer, drawerAction] = useToggle(false);
@@ -53,6 +54,19 @@ function Main() {
         }
     }, [location.pathname]);
 
+    useEffect(() => {
+        if (location.pathname === "/about") {
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    const section = document.getElementById("about");
+                    if (section) {
+                        section.scrollIntoView({ behavior: "smooth" });
+                    }
+                }, 100); // ✅ Reduced delay
+            });
+        }
+    }, [location.pathname]);
+
     return (
         <>
             <Drawer drawer={drawer} action={drawerAction.toggle} />
@@ -67,6 +81,7 @@ function Main() {
             <HowItWorks id="how-it-works" className={darkMode ? 'darkmode-howitworks' : ''} />
             {/* <AssessmentComponent id="assessment" className={darkMode ? 'darkmode-assessment' : ''} /> */}
             <LearnMore id="learn-more" className={darkMode ? 'darkmode-learnmore' : ''} />
+            <AboutPage id="about" className={darkMode ? 'darkmode-about' : ''} />
             <FooterHome className={darkMode ? 'darkmode-footer' : ''} />
             <BackToTop />
         </>

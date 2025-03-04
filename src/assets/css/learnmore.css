@@ -1,6 +1,6 @@
 /* Learn More Section */
 .learnmore-area {
-    background: var(--light-bg-1);
+    background: var(--light-bg);
     padding: 120px 0 80px;
 }
 
@@ -28,29 +28,29 @@
 .learnmore-type h3 {
     font-size: 20px;
     font-weight: 600;
-    color: var(--light-text);
+    color: var(--dark-text);
 }
 
 /* Type Text */
 .learnmore-type h4 {
     font-size: 18px;
     font-weight: 400;
-    color: var(--light-text);
+    color: var(--primary-color);
     margin-top: 20px;
 }
 
 .learnmore-type span {
-    /* background-color: var(--primary-accent-color); */
-    background-color: var(--secondary-accent-color);
+    /* background-color: var(--secondary-color); */
+    color: var(--dark-text);
     padding: 3px 3px;
     border-radius: 4px;
-    color: var(--light-text);
     display: inline;
+    font-weight: bold;
 }
 
 /* Type Box */
 .learnmore-type {
-    background: var(--light-bg-3);
+    background: var(--accent-color);
     border-radius: 12px;
     padding: 40px 30px 25px;
     width: 30%;
@@ -68,7 +68,8 @@
     font-weight: 500;
     text-align: center; /* Keeps text inside the button centered */
     user-select: none;
-    border: 1px solid var(--primary-accent-color);
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
     padding: 0 30px;
     font-size: 15px;
     line-height: 45px;
@@ -76,15 +77,23 @@
     color: var(--light-text);
     cursor: pointer;
     transition: all 0.4s ease-out 0s;
-    background-color: var(--primary-accent-color);
 }
 
-/* Hover Effect: Moves button up */
 .learnmore-button:hover {
     color: var(--light-text);
-    transform: translateY(-10px);
+    transform: translateY(-7px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
+.learnmore-button i {
+    height: 26px;
+    width: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+
+
 
 /* Responsive Adjustments */
 @media (max-width: 991px) {
@@ -112,13 +121,3 @@
         width: 90%;
     }
 }
-
-
-
-.learnmore-button i {
-    height: 26px;
-    width: 26px;
-    text-align: center;
-    line-height: 26px;
-    font-size: 14px;
-  }

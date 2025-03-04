@@ -1,5 +1,5 @@
 import Router from "./Router.jsx";
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import Loader from "./components/Loader.jsx";
 import Layout from "./components/Layout.jsx";
 
@@ -10,12 +10,9 @@ function App() {
         const timer = setTimeout(() => {
             setLoading(false);
         }, 2000);
-    
-        return () => clearTimeout(timer); // ✅ Cleanup timeout when component unmounts
+
+        return () => clearTimeout(timer);
     }, []);
-    
-
-
 
     return (
         <>
