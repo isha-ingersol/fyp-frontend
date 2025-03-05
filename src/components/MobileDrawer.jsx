@@ -62,12 +62,21 @@ function Drawer({ drawer, action }) {
                                                     overflow: "hidden",
                                                 }}
                                             >
-                                                <li><Link to="/about-us">Dyslexia</Link></li>
+                                                {/* <li><Link to="/about-us">Dyslexia</Link></li>
                                                 <li><Link to="/about-us-another">Dysgraphia</Link></li>
                                                 <li><Link to="/error">Dyscalculia</Link></li>
                                                 <li><Link to="/shops">ADHD</Link></li>
                                                 <li><Link to="/shops/shop-details">ASD</Link></li>
-                                                <li><Link to="/shops/shop-details">Other</Link></li>
+                                                <li><Link to="/shops/shop-details">Other</Link></li> */}
+
+
+                                                <li><a href="https://my.clevelandclinic.org/health/diseases/6005-dyslexia" target="_blank" rel="noopener noreferrer">Dyslexia</a></li>
+                                                <li><a href="https://my.clevelandclinic.org/health/diseases/23294-dysgraphia" target="_blank" rel="noopener noreferrer">Dysgraphia</a></li>
+                                                <li><a href="https://my.clevelandclinic.org/health/diseases/23949-dyscalculia" target="_blank" rel="noopener noreferrer">Dyscalculia</a></li>
+                                                <li><a href="https://my.clevelandclinic.org/health/diseases/4784-attention-deficithyperactivity-disorder-adhd" target="_blank" rel="noopener noreferrer">ADHD</a></li>
+                                                <li><a href="https://my.clevelandclinic.org/health/diseases/pervasive-developmental-disorders" target="_blank" rel="noopener noreferrer">PDD</a></li>
+                                                <li><a href="https://my.clevelandclinic.org/health/diseases/4865-learning-disabilities-what-you-need-to-know" target="_blank" rel="noopener noreferrer">Other</a></li>
+
                                             </ul>
                                         </li>
                                         {/* About */}
