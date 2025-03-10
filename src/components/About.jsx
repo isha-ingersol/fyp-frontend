@@ -23,7 +23,7 @@ function about({ className }) {
                         <h4>
                             To develop a <span>cost-effective</span> machine learning model that helps 
                             parents and educators identify, using <span>handwriting analysis,</span> 
-                            early signs of learning disabilities among children  and take timely action.
+                            early signs of learning disabilities among children and enabling timely action.
                         </h4>
                     </div>
 
@@ -33,9 +33,9 @@ function about({ className }) {
                             Our Vision
                         </h3>
                         <h4>
-                            Dysgraphia is a neurological condition, where a person has difficulty turning 
-                            their <span>thoughts into written language,</span> despite exposure to 
-                            adequate instruction and education.
+                            To create an <span>accessible screening tool</span> that empowers users 
+                            to detect learning disabilities early, ensuring that every child receives 
+                            the support they need to <span>thrive academically and socially</span>.
                         </h4>
                     </div>
 
