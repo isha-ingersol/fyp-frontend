@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import '../assets/css/home.css';
-import homeImage from '../assets/images/home-image.png';
+import homeImage from '../assets/images/home-image.jpg';
 // import shapeTwo from '../assets/images/shape/shape-2.png';
 // import shapeThree from '../assets/images/shape/shape-3.png';
 // import shapeFour from '../assets/images/shape/shape-4.png';

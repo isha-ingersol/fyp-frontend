@@ -24,9 +24,9 @@ function about({ className }) {
                             Our Mission
                         </h3>
                         <h4>
-                            Dyslexia is a learning difficulty which primarily affects reading and writing skills, 
-                            specifically with <span>information processing.</span>
-                            Dyslexia can also impact on other areas such as <span>organisational skills.</span>
+                            To develop a <span>cost-effective</span> machine learning model that helps 
+                            parents and educators identify, using <span>handwriting analysis,</span> 
+                            early signs of learning disabilities among children  and take timely action.
                         </h4>
                     </div>
 
@@ -37,8 +37,8 @@ function about({ className }) {
                         </h3>
                         <h4>
                             Dysgraphia is a neurological condition, where a person has difficulty turning 
-                            their <span>thoughts into written language,</span> despite exposure to adequate instruction 
-                            and education.
+                            their <span>thoughts into written language,</span> despite exposure to 
+                            adequate instruction and education.
                         </h4>
                     </div>
 
@@ -48,9 +48,9 @@ function about({ className }) {
                             Our Future
                         </h3>
                         <h4>
-                            Dyscalculia affects brain areas that handle <span>mathematics and math-related skills and understanding.</span>
-                            <p />
-                            Symptoms usually appear in childhood, but adults may have dyscalculia without knowing it.
+                            In the future, the use of <span>more handwriting features</span> (eg. pressure) will 
+                            also be considered. <span>Tips for users</span> to help the child learn better and a 
+                            <span>mobile app</span> for easy usage is being considered.
                         </h4>
                     </div>
                 </div>

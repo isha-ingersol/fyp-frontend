@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo7 from "../assets/images/logo-7.png";
+import logo7 from "../assets/images/logo-appie-dark.png";
 import logo from "../assets/images/logo.png";
 import StickyMenu from "../lib/StickyMenu.js";
 import "../assets/css/navbar.css"; 
