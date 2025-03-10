@@ -35,7 +35,8 @@
 .learnmore-type h4 {
     font-size: 18px;
     font-weight: 400;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: var(--dark-text);
     margin-top: 20px;
 }
 

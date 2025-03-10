@@ -1,9 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import '../assets/css/about.css';
-import step1 from '../assets/videos/child-writing.gif'; 
-import step2 from '../assets/videos/take-picture.gif';
-import step3 from '../assets/videos/upload-image.gif';
 
 function about({ className }) {
     return (

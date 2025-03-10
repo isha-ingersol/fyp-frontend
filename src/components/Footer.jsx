@@ -112,13 +112,13 @@ function FooterHome({ className }) {
                 </li>
                 <li>
                   <a href="tel:+64234276244">
-                    <i className="fal fa-phone" /> +(642) 342 762 44
+                    <i className="fal fa-phone" /> +44 xxxx xxxxxx
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i className="fal fa-map-marker-alt" /> 442 Belle Terre St,
-                    Floor 7, San Francisco, AV 4206
+                    <i className="fal fa-map-marker-alt" /> University of Birmingham,
+                    Edgbaston, United Kingdom
                   </a>
                 </li>
               </ul>
