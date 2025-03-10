@@ -39,7 +39,8 @@ function NavBar({
                         <div className="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
                             <div className="logo-container">
                                 <Link to="/">
-                                    <img src={darkEnable && dark ? logo7 : logo} alt="Logo" />
+                                    {/* <img src={darkEnable && dark ? logo7 : logo} alt="Logo" /> */}
+                                    <img src={darkEnable && dark ? logo : logo} alt="Logo" />
                                 </Link>
                             </div>
                         </div>
